@@ -28,9 +28,10 @@ a:hover {
 
 .left-menu-child {
   display: block;
-  padding: 10px;
+  padding: 5px;
   /*white-space:nowrap;*/
   color:black;
+  font-size: 11px;
 }
 
 .test {
