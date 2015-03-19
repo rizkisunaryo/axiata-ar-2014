@@ -1,8 +1,11 @@
+var $root = $('html, body');
+
 $(function(){
     parallaxEffect();
     toggleLeftHeaderMenu();
     toggleCategoryMenu();
     toggleCategoryMenuByThisCat();
+    scrollToSection();
 
     reposLeftWhiteBorder();
     reposRightWhiteBorder();
@@ -21,7 +24,7 @@ $(function(){
 function parallaxEffect() {
     var parallaxes = $('[data-scroll-resistance]');
     $(window).on('scroll', function(){
-        // console.log('window height:'+$(window).height()+', scroll:'+$(window).scrollTop());
+        console.log('window height:'+$(window).height()+', scroll:'+$(window).scrollTop());
 
         parallaxes.each(function() {
             var scrollResistance = parseFloat($(this).data("scroll-resistance"));
@@ -73,6 +76,32 @@ function toggleCategoryMenuByThisCat() {
             $( ".category-explanation" ).hide( "slow");
             $( ".not-top-category-menu" ).hide( "slow");
         }
+    });
+}
+
+function scrollToSection() {
+    $('.to-top').click(function(){
+        var toY = $(window).height() - 180;
+        $root.animate({
+            scrollTop: toY
+        }, 1500);
+        return false;
+    });
+
+    $('.to-governance').click(function(){
+        var toY = $(window).height() + 6397;
+        $root.animate({
+            scrollTop: toY
+        }, 1500);
+        return false;
+    });
+
+    $('.to-sustainability').click(function(){
+        var toY = $(window).height() + 7156;
+        $root.animate({
+            scrollTop: toY
+        }, 1500);
+        return false;
     });
 }
 
