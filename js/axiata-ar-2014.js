@@ -10,10 +10,12 @@ $(function(){
     reposLeftWhiteBorder();
     reposRightWhiteBorder();
     reposMediaAndContentByResize();
+    reposOpeningVideo();
     $(window).resize(function(){
         reposLeftWhiteBorder();
         reposRightWhiteBorder();
         reposMediaAndContentByResize();
+        reposOpeningVideo();
     });
 
     $(window).on('scroll', function(){
@@ -24,7 +26,7 @@ $(function(){
 function parallaxEffect() {
     var parallaxes = $('[data-scroll-resistance]');
     $(window).on('scroll', function(){
-        console.log('window height:'+$(window).height()+', scroll:'+$(window).scrollTop());
+        // console.log('window height:'+$(window).height()+', scroll:'+$(window).scrollTop());
 
         parallaxes.each(function() {
             var scrollResistance = parseFloat($(this).data("scroll-resistance"));
@@ -145,4 +147,34 @@ function scrollHeader() {
     var headerTransformY = ($(window).height()-180)-$(window).scrollTop();
     headerTransformY = headerTransformY>0? 0 : headerTransformY;
     $('.kepala').css({transform: 'translate(0,'+headerTransformY+'px)'});
+}
+
+function reposOpeningVideo() {
+    var vidRatio = 2048/1536;
+    var winRatio = $(window).width() / $(window).height();
+    if (vidRatio<winRatio) {
+        // VIDEO POSITION
+        var wH = $(window).height();
+        var wW = wH*vidRatio;
+        var vidLeft = ($(window).width()-wW)/2;
+        $('#bgvid').css({'top':'0'});
+        $('#bgvid').css({'left':vidLeft+'px'});
+        // SKIP BUTTON POSITION
+        var buttonTop = wH-$('#vidskip').height();
+        var buttonLeft = vidLeft+wW-$('#vidskip').width();
+        $('#vidskip').css({'top':buttonTop-20+'px'});
+        $('#vidskip').css({'left':buttonLeft-20+'px'});
+    } else {
+        // VIDEO POSITION
+        var wW = $(window).width();
+        var wH = wW/vidRatio;
+        var vidTop = ($(window).height()-wH)/2;
+        $('#bgvid').css({'left':'0'});
+        $('#bgvid').css({'top':vidTop+'px'});
+        // SKIP BUTTON POSITION
+        var buttonLeft = wW-$('#vidskip').width();
+        var buttonTop = vidTop+wH-$('#vidskip').height();
+        $('#vidskip').css({'left':buttonLeft-20+'px'});
+        $('#vidskip').css({'top':buttonTop-20+'px'});
+    }
 }

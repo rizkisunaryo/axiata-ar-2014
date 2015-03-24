@@ -53,4 +53,33 @@ a:hover {
   height:295px; 
   padding:0; 
   overflow:hidden;
+  cursor: pointer;
 }
+
+#img-opacity {
+  position:absolute; 
+  width:100%; 
+  height:100%; 
+  background:white;
+}
+
+#img-desc {
+  position:absolute; 
+  width:100%; 
+  height:100%;
+}
+
+
+
+
+
+video#bgvid { 
+  position: fixed;
+  max-width: 100%; max-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; 
+}
+video#bgvid { transition: 1s opacity; }
+.stopfade { opacity: .5; }
+
