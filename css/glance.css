@@ -1,0 +1,15 @@
+.defColor {
+	color: #c40d42;
+}
+
+.percentage {
+	font-family: axiataBold;
+	font-size:35px;
+}
+
+.percentageExplanation {
+	position: relative;
+	font-family: axiataBold;
+	font-size:15px;
+	top: -10px;
+}
