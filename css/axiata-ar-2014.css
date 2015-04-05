@@ -24,6 +24,10 @@
   font-size:12px;
 }
 
+.title {
+  font-family: axiataBold;
+}
+
 .subtitle {
   font-family: axiataBold;
   font-size:15px;
