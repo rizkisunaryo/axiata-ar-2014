@@ -32,40 +32,40 @@ $(function(){
         scrollGlanceBg();
         animateLeftRightKeyHL();
 
-        animateGraphRow1Call("#graph11","Grey",15,0);
-        animateGraphRow1Call("#graph12","Grey",16,1);
-        animateGraphRow1Call("#graph13","Grey",17,2);
-        animateGraphRow1Call("#graph14","Grey",18,3);
-        animateGraphRow1Call("#graph15","Red",19,4);
-        animateGraphRow1Call("#graph16","Grey",10,5);
-        animateGraphRow1Call("#graph17","Grey",11,6);
-        animateGraphRow1Call("#graph18","Grey",14,7);
-        animateGraphRow1Call("#graph19","Grey",15,8);
-        animateGraphRow1Call("#graph110","Red",16,9);
+        animateGraphRow1Call("#graph11",true,"Grey",15,0);
+        animateGraphRow1Call("#graph12",true,"Grey",16,1);
+        animateGraphRow1Call("#graph13",true,"Grey",17,2);
+        animateGraphRow1Call("#graph14",true,"Grey",18,3);
+        animateGraphRow1Call("#graph15",true,"Red",19,4);
+        animateGraphRow1Call("#graph16",true,"Grey",10,5);
+        animateGraphRow1Call("#graph17",true,"Grey",11,6);
+        animateGraphRow1Call("#graph18",true,"Grey",14,7);
+        animateGraphRow1Call("#graph19",true,"Grey",15,8);
+        animateGraphRow1Call("#graph110",true,"Red",16,9);
         showGraph1InfoCall(graphRow1InfoSelector,10);
 
-        animateGraphRow2Call("#graph21","Grey",10,0);
-        animateGraphRow2Call("#graph22","Grey",13,1);
-        animateGraphRow2Call("#graph23","Grey",14,2);
-        animateGraphRow2Call("#graph24","Grey",13,3);
-        animateGraphRow2Call("#graph25","Red",12,4);
-        animateGraphRow2Call("#graph26","Grey",9,5);
-        animateGraphRow2Call("#graph27","Grey",10,6);
-        animateGraphRow2Call("#graph28","Grey",13,7);
-        animateGraphRow2Call("#graph29","Grey",14,8);
-        animateGraphRow2Call("#graph210","Red",15,9);
+        animateGraphRow2Call("#graph21",true,"Grey",10,0);
+        animateGraphRow2Call("#graph22",true,"Grey",13,1);
+        animateGraphRow2Call("#graph23",true,"Grey",14,2);
+        animateGraphRow2Call("#graph24",true,"Grey",13,3);
+        animateGraphRow2Call("#graph25",true,"Red",12,4);
+        animateGraphRow2Call("#graph26",true,"Grey",9,5);
+        animateGraphRow2Call("#graph27",true,"Grey",10,6);
+        animateGraphRow2Call("#graph28",true,"Grey",13,7);
+        animateGraphRow2Call("#graph29",true,"Grey",14,8);
+        animateGraphRow2Call("#graph210",true,"Red",15,9);
         showGraph2InfoCall(graphRow2InfoSelector,10);
 
-        animateGraphRow3Call("#graph31","Grey",8,0);
-        animateGraphRow3Call("#graph32","Grey",10,1);
-        animateGraphRow3Call("#graph33","Grey",11,2);
-        animateGraphRow3Call("#graph34","Grey",12,3);
-        animateGraphRow3Call("#graph35","Red",14,4);
-        animateGraphRow3Call("#graph36","Grey",7,5);
-        animateGraphRow3Call("#graph37","Grey",12,6);
-        animateGraphRow3Call("#graph38","Grey",15,7);
-        animateGraphRow3Call("#graph39","Grey",14,8);
-        animateGraphRow3Call("#graph310","Red",14,9);
+        animateGraphRow3Call("#graph31",true,"Grey",8,0);
+        animateGraphRow3Call("#graph32",true,"Grey",10,1);
+        animateGraphRow3Call("#graph33",true,"Grey",11,2);
+        animateGraphRow3Call("#graph34",true,"Grey",12,3);
+        animateGraphRow3Call("#graph35",true,"Red",14,4);
+        animateGraphRow3Call("#graph36",true,"Grey",7,5);
+        animateGraphRow3Call("#graph37",true,"Grey",12,6);
+        animateGraphRow3Call("#graph38",true,"Grey",15,7);
+        animateGraphRow3Call("#graph39",true,"Grey",14,8);
+        animateGraphRow3Call("#graph310",true,"Red",14,9);
         showGraph3InfoCall(graphRow3InfoSelector,10);
     });
 });
@@ -188,10 +188,10 @@ function showGraph3InfoCall(infoSelector,booleanNumber) {
     }
 }
 
-function animateGraphRow1Call(selector,color,height,booleanNumber) {
+function animateGraphRow1Call(selector,isGoingUp,color,height,booleanNumber) {
     if (getScroll()>2900 && !isGraphRow1Reached[booleanNumber]) {
         isGraphRow1Reached[booleanNumber]=true;
-        animateGraph(1,selector,color,height);
+        animateGraph(1,selector,isGoingUp,color,height);
     }
     else if (getScroll()<2675) {
         isGraphRow1Reached[booleanNumber]=false;
@@ -199,10 +199,10 @@ function animateGraphRow1Call(selector,color,height,booleanNumber) {
     }
 }
 
-function animateGraphRow2Call(selector,color,height,booleanNumber) {
+function animateGraphRow2Call(selector,isGoingUp,color,height,booleanNumber) {
     if (getScroll()>3230 && !isGraphRow2Reached[booleanNumber]) {
         isGraphRow2Reached[booleanNumber]=true;
-        animateGraph(2,selector,color,height);
+        animateGraph(2,selector,isGoingUp,color,height);
     }
     else if (getScroll()<2960) {
         isGraphRow2Reached[booleanNumber]=false;
@@ -210,10 +210,10 @@ function animateGraphRow2Call(selector,color,height,booleanNumber) {
     }
 }
 
-function animateGraphRow3Call(selector,color,height,booleanNumber) {
+function animateGraphRow3Call(selector,isGoingUp,color,height,booleanNumber) {
     if (getScroll()>3610 && !isGraphRow3Reached[booleanNumber]) {
         isGraphRow3Reached[booleanNumber]=true;
-        animateGraph(3,selector,color,height);
+        animateGraph(3,selector,isGoingUp,color,height);
     }
     else if (getScroll()<3320) {
         isGraphRow3Reached[booleanNumber]=false;
@@ -221,10 +221,11 @@ function animateGraphRow3Call(selector,color,height,booleanNumber) {
     }
 }
 
-function animateGraph(rowNumber,selector,color,height) {
+function animateGraph(rowNumber,selector,isGoingUp,color,height) {
     var facingLeft = false;
     var facing = '';
     var top=6;
+    if (!isGoingUp) top=-6;
     var left=0;
     var opacity=1.0;
     
@@ -233,7 +234,8 @@ function animateGraph(rowNumber,selector,color,height) {
             facingLeft=!facingLeft;
             left=12;
         } else {
-            top-=6;
+            if (isGoingUp) top-=6;
+            else top+=6;
             left=0;
         }
 
