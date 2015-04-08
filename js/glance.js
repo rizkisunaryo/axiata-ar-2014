@@ -83,11 +83,11 @@ function scrollHeader() {
 function scrollGlanceBg() {
     // if ($(window).scrollTop()<=$(window).height()+15) {
     // if ($(window).scrollTop()<=1500) {
-    if (getScroll()<1770) {
-        $('#glanceBg').css({transform: 'translate(0,'+$(window).scrollTop()+'px)'});
+    if (getScroll()>1770) {
+        $('#glanceBg').css({transform: 'translate(0,'+(1770-getScroll())+'px)'});
     }
     else {
-        $('#glanceBg').css({transform: 'translate(0,'+($(window).height()+1770)+'px)'});
+        $('#glanceBg').css({transform: 'translate(0,0)'});
     }
 }
 
@@ -118,11 +118,13 @@ function fromZero(selector,toNumber,booleanNumber) {
 
 function reposAllDivs() {
     var dividerTop = $(window).height()-750;
-    var glanceBgTop = dividerTop-747;
+    var glanceBgTop = $(window).height()-747;
+    var glanceBgLeft = ($(window).width()-960)/2;
     var text1Top = glanceBgTop+$(window).height()-80;
 
     $('#divider').css({top:dividerTop+'px'});
     $('#glanceBg').css({top:glanceBgTop+'px'});
+    $('#glanceBg').css({left:glanceBgLeft+'px'});
     $('#text1').css({top:text1Top+'px'});
 }
 
