@@ -1,30 +1,26 @@
 @font-face {
     font-family: axiataBold;
-    src: url('http://localhost/axiata-ar/font/AxiataBold.otf');
-    /*src: url('http://asamahe.com/16two-test/font/AxiataBold.otf');*/
+    src: url('../font/AxiataBold.otf');
 }
 
 @font-face {
     font-family: axiataBook;
-    src: url('http://localhost/axiata-ar/font/AxiataBook2.ttf');
-    /*src: url('http://asamahe.com/16two-test/font/AxiataBook2.ttf');*/
+    src: url('../font/AxiataBook2.ttf');
 }
 
 @font-face {
     font-family: axiataBookItalic;
-    src: url('http://localhost/axiata-ar/font/AxiataBookItalic.otf');
-    /*src: url('http://asamahe.com/16two-test/font/AxiataBookItalic.otf');*/
+    src: url('../font/AxiataBookItalic.otf');
 }
 
 @font-face {
     font-family: axiataMedium;
-    src: url('http://localhost/axiata-ar/font/AxiataMedium.ttf');
-    /*src: url('http://asamahe.com/16two-test/font/AxiataMedium.ttf');*/
+    src: url('font/AxiataMedium.ttf');
 }
 
 
 *{
-  font-family: axiataBook;
+  font-family: axiataBook, Arial;
   font-size:16px;
   line-height:100%;
   text-align: justify;
@@ -32,11 +28,11 @@
 }
 
 .title {
-  font-family: axiataBold;
+  font-family: axiataBold, Arial Bold;
 }
 
 .subtitle {
-  font-family: axiataBold;
+  font-family: axiataBold, Arial Bold;
   font-size:15px;
 }
 

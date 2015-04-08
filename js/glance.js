@@ -1,17 +1,52 @@
+// SCROLL TRIGGERS
+var scrollTol = 0;
+var TRIGGER_SCROLL_FROM_ZERO_1 = 740 + scrollTol;
+var TRIGGER_SCROLL_FROM_ZERO_2 = 920 + scrollTol;
+var TRIGGER_SCROLL_BG = 1830 + scrollTol;
+var TRIGGER_SCROLL_KEY_HIGHLIGHTS_1 = 2190 + scrollTol;
+var TRIGGER_SCROLL_KEY_HIGHLIGHTS_2 = 2490 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_1_1 = 2820 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_1_2 = 3110 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_2_1 = 3180 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_2_2 = 3470 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_3_1 = 3530 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_3_2 = 3830 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_4_1 = 4130 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_4_2 = 4330 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_5_1 = 4425 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_5_2 = 4625 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_6_1 = 4425 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_6_2 = 4625 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_7_1 = 4870 + scrollTol;
+var TRIGGER_SCROLL_GRAPH_7_2 = 5070 + scrollTol;
+var TRIGGER_SCROLL_KEY_PERFORMANCE_1 = 4530 + scrollTol;
+var TRIGGER_SCROLL_KEY_PERFORMANCE_2 = 5460 + scrollTol;
+
 var isPercentageReached=[false,false,false,false,false];
 
 var isGraphRow1Reached=[false,false,false,false,false,false,false,false,false,false,false];
 var isGraphRow2Reached=[false,false,false,false,false,false,false,false,false,false,false];
 var isGraphRow3Reached=[false,false,false,false,false,false,false,false,false,false,false];
+var isGraphRow4Reached=[false,false,false];
+var isGraphRow5Reached=[false,false,false];
+var isGraphRow6Reached=[false,false,false];
+var isGraphRow7Reached=[false,false,false];
 var graphRow1InfoSelector = ".graphRow1Number, .graphRow1Year";
 var graphRow2InfoSelector = ".graphRow2Number, .graphRow2Year";
 var graphRow3InfoSelector = ".graphRow3Number, .graphRow3Year";
-
+var graphRow4InfoSelector = ".graphRow4Number, .graphRow4Year";
+var graphRow5InfoSelector = ".graphRow5Number, .graphRow5Year";
+var graphRow6InfoSelector = ".graphRow6Number, .graphRow6Year";
+var graphRow7InfoSelector = ".graphRow7Number, .graphRow7Year";
 var graph1ToFunctionArray=[];
 var graph2ToFunctionArray=[];
 var graph3ToFunctionArray=[];
+var graph4ToFunctionArray=[];
+var graph5ToFunctionArray=[];
+var graph6ToFunctionArray=[];
+var graph7ToFunctionArray=[];
 
-var graphAnimationTime = 3000;
+var graphAnimationTime = 1000;
 
 $(function(){
     toggleLeftHeaderMenu();
@@ -22,15 +57,19 @@ $(function(){
     });
 
     $(window).on('scroll', function(){
-        console.log($(window).height()+":"+$(window).scrollTop());
+        console.log($(window).scrollTop());
+        // console.log(getScroll());
+        // console.log($(window).height()+":"+$(window).scrollTop());
+        // console.log($(window).scrollTop()+":"+getScroll()+":"+$("#operatingRevenue").scrollTop() +":"+ $("#operatingRevenue").innerHeight() +":"+ document.getElementById("operatingRevenue").scrollHeight);
         fromZero('#revenue',87,0);
         fromZero('#ebitda',69,1);
         fromZero('#pat',66,2);
         fromZero('#subscribers',565,3);
         fromZero('#marketcap',345,4);
-        scrollHeader();
+        // scrollHeader();
         scrollGlanceBg();
         animateLeftRightKeyHL();
+        scrollFyKpi();
 
         animateGraphRow1Call("#graph11",true,"Grey",15,0);
         animateGraphRow1Call("#graph12",true,"Grey",16,1);
@@ -67,6 +106,22 @@ $(function(){
         animateGraphRow3Call("#graph39",true,"Grey",14,8);
         animateGraphRow3Call("#graph310",true,"Red",14,9);
         showGraph3InfoCall(graphRow3InfoSelector,10);
+
+        animateGraphRow4Call("#graph41",true,"Grey",13,0);
+        animateGraphRow4Call("#graph42",true,"Red",5,1);
+        showGraph4InfoCall(graphRow4InfoSelector,2);
+
+        animateGraphRow5Call("#graph51",true,"Grey",6,0);
+        animateGraphRow5Call("#graph52",false,"Red",4,1);
+        showGraph5InfoCall(graphRow5InfoSelector,2);
+
+        animateGraphRow6Call("#graph61",true,"Grey",10,0);
+        animateGraphRow6Call("#graph62",true,"Red",9,1);
+        showGraph6InfoCall(graphRow6InfoSelector,2);
+
+        animateGraphRow7Call("#graph71",true,"Grey",13,0);
+        animateGraphRow7Call("#graph72",true,"Red",12,1);
+        showGraph7InfoCall(graphRow7InfoSelector,2);
     });
 });
 
@@ -83,12 +138,24 @@ function scrollHeader() {
 function scrollGlanceBg() {
     // if ($(window).scrollTop()<=$(window).height()+15) {
     // if ($(window).scrollTop()<=1500) {
-    if (getScroll()>1770) {
-        $('#glanceBg').css({transform: 'translate(0,'+(1770-getScroll())+'px)'});
+    if ($(window).scrollTop()>TRIGGER_SCROLL_BG) {
+        $('#glanceBg').css({transform: 'translate(0,'+(TRIGGER_SCROLL_BG-$(window).scrollTop())+'px)'});
     }
     else {
         $('#glanceBg').css({transform: 'translate(0,0)'});
     }
+}
+
+function scrollFyKpi() {
+    if ($(window).scrollTop()<TRIGGER_SCROLL_KEY_PERFORMANCE_1) {
+        $('#keyPerfHeader').css({transform:'translateY(0)'});
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_KEY_PERFORMANCE_2) {
+        $('#keyPerfHeader').css({transform:'translateY('+($(window).scrollTop()-TRIGGER_SCROLL_KEY_PERFORMANCE_1)+'px)'});
+    }
+    // else {
+    //     $('#keyPerfHeader').css({transform:'translateY('+($(window).scrollTop()-TRIGGER_SCROLL_KEY_PERFORMANCE_2)+'px)'});
+    // }
 }
 
 function toggleLeftHeaderMenu() {
@@ -99,11 +166,11 @@ function toggleLeftHeaderMenu() {
 }
 
 function fromZero(selector,toNumber,booleanNumber) {
-    if (getScroll()>920 && !isPercentageReached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_FROM_ZERO_2 && !isPercentageReached[booleanNumber]) {
         isPercentageReached[booleanNumber]=true;
         $(selector).text(0);
         $({someValue: 0}).animate({someValue: toNumber}, {
-            duration: 3000,
+            duration: 1000,
             easing:'swing', // can be anything
             step: function() { // called on every step
                 // Update the element's text with rounded-up value:
@@ -111,16 +178,18 @@ function fromZero(selector,toNumber,booleanNumber) {
             }
         });
     }
-    else if (getScroll()<740) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_FROM_ZERO_1) {
         isPercentageReached[booleanNumber]=false;
     }
 }
 
 function reposAllDivs() {
-    var dividerTop = $(window).height()-750;
-    var glanceBgTop = $(window).height()-747;
+    var headerHeight = parseInt($(".kepalaGlance").css('height'));
+
+    var dividerTop = headerHeight;
+    var glanceBgTop = headerHeight;
     var glanceBgLeft = ($(window).width()-960)/2;
-    var text1Top = glanceBgTop+$(window).height()-80;
+    var text1Top = dividerTop;
 
     $('#divider').css({top:dividerTop+'px'});
     $('#glanceBg').css({top:glanceBgTop+'px'});
@@ -130,16 +199,17 @@ function reposAllDivs() {
 
 function animateLeftRightKeyHL() {
     var vBasicOpacity = 0.0;
-    if (getScroll()<=1970) {
+    if ($(window).scrollTop()<=TRIGGER_SCROLL_KEY_HIGHLIGHTS_1) {
         $('.leftKeyHL').css({transform: 'translate(0,0)'});
         $('.rightKeyHL').css({transform: 'translate(0,0)'});
         $('.leftKeyHL, .rightKeyHL').css({opacity:vBasicOpacity});
     }
-    else if (getScroll()<2490) {
-        var x = (getScroll()-1970);
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_KEY_HIGHLIGHTS_2) {
+        var factor = ($(window).scrollTop()-TRIGGER_SCROLL_KEY_HIGHLIGHTS_1);
+        var x = factor*520/300;
         $('.leftKeyHL').css({transform: 'translate('+x+'px,0)'});
         $('.rightKeyHL').css({transform: 'translate('+(-x)+'px,0)'});
-        $('.leftKeyHL, .rightKeyHL').css({opacity:vBasicOpacity+x/500});
+        $('.leftKeyHL, .rightKeyHL').css({opacity:vBasicOpacity+factor/350});
     }
     else {
         $('.leftKeyHL').css({transform: 'translate(520px,0)'});
@@ -149,11 +219,11 @@ function animateLeftRightKeyHL() {
 }
 
 function showGraph1InfoCall(infoSelector,booleanNumber) {
-    if (getScroll()>2900 && !isGraphRow1Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_1_2 && !isGraphRow1Reached[booleanNumber]) {
         isGraphRow1Reached[booleanNumber]=true;
         showGraphNumberAndYear(1,infoSelector,graphAnimationTime);
     }
-    else if (getScroll()<2675) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_1_1) {
         isGraphRow1Reached[booleanNumber]=false;
         $(infoSelector).css({opacity:'0.0'});
         graph1ToFunctionArray.forEach(function(entry) {
@@ -163,11 +233,11 @@ function showGraph1InfoCall(infoSelector,booleanNumber) {
 }
 
 function showGraph2InfoCall(infoSelector,booleanNumber) {
-    if (getScroll()>3230 && !isGraphRow2Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_2_2 && !isGraphRow2Reached[booleanNumber]) {
         isGraphRow2Reached[booleanNumber]=true;
         showGraphNumberAndYear(2,infoSelector,graphAnimationTime);
     }
-    else if (getScroll()<2960) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_2_1) {
         isGraphRow2Reached[booleanNumber]=false;
         $(infoSelector).css({opacity:'0.0'});
         graph2ToFunctionArray.forEach(function(entry) {
@@ -177,11 +247,11 @@ function showGraph2InfoCall(infoSelector,booleanNumber) {
 }
 
 function showGraph3InfoCall(infoSelector,booleanNumber) {
-    if (getScroll()>3610 && !isGraphRow3Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_3_2 && !isGraphRow3Reached[booleanNumber]) {
         isGraphRow3Reached[booleanNumber]=true;
         showGraphNumberAndYear(3,infoSelector,graphAnimationTime);
     }
-    else if (getScroll()<3320) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_3_1) {
         isGraphRow3Reached[booleanNumber]=false;
         $(infoSelector).css({opacity:'0.0'});
         graph3ToFunctionArray.forEach(function(entry) {
@@ -190,35 +260,135 @@ function showGraph3InfoCall(infoSelector,booleanNumber) {
     }
 }
 
+function showGraph4InfoCall(infoSelector,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_4_2 && !isGraphRow4Reached[booleanNumber]) {
+        isGraphRow4Reached[booleanNumber]=true;
+        showGraphNumberAndYear(4,infoSelector,graphAnimationTime);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_4_1) {
+        isGraphRow4Reached[booleanNumber]=false;
+        $(infoSelector).css({opacity:'0.0'});
+        graph4ToFunctionArray.forEach(function(entry) {
+            clearTimeout(entry);
+        });
+    }
+}
+
+function showGraph5InfoCall(infoSelector,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_5_2 && !isGraphRow5Reached[booleanNumber]) {
+        isGraphRow5Reached[booleanNumber]=true;
+        showGraphNumberAndYear(5,infoSelector,graphAnimationTime);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_5_1) {
+        isGraphRow5Reached[booleanNumber]=false;
+        $(infoSelector).css({opacity:'0.0'});
+        graph5ToFunctionArray.forEach(function(entry) {
+            clearTimeout(entry);
+        });
+    }
+}
+
+function showGraph6InfoCall(infoSelector,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_6_2 && !isGraphRow6Reached[booleanNumber]) {
+        isGraphRow6Reached[booleanNumber]=true;
+        showGraphNumberAndYear(6,infoSelector,graphAnimationTime);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_6_1) {
+        isGraphRow6Reached[booleanNumber]=false;
+        $(infoSelector).css({opacity:'0.0'});
+        graph6ToFunctionArray.forEach(function(entry) {
+            clearTimeout(entry);
+        });
+    }
+}
+
+function showGraph7InfoCall(infoSelector,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_7_2 && !isGraphRow7Reached[booleanNumber]) {
+        isGraphRow7Reached[booleanNumber]=true;
+        showGraphNumberAndYear(7,infoSelector,graphAnimationTime);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_7_1) {
+        isGraphRow7Reached[booleanNumber]=false;
+        $(infoSelector).css({opacity:'0.0'});
+        graph7ToFunctionArray.forEach(function(entry) {
+            clearTimeout(entry);
+        });
+    }
+}
+
 function animateGraphRow1Call(selector,isGoingUp,color,height,booleanNumber) {
-    if (getScroll()>2900 && !isGraphRow1Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_1_2 && !isGraphRow1Reached[booleanNumber]) {
         isGraphRow1Reached[booleanNumber]=true;
         animateGraph(1,selector,isGoingUp,color,height);
     }
-    else if (getScroll()<2675) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_1_1) {
         isGraphRow1Reached[booleanNumber]=false;
         $(selector).html('');
     }
 }
 
 function animateGraphRow2Call(selector,isGoingUp,color,height,booleanNumber) {
-    if (getScroll()>3230 && !isGraphRow2Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_2_2 && !isGraphRow2Reached[booleanNumber]) {
         isGraphRow2Reached[booleanNumber]=true;
         animateGraph(2,selector,isGoingUp,color,height);
     }
-    else if (getScroll()<2960) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_2_1) {
         isGraphRow2Reached[booleanNumber]=false;
         $(selector).html('');
     }
 }
 
 function animateGraphRow3Call(selector,isGoingUp,color,height,booleanNumber) {
-    if (getScroll()>3610 && !isGraphRow3Reached[booleanNumber]) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_3_2 && !isGraphRow3Reached[booleanNumber]) {
         isGraphRow3Reached[booleanNumber]=true;
         animateGraph(3,selector,isGoingUp,color,height);
     }
-    else if (getScroll()<3320) {
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_3_1) {
         isGraphRow3Reached[booleanNumber]=false;
+        $(selector).html('');
+    }
+}
+
+function animateGraphRow4Call(selector,isGoingUp,color,height,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_4_2 && !isGraphRow4Reached[booleanNumber]) {
+        isGraphRow4Reached[booleanNumber]=true;
+        animateGraph(4,selector,isGoingUp,color,height);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_4_1) {
+        isGraphRow4Reached[booleanNumber]=false;
+        $(selector).html('');
+    }
+}
+
+function animateGraphRow5Call(selector,isGoingUp,color,height,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_5_2 && !isGraphRow5Reached[booleanNumber]) {
+        isGraphRow5Reached[booleanNumber]=true;
+        animateGraph(5,selector,isGoingUp,color,height);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_5_1) {
+        isGraphRow5Reached[booleanNumber]=false;
+        $(selector).html('');
+    }
+}
+
+function animateGraphRow6Call(selector,isGoingUp,color,height,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_6_2 && !isGraphRow6Reached[booleanNumber]) {
+        isGraphRow6Reached[booleanNumber]=true;
+        animateGraph(6,selector,isGoingUp,color,height);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_6_1) {
+        isGraphRow6Reached[booleanNumber]=false;
+        $(selector).html('');
+    }
+}
+
+function animateGraphRow7Call(selector,isGoingUp,color,height,booleanNumber) {
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_7_2 && !isGraphRow7Reached[booleanNumber]) {
+        isGraphRow7Reached[booleanNumber]=true;
+        animateGraph(7,selector,isGoingUp,color,height);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_7_1) {
+        isGraphRow7Reached[booleanNumber]=false;
         $(selector).html('');
     }
 }
@@ -227,7 +397,7 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
     var facingLeft = false;
     var facing = '';
     var top=6;
-    if (!isGoingUp) top=-6;
+    if (!isGoingUp) top=0;
     var left=0;
     var opacity=1.0;
     
@@ -280,7 +450,19 @@ function addGraphToArray(rowNumber,functionName) {
     else if (rowNumber==2) {
         graph2ToFunctionArray.push(functionName);
     }
-    else {
+    else if (rowNumber==3) {
         graph3ToFunctionArray.push(functionName);
+    }
+    else if (rowNumber==4) {
+        graph4ToFunctionArray.push(functionName);
+    }
+    else if (rowNumber==5) {
+        graph5ToFunctionArray.push(functionName);
+    }
+    else if (rowNumber==6) {
+        graph6ToFunctionArray.push(functionName);
+    }
+    else if (rowNumber==7) {
+        graph7ToFunctionArray.push(functionName);
     }
 }
