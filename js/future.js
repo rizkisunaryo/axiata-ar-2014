@@ -1,3 +1,4 @@
+var GLOBAL_WIDTH_1= 960;
 var HEADER_HEIGHT = 90;
 var DIVIDER_WIDTH = 960.0;
 var DIVIDER_HEIGHT = 747.0;
@@ -15,9 +16,9 @@ var dividerTop;
 var dividerHeight;
 
 $(function(){
-	dividerHeight=resizeFixedImage("#dividerImg","#dividerDiv",DIVIDER_HEIGHT,DIVIDER_RATIO,-15);
-	resizeFixedImage("#chairmanStatementImg","#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,CHAIRMAN_STATEMENT_RATIO,0);
-	resizeFixedImage("#ceo1BgImg","#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,CHAIRMAN_STATEMENT_RATIO,0);
+	dividerHeight=resizeFixedImage("#dividerDiv",DIVIDER_HEIGHT,-15);
+	resizeFixedImage("#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,0);
+	resizeFixedImage("#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,0);
 	reposDivider();
 	reposChairmanImage();
 	reposCeo1Image();
@@ -26,9 +27,9 @@ $(function(){
 	translateCeo1Image();
 
 	$(window).resize(function(){
-		dividerHeight=resizeFixedImage("#dividerImg","#dividerDiv",DIVIDER_HEIGHT,DIVIDER_RATIO,-15);
-		resizeFixedImage("#chairmanStatementImg","#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,CHAIRMAN_STATEMENT_RATIO,0);
-		resizeFixedImage("#ceo1BgImg","#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,CHAIRMAN_STATEMENT_RATIO,0);
+		dividerHeight=resizeFixedImage("#dividerDiv",DIVIDER_HEIGHT,-15);
+		resizeFixedImage("#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,0);
+		resizeFixedImage("#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,0);
 		reposDivider();
 		reposChairmanImage();
 		reposCeo1Image();
@@ -45,16 +46,17 @@ $(function(){
 	});
 });
 
-function resizeFixedImage(imgSelector, divSelector, imgHeight, imgRatio, leftTolerant) {
+function resizeFixedImage(divSelector,imgHeight,leftTolerant) {
 	var height = parseInt($(window).height());
 	if (height<=imgHeight) {
 		height=imgHeight;
 	}
 
-	var dividerImgWidth = height * imgRatio;
-	var dividerImgLeft = (parseInt($(window).width())-dividerImgWidth) / 2;
+	// var dividerImgWidth = height * imgRatio;
+	// var dividerImgLeft = (parseInt($(window).width())-dividerImgWidth) / 2;
+	var dividerImgLeft = (parseInt($(window).width())-GLOBAL_WIDTH_1) / 2;
 
-	$(imgSelector).css('height',height+'px');
+	$(divSelector).css('height',height+'px');
 	$(divSelector).css('left',(dividerImgLeft+leftTolerant)+'px');
 
 	return height;
