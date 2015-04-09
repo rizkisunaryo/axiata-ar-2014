@@ -1,8 +1,8 @@
 // SCROLL TRIGGERS
-var scrollTol = 0;
-var TRIGGER_SCROLL_FROM_ZERO_1 = 740 + scrollTol;
-var TRIGGER_SCROLL_FROM_ZERO_2 = 920 + scrollTol;
-var TRIGGER_SCROLL_BG = 1830 + scrollTol;
+var scrollTol = 1000;
+var TRIGGER_SCROLL_FROM_ZERO_1 = 955 + scrollTol;
+var TRIGGER_SCROLL_FROM_ZERO_2 = 1135 + scrollTol;
+var TRIGGER_SCROLL_BG = 1734 + scrollTol;
 var TRIGGER_SCROLL_KEY_HIGHLIGHTS_1 = 2190 + scrollTol;
 var TRIGGER_SCROLL_KEY_HIGHLIGHTS_2 = 2490 + scrollTol;
 var TRIGGER_SCROLL_GRAPH_1_1 = 2820 + scrollTol;
@@ -186,6 +186,7 @@ function fromZero(selector,toNumber,booleanNumber) {
     }
     else if ($(window).scrollTop()<TRIGGER_SCROLL_FROM_ZERO_1) {
         isPercentageReached[booleanNumber]=false;
+        $(selector).text(0);
     }
 }
 
@@ -200,7 +201,8 @@ function reposAllDivs() {
     $('#divider').css({top:dividerTop+'px'});
     $('#glanceBg').css({top:glanceBgTop+'px'});
     $('#glanceBg').css({left:glanceBgLeft+'px'});
-    $('#text1').css({top:text1Top+'px'});
+    // $('#text1').css({top:text1Top+'px'});
+    $('#text1').css('margin-top',(headerHeight+721)+'px');
 }
 
 function animateLeftRightKeyHL() {
