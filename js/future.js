@@ -9,7 +9,10 @@ var CHAIRMAN_STATEMENT_HEIGHT = 747.0;
 var CHAIRMAN_STATEMENT_RATIO = CHAIRMAN_STATEMENT_WIDTH/CHAIRMAN_STATEMENT_HEIGHT;
 var CHAIRMAN_STATEMENT_MARGIN_TOP_TEXT = 40;
 
-var SCROLL_TOLERANCE = 0;
+var dividerTop=90;
+var dividerHeight=900;
+
+var SCROLL_TOLERANCE = 270;
 var TRIGGER_SCROLL_CHAIRMAN = 630 + SCROLL_TOLERANCE;
 var TRIGGER_SCROLL_CHAIRMAN_2 = 2280 + SCROLL_TOLERANCE;
 var TRIGGER_SCROLL_CEO1_1 = 2370 + SCROLL_TOLERANCE;
@@ -29,15 +32,13 @@ var TRIGGER_SCROLL_CEO2_TEXT4_2 = 7550 + SCROLL_TOLERANCE;
 var TRIGGER_SCROLL_STRATEGIC_BAR_1 = 7920 + SCROLL_TOLERANCE;
 var TRIGGER_SCROLL_STRATEGIC_BAR_2 = 8520 + SCROLL_TOLERANCE;
 
-var dividerTop=0;
-var dividerHeight=721;
-
 $(function(){
 	// resizeWebHeight();
 	// dividerHeight=resizeFixedImage("#dividerDiv",DIVIDER_HEIGHT,15);
 	resizeFixedImage("#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,15);
 	resizeFixedImage("#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,15);
 	reposDivider();
+	reposDividerText();
 	reposChairmanImage();
 	reposChairmanStatement();
 	reposCeo1Image();
@@ -52,7 +53,7 @@ $(function(){
 	translateCeo2Text4();
 	translateStrategicBar();
 	// reposMarginTopByResolution('#ceo1Text2',1000);
-	// reposMarginTopByResolution2('#ceo2Div1',100);
+	// reposMarginTopByResolution2('#ceo2Div1',280);
 
 	$(window).resize(function(){
 		console.log($(window).height()+":"+dividerTop+":"+dividerHeight+":"+$(window).scrollTop());
@@ -61,6 +62,7 @@ $(function(){
 		resizeFixedImage("#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,15);
 		resizeFixedImage("#ceo1BgDiv",CHAIRMAN_STATEMENT_HEIGHT,15);
 		reposDivider();
+		reposDividerText();
 		reposChairmanImage();
 		reposChairmanStatement();
 		reposCeo1Image();
@@ -75,7 +77,7 @@ $(function(){
 		translateCeo2Text4();
 		translateStrategicBar();
 		// reposMarginTopByResolution('#ceo1Text2',1000);
-		// reposMarginTopByResolution2('#ceo2Div1',100);
+		// reposMarginTopByResolution2('#ceo2Div1',280);
 	});
 
 	$(window).on('scroll', function(){
@@ -99,7 +101,7 @@ function reposMarginTopByResolution(selector,marginTop) {
 }
 
 function reposMarginTopByResolution2(selector,marginTop) {
-	newMarginTop = marginTop-dividerTop;
+	newMarginTop = marginTop+WINDOW_HEIGHT_DEFAULT-$(window).height();
 	$(selector).css('margin-top',newMarginTop+'px');
 }
 
@@ -131,6 +133,14 @@ function reposDivider() {
 
 	var dividerImgLeft = (parseInt($(window).width())-GLOBAL_WIDTH_1) / 2;
 	$('#dividerDiv').css('left',(dividerImgLeft+15)+'px');
+}
+
+function reposDividerText() {
+	y = 530;
+	if ($(window).height()-dividerTop<900) {
+		y = y+($(window).height()-dividerTop-900);
+	}
+	$('#dividerText1').css('top',y+'px');
 }
 
 function translateDivider() {
