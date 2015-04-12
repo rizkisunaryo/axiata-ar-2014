@@ -13,52 +13,61 @@ var dividerTop=90;
 var dividerHeight=700;
 
 var SCROLL_TOLERANCE = 0;
-var TRIGGER_SCROLL_CHAIRMAN = 630 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CHAIRMAN_2 = 2280 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_1 = 2370 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_2 = 3170 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_3 = 4430 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_TEXT1_1 = 2330 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_TEXT1_2 = 2580 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO1_TEXT1_3 = 4430 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT1_1 = 4650 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT1_2 = 4900 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT2_1 = 5400 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT2_2 = 5650 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT3_1 = 6200 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT3_2 = 6450 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT4_1 = 7300 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_CEO2_TEXT4_2 = 7550 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_STRATEGIC_BAR_1 = 7920 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_STRATEGIC_BAR_2 = 8520 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_1_1 = 220 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_1_2 = 450 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_2_1 = 890 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_2_2 = 1170 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_3_1 = 2090 + SCROLL_TOLERANCE;
+var TRIGGER_SCROLL_GRAPH_3_2 = 2470 + SCROLL_TOLERANCE;
 
-var TRIGGER_SCROLL_GRAPH_2_1 = -100 + SCROLL_TOLERANCE;
-var TRIGGER_SCROLL_GRAPH_2_2 = -100 + SCROLL_TOLERANCE;
-
-var isGraphRow2Reached=[false,false,false,false,false,false];
-var graphRow2InfoSelector = ".graphRow2Number, .graphRow2Year";
-var graph2ToFunctionArray=[];
-var graphAnimationTime = 5000;
+var isGraphRowReached = [false,false];
+var isGraphRow3Reached=[false,false,false,false,false,false];
+var graphRow3InfoSelector = ".graphRow3Number, .graphRow3Year";
+var graph3ToFunctionArray=[];
+var graphAnimationTime = 1000;
 
 $(function(){
 	reposDivider();
 	reposDividerText();
-	animateGraphRow2Call("#graph21",true,"Red",6,0);
+    animateGraphLine(1);
+    animateGraphLine(2);
+	animateGraphRow3Call("#graph31",true,"Grey",9,0);
+    animateGraphRow3Call("#graph32",true,"Grey",19,1);
+    animateGraphRow3Call("#graph33",true,"Grey",21,2);
+    animateGraphRow3Call("#graph34",true,"Grey",22,3);
+    animateGraphRow3Call("#graph35",true,"Red",26,4);
 
 	$(window).resize(function(){
 		console.log($(window).height()+":"+dividerTop+":"+dividerHeight+":"+$(window).scrollTop());
 		reposDivider();
 		reposDividerText();
+        animateGraphLine(1);
+        animateGraphLine(2);
 	});
 
 	$(window).on('scroll', function(){
 		console.log($(window).height()+":"+dividerTop+":"+dividerHeight+":"+$(window).scrollTop());
+        reposDivider();
+        reposDividerText();
+        animateGraphLine(1);
+        animateGraphLine(2);
+        animateGraphRow3Call("#graph31",true,"Grey",9,0);
+        animateGraphRow3Call("#graph32",true,"Grey",19,1);
+        animateGraphRow3Call("#graph33",true,"Grey",21,2);
+        animateGraphRow3Call("#graph34",true,"Grey",22,3);
+        animateGraphRow3Call("#graph35",true,"Red",26,4);
 	});
 });
 
 function reposDivider() {
 	var dividerImgLeft = (parseInt($(window).width())-GLOBAL_WIDTH_1) / 2;
 	$('#dividerDiv').css('left',(dividerImgLeft)+'px');
+
+    var top=dividerTop;
+    if ($(window).scrollTop()>dividerHeight) {
+        top=-dividerHeight;
+    }
+    $('#dividerDiv').css('top',(top)+'px');
 }
 
 function reposDividerText() {
@@ -69,13 +78,40 @@ function reposDividerText() {
 	$('#dividerText').css('top',y+'px');
 }
 
-function animateGraphRow2Call(selector,isGoingUp,color,height,booleanNumber) {
-    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_2_2 && !isGraphRow2Reached[booleanNumber]) {
-        isGraphRow2Reached[booleanNumber]=true;
-        animateGraph(2,selector,isGoingUp,color,height);
+function animateGraphLine(graphNumber) {
+    var selector = "#graphLine"+graphNumber;
+    
+    var topTrigger = TRIGGER_SCROLL_GRAPH_1_1;
+    var bottomTrigger = TRIGGER_SCROLL_GRAPH_1_2;
+    if (graphNumber==2) {
+        topTrigger = TRIGGER_SCROLL_GRAPH_2_1;
+        bottomTrigger = TRIGGER_SCROLL_GRAPH_2_2;
+    };
+
+    if ($(window).scrollTop()<=topTrigger) {
+        isGraphRowReached[graphNumber-1]=false;
+        $(selector).css('width','0px');
     }
-    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_2_1) {
-        isGraphRow2Reached[booleanNumber]=false;
+    else if ($(window).scrollTop()>=bottomTrigger && !isGraphRowReached[graphNumber-1]) {
+        isGraphRowReached[graphNumber-1]=true;
+        $( selector ).animate({
+            width: 900
+        }, 3000, function() {
+            // Animation complete.
+        });
+    }
+}
+
+function animateGraphRow3Call(selector,isGoingUp,color,height,booleanNumber) {
+    console.log(1);
+    if ($(window).scrollTop()>TRIGGER_SCROLL_GRAPH_3_2 && !isGraphRow3Reached[booleanNumber]) {
+        console.log(2);
+        isGraphRow3Reached[booleanNumber]=true;
+        animateGraph(3,selector,isGoingUp,color,height);
+    }
+    else if ($(window).scrollTop()<TRIGGER_SCROLL_GRAPH_3_1) {
+        console.log(3);
+        isGraphRow3Reached[booleanNumber]=false;
         $(selector).html('');
     }
 }

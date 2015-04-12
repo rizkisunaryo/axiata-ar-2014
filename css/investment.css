@@ -1,3 +1,9 @@
+.graphYear {
+	-ms-transform: rotate(330deg); /* IE 9 */
+    -webkit-transform: rotate(330deg); /* Chrome, Safari, Opera */
+    transform: rotate(330deg);
+}
+
 canvas.triangleLeftGrey {
 	position:absolute;
 	border-top: 6px solid transparent;
