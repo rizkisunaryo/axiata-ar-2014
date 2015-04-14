@@ -1,0 +1,147 @@
+@font-face {
+    font-family: axiataBold;
+    src: url('../font/AxiataBold.otf');
+    src: url('../font/AxiataBold-webfont.eot') format('embedded-opentype'),
+         url('../font/AxiataBold-webfont.woff') format('woff'),
+         url('../font/AxiataBold-webfont.ttf') format('truetype'),
+         url('../font/AxiataBold-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: axiataBook;
+    src: url('../font/AxiataBook2.ttf');
+    src: url('../font/AxiataBook2-webfont.eot') format('embedded-opentype'),
+         url('../font/AxiataBook2-webfont.woff') format('woff'),
+         url('../font/AxiataBook2-webfont.ttf') format('truetype'),
+         url('../font/AxiataBook2-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: axiataBookItalic;
+    src: url('../font/AxiataBookItalic.otf');
+    src: url('../font/AxiataBookItalic-webfont.eot') format('embedded-opentype'),
+         url('../font/AxiataBookItalic-webfont.woff') format('woff'),
+         url('../font/AxiataBookItalic-webfont.ttf') format('truetype'),
+         url('../font/AxiataBookItalic-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: axiataMedium;
+    src: url('../font/AxiataMedium.ttf');
+    src: url('../font/AxiataMedium-webfont.eot') format('embedded-opentype'),
+         url('../font/AxiataMedium-webfont.woff') format('woff'),
+         url('../font/AxiataMedium-webfont.ttf') format('truetype'),
+         url('../font/AxiataMedium-webfont.svg') format('svg');
+}
+
+
+*{
+  font-family: axiataBook, Arial;
+  font-size:16px;
+  line-height:100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.title {
+  font-family: axiataBold, Arial Bold;
+}
+
+.subtitle {
+  font-family: axiataBold, Arial Bold;
+  font-size:15px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.maroonColor {
+  color: #c40d42;
+}
+
+.grey8Color {
+  color: #8a8c8f;
+}
+
+/*.container-non-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 960px;
+}*/
+
+/*.kepala {
+  position:fixed; 
+  border-bottom-width:1px; 
+  border-bottom-color:#e7eaec; 
+  border-bottom-style:solid; 
+  padding:52px 71px 31px 71px; 
+  background-color:white; 
+  width:960px; 
+  z-index:100;
+}*/
+
+.header-btn {
+  display:inline-block; 
+  vertical-align:middle;
+}
+
+.left-menu-child {
+  display: block;
+  padding: 5px;
+  /*white-space:nowrap;*/
+  color:black;
+  font-size: 11px;
+}
+
+.test {
+  border-width:1px; 
+  border-color:black; 
+  border-style:solid;
+  background-color: white;
+}
+
+.images-menu {
+  width:925px;
+}
+
+.images-menu.not-first {
+  margin-top:10px;
+}
+
+.img-menu {
+  height:299px; 
+  padding:0; 
+  /*overflow:hidden;*/
+  cursor: pointer;
+}
+
+#img-opacity {
+  position:absolute; 
+  width:100%; 
+  height:100%; 
+  background:white;
+}
+
+#img-desc {
+  position:absolute; 
+  width:100%; 
+  height:100%;
+}
+
+
+
+
+
+video#bgvid { 
+  position: fixed;
+  max-width: 100%; max-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; 
+}
+video#bgvid { transition: 1s opacity; }
+.stopfade { opacity: .5; }
+
