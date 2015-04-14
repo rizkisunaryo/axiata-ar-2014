@@ -43,6 +43,10 @@
   text-justify: inter-word;
 }
 
+div {
+  position: relative;
+}
+
 .title {
   font-family: axiataBold, Arial Bold;
 }

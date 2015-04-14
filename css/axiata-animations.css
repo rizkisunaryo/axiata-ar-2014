@@ -53,6 +53,7 @@
 	-webkit-animation-timing-function: linear;
     -webkit-animation-duration: 3s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
     animation-name: kite-big-animation;
     animation-timing-function: linear;
     animation-duration: 3s;
