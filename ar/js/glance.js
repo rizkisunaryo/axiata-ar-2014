@@ -64,15 +64,11 @@ $(function(){
 
     $(window).on('scroll', function(){
         console.log($(window).scrollTop());
-        // console.log(getScroll());
-        // console.log($(window).height()+":"+$(window).scrollTop());
-        // console.log($(window).scrollTop()+":"+getScroll()+":"+$("#operatingRevenue").scrollTop() +":"+ $("#operatingRevenue").innerHeight() +":"+ document.getElementById("operatingRevenue").scrollHeight);
         fromZero('#revenue',87,0);
         fromZero('#ebitda',69,1);
         fromZero('#pat',66,2);
         fromZero('#subscribers',565,3);
         fromZero('#marketcap',345,4);
-        // scrollHeader();
         scrollGlanceBg();
         animateLeftRightKeyHL();
         scrollKeyPerf();
@@ -140,8 +136,14 @@ function initialScroll() {
         case 'group_profile':
             scroll = 1400;
             break;
+        case 'key_highlights':
+            scroll = TRIGGER_SCROLL_KEY_HIGHLIGHTS_2;
+            break;
         case 'financial_highlights':
             scroll = 4220;
+            break;
+        case 'performance':
+            scroll = TRIGGER_SCROLL_KEY_PERFORMANCE_1;
             break;
         default:
             scroll=0;
@@ -222,7 +224,6 @@ function reposAllDivs() {
     $('#divider').css({top:dividerTop+'px'});
     $('#glanceBg').css({top:glanceBgTop+'px'});
     $('#glanceBg').css({left:glanceBgLeft+'px'});
-    // $('#text1').css({top:text1Top+'px'});
     $('#text1').css('margin-top',(headerHeight+721)+'px');
 }
 
