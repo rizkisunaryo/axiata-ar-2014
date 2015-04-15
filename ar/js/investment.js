@@ -27,6 +27,8 @@ var graph3ToFunctionArray=[];
 var graphAnimationTime = 1000;
 
 $(function(){
+    initialScroll();
+
 	reposDivider();
 	reposDividerText();
     animateGraphLine(1);
@@ -58,6 +60,27 @@ $(function(){
         animateGraphRow3Call("#graph35",true,"Red",26,4);
 	});
 });
+
+function initialScroll() {
+    var section = getUrlParameter('section');
+    var scroll = 0;
+    switch(section) {
+        case 'prudent':
+            scroll = 2150;
+            break;
+        case 'investor':
+            scroll = 3200;
+            break;
+        default:
+            scroll=0;
+    } 
+
+    if (scroll>0) {
+        $root.animate({
+            scrollTop: scroll
+        }, scroll);
+    }
+}
 
 function reposDivider() {
 	var dividerImgLeft = (parseInt($(window).width())-GLOBAL_WIDTH_1) / 2;
