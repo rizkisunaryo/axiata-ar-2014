@@ -2,7 +2,7 @@
 var scrollTol = 1000;
 var TRIGGER_SCROLL_FROM_ZERO_1 = 955 + scrollTol;
 var TRIGGER_SCROLL_FROM_ZERO_2 = 1135 + scrollTol;
-var TRIGGER_SCROLL_BG = 1734 + scrollTol;
+var TRIGGER_SCROLL_BG = 1760 + scrollTol;
 var TRIGGER_SCROLL_KEY_HIGHLIGHTS_1 = 2190 + scrollTol;
 var TRIGGER_SCROLL_KEY_HIGHLIGHTS_2 = 2490 + scrollTol;
 var TRIGGER_SCROLL_GRAPH_1_1 = 2820 + scrollTol;
@@ -19,8 +19,8 @@ var TRIGGER_SCROLL_GRAPH_6_1 = 4440 + scrollTol;
 var TRIGGER_SCROLL_GRAPH_6_2 = 4640 + scrollTol;
 var TRIGGER_SCROLL_GRAPH_7_1 = 4680 + scrollTol;
 var TRIGGER_SCROLL_GRAPH_7_2 = 4880 + scrollTol;
-var TRIGGER_SCROLL_KEY_PERFORMANCE_1 = 4370 + scrollTol;
-var TRIGGER_SCROLL_KEY_PERFORMANCE_2 = 5300 + scrollTol;
+var TRIGGER_SCROLL_KEY_PERFORMANCE_1 = 4460 + scrollTol;
+var TRIGGER_SCROLL_KEY_PERFORMANCE_2 = 5400 + scrollTol;
 var TRIGGER_SCROLL_VISION_ARROW_1 = 5365 + scrollTol;
 var TRIGGER_SCROLL_VISION_ARROW_2 = 5715 + scrollTol;
 var TRIGGER_SCROLL_VISION_BLOCK_1 = 5770 + scrollTol;
@@ -53,6 +53,8 @@ var graph7ToFunctionArray=[];
 var graphAnimationTime = 1000;
 
 $(function(){
+    initialScroll();
+
     toggleLeftHeaderMenu();
     reposAllDivs();
 
@@ -131,6 +133,27 @@ $(function(){
     });
 });
 
+function initialScroll() {
+    var section = getUrlParameter('section');
+    var scroll = 0;
+    switch(section) {
+        case 'group_profile':
+            scroll = 1400;
+            break;
+        case 'financial_highlights':
+            scroll = 4220;
+            break;
+        default:
+            scroll=0;
+    } 
+
+    if (scroll>0) {
+        $root.animate({
+            scrollTop: scroll
+        }, scroll);
+    }
+}
+
 function getScroll() {
     return $(window).scrollTop()-$(window).height();
 }
@@ -142,8 +165,6 @@ function scrollHeader() {
 }
 
 function scrollGlanceBg() {
-    // if ($(window).scrollTop()<=$(window).height()+15) {
-    // if ($(window).scrollTop()<=1500) {
     if ($(window).scrollTop()>TRIGGER_SCROLL_BG) {
         $('#glanceBg').css({transform: 'translate(0,'+(TRIGGER_SCROLL_BG-$(window).scrollTop())+'px)'});
     }

@@ -21,7 +21,7 @@ $(function(){
     $(window).on('scroll', function(){
         scrollHeader();
     });
-});
+});      
 
 function parallaxEffect() {
     var parallaxes = $('[data-scroll-resistance]');
@@ -36,13 +36,6 @@ function parallaxEffect() {
             $(this).css({msTransform: 'translate(0,'+moveY+'px)'});
             $(this).css({webkitTransform: 'translate(0,'+moveY+'px)'});
         });
-    });
-}
-
-function toggleLeftHeaderMenu() {
-    $("#left-header-btn").click(function(event){
-        event.stopPropagation();
-        $( "#left-header-menu" ).toggle( "slow");
     });
 }
 

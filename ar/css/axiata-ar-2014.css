@@ -43,10 +43,6 @@
   text-justify: inter-word;
 }
 
-div {
-  position: relative;
-}
-
 .title {
   font-family: axiataBold, Arial Bold;
 }
@@ -97,7 +93,10 @@ a:hover {
   padding: 5px;
   /*white-space:nowrap;*/
   color:black;
-  font-size: 11px;
+  font-size: 15px;
+  text-align: left;
+  text-justify: none;
+} 
 }
 
 .test {
@@ -116,9 +115,9 @@ a:hover {
 }
 
 .img-menu {
-  height:295px; 
+  height:299px; 
   padding:0; 
-  overflow:hidden;
+  /*overflow:hidden;*/
   cursor: pointer;
 }
 
@@ -130,9 +129,10 @@ a:hover {
 }
 
 #img-desc {
-  position:absolute; 
-  width:100%; 
+  position:relative;
+  width:100%;
   height:100%;
+  text-align:center;
 }
 
 

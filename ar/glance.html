@@ -11,17 +11,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="js/general.js"></script>
     <script src="js/glance.js"></script>
   </head>
   <body>
-    <div class="container-fluid" style="overflow:hidden; height:9560px;">
+    <div class="container-fluid" style="overflow:hidden; height:9650px;">
       <div class="row kepalaGlance" style="position:fixed; width:100%; padding:35px 0; border-bottom-width:1px; border-bottom-color:#e7eaec; border-bottom-style:solid; height:90px; z-index:30; background-color:white;">
-        <div style="width:960px; margin:0 auto; float:none; padding:0 40px;">
-          <div class="col-xs-2" style="padding:0;">
+        <div style="width:960px; margin:0 auto; float:none;">
+          <div class="col-xs-2" style="padding-left:40px;">
             <div class="header-btn" id="left-header-btn" style="background:url('images/hamburger-menu-btn.png') no-repeat; width:30px; height:16px; cursor:pointer;"></div>
-            <div class="header-btn" style="background:url('images/header-back.png') no-repeat; width:11px; height:16px; margin-left:27px; padding-left:16px; cursor:pointer; font-size:11px;">Back</div>
-
-            <div id="left-header-menu" style="position:absolute; box-shadow:0 0 20px 5px #e5e5e5; top:40px; left:-35px; background-color:white; padding:12px 22px; display:none; width:210px;">
+            <div class="header-btn" style="background:url('images/header-back.png') no-repeat; width:11px; height:16px; margin-left:27px; padding-left:16px; cursor:pointer; font-size:11px; padding-top:3px;" onclick="window.location='index.html'">Back</div>
+            <div id="left-header-menu" style="position:absolute; box-shadow:0 0 20px 5px #e5e5e5; top:40px; left:-35px; background-color:white; padding:12px 22px; display:none; width:295px;">
+              <div style="position:absolute; left:39px; top:-13px;"><img src="images/menu-arrow-up.png" /></div>
               <a style="color:#c2063a;" href="#" class="left-menu-child">Download Full Report</a>
               <a href="#" class="left-menu-child">Annual Report 2014</a>
               <a href="#" class="left-menu-child">Financial Statements</a>
@@ -44,8 +45,8 @@
 
           </div>
           <div class="col-xs-8"></div>
-          <div class="col-xs-2" style="padding:0">
-            <div class="header-btn pull-right" style="background:url('images/explore-btn.png') no-repeat; background-position:right center; width:20px; height:16px; padding-right:69px; font-size:11px;">Explore</div>
+          <div class="col-xs-2" style="padding-right:40px;">
+            <div class="header-btn pull-right" style="background:url('images/explore-btn.png') no-repeat; background-position:right center; width:20px; height:16px; padding-right:69px; font-size:11px; padding-top:3px;">Explore</div>
           </div>
         </div>
       </div>

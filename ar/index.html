@@ -8,22 +8,18 @@
     <link rel="stylesheet" href="css/axiata-ar-2014.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/general.js"></script>
     <script src="js/axiata-ar-2014.js"></script>
   </head>
   <body>
-    <video autoplay poster="images/kite-big.jpg" id="bgvid">
-      <!-- <source src="polina.webm" type="video/webm"> -->
-      <source src="videos/intro.mp4" type="video/mp4">
-    </video>
-    <button id="vidskip" style="position:absolute;">SKIP</button>
-    <div class="container-fluid" style="display:none;">
+    <div class="container-fluid">
       <div class="row kepala" style="position:fixed; width:100%; padding:35px 0; border-bottom-width:1px; border-bottom-color:#e7eaec; border-bottom-style:solid; height:90px; z-index:30; background-color:white;">
-        <div style="width:960px; margin:0 auto; float:none; padding:0 40px;">
-          <div class="col-xs-2" style="padding:0;">
+        <div style="width:960px; margin:0 auto; float:none;">
+          <div class="col-xs-2" style="padding-left:40px;">
             <div class="header-btn" id="left-header-btn" style="background:url('images/hamburger-menu-btn.png') no-repeat; width:30px; height:16px; cursor:pointer;"></div>
-            <div class="header-btn" style="background:url('images/header-back.png') no-repeat; width:11px; height:16px; margin-left:27px; padding-left:16px; cursor:pointer; font-size:11px;">Back</div>
-
-            <div id="left-header-menu" style="position:absolute; box-shadow:0 0 20px 5px #e5e5e5; top:40px; left:-35px; background-color:white; padding:12px 22px; display:none; width:210px;">
+            <div class="header-btn" style="background:url('images/header-back.png') no-repeat; width:11px; height:16px; margin-left:27px; padding-left:16px; cursor:pointer; font-size:11px; padding-top:3px;">Back</div>
+            <div id="left-header-menu" style="position:absolute; box-shadow:0 0 20px 5px #e5e5e5; top:40px; left:-35px; background-color:white; padding:12px 22px; display:none; width:295px;">
+              <div style="position:absolute; left:39px; top:-13px;"><img src="images/menu-arrow-up.png" /></div>
               <a style="color:#c2063a;" href="#" class="left-menu-child">Download Full Report</a>
               <a href="#" class="left-menu-child">Annual Report 2014</a>
               <a href="#" class="left-menu-child">Financial Statements</a>
@@ -46,174 +42,377 @@
 
           </div>
           <div class="col-xs-8"></div>
-          <div class="col-xs-2" style="padding:0">
-            <div class="header-btn pull-right" style="background:url('images/explore-btn.png') no-repeat; background-position:right center; width:20px; height:16px; padding-right:69px; font-size:11px;">Explore</div>
+          <div class="col-xs-2" style="padding-right:40px;">
+            <div class="header-btn pull-right" style="background:url('images/explore-btn.png') no-repeat; background-position:right center; width:20px; height:16px; padding-right:69px; font-size:11px; padding-top:3px;">Explore</div>
           </div>
         </div>
       </div>
 
-      <div class="row" style="margin-top:0px; height:635px; top:-100px;" data-scroll-resistance="-2.0">
-        <div class="left-border" style="position:absolute; height:635px; width:860px; left:-700px; background-color:white; z-index:10;"></div>
-        <div class="center-content media" style="position:relative; max-width:960px; width:100%; margin:0 auto; height:640px; z-index:0; background-color:white;">
-          <div style="width:82px; position:absolute; left:115px; top:90px; z-index:0;" id="kite-small">
-            <img src="images/kite-small.png">
+      <div style="position: relative; max-width: 960px; width: 100%; margin: 0px auto; height: 1635px; z-index: 0; background-color: white; top: 31.5px;" class="center-content media">
+        <div style="width:82px; position:absolute; left:115px; top:90px; z-index:0;" id="kite-small">
+          <img src="images/kite-small.png">
+        </div>
+        <div style="width:166px; position:absolute; left:-60px; top:265px; z-index:0;" id="kite-medium">
+          <img src="images/kite-medium.png">
+        </div>
+        <div id="kite-big" style="position:absolute; left:20px; top:145px; z-index:0;">
+          <img src="images/kite-big.png">
+        </div>
+        <div style="position:absolute; width:226px; left:730px; top:100px;">
+          <div style="text-align:right;">
+            <img src="images/axiata-logo.png">
           </div>
-          <div style="width:166px; position:absolute; left:-60px; top:265px; z-index:0;" id="kite-medium">
-            <img src="images/kite-medium.png">
+          <div style="text-align:right; margin-top:30px;">
+            <img src="images/propelled_by_technology.png">
           </div>
-          <div style="width:543px; ; position:absolute; left:95px; top:175px; z-index:0;" id="kite-big">
-            <img src="images/kite-big.png">
+          <div style="text-align:right; margin-top:110px;">
+            SUSTAINABILITY AND<br>
+            NATIONAL CONTRIBUTION<br>
+            REPORT 2014<br>
+          </div>
+          <div style="text-align:right; margin-top:40px;">
+            <img src="images/rationale_kite.png">
           </div>
         </div>
       </div>
 
-      <div class="row content" style="position:relative; height:460px; border-top-width:1px; border-top-color:#e7eaec; border-top-style:solid;">
+      <div class="row content" style="position:relative; height:460px; border-top-width:1px; border-top-color:#e7eaec; border-top-style:solid; margin-top:-1000px;">
         <div class="center-content" style="position:relative; width:960px; margin:0 auto; height:100%; z-index:10; background-color:white;">
 
           <div class="col-xs-12 content-menu" style="height:90px;">
-            <div class="col-xs-4" style="background-color:white;"><p class="text-center this-category to-top" style="cursor:pointer; font-size:22px; margin-top:30px;">PERFORMANCE</p></div>
-            <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-governance" style="cursor:pointer; font-size:22px; margin-top:30px;">GOVERNANCE</p></div>
-            <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-sustainability" style="cursor:pointer; font-size:22px; margin-top:30px;">SUSTAINABILITY</p></div>
-          </div>
-          <div class="col-xs-12 content-menu category-explanation" style="height:70px; display:none;">
-            LOREN IPSUM
+            <div class="col-xs-4" style="background-color:white;"><p class="text-center this-category to-top" style="cursor:pointer; font-size:22px; margin-top:30px; color:#0f529f">PERFORMANCE</p></div>
+            <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-governance maroonColor" style="cursor:pointer; font-size:22px; margin-top:30px;">GOVERNANCE</p></div>
+            <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-sustainability maroonColor" style="cursor:pointer; font-size:22px; margin-top:30px;">SUSTAINABILITY</p></div>
           </div>
 
-          <div class="col-xs-12 content-menu">
+          <div class="col-xs-12 content-menu category-explanation" style="height:70px; display:none;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          </div>
+
+          <div class="col-xs-12 content-menu" style="padding:0 41px;">
             <div class="row images-menu">
-              <div id="img-menu" class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;" onclick="window.location='glance.html'">
-                <div class="img-img" style="position:absolute;"></div>
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:602px; margin-right:10px;" onclick="window.location='glance.html'">
+                <div style="position:absolute;">
+                  <img src="images/menu/map.png" />
+                </div>
                 <div id="img-opacity"></div>
-                <div id="img-desc">test</div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
-              <div id="img-menu" class="col-xs-4 img-menu" style="width:298px;">
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:298px;" onclick="window.location='glance.html?section=group_profile'">
                 <div style="position:absolute;">
                   <img src="images/menu/group-profile.png" />
                 </div>
                 <div id="img-opacity"></div>
-                <div id="img-desc"><h1>test</h1></div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:298px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:602px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div id="img-menu" class="col-xs-8 img-menu" style="width:602px; margin-right:10px;">
-                <div style="position:absolute;"><img src="images/menu/shaping_the_future.png" /></div>
+              <div id="img-menu" class="col-xs-12 img-menu" style="width:910px;" onclick="window.location='glance.html?section=financial_highlights'">
+                <div style="position:absolute;">
+                  <img src="images/menu/performance_kite.png" />
+                </div>
                 <div id="img-opacity"></div>
-                <div id="img-desc"><h1>test</h1></div>
-              </div>
-              <div class="col-xs-4 img-menu" style="width:298px;"><img src="images/menu/chairman.png" /></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:298px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="height:600px; width:298px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu" style="width:602px; height:600px;">
-                <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu" style="width:602px;"><img src="images/menu/financial_performance.png" /></div>
-                </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu" style="width:296px; margin-right:10px;"><img src="images/menu/geographical.png" /></div>
-                  <div class="col-xs-6 img-menu" style="width:296px;"><img src="images/menu/summary-breakdown.png" /></div>
-                </div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:298px;"></div>
+              <div id="img-menu" class="col-xs-8 img-menu test" style="width:601px; margin-right:12px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/risk-management.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/financial-highlights.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-4 img-menu test" style="height:600px; width:298px; margin-right:10px;"></div>
-              <div class="col-xs-8 img-menu" style="width:602px; height:600px;">
-                <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu" style="width:602px;"><img src="images/menu/profile-of-directors.png" /></div>
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:601px; margin-right:12px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/shaping_the_future.png" />
                 </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu test" style="width:296px; margin-right:10px;"></div>
-                  <div class="col-xs-6 img-menu test" style="width:296px;"></div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/chairman.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:603px; margin-right:10px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/president-and-gceo.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/strategic-journey-towards.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-4 img-menu" style="height:602px; width:295px; margin-right:14px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/five-year-group-financial.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div class="col-xs-8 img-menu" style="width:601px; height:602px;">
+                <div class="row" style="margin:0;">
+                  <div class="col-xs-12 img-menu" style="width:601px; height:295px;">
+                    <img src="images/menu/financial_performance.png" />
+                  </div>
+                </div>
+                <div class="row" style="margin:0; margin-top:12px;">
+                  <div class="col-xs-6 img-menu" style="width:297px; height:295px; margin-right:7px;">
+                    <img src="images/menu/geographical.png" />
+                  </div>
+                  <div class="col-xs-6 img-menu" style="width:297px; height:296px;">
+                    <img src="images/menu/summary-breakdown.png" />
+                  </div>
                 </div>
               </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:298px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:602px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:298px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu" style="width:602px; height:600px; margin-right:10px;">
-                <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu" style="width:602px;"><img src="images/menu/operating_companies.png" /></div>
+              <div id="img-menu" class="col-xs-8 img-menu test" style="width:601px; margin-right:12px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/risk-management.png" /> -->
                 </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu test" style="width:296px; margin-right:10px;"></div>
-                  <div class="col-xs-6 img-menu test" style="width:296px;"></div>
-                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
-              <div class="col-xs-4 img-menu test" style="height:600px; width:298px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-4 img-menu test" style="height:600px; width:298px; margin-right:10px;"></div>
-              <div class="col-xs-8 img-menu" style="width:602px; height:600px;">
-                <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu test" style="width:602px;"></div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/financial-highlights.png" />
                 </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu test" style="width:296px; margin-right:10px;"></div>
-                  <div class="col-xs-6 img-menu test" style="width:296px;"></div>
-                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu" style="width:602px; height:600px; margin-right:10px;">
-                <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu test" style="width:602px;"></div>
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:602px; margin-right:11px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/corporate_profile.png" />
                 </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu test" style="width:296px; margin-right:10px;"></div>
-                  <div class="col-xs-6 img-menu test" style="width:296px;"></div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/profile-of-directors.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:295px; margin-right:13px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/profile-management-team.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu test" style="width:602px; height:602px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/profile-of-directors.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:297px; margin-right:12px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/share-price.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:601px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/investment_performance.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-8 img-menu" style="width:602px; margin-right:11px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/prudent-and-disciplined.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/invest-relations.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div class="col-xs-8 img-menu" style="width:601px; height:597px; margin-right:13px;">
+                <div class="row" style="margin:0;">
+                  <div class="col-xs-12 img-menu" style="width:601px; height:295px;">
+                    <img src="images/menu/opco.png" />
+                  </div>
+                </div>
+                <div class="row" style="margin:0; margin-top:9px;">
+                  <div class="col-xs-12 img-menu" style="width:600px; height:293px;">
+                    <img src="images/menu/xl.png" />
+                  </div>
                 </div>
               </div>
-              <div class="col-xs-4 img-menu test" style="height:600px; width:298px;"></div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="height:597px; width:296px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/celcom.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
             </div>
             <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:298px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-8 img-menu test" style="width:602px; margin-right:10px;"></div>
-              <div class="col-xs-4 img-menu test" style="width:298px;"></div>
-            </div>
-            <div class="row images-menu not-first">
-              <div class="col-xs-4 img-menu test" style="height:600px; width:298px; margin-right:10px;"></div>
-              <div class="col-xs-8 img-menu" style="width:602px; height:600px;">
+              <div id="img-menu" class="col-xs-4 img-menu" style="height:594px; width:291px; margin-right:17px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/dialog.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div class="col-xs-8 img-menu" style="width:602px; height:594px;">
                 <div class="row" style="margin:0;">
-                  <div class="col-xs-12 img-menu test" style="width:602px;"></div>
+                  <div class="col-xs-12 img-menu" style="width:602px; height:294px;">
+                    <img src="images/menu/robi.png" />
+                  </div>
                 </div>
-                <div class="row" style="margin:0; margin-top:10px;">
-                  <div class="col-xs-6 img-menu test" style="width:296px; margin-right:10px;"></div>
-                  <div class="col-xs-6 img-menu test" style="width:296px;"></div>
+                <div class="row" style="margin:0; margin-top:8px;">
+                  <div class="col-xs-12 img-menu" style="width:602px; height:294px;">
+                    <img src="images/menu/smart.png" />
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div class="col-xs-8 img-menu" style="width:601px; height:596px; margin-right:13px;">
+                <div class="row" style="margin:0;">
+                  <div class="col-xs-12 img-menu" style="width:600px; height:293px;">
+                    <img src="images/menu/m1.png" />
+                  </div>
+                </div>
+                <div class="row" style="margin:0; margin-top:9px;">
+                  <div class="col-xs-12 img-menu" style="width:601px; height:294px;">
+                    <img src="images/menu/multinet.png" />
+                  </div>
+                </div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="height:596px; width:296px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/idea.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div class="col-xs-8 img-menu" style="width:601px; height:596px; margin-right:12px;">
+                <div class="row" style="margin:0;">
+                  <div class="col-xs-12 img-menu" style="width:601px; height:295px;">
+                    <img src="images/menu/new_business.png" />
+                  </div>
+                </div>
+                <div class="row" style="margin:0; margin-top:6px;">
+                  <div class="col-xs-12 img-menu" style="width:601px; height:295px;">
+                    <img src="images/menu/edotco.png" />
+                  </div>
+                </div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu" style="height:596px; width:297px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/axiata-digital.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-12 img-menu test" style="width:910px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/performance_kite.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-12 img-menu" style="width:910px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/governance.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-4 img-menu test" style="width:296px; margin-right:11px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/risk-management.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu test" style="width:296px; margin-right:11px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/risk-management.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+              <div id="img-menu" class="col-xs-4 img-menu test" style="width:296px;">
+                <div style="position:absolute;">
+                  <!-- <img src="images/menu/risk-management.png" /> -->
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
+              </div>
+            </div>
+            <div class="row images-menu not-first">
+              <div id="img-menu" class="col-xs-12 img-menu" style="width:910px;">
+                <div style="position:absolute;">
+                  <img src="images/menu/sustainability.png" />
+                </div>
+                <div id="img-opacity"></div>
+                <div id="img-desc">Lorem Ipsum</div>
               </div>
             </div>
           </div>
 
-          <div class="col-xs-12 content-menu not-top-category-menu" style="height:90px; display:none;">
+          <!-- <div class="col-xs-12 content-menu not-top-category-menu" style="height:90px; display:none;">
             <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-top" style="cursor:pointer; font-size:22px; margin-top:30px;">PERFORMANCE</p></div>
             <div class="col-xs-4" style="background-color:white;"><p class="text-center this-category to-top" style="cursor:pointer; font-size:22px; margin-top:30px;">GOVERNANCE</p></div>
             <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-sustainability" style="cursor:pointer; font-size:22px; margin-top:30px;">SUSTAINABILITY</p></div>
           </div>
           <div class="col-xs-12 content-menu category-explanation" style="height:70px; display:none;">
             LOREN IPSUM
-          </div>
+          </div> -->
 
-          <div class="col-xs-12 content-menu">
+          <!-- <div class="col-xs-12 content-menu">
             <div class="row images-menu not-first">
               <div class="col-xs-12 img-menu test" style="width:910px;"></div>
             </div>
@@ -221,44 +420,26 @@
               <div class="col-xs-8 img-menu test" style="width:298px; margin-right:10px;"></div>
               <div class="col-xs-4 img-menu test" style="width:602px;"></div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-xs-12 content-menu not-top-category-menu" style="height:90px; display:none;">
+          <!-- <div class="col-xs-12 content-menu not-top-category-menu" style="height:90px; display:none;">
             <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-top" style="cursor:pointer; font-size:22px; margin-top:30px;">PERFORMANCE</p></div>
             <div class="col-xs-4" style="background-color:white;"><p class="text-center category-menu to-governance" style="cursor:pointer; font-size:22px; margin-top:30px;">GOVERNANCE</p></div>
             <div class="col-xs-4" style="background-color:white;"><p class="text-center this-category to-top" style="cursor:pointer; font-size:22px; margin-top:30px;">SUSTAINABILITY</p></div>
           </div>
           <div class="col-xs-12 content-menu category-explanation" style="height:70px; display:none;">
             LOREN IPSUM
-          </div>
+          </div> -->
 
-          <div class="col-xs-12 content-menu">
+          <!-- <div class="col-xs-12 content-menu">
             <div class="row images-menu not-first">
               <div class="col-xs-12 img-menu test" style="width:910px;"></div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
 
     </div>
-    <script type="text/javascript">
-    var vid = document.getElementById("bgvid");
-    var skipButton = document.getElementById("vidskip");
-
-    function showPage() {
-      $('#bgvid').fadeOut(1000,function(){
-        vid.remove();
-      });
-      $('.container-fluid').show(1000);
-    }
-    
-    vid.addEventListener('ended', function() {
-      showPage();
-    });
-    skipButton.addEventListener("click", function() {
-      showPage();
-    });
-    </script>
   </body>
 </html>
