@@ -33,6 +33,8 @@ var TRIGGER_SCROLL_STRATEGIC_BAR_1 = 7920 + SCROLL_TOLERANCE;
 var TRIGGER_SCROLL_STRATEGIC_BAR_2 = 8520 + SCROLL_TOLERANCE;
 
 $(function(){
+	initialScroll();
+
 	// resizeWebHeight();
 	// dividerHeight=resizeFixedImage("#dividerDiv",DIVIDER_HEIGHT,15);
 	resizeFixedImage("#chairmanStatementBgDiv",CHAIRMAN_STATEMENT_HEIGHT,15);
@@ -94,6 +96,30 @@ $(function(){
 		translateStrategicBar();
 	});
 });
+
+function initialScroll() {
+    var section = getUrlParameter('section');
+    var scroll = 0;
+    switch(section) {
+        case 'chairman':
+            scroll = TRIGGER_SCROLL_CHAIRMAN;
+            break;
+        case 'ceo':
+            scroll = TRIGGER_SCROLL_CEO1_2;
+            break;
+        case 'strategic':
+            scroll = 8850;
+            break;
+        default:
+            scroll=0;
+    } 
+
+    if (scroll>0) {
+        $root.animate({
+            scrollTop: scroll
+        }, scroll);
+    }
+}
 
 function reposMarginTopByResolution(selector,marginTop) {
 	newMarginTop = $(window).height()-WINDOW_HEIGHT_DEFAULT-dividerTop+marginTop;
