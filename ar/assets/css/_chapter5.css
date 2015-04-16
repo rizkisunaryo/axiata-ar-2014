@@ -1,0 +1,649 @@
+@import url("navbar.css");
+@import url("fonts.css");
+.section1
+{
+	width:960px;
+	height:730px;
+	background-color:#c2063b;
+	margin:90px auto;
+	overflow:hidden;
+	z-index:30;
+	
+}
+
+.section1 img
+{
+	display:block;
+	padding-left:140px;
+	margin-top:10px;
+	
+}
+
+
+.section1 .header1
+{
+	font-size:106px;
+	margin-top:-180px;
+	font-family:axiataBold;
+	color:#790920;
+	margin-left:55px;
+	line-height:.8;
+	
+}
+.section1 .header2
+{
+	font-size:90px;
+	margin-top:-50px;
+	font-family:axiataBold;
+	color:#fff;
+	margin-left:55px;
+	line-height:.8;
+}
+
+
+.section2
+{
+	width:960px;
+	min-height:730px;
+	background-color:#fff;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+
+.section2 .header1
+{
+	font-size:26px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:10px;
+	z-index:100;
+	
+}
+.section2 .header2
+{
+	font-size:33px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+}
+.section2 .header3
+{
+	font-size:16px;
+	font-family:axiataBold;
+	color:#4c4d4f;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+}
+
+
+
+/*.graphNames 
+{
+	margin:-580px 0 0 50px;
+	font-family: axiataBook;
+}
+
+.graphNames .name1 .rect
+{
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #c40c42;
+    margin-right:8px;
+    
+}
+.graphNames .name1
+{
+    margin-bottom:8px;
+
+}
+.graphNames .name1 .name
+{
+    margin-right:25px;
+
+}
+.graphNames .name2 .name
+{
+    margin-right:55px;
+
+}
+.graphNames .name2 .rect
+{
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #6d6e71;
+    margin-right:8px;
+}
+
+
+.section2 .graphLine1
+{
+	margin-top:-81px;
+}
+
+.section2 .graphLine2
+{
+	margin-top:-920px;
+	padding:15px;
+}
+*/
+.section2 .pmarker
+{
+	margin:-558px 0 0 870px;
+	display: block;
+}
+
+.section2 .gmarker
+{
+	margin:190px 0 0 870px;
+	display: block;
+}
+
+
+
+.section3
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section3/background.png") no-repeat bottom left;
+	
+}
+
+.section3 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section3 #plusButton1
+{
+	margin: 325px 0 0 260px;
+}
+
+.section3 #plusButton2
+{
+	margin: 325px 0 0 550px;
+}
+
+.section3 #plusButton3
+{
+	margin: 325px 0 0 835px;
+}
+
+
+.section3 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	
+}
+.section3 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+}
+.section3 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:0 0 0 90px;
+	color:#4d4d4f;
+}
+.section3 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-72px 0 0 380px;
+	color:#4d4d4f;
+}
+
+.section3 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-52px 0 0 680px;
+	color:#4d4d4f;
+}
+.section3 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section3 .arr
+{
+	margin-left:-16px;
+	
+}
+
+
+
+
+.section4
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section4/background.png") no-repeat bottom left;
+	
+}
+
+.section4 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section4 #plusButton1
+{
+	margin: 345px 0 0 260px;
+}
+
+.section4 #plusButton2
+{
+	margin: 345px 0 0 550px;
+}
+
+.section4 #plusButton3
+{
+	margin: 345px 0 0 855px;
+}
+
+
+.section4 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	opacity:0;
+}
+.section4 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+	opacity:0;
+}
+.section4 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:0 0 0 90px;
+	color:#4d4d4f;
+}
+.section4 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-52px 0 0 380px;
+	color:#4d4d4f;
+}
+
+.section4 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-52px 0 0 680px;
+	color:#4d4d4f;
+}
+.section4 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section4 .arr
+{
+	margin-left:-16px;
+	
+}
+
+
+.section5
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section5/background.png") no-repeat bottom left;
+	
+}
+
+.section5 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section5 #plusButton1
+{
+	margin: 310px 0 0 170px;
+}
+
+.section5 #plusButton2
+{
+	margin: 310px 0 0 410px;
+}
+
+.section5 #plusButton3
+{
+	margin: 310px 0 0 630px;
+}
+
+.section5 #plusButton4
+{
+	margin: 310px 0 0 840px;
+}
+
+
+.section5 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	opacity:0;
+}
+.section5 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+	opacity:0;
+}
+.section5 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:150px;
+	margin:-30px 0 0 80px;
+	color:#4d4d4f;
+}
+.section5 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:150px;
+	margin:-92px 0 0 300px;
+	color:#4d4d4f;
+}
+
+.section5 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:210px;
+	margin:-92px 0 0 490px;
+	color:#4d4d4f;
+}
+
+.section5 .name4
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:180px;
+	margin:-52px 0 0 740px;
+	color:#4d4d4f;
+}
+.section5 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section5 .arr
+{
+	margin-left:-16px;
+	
+}
+
+
+
+.section6
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section6/background.png") no-repeat bottom left;
+	
+}
+
+.section6 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section6 #plusButton1
+{
+	margin: 400px 0 0 260px;
+}
+
+.section6 #plusButton2
+{
+	margin: 400px 0 0 530px;
+}
+
+.section6 #plusButton3
+{
+	margin: 400px 0 0 825px;
+}
+
+
+.section6 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	/*opacity:0;*/
+}
+.section6 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+	/*opacity:0;*/
+}
+.section6 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:270px;
+	margin:20px 0 0 90px;
+	color:#4d4d4f;
+}
+.section6 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-72px 0 0 410px;
+	color:#4d4d4f;
+}
+
+.section6 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:270px;
+	margin:-72px 0 0 650px;
+	color:#4d4d4f;
+}
+.section6 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section6 .arr
+{
+	margin-left:-16px;
+	
+}
+
+.section7
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section7/background.png") no-repeat bottom left;
+	
+}
+
+.section7 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section7 #plusButton1
+{
+	margin: 340px 0 0 260px;
+}
+
+.section7 #plusButton2
+{
+	margin: 340px 0 0 530px;
+}
+
+.section7 #plusButton3
+{
+	margin: 340px 0 0 870px;
+}
+
+
+.section7 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	opacity:0;
+}
+.section7 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+	opacity:0;
+}
+.section7 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:270px;
+	margin:-50px 0 0 90px;
+	color:#4d4d4f;
+}
+.section7 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:245px;
+	margin:-92px 0 0 410px;
+	color:#4d4d4f;
+}
+
+.section7 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:270px;
+	margin:-72px 0 0 650px;
+	color:#4d4d4f;
+}
+.section7 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section7 .arr
+{
+	margin-left:-16px;
+	
+}
+
+.firstMargin
+{
+	margin-top:100px !important;
+}
+
+
+#movingSectionContainer
+{
+	margin-top:-90px !important;
+	z-index:99;
+
+}
+
+
+
+
+
+
+
+p
+{
+	line-height:130% !important;
+	font-size:15px !important;
+}
+
+.topImg
+{
+	position: absolute; bottom: 0; right: 0;
+}
+
+
