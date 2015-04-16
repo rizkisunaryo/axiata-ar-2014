@@ -12,7 +12,13 @@
     <script src="js/axiata-ar-2014.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <video autoplay poster="images/kite-big.jpg" id="bgvid">
+      <!-- <source src="polina.webm" type="video/webm"> -->
+      <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+    <button id="vidskip" style="position:absolute;">SKIP</button>
+
+    <div class="container-fluid" style="display:none;">
       <div class="row kepala" style="position:fixed; width:100%; padding:35px 0; border-bottom-width:1px; border-bottom-color:#e7eaec; border-bottom-style:solid; height:90px; z-index:30; background-color:white;">
         <div style="width:960px; margin:0 auto; float:none;">
           <div class="col-xs-2" style="padding-left:40px;">
@@ -441,5 +447,25 @@
       </div>
 
     </div>
+
+    <script type="text/javascript">
+    var vid = document.getElementById("bgvid");
+    var skipButton = document.getElementById("vidskip");
+
+    function showPage() {
+      $('#bgvid').fadeOut(1000,function(){
+        vid.remove();
+      });
+      $('.container-fluid').show(1000);
+    }
+    
+    vid.addEventListener('ended', function() {
+      showPage();
+    });
+    skipButton.addEventListener("click", function() {
+      showPage();
+    });
+    </script>
+
   </body>
 </html>
