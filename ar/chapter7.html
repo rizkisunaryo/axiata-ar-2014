@@ -110,8 +110,8 @@
 				<div class="twosectionscontainer">
 					<div class="leftSec">
 						<img class="bar0" src="assets/img/chapter7/section2/0.png" />
-						<div class="number1">12,<span class="decimal">113</span></div>
-						<div class="number2">13,<span class="decimal">071</span></div>
+						<div id="counter1" data-decimal="0" data-max="12113" class="counterup number1">0</div>
+						<div id="counter2" data-decimal="0" data-max="13071" class="counterup number2">0</span></div>
 						<img class="bar1" src="assets/img/chapter7/section2/bar1.png" />
 						<img class="bar2" src="assets/img/chapter7/section2/bar2.png" />
 						<img class="years" src="assets/img/chapter7/section2/1.png" />
@@ -120,7 +120,7 @@
 					<div class="rightSec">
 						<img class="logoimg" src="assets/img/chapter7/section2/logo.png" />
 						<img class="uparr" src="assets/img/chapter7/section2/up.png" />
-						<div class="greenNumber">7.9%</div>
+						<br/><div style="display:inline-block;" id="counter3" data-decimal="1" data-max="7.9" class="counterup greenNumber">0</div><div style="display:inline;" class="greenNumber">%</div>
 						<p>
 							edotco Group was set-up to own and manage Axiata group of companies passive network infrastructure assets in 2013. The company has made significant progress in 2014, growing its tower portfolio from 12,113 in 2013 to 13,071 as at end 2014.
 						</p>
@@ -135,7 +135,7 @@
 				<div class="mapContainer">
 					<div class="bangladesh">
 						Bangladesh<br/>
-						<div class="hugeNumber">49%</div>
+						<div style="display:inline-block;" id="counter4" data-decimal="0" data-max="49" class="counterup hugeNumber">0</div><div class="hugeNumber" style="display:inline-block;">%</div>
 						Owned
 					</div>
 					
@@ -153,7 +153,7 @@
 
 					<div class="malaysia">
 						Malaysia<br/>
-						<div class="hugeNumber">100%</div>
+						<div style="display:inline-block;" id="counter5" data-decimal="0" data-max="100" class="counterup hugeNumber">0</div><div class="hugeNumber" style="display:inline-block;">%</div><br/>
 						Owned
 					</div>
 					
@@ -170,9 +170,9 @@
 					In all countries run and managed by edotco there has been steep improvements in operational efficiency and capex savings on both structures and energy. edotco provides field operations and energy managed services as part of its efforts to improve operational efficiency for the Axiata group.
 				</div>
 				<div class="paragraph1">
-					<h1 class="veryHugeNumber">99.1%</h1>
+					<br/><h1 style="display:inline-block;margin-left:0px;" id="counter8" data-decimal="1" data-max="99.1" class="counterup veryHugeNumber marginLeftAddition">0</h1><div class="veryHugeNumber" style="display:inline;margin-left:-75px">%</div><br/>
 					<img class="traingle" src="assets/img/chapter7/section4/triangle.png" />
-					<h1 class="hugeNumber">99.03%</h1>
+					<br/><h1 style="display:inline-block" id="counter6" data-decimal="2" data-max="99.03" class="counterup hugeNumber">0</h1><div class="hugeNumber" style="display:inline;margin-left:10px;">%</div>
 					<div class="continues">
 						<h1 class="title"><b>Improved uptime</b><br/>(Power Availability)</h1>
 						<img class="divider2" src="assets/img/chapter7/section4/divider.png" />
@@ -184,7 +184,7 @@
 				</div>
 
 				<div class="paragraph2">
-					<h1 class="veryHugeNumber marginLeftAddition">35%</h1>
+					<br/><h1 style="display:inline-block" id="counter7" data-decimal="0" data-max="35" class="counterup veryHugeNumber marginLeftAddition">0</h1><div class="veryHugeNumber" style="display:inline;margin-left:-130px">%</div><br/>
 					<img class="traingle" src="assets/img/chapter7/section4/triangle.png" />
 					<div class="continues">
 						<h1 class="title"><b>Reduced Mean-Time-To-Respond</b></h1>
@@ -197,7 +197,7 @@
 				</div>
 
 				<div class="paragraph3">
-					<h1 class="veryHugeNumber marginLeftAddition">50%</h1>
+					<br/><h1 style="display:inline-block;margin-left:30px;" id="counter9" data-decimal="0" data-max="50" class="counterup veryHugeNumber marginLeftAddition">0</h1><div class="veryHugeNumber" style="display:inline;margin-left:-125px">%</div><br/>
 					<img class="traingle" src="assets/img/chapter7/section4/triangle.png" />
 					<div class="continues">
 						<h1 class="title"><b>Reduced Delivery of Orders Cycle Time</b></h1>
@@ -210,7 +210,7 @@
 				</div>
 
 				<div class="paragraph4">
-					<h1 class="veryHugeNumber marginLeftAddition">9.1%</h1>
+					<br/><h1 style="display:inline-block;margin-left:35px;" id="counter10" data-decimal="1" data-max="9.1" class="counterup veryHugeNumber marginLeftAddition">0</h1><div class="veryHugeNumber" style="display:inline;margin-left:-115px">%</div><br/>
 					<img class="traingle" src="assets/img/chapter7/section4/triangle.png" />
 					<div class="continues">
 						<h1 class="title"><b>Improved Monthly Capacity for New Sites Delivery</b></h1>
@@ -288,6 +288,7 @@
   <script src="assets/js/css3-animate-it.js"></script>
   <script src="assets/js/jquery.transit.min.js"></script>
   <script src="assets/js/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/countUp.min.js"></script>
   
   
  
@@ -307,6 +308,28 @@
 	
 	var sectionsNumber= 6;
 	
+	function countWithDecimal()
+	{
+		$('.counterup').each(function(){
+			
+			var options = {
+			  useEasing : true, 
+			  useGrouping : true, 
+			  separator : ',', 
+			  decimal : '.', 
+			  prefix : '', 
+			  suffix : '' 
+			};
+			
+			
+			var max=Number($(this).data('max'));
+			var noOfDecimal = Number($(this).data('decimal'));
+			var x =new countUp($(this).attr('id'), 0, max, noOfDecimal, 2.5, options);
+			x.start();
+		});
+
+	}
+
 	$(function(){
 		lastScrollTop = $(this).scrollTop(); // init the position of scroll
 		isScrollingNow=false;
@@ -340,6 +363,9 @@
 					duration:730
 				})
 				.setPin('.section'+i,{pushFollowers: false})
+				.on('start', function () {
+			        countWithDecimal();
+			    })
 				.addTo(controller);
 			}
 			else if(i == 4)
@@ -349,6 +375,9 @@
 					triggerHook: 'onEnter',
 					duration:730
 				})
+				.on('start', function () {
+			        countWithDecimal();
+			    })
 				.setPin('.section'+i,{pushFollowers: false})
 				.addTo(controller);
 			}
@@ -402,7 +431,11 @@
 				}
 			});
 		});
-		
+
+		$(document).scroll(function(){
+			
+		});
+
 	});
   </script>
   
