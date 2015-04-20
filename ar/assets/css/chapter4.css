@@ -9,7 +9,8 @@
 	margin:90px auto;
 	overflow:hidden;
 	z-index:30;
-	
+	margin-bottom: 90px;
+
 }
 .section1 img
 {
@@ -48,6 +49,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background-image: url("../img/chapter4/section2/background.png");
+		margin-bottom: 90px;
+
 }
 
 .section2 .plusButton
@@ -161,7 +164,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section3/background.png") no-repeat bottom left;
-	
+		margin-bottom: 90px;
+
 }
 
 .section3 .plusButton
@@ -253,7 +257,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section4/background.png") no-repeat bottom left;
-	
+		margin-bottom: 90px;
+
 }
 
 .section4 .plusButton
@@ -344,7 +349,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section5/background.png") no-repeat bottom left;
-	
+		margin-bottom: 90px;
+
 }
 
 .section5 .plusButton
@@ -450,7 +456,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section6/background.png") no-repeat bottom left;
-	
+		margin-bottom: 90px;
+
 }
 
 .section6 .plusButton
@@ -540,7 +547,8 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section7/background.png") no-repeat bottom left;
-	
+		margin-bottom: 90px;
+
 }
 
 .section7 .plusButton

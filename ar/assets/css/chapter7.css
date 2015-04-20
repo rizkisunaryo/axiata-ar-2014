@@ -633,6 +633,25 @@
 	
 }
 
+.section5 .content
+{
+	width:960px;
+	height:550px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#fff;
+	border:1px solid black;
+	
+}
+.section6
+{
+	width:960px;
+	min-height:30px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#fff;
+}
+
 
 
 
@@ -696,13 +715,13 @@ p
 .iframecontent
 {
 	width:900px;
-	
 	background-color:#ffffff;
-	margin:-30px auto;
+	margin:180px auto;
 	overflow:hidden;
 	z-index:30;
-	
+	margin-bottom:-110px;
 }
+
 .iframecontent .nheader
 {
 	font-size:25px;
