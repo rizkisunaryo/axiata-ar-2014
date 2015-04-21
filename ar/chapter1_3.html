@@ -152,24 +152,24 @@
         animateGraphLine(1);
         animateGraphLine(2);
 			});
-
-			function animateGraphLine(graphNumber) {
-		    var selector = "#graphLine"+graphNumber;
-
-		    if ($('#scrollTriggerBottom').offset().top<$(selector).offset().top) {
-		        isGraphRowReached[graphNumber-1]=false;
-		        $(selector).css('width','0px');
-		    }
-		    else if ($('#scrollTriggerMiddle').offset().top>=$(selector).offset().top && !isGraphRowReached[graphNumber-1]) {
-		        isGraphRowReached[graphNumber-1]=true;
-		        $( selector ).animate({
-		            width: 900
-		        }, 3000, function() {
-		            // Animation complete.
-		        });
-		    }
-			}
 		});
+
+		function animateGraphLine(graphNumber) {
+	    var selector = "#graphLine"+graphNumber;
+
+	    if ($('#scrollTriggerBottom').offset().top<$(selector).offset().top) {
+	        isGraphRowReached[graphNumber-1]=false;
+	        $(selector).css('width','0px');
+	    }
+	    else if ($('#scrollTriggerMiddle').offset().top>=$(selector).offset().top && !isGraphRowReached[graphNumber-1]) {
+	        isGraphRowReached[graphNumber-1]=true;
+	        $( selector ).animate({
+	            width: 900
+	        }, 3000, function() {
+	            // Animation complete.
+	        });
+	    }
+		}
 		</script>
 		
 		
