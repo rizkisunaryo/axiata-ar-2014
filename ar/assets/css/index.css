@@ -8,14 +8,48 @@
 .section1
 {
 	width:960px;
-	height:730px;
-	background-color:#c2063b;
+	height:560px;
+	background-color:#fff;
 	margin:90px auto;
 	overflow:hidden;
 	z-index:30;
+	margin-bottom: 20px;
+	border-bottom:2px solid #c2063a;
+}
+
+.section1 .logo
+{
+	margin:-40px 0 0 680px;
+	width:235px;
+	height: 160px;
 	
 }
-.section1 img
+.section1 .img1
+{
+	margin:-150px 0 0 80px;
+	padding-bottom: 100px;
+}
+.section1 .img2
+{
+	margin:0 0 280px -650px;
+	
+}
+.section1 .prp
+{
+	margin:0 0 -80px 680px;
+}
+.section1 .ann
+{
+	margin:270px 0 -330px 660px;
+}
+.section1 .rationalkite
+{
+
+	display: block;
+	margin:500px 0 -500px 780px;
+
+}
+/*.section1 img
 {
 	display:block;
 	padding-left:350px;
@@ -42,7 +76,8 @@
 	color:#71001a;
 	margin-left:35px;
 	line-height:.8;
-}
+
+}*/
 
 
 .section2
@@ -52,12 +87,30 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff;
-	
+	padding:0 60px;
+	margin-bottom: -50px;
 }
+
+.section2 .filterBtn
+{
+	width:200px;
+	float:left;
+	margin:0 37px;
+	font-family: axiataBold;
+	font-size:26px;
+	color:#c2063a;
+	cursor: pointer;
+}
+.section2 .filterBtn.active
+{
+	color:#0f529f;
+}
+
+
 
 .section3
 {
-	width:960px;
+	width:940px;
 	min-height:700px;
 	margin:0 auto;
 	overflow:hidden;
@@ -90,17 +143,17 @@
 
 .green
 {
-	background:green;
+	background:#fff;
 }
 
 .blue
 {
-	background:blue;
+	background:#fff;
 }
 
 .red
 {
-	background:red;
+	background:#fff;
 }
 
 
@@ -210,32 +263,306 @@
 
 
 
-
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width:100px;
-  margin:10px;
+.menu1
+{
+	/*background:#ffffff url("../img/index/map.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu2
+{
+	/*background:#ffffff url("../img/index/group-profile.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu3
+{
+	/*background:#ffffff url("../img/index/performance_kite.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu4
+{
+	/*background:#ffffff url("../img/index/menu4.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu5
+{
+	/*background:#ffffff url("../img/index/financial-highlights.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu6
+{
+	/*background:#ffffff url("../img/index/shaping_the_future.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu7
+{
+	/*background:#ffffff url("../img/index/chairman.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu8
+{
+	/*background:#ffffff url("../img/index/president-and-gceo.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu9
+{
+	/*background:#ffffff url("../img/index/strategic-journey-towards.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu10
+{
+	/*background:#ffffff url("../img/index/five-year-group-financial.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu11
+{
+	/*background:#ffffff url("../img/index/financial_performance.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu12
+{
+	/*background:#ffffff url("../img/index/reported.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu13
+{
+	/*background:#ffffff url("../img/index/summury.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu14
+{
+	/*background:#ffffff url("../img/index/corporate_profile.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu15
+{
+	/*background:#ffffff url("../img/index/profile-of-directors.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu16
+{
+	/*background:#ffffff url("../img/index/profile-management-team.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu17
+{
+	/*background:#ffffff url("../img/index/board.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu18
+{
+	/*background:#ffffff url("../img/index/share.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu19
+{
+	/*background:#ffffff url("../img/index/investment_performance.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu20
+{
+	/*background:#ffffff url("../img/index/prudent.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu21
+{
+	/*background:#ffffff url("../img/index/investor.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu22
+{
+	/*background:#ffffff url("../img/index/opco.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu23
+{
+	/*background:#ffffff url("../img/index/telcom.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu24
+{
+	/*background:#ffffff url("../img/index/xxxl.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu25
+{
+	/*background:#ffffff url("../img/index/dialog1.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu26
+{
+	/*background:#ffffff url("../img/index/robi1.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu27
+{
+	/*background:#ffffff url("../img/index/smart.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu28
+{
+	/*background:#ffffff url("../img/index/m1.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu29
+{
+	/*background:#ffffff url("../img/index/idea.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu30
+{
+	/*background:#ffffff url("../img/index/multinet.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu31
+{
+	/*background:#ffffff url("../img/index/new_business.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu32
+{
+	/*background:#ffffff url("../img/index/axiata-digital.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu33
+{
+	/*background:#ffffff url("../img/index/edotco.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu34
+{
+	/*background:#ffffff url("../img/index/finsta.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu35
+{
+	/*background:#ffffff url("../img/index/governance.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu36
+{
+	/*background:#ffffff url("../img/index/stmnt.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu37
+{
+	/*background:#ffffff url("../img/index/stmnt2.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu38
+{
+	/*background:#ffffff url("../img/index/agm.png") center center no-repeat;*/
+	background-size: 100% 100%;
+}
+.menu39
+{
+	/*background:#ffffff url("../img/index/sus.png") center center no-repeat;*/
+	background-size: 100% 100%;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+
+
+
+
+
+
+
+#kite-small {
+	-webkit-animation-name: kite-small-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 1.5s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-small-animation;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari */
+@-webkit-keyframes kite-small-animation {
+    0%   {left:115px;}
+    100%   {left:105px;}
+}
+
+/* Standard syntax */
+@keyframes kite-small-animation {
+	0%   {left:115px;}
+    100%   {left:105px;}
+}
+
+.kite-medium {
+	-webkit-animation-name: kite-medium-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 4s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-medium-animation;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}
+
+/* Safari */
+@-webkit-keyframes kite-medium-animation {
+    0%   {top:215px;margin-left:-650px;}
+    100%   {top:285px;margin-left:-670px;}
+}
+
+/* Standard syntax */
+@keyframes kite-medium-animation {
+	0%   {top:295px;}
+    100%   {top:285px;}
+}
+
+.kite-big {
+	-webkit-animation-name: kite-big-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 1.5s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-big-animation;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: inline-block;
+}
+
+/* Safari */
+@-webkit-keyframes kite-big-animation {
+    0%   {margin-top:-110px; margin-left:70px;}
+    100%   {margin-top:-90px;}
+}
+
+/* Standard syntax */
+@keyframes kite-big-animation {
+    0%   {margin-top:-130px; margin-left:130px;}
+    100%   {margin-top:-100px;}
+}
+
+
+
+#img-menu #img-opacity {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    opacity:0;
+}
+
+#img-menu:hover > #img-opacity {
+    opacity:0.5;
+}
+
+#img-menu #img-desc {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    opacity: 0;
+    top:50px;
+}
+
+#img-menu:hover > #img-desc {
+    opacity: 1;
+    top:0;
 }
