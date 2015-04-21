@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: axiataBold;
+    src: url(../fonts/AxiataBold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: axiataBook;
+    src: url(../fonts/AxiataBook2.ttf);
+}
