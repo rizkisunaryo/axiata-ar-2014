@@ -1,0 +1,23 @@
+*{
+  font-family: axiataBook, Arial;
+  font-size:16px;
+  line-height:100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.title {
+  font-family: axiataBold, Arial Bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.maroonColor {
+  color: #c40d42;
+}
+
+.grey8Color {
+  color: #8a8c8f;
+}
