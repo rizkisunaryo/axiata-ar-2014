@@ -26,8 +26,9 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<a onclick="javascript: window.history.back();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					
 					
 					<div class="animatedParent">
 						<div class="dropDownMenu animated bounceInDown">
@@ -89,7 +90,9 @@
 		<div id="movingSectionContainer">
 			
 			<div class="section8">
-				<div class="leftSection">
+				
+				<div class="rightSection">	
+									<div class="leftSection">
 					<div class="textMovingContainer">
 						<div class="text">
 							<h1 class="sectionTitle">Singapore<br/>M1 Limited</h1>
@@ -133,12 +136,7 @@
 							</p>
 						</div>
 					</div>
-					<img class="topImg" src="../assets/img/chapter6/section8/leftsticker.png" />
 				</div>
-					
-					
-				<div class="rightSection">
-					
 				</div>
 				
 			</div>
@@ -427,7 +425,7 @@
 				offset: 120,
 				duration: h-10
 			})
-			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 400 : -950}) // trigger a TweenMax.to tween
+			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 400 : -850}) // trigger a TweenMax.to tween
 			.addTo(controller);
 		}
 		

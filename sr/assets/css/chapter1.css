@@ -559,6 +559,65 @@
 
 
 
+.section7
+{
+	width:960px;
+	min-height:900px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff;
+	
+}
+
+
+.section7 .header0
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-10px;	
+}
+
+.section7 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:10px;	
+}
+.section7 .paragraph
+{
+	font-size:16px;
+	font-family:axiataBook;
+	color:#4d4d4f;
+	margin-left:50px;
+	margin-top:5px;
+	z-index:101;
+	text-align: justify;
+	width:865px;
+	margin-bottom: -30px;
+}
+.section7 .paragraph b
+{
+	font-family:axiataBold;
+}
+.section7 .secImage
+{
+	margin-left:-177px;
+	width:196px;
+}
+.section7 .secImage:first-of-type
+{
+	margin-left:50px;
+	width:196px;
+}
+
+
+
+
+
 .firstMargin
 {
 	margin-top:100px !important;
