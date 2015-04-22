@@ -23,6 +23,7 @@
             </div>
         </div>
 
+
         <div class="rel">
              <div class="col col50">
                 <p class="axiataBold text__color--lightred font10">Total Assets</p>
@@ -66,6 +67,7 @@
         </div>
     </div>
 </div>
+
 <?php
     include("../inc/footer.php");
 ?>

@@ -1,0 +1,149 @@
+#movingSectionContainer{
+    
+}
+.section{
+ width: 960px;
+    border: 1px solid #c40c42;
+    min-height: 719px;
+    font-family: axiataBold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.section1{
+    margin: 90px auto;
+    padding-left: 55px;
+    padding-top: 35px;
+    padding-right: 63px;
+    padding-bottom: 0px;
+    
+}
+
+.report_geographical_locations_img{
+    height: 516px;
+    width: 910px;
+    background-image: url(../../img/chapter2/MergedLayers_tablet_building.png);
+    background-position: 10px;
+    background-position: -33px;
+    background-position-y: -180px;
+}
+.report_geographical_locations_title{
+    height: 151px;
+    width: 469px;
+    z-index: 100;
+    padding: 0px; margin: 0px;
+    color: #c40c42;
+}
+.report_geographical_locations_title p{
+    padding: 0px; margin: -7px;
+}
+.report_geographical_locations_title .small_txt{ font-size:40px; font-weight: bolder; }
+.report_geographical_locations_title .big_txt{ font-size: 60px;  font-weight: bold;}
+
+.chart_container{
+    position: relative;
+}
+.report_chart{
+    position: absolute;
+    
+/*    border: 1px solid black;*/
+}
+.report_chart_1{
+    width: 248px;
+    height: 170px;
+    top: 22px;
+    left: 77px;
+    
+}
+.report_chart_2{
+    width: 250px;
+    height: 154px;
+    top:10px;
+    left:611px;
+    
+}
+.report_chart_3{
+    width: 253px;
+    height: 152px;
+    top:222px;
+    left:270px;
+    
+}
+.report_chart_4{
+    width: 250px;
+    height: 154px;
+    top:179px;
+    left:617px;
+    
+}
+.report_chart_5{
+    width: 248px;
+    height: 142px;
+    top:359px;
+    left:617px;
+    
+}
+.report_chart .float-txt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.report_chart .float-txt p{
+    margin: 0px;
+}
+.blue{color: #007dc6;}
+.orange{color: #f28a23;}
+.red{color: #b5073b;}
+.blue-dark{color: #16479e;}
+.green{color: #008942;}
+.inline{display: inline-block;} 
+.center{text-align: center;}
+.clined-45{
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg); 
+}
+.report_chart .big_txt{
+    font: 400 12.26px AxiataBold;
+}
+.report_chart .small_txt{
+    color: #6d6e71;
+    font-size: 9.26px;
+}
+.report_chart .zoom-in {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 22px;
+    height: 19px;
+    background: url(../../img/chapter2/Zoom-in-Icon.png);/>
+}
+.report_chart .graphs{
+    height: 130px;}
+.report_chart .graphs-footnote {
+    height: 10px;
+}
+.report_chart .graphs-x-timeline {
+    border-top: 1px solid #6d6e71;
+    color: #6d6e71;
+}
+.report_chart .graphs-x-timeline p{
+    width: 19%;
+    width: 18%;
+    font-size: 9.26px;
+}
+.bar-triangles-container{
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+}
+.bar-triangles-container .bars{
+    display: inline-block;
+    margin-right: 
+}
+.bar-triangles{
+    width: 24px;
+    height: 100px;
+    background: blue;
+    display: inline-block;
+    position: absolute;
+    margin: 0px;
+}
