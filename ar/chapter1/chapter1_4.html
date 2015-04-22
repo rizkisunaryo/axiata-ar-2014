@@ -116,19 +116,21 @@
           <div id="graph3TriggerTop" style="position:absolute; top:-370px;"></div>
           <div id="graph3TriggerBottom" style="position:absolute;"></div>
           <div style="position:relative; width:590px; margin:0 auto; margin-top:800px;">
-            <div style="position:relative; width:590px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
-            <div id="graph31" style="position:absolute; top:-6px; left:34px;"></div>
-            <div id="graph32" style="position:absolute; top:-6px; left:156px;"></div>
-            <div id="graph33" style="position:absolute; top:-6px; left:278px;"></div>
-            <div id="graph34" style="position:absolute; top:-6px; left:400px;"></div>
-            <div id="graph35" style="position:absolute; top:-6px; left:522px;"></div>
-            <div style="position:relative; left:47px;" class="graphRow3Year">
-              <div class="graphYear" style="position:relative; top:-129px; left:-55px;">2010</div>
-              <div class="graphYear" style="position:relative; top:-145px; left:67px;">2011</div>
-              <div class="graphYear" style="position:relative; top:-162px; left:188px;">2012</div>
-              <div class="graphYear" style="position:relative; top:-178px; left:312px;">2013</div>
-              <div class="graphYear" style="position:relative; top:-194px; left:431px;">2014</div>
-            </div>
+          	<div style="position:relative; left:-35px;">
+	            <div style="position:relative; width:590px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
+	            <div id="graph31" style="position:absolute; top:-6px; left:34px;"></div>
+	            <div id="graph32" style="position:absolute; top:-6px; left:156px;"></div>
+	            <div id="graph33" style="position:absolute; top:-6px; left:278px;"></div>
+	            <div id="graph34" style="position:absolute; top:-6px; left:400px;"></div>
+	            <div id="graph35" style="position:absolute; top:-6px; left:522px;"></div>
+	            <div style="position:relative; left:47px;" class="graphRow3Year">
+	              <div class="graphYear" style="position:relative; top:-129px; left:-55px;">2010</div>
+	              <div class="graphYear" style="position:relative; top:-145px; left:67px;">2011</div>
+	              <div class="graphYear" style="position:relative; top:-162px; left:188px;">2012</div>
+	              <div class="graphYear" style="position:relative; top:-178px; left:312px;">2013</div>
+	              <div class="graphYear" style="position:relative; top:-194px; left:431px;">2014</div>
+	            </div>
+	          </div>
           </div>
         </div>
       </div>
@@ -194,6 +196,9 @@
 	    }
 	    else if ($('#scrollTriggerBottom').offset().top<$('#graph3TriggerTop').offset().top) {
 	        isGraphRow3Reached[booleanNumber]=false;
+	        graph3ToFunctionArray.forEach(function(entry) {
+            clearTimeout(entry);
+        	});
 	        $(selector).html('');
 	    }
 		}
