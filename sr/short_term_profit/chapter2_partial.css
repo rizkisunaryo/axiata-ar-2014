@@ -1,0 +1,224 @@
+.txt_15{
+    font-size: 15px;
+}   
+.cover_big_text {
+    width: 550px;
+/*    //line-height: 48.03px;*/
+    position: relative;
+     margin-top: 36px;
+     color: #ffffff;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+.bolder{
+    font-weight:bolder;
+}
+
+.cover_big_text ._txt1 {
+      font-size: 57px;
+  color: #be5117;
+  font-weight: bold;
+}
+.section2 ._txt2 {
+      font-size: 26px;
+}
+
+
+.section2 ._txt1{
+ font-size:25px;   
+}
+.cover_big_text p{
+      margin-bottom: -34px;
+
+}
+p{
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.cover_big_text ._txt2 {
+    font-size: 115.43px;
+      font-weight: bolder;
+      
+}
+.cover_big_text ._txt3 {
+      font-size: 74px;
+  font-weight: bold;
+}
+
+.cover_big_text ._txt4 {
+    font-weight: bolder;
+  font-size: 116px;
+    
+}
+
+.white {
+    color: #fff;
+}
+
+.thin {
+    font-weight: 100;
+    text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+}
+
+.cover_intro {
+    font-size: 15.5px;
+}
+
+.cover_intro .intro_title {
+        font-weight: 900;
+      font-size: 1.09em;
+      margin-bottom: 10px;
+}
+
+.small_margin {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.float-right {
+    float: right;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.title_improvement {
+    margin-top: 25px;
+}
+
+.subscribers_amount .title {
+ font-size: 41.25px;   
+}
+.subscribers_amount .desc {
+ font-size: 15px;   
+}
+
+.improvement_big {
+    font-size: 41px;
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+    margin-left: 66px;
+}
+.icons_first_row {
+    border-bottom: 4px dashed white;  
+}
+
+.icons_first_row .second_col {
+padding-left: 37px;
+    padding-bottom: 17px;
+}
+.icons_second_row .second_col {
+
+    margin-left: 68px;
+    margin-top: 24px;
+    height: 170px;
+    
+}
+.icons_second_row .third_col {
+    margin-left: 121px;
+    margin-top: 34px;   
+    margin-right: 51px;
+    height: 170px;
+    border-right: 4px dashed white;
+}
+.icons_first_row .first_col {
+
+border-right: 4px dashed white;
+  padding: 17px;
+ padding-left: 0px;
+    
+}
+
+.icons_second_row .firs_col {
+    
+}
+.icons_third_row ._col{
+}    
+.icons_third_row ._col{
+ }   
+.icons_third_row ._col{
+    
+}
+.icons_forth_row{
+    
+}
+
+.Improv_icon_percentage {
+    font-size:50px;
+    font-weight: bolder;
+}
+
+.Improv_icon_percentage_desc {
+    font-size: 15.25px;
+}
+
+.improv_icon_perc_bx {
+    min-width: 258px;
+}
+
+.icons_n_images {
+    margin-top: 6px;
+}
+
+.Innovation_big_title,.icons_big_title {
+    font-size: 41px;
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+}
+.icons_big_title.impact{
+    right: 0px;
+}
+
+.secrow_dig_incl, .RX_million, .RX_million_rnetwork, .RX_million_adif{
+    width: 70px;
+    height: 67px;
+    text-align: right;
+    margin-right: 16px;
+}
+.RX_million_adif{
+width: 80px;
+    height: 48px;
+}
+.RX_million_rnetwork{
+    width: 121px;
+    height: 66px;
+}
+
+
+.dig_commerce_photo_title {
+    width: 86px;
+    
+    margin-left: 16px;
+    padding-bottom: 17px;
+}
+
+.col {
+    display: inline-block;
+}
+
+.icons_n_images .icons_second_row {
+ 
+    height: 170px;   
+    
+}
+
+.icons_n_images .icons_third_row {
+ border-top: 4px dashed white;   
+}
+
+.first_col .RX_million {
+    width: 90px;
+    height: 101px;
+    
+}
