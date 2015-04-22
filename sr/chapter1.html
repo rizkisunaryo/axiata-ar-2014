@@ -218,10 +218,12 @@
 					<br/><br/><br/>
 				</div>
 
-				<div class="rightSection">
-					<h1 class="header0">serving over</h1>
-					<h1 class="header1">260<br/>million</h1>	
-					<h1 class="header2">people</h1>
+				<div class="rightSection animatedParent">
+					<div class="animated growIn">
+						<h1 class="header0">serving over</h1>
+						<h1 class="header1">260<br/>million</h1>	
+						<h1 class="header2">people</h1>
+					</div>
 				</div>
 				<div style="clear:both;"></div>
 			</div>
@@ -270,6 +272,25 @@
 				</div>
 				
 				<br/><br/><br/><br/>
+			</div>
+
+
+			<div class="section7">
+				<h1 class="header1">The Management</h1>
+				
+				<h1 class="header0">Approach</h1>
+				<div class="paragraph">
+					In our 2013 Report we introduced Axiata’s commitment to triple bottom line management (economic, environmental and social) in line with our broader goal of Advancing Asia. Our approach is driven by our four sustainability pillars: ‘Beyond Short Term Profits’, ‘Nurturing People’, ‘Process Excellence’ and ‘Planet &amp; Society’. In 2014, we continued to refine our approach to sustainability, fine-tuning the operations under each of these pillars. Each of our OpCos follow a similar approach in line with the Group’s overall approach to sustainability, making relevant modifications, to cater to their respective markets. Their respective sustainability reports contain this detail. 
+					<br/><br/>
+					Over the last year, three key changes were made to our central sustainability pillars. The changes are depicted in the diagram below. 
+					
+				</div>
+				<br/><br/><br/>
+				<img class="secImage" src="assets/img/chapter1/1.png" />
+				<img class="secImage" src="assets/img/chapter1/2.png" />
+				<img class="secImage" src="assets/img/chapter1/3.png" />
+				<img class="secImage" src="assets/img/chapter1/4.png" />
+				<br/><br/><br/>
 			</div>
 
 
@@ -433,6 +454,15 @@
 				})
 				.setTween('.section2 .movingText', 1, {marginTop: -120,marginBottom:120})
 				.addTo(controller);
+
+		new ScrollMagic.Scene({
+							triggerElement: '.section7 .header1',
+							triggerHook: 'onLeave',
+							offset: -90,
+							duration:300
+						})
+						.setTween('.section7 .secImage:not(:first)', 4, {marginLeft: 22})
+						.addTo(controller);
 
 
 		/*new ScrollMagic.Scene({
