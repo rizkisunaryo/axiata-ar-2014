@@ -26,8 +26,8 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<a onclick="javascript: window.history.back();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
 					
 					<div class="animatedParent">
 						<div class="dropDownMenu animated bounceInDown">
@@ -92,52 +92,50 @@
 			
 			
 			<div class="section7">
-				<div class="leftSection">
-					<div class="textMovingContainer">
-						<div class="text">
-							<h1 class="sectionTitle">India <br/>Idea Cellular Limited</h1>
-							<p class="sectionContent firstMargin">
-								Over <span class="bolder">150 million</span> subscribers; Ranks <span class="bolder">6th</span> globally in terms of subscribers in a <span class="bolder">single country</span> operations
-							</p>
-							<hr class="ruler" />
-							<p class="sectionContent">
-								Highest net addition of over <span class="bolder">22 million</span> subscribers (VLR) in <span class="bolder">CY2014</span>
-							</p>
-							<hr class="ruler" />
-							<p class="sectionContent">
-								National <span class="bolder">Leader</span> in Mobile Number Portability (MNP) with over <span class="bolder">12 million</span> net adds
-							</p>
-							<hr class="ruler" />
-							<p class="sectionContent">
-								CAGR of <span class="bolder">17.1%</span> in revenue, almost double that of industry over the <span class="bolder">last 4 years</span>
-							</p>
-							<hr class="ruler" />
-							<br/>
-							<p class="sectionContent">
-								<b>About Idea</b>
-							</p>
-							<br/>
-							<p class="longsectionContent">
-								Idea is an Aditya Birla Group company, India’s first truly multinational corporation. The group operates in 36 countries, with more than 120,000 employees belonging to 42 nationalities. Idea is a publicly listed company, listed on the Bombay Stock Exchange and National Stock Exchange. <br/><br/>
-
-								Idea is one of the top three mobile operators in India, with an annual revenue of USD5 billion and revenue market share of over 17%. With over 150 million subscribers, Idea ranks sixth in global rankings of operators in subscriber terms, for a single country operations. <br/><br/>
-
-								Idea offers pan-India 2G, 3G services and is future-ready with 4G spectrum in major markets. It has its own National Long Distance (NLD) and International Long Distance (ILD) operations, and an Internet Service Provider (ISP) license. Idea offers Mobile Banking Services through a Bank-led model, under the name ‘Idea Money’, in select markets. <br/><br/>
-
-								Idea’s robust network coverage is available in over 350,000 towns and villages through a network of 132,769 2G and 3G cell sites. Using the latest technology, Idea provides world-class service delivery through the most extensive network of service centres, including over 6,120 exclusive Idea stores. <br/><br/>
-
-								Idea’s strong growth in the Indian telephony market is supported by its high penetration in non-urban and rural markets. <br/><br/>
-
-								<a class="readMore" href="#">Read More</a> <br/><br/><br/><br/>
-							</p>
-						</div>
-					</div>
-					<img class="topImg" src="../assets/img/chapter6/section7/leftsticker.png" />
-				</div>
+				
 					
 					
 				<div class="rightSection">
-					
+					<div class="leftSection">
+						<div class="textMovingContainer">
+							<div class="text">
+								<h1 class="sectionTitle">India <br/>Idea Cellular Limited</h1>
+								<p class="sectionContent firstMargin">
+									Over <span class="bolder">150 million</span> subscribers; Ranks <span class="bolder">6th</span> globally in terms of subscribers in a <span class="bolder">single country</span> operations
+								</p>
+								<hr class="ruler" />
+								<p class="sectionContent">
+									Highest net addition of over <span class="bolder">22 million</span> subscribers (VLR) in <span class="bolder">CY2014</span>
+								</p>
+								<hr class="ruler" />
+								<p class="sectionContent">
+									National <span class="bolder">Leader</span> in Mobile Number Portability (MNP) with over <span class="bolder">12 million</span> net adds
+								</p>
+								<hr class="ruler" />
+								<p class="sectionContent">
+									CAGR of <span class="bolder">17.1%</span> in revenue, almost double that of industry over the <span class="bolder">last 4 years</span>
+								</p>
+								<hr class="ruler" />
+								<br/>
+								<p class="sectionContent">
+									<b>About Idea</b>
+								</p>
+								<br/>
+								<p class="longsectionContent">
+									Idea is an Aditya Birla Group company, India’s first truly multinational corporation. The group operates in 36 countries, with more than 120,000 employees belonging to 42 nationalities. Idea is a publicly listed company, listed on the Bombay Stock Exchange and National Stock Exchange. <br/><br/>
+
+									Idea is one of the top three mobile operators in India, with an annual revenue of USD5 billion and revenue market share of over 17%. With over 150 million subscribers, Idea ranks sixth in global rankings of operators in subscriber terms, for a single country operations. <br/><br/>
+
+									Idea offers pan-India 2G, 3G services and is future-ready with 4G spectrum in major markets. It has its own National Long Distance (NLD) and International Long Distance (ILD) operations, and an Internet Service Provider (ISP) license. Idea offers Mobile Banking Services through a Bank-led model, under the name ‘Idea Money’, in select markets. <br/><br/>
+
+									Idea’s robust network coverage is available in over 350,000 towns and villages through a network of 132,769 2G and 3G cell sites. Using the latest technology, Idea provides world-class service delivery through the most extensive network of service centres, including over 6,120 exclusive Idea stores. <br/><br/>
+
+									Idea’s strong growth in the Indian telephony market is supported by its high penetration in non-urban and rural markets. <br/><br/>
+
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				
 			</div>
@@ -467,7 +465,7 @@
 				offset: 120,
 				duration: h-10
 			})
-			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 400 : -540}) // trigger a TweenMax.to tween
+			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 400 : -340}) // trigger a TweenMax.to tween
 			.addTo(controller);
 		}
 		

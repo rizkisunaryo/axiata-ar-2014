@@ -26,8 +26,9 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<a onclick="javascript: window.history.back();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					
 					
 					<div class="animatedParent">
 						<div class="dropDownMenu animated bounceInDown">
@@ -91,46 +92,7 @@
 			
 			
 			<div class="section6">
-				<div class="leftSection">
-					<div class="textMovingContainer">
-						<div class="text">
-							<h1 class="sectionTitle">Cambodia<br/>Smart Axiata Co., Ltd</h1>
-							<p class="sectionContent firstMargin">
-								<span class="bolder">1<sup>st</sup></span> and only telco in Cambodia to launch 4G LTE 
-							</p>
-							<hr class="ruler" />
-							<p class="sectionContent">
-								<span class="bolder">1<sup>st</sup></span> and only telco in Cambodia to offer Apple iPhone 6
-							</p>
-							<hr class="ruler" />
-
-							<p class="sectionContent">
-								<span class="bolder">Exclusive partnership</span> with Universal Music
-							</p>
-							<hr class="ruler" />
-
-							
-							<p class="sectionContent">
-								Expansion of retail and dealer footprints
-							</p>
-							<hr class="rulert" />
-
-							<br/>
-							<p class="sectionContent">
-								<b>About Smart</b>
-							</p>
-							<br/>
-							<p class="longsectionContent">
-								Smart is Cambodia’s second largest mobile telecommunications company serving over 6.5 million subscribers under the ‘Smart’ brand. In January 2014, Smart launched its 4G LTE network and became the first mobile operator in Cambodia to provide full 4G services. Smart also provides 2G, 2.5G, 3G and 3.75G mobile services, supporting the very latest in multimedia and mobile Internet services as well as international roaming across more than 150 countries. Its extensive nationwide network coverage is available in all 25 provinces of Cambodia.<br/><br/>
-			 
-								The company’s workforce consists of more than 900 people including local and foreign talents. Smart is committed to its customers, employees and the people of Cambodia in delivering its promise of improving their lives, “Live. Life. Be Smart.<br/><br/>
-
-								<a class="readMore" href="#">Read More</a> <br/><br/><br/><br/>
-							</p>
-						</div>
-					</div>
-					<img class="topImg" src="../assets/img/chapter6/section6/leftsticker.png" />
-				</div>
+				
 					
 					
 				<div class="rightSection">
@@ -139,6 +101,50 @@
 					</div>
 					<img src="../assets/img/chapter6/section6/rightArrow.png" id="nextVideoButton5" />
 					<img src="../assets/img/chapter6/section6/leftArrow.png"  id="prevVideoButton5" />
+				
+
+					<div class="leftSection">
+						<div class="textMovingContainer">
+							<div class="text">
+								<h1 class="sectionTitle">Cambodia<br/>Smart Axiata Co., Ltd</h1>
+								<p class="sectionContent firstMargin">
+									<span class="bolder">1<sup>st</sup></span> and only telco in Cambodia to launch 4G LTE 
+								</p>
+								<hr class="ruler" />
+								<p class="sectionContent">
+									<span class="bolder">1<sup>st</sup></span> and only telco in Cambodia to offer Apple iPhone 6
+								</p>
+								<hr class="ruler" />
+
+								<p class="sectionContent">
+									<span class="bolder">Exclusive partnership</span> with Universal Music
+								</p>
+								<hr class="ruler" />
+
+								
+								<p class="sectionContent">
+									Expansion of retail and dealer footprints
+								</p>
+								<hr class="rulert" />
+
+								<br/>
+								<p class="sectionContent">
+									<b>About Smart</b>
+								</p>
+								<br/>
+								<p class="longsectionContent">
+									Smart is Cambodia’s second largest mobile telecommunications company serving over 6.5 million subscribers under the ‘Smart’ brand. In January 2014, Smart launched its 4G LTE network and became the first mobile operator in Cambodia to provide full 4G services. Smart also provides 2G, 2.5G, 3G and 3.75G mobile services, supporting the very latest in multimedia and mobile Internet services as well as international roaming across more than 150 countries. Its extensive nationwide network coverage is available in all 25 provinces of Cambodia.<br/><br/>
+				 
+									The company’s workforce consists of more than 900 people including local and foreign talents. Smart is committed to its customers, employees and the people of Cambodia in delivering its promise of improving their lives, “Live. Life. Be Smart.<br/><br/>
+
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+
+
 				</div>
 				
 			</div>
@@ -224,7 +230,7 @@
 	var videos4 = ["https://www.youtube.com/embed/E54QNBU5c1Q", "https://youtube.com/embed/nNBl4poH1Jo", "https://youtube.com/embed/qcAYebbKrGg"];
 	var video4Index=0;
 	
-	var videos5 = ["https://www.youtube.com/embed/E54QNBU5c1Q", "https://youtube.com/embed/nNBl4poH1Jo", "https://youtube.com/embed/qcAYebbKrGg"];
+	var videos5 = ["https://www.youtube.com/embed/E54QNBU5c1Q?autohide=1&controls=0&showinfo=0&theme=dark", "https://youtube.com/embed/nNBl4poH1Jo?autohide=1&controls=0&showinfo=0&theme=dark", "https://youtube.com/embed/qcAYebbKrGg?autohide=1&controls=0&showinfo=0&theme=dark"];
 	var video5Index=0;
 	
 	function changeVideoFrame(frameSelector,videoArray,index){
@@ -426,7 +432,7 @@
 				offset: 120,
 				duration: h-10
 			})
-			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 170 : -450}) // trigger a TweenMax.to tween
+			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 100 : -450}) // trigger a TweenMax.to tween
 			.addTo(controller);
 		}
 		
