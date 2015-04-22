@@ -67,8 +67,13 @@ canvas.triangleRightBlue {
 .graphSection
 {
 	width:960px;
-	height:730px;
-	background:#ffffff url("../img/chapter6/section2/graph1.png") no-repeat top center;
+	background-image:url("../img/chapter6/section2/graph1.png"),
+			   		 url("../img/chapter6/section9/rightBack.png");
+    background-position:   top center,
+	    				   right bottom;
+	background-repeat: no-repeat;
+
+
 	margin:0 auto;
 	overflow:hidden;
 	z-index:30;
@@ -135,8 +140,116 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:270px;
-	margin-left: 88px;
+	margin-left: 100px;
 	width:20px;
 	display: inline;
 	height:200px;
+}
+.graphSection #bar8
+{
+	position: relative;
+	top:270px;
+	margin-left: 53px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar9
+{
+	position: relative;
+	top:270px;
+	margin-left: 97px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar10
+{
+	position: relative;
+	top:270px;
+	margin-left: 50px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar11{
+	position: relative;
+	top:270px;
+	margin-left: 100px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar12
+{
+	position: relative;
+	top:270px;
+	margin-left: 48px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+
+.graphSection .paragraph1 .title1:first-of-type
+{
+	margin-top: 410px;
+}
+.graphSection .paragraph1 .title1
+{
+	color:#007dc6;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+}
+.graphSection .paragraph1 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+}
+
+.graphSection .paragraph2 .sideTitle
+{
+	color:#007dc6;
+	font-size: 21px !important;
+	font-family: axiataBold;
+	margin-left: 50px;
+	width:370px;
+	margin-top: -550px;
+	margin-bottom: -100px;
+}
+.graphSection .paragraph2 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 455px;
+	text-align: justify;
+	width:500px;
+}
+
+.graphSection .paragraph3 .sideTitle
+{
+	color:#007dc6;
+	font-size: 21px !important;
+	font-family: axiataBold;
+	margin-left: 590px;
+	width:370px;
+	margin-top: -730px;
+	margin-bottom: 600px; 
+}
+.graphSection .paragraph3 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+	width:500px;
+}
+.minusMargin
+{
+ position: relative;
 }
