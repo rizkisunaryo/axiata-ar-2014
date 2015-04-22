@@ -1,0 +1,81 @@
+@import url("navbar.css");
+@import url("fonts.css");
+
+.col{float:left}
+.col20{width:20%}
+.col80{width:80%}
+.text-center{text-align:center}
+.text-right{text-align:right}
+.text-justify{text-align:justify}
+.float-left{float:left}
+.float-right{float:right}
+.rel{
+    position: relative;
+}
+
+.removeMargin{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.text__color--black{
+    color: #000;
+}
+.text__color--white{
+    color: #fff;
+}
+.text__color--dark-blue{
+    color: #001c5b;
+}
+.text__color--grey{
+    color: #58595b;
+}
+
+.axiataBold{
+    font-family: axiataBold;
+}
+.axiataBook{
+    font-family: axiataBook;
+}
+
+
+.font14{  font-size: 14px;  }
+.font15{  font-size: 15px;  }
+.font20{  font-size: 20px;  }
+.font57{  font-size: 57px;  }
+.font79{  font-size: 79px;  }
+.font120{  font-size: 120px;  }
+
+.lineHeight100{ line-height: 100%;}
+
+.divider{
+    width: 1080px;
+    height: 2px;
+    border: 0;
+    background: #e7eaec;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 45px 60px;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    font-family: axiataBook;
+    font-size: 16px;
+    z-index: 30;
+
+}
+
+.section--blue{
+    min-height: 982px;
+    background: #1e408f;
+}
+.section--blue-bg{
+    background: #1e408f url(../img/chapter8/background.png) no-repeat top right;
+}
+
+.section--map{
+    min-height: 1198px;
+    background: #ffffff url(../img/chapter8/ch8-map.png) no-repeat top left;
+}

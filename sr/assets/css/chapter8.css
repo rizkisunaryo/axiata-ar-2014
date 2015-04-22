@@ -1,0 +1,22 @@
+.ch8_news-container{
+    display: inline-block;
+}
+
+.ch8_news-title{
+    font-size: 17px;
+    color: #144091;
+    font-family: axiataBold;
+}
+
+.ch8_news-readmore{
+    font-size: 17px;
+    color: #d91b5c;
+    font-family: axiataBold;
+}
+
+
+.ch8_news-content{
+    font-size: 15px;
+    color: #58595b;
+    text-align: justify;
+}
