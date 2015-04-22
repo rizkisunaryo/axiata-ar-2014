@@ -1,0 +1,12 @@
+#movingSectionContainer{
+    
+}
+.section{
+ width: 960px;
+background-color: #fe1;
+    min-height: 719px;
+    
+}
+.section1{
+    margin: 90px auto;
+}
