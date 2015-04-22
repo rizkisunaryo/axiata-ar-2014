@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce219a0-dbc3-48ef-a995-b742ef233f94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/performance/chapter2_8.php" afterPath="$PROJECT_DIR$/ar/performance/chapter2_8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/inc/footer.php" afterPath="$PROJECT_DIR$/ar/inc/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sr/assets/css/general.css" afterPath="$PROJECT_DIR$/sr/assets/css/general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/inc/header.php" afterPath="$PROJECT_DIR$/ar/inc/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bce219a0-dbc3-48ef-a995-b742ef233f94" name="Default" comment="" />
     <ignored path="axiata-ar-2014.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
