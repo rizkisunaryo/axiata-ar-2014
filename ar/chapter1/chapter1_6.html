@@ -9,9 +9,9 @@
 	
   <title>Axiata annual report</title>	
 	
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/chapter1_6.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <link rel="stylesheet" href="../assets/css/chapter1_6.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
  
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -26,8 +26,8 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
 					
 					<div class="animatedParent">
 						<div class="dropDownMenu animated bounceInDown">
@@ -74,9 +74,9 @@
 					</div>
 					
 				</div>
-				<img class="logoImg" src="assets/img/navbar/logo.png" />
+				<img class="logoImg" src="../assets/img/navbar/logo.png" />
 				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="assets/img/navbar/explore.png" />  &nbsp; 
+					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
 					
 				</div>
 			</div>	
@@ -97,7 +97,7 @@
 		<div id="scrollTrigger100" style="position:fixed; top:100%; z-index:1000;"></div>
 
 		<section id="ceo1Section" style="width:960px; margin:0 auto;">
-      <div id="ceo1BgDiv" style="position:relative; z-index:0; background:#ffffff url('images/future/03-ceo_1.png') no-repeat right bottom; height:857px;" class="center-content">
+      <div id="ceo1BgDiv" style="position:relative; z-index:0; background:#ffffff url('../assets/img/chapter1/6/03-ceo_1.png') no-repeat right bottom; height:857px;" class="center-content">
       </div>
       <div id="ceo1Text2" style="position:relative; padding:40px; z-index:10;">
       	<div>
@@ -121,6 +121,7 @@
           <br>
           <span class="title maroonColor">Transforming Our Core Business</span><br>
           <br>
+          <div id=""></div>
           The Group saw a mixed year with stellar results from most operating companies, especially Dialog, Robi and Smart, but Celcom’s previous exemplary track record was marred by its 2014 performance. Our affiliate, Idea, also performed extremely well.<br>
           <br>
           The Group recorded stable revenue growth of 1.9%, 4.4% at constant currency, to RM18.7 billion. Stellar growth was posted by Smart, XL and Idea, up by 36%, 10% and 19% respectively.<br>
@@ -137,16 +138,24 @@
           <br>
           Robi, Dialog and Smart performed much better than the industry. Together they now account for 23% of the Group’s revenue and 21% of the Group’s EBITDA compared to 17% and 12% respectively in 2013.
         </div>
+        <div id="ceo1Text1" style="position:relative; padding:30px; background-color:#000000; opacity:0.8; width:395px;">
+          <div style="position:relative;"><img src="../assets/img/chapter1/6/open-bracket.png"></div>
+          <div style="position:relative; font-size:22px; color:#ffffff;" class="title">Dear Shareholders,</div>
+          <div style="position:relative; font-size:18px; color:#ffffff; margin-top:10px;" class="title">
+            In 2014 we continued to reshape the Group to realise our 2015 vision of becoming a regional champion and a leader, meeting our long-term financial and non-financial objectives. To that effect, we have worked hard on the financial results for 2014 whilst also developing new long-term opportunities and initiatives.
+          </div>
+          <div style="position:relative; left:280px; margin-top:-17px;"><img src="../assets/img/chapter1/6/close-bracket.png"></div>
+        </div>
       </div>
     </section>
 		
-		<script src="assets/js/jquery.js"></script>
-	  <script src="assets/js/TweenMax.min.js"></script>
-	  <script src="assets/js/ScrollMagic.min.js"></script>
-	  <script src="assets/js/animation.gsap.js"></script>
-	  <script src="assets/js/viewportchecker.js"></script>
-	  <script src="assets/js/css3-animate-it.js"></script>
-	  <script src="assets/js/jquery.transit.min.js"></script>
+		<script src="../assets/js/jquery.js"></script>
+	  <script src="../assets/js/TweenMax.min.js"></script>
+	  <script src="../assets/js/ScrollMagic.min.js"></script>
+	  <script src="../assets/js/animation.gsap.js"></script>
+	  <script src="../assets/js/viewportchecker.js"></script>
+	  <script src="../assets/js/css3-animate-it.js"></script>
+	  <script src="../assets/js/jquery.transit.min.js"></script>
 		
 		<script type="text/javascript">
 	  $(function () {
@@ -161,11 +170,11 @@
 				exploreMoreOpened=!exploreMoreOpened;
 				if(exploreMoreOpened)
 				{
-					$('#explore').attr('src','assets/img/chapter4/navbar/close.png').transition({ rotate: '90deg' });
+					$('#explore').attr('src','../assets/img/chapter4/navbar/close.png').transition({ rotate: '90deg' });
 				}
 				else
 				{
-					$('#explore').attr('src','assets/img/chapter4/navbar/explore.png').transition({ rotate: '-90deg' });
+					$('#explore').attr('src','../assets/img/chapter4/navbar/explore.png').transition({ rotate: '-90deg' });
 				}
 				$('.dropDownMenu').hide();
 				$('.exploreMore').slideToggle();
