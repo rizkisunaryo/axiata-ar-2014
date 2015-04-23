@@ -30,8 +30,8 @@
                 <div class="small_txt">2014 & 2013</div>
                 <div class="big_txt">Operating</div>
                 <div class="big_txt">Revenue</div>
-            
-                    </div>
+                </div>
+                 <canvas id="hexagon"></canvas> 
             </div>
             <div class="graph">
                 <div class="title">
@@ -40,6 +40,7 @@
                 <div class="big_txt">Revenue</div>
             
                     </div>
+                <canvas id="hexagon"></canvas> 
             </div>
         </div>
     </div>
