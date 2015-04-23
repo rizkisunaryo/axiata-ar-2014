@@ -76,6 +76,7 @@
 .col80{width:80%}
 .col90{width:90%}
 .col98{width:98%}
+.col66{width:66.66666666667%}
 .img-responsive {
     display: block;
     height: auto;
@@ -90,6 +91,10 @@
     -webkit-padding-start: 0px;
 }
 
+.removeMargin--add-start-margin{
+    -webkit-padding-start: 1em;
+}
+
 .text__color--black{
     color: #000;
 }
@@ -97,6 +102,7 @@
 .text__color--dark-blue{  color: #001c5b;  }
 .text__color--grey{  color: #58595b;  }
 .text__color--lightgrey{  color: #8a8c8f;  }
+.text__color--darkgrey{  color: #4d4d4f;  }
 .text__color--lightred{  color: #c40d42;  }
 .text__color--lightred2{  color: #be0041;  }
 .text__color--lightpurple{  color: #e7337e;  }
@@ -105,6 +111,9 @@
 .text__color--darkorange{  color: #e3481e;  }
 .text__color--green{  color: #2eaa52;  }
 .text__color--purple{  color: #b13b80;  }
+
+
+.bg__color--purple{  background-color: #be0041;  }
 
 .axiataBold{
     font-family: axiataBold;
@@ -118,6 +127,7 @@
 .font10{  font-size: 10px;  }
 .font14{  font-size: 14px;  }
 .font15{  font-size: 15px;  }
+.font16{  font-size: 16px;  }
 .font20{  font-size: 20px;  }
 .font25{  font-size: 25px;  }
 .font31{  font-size: 31px;  }
@@ -133,6 +143,10 @@
     border: 0;
     background: #e7eaec;
     margin: 0 auto;
+}
+
+.divider-dash{
+    border-top: 2px dashed #be0041;
 }
 
 .section {
@@ -163,7 +177,18 @@
 .legend-list{
     height: 25px;
 }
+
+.equity-list li{
+    padding: 5px 0;
+}
 .legend-icon{
     line-height: 25px;
     vertical-align: middle;
+}
+
+.conference-wrap{
+    padding: 15px 0;
+}
+.box-wrap{
+    padding: 18px 25px;
 }

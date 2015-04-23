@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce219a0-dbc3-48ef-a995-b742ef233f94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/5/02-chairman_s-statement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/6/03-ceo_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sr/assets/img/chapter1/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sr/assets/img/chapter1/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sr/assets/img/chapter1/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sr/assets/img/chapter1/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/css/assets/img/chapter2/MergedLayers_bulding_tablet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter2/MergedLayers_tablet_building.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter2/Zoom-in-Icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/4/bar-1-elements.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/4/bar-2-elements.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/4/bar-3-elements.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/4/bar-4-elements.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/4/bar-5-elements.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/chart-numbers-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/chart-numbers-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/chart-numbers1_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/chart-numbers1_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/6/close-bracket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/2/from-zero-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section2/graph1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/grey-line-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/grey-line-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/line1_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/line1_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/6/open-bracket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/red-line-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/3/red-line-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter2/report_geographical_locations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter1/5/signature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter2/tablet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/img/chapter2/tablet_buildings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/css/ch2/chapter2_6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/js/ch2/chapter2_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/performance/chapter2_6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/assets/css/chapter6new.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ar/performance/header_footer_template.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_5.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_1.html" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_1.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_2.html" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_2.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_3.html" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_3.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_4.html" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_4.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\axiata-ar-2014\ar\chapter1_6.html" afterPath="$PROJECT_DIR$/ar/chapter1/chapter1_6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter7/section2/0.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter7/section2/0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section2/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section2/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section3/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section3/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section4/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section4/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section5/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section5/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section6/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section6/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section7/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section7/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter6/section8/background.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter6/section8/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/img/chapter7/section3/map.png" afterPath="$PROJECT_DIR$/ar/assets/img/chapter7/section3/map.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/corporate profile/axiata'14_01_bod.html" afterPath="$PROJECT_DIR$/ar/corporate profile/axiata'14_01_bod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_01_celcom.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_01_celcom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/new business unit/axiata'14_01_edotco.html" afterPath="$PROJECT_DIR$/ar/new business unit/axiata'14_01_edotco.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/new business unit/axiata'14_02_digital service.html" afterPath="$PROJECT_DIR$/ar/new business unit/axiata'14_02_digital service.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/corporate profile/axiata'14_02_management team.html" afterPath="$PROJECT_DIR$/ar/corporate profile/axiata'14_02_management team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_02_xl.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_02_xl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_03_dialog.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_03_dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/corporate profile/axiata'14_03_operating team.html" afterPath="$PROJECT_DIR$/ar/corporate profile/axiata'14_03_operating team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_04_robi.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_04_robi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_05_smart.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_05_smart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_06_idea.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_06_idea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_07_m1.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_07_m1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/operating companies/axiata'14_08_multinet.html" afterPath="$PROJECT_DIR$/ar/operating companies/axiata'14_08_multinet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sr/assets/css/chapter1.css" afterPath="$PROJECT_DIR$/sr/assets/css/chapter1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sr/chapter1.html" afterPath="$PROJECT_DIR$/sr/chapter1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/performance/chapter2_8.php" afterPath="$PROJECT_DIR$/ar/performance/chapter2_8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/css/chapter6.css" afterPath="$PROJECT_DIR$/ar/assets/css/chapter6.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/css/chapter7.css" afterPath="$PROJECT_DIR$/ar/assets/css/chapter7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ar/assets/css/general.css" afterPath="$PROJECT_DIR$/ar/assets/css/general.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="axiata-ar-2014.iws" />
@@ -97,14 +28,39 @@
     <favorites_list name="axiata-ar-2014" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6920176">
+    <splitter split-orientation="horizontal" split-proportion="0.4785082">
       <split-first>
         <leaf>
-          <file leaf-file-name="chapter2_8.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="chapter2_8.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_8.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5355893" vertical-offset="714" max-vertical-offset="5678">
-                  <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+                <state vertical-scroll-proportion="-74.15385" vertical-offset="6062" max-vertical-offset="9656">
+                  <caret line="470" column="40" selection-start-line="470" selection-start-column="40" selection-end-line="470" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="1_nurturing_commitment.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sr/nurturing people/1_nurturing_commitment.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-15.692307" vertical-offset="1071" max-vertical-offset="5780">
+                  <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chapter2_9.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_9.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="3264">
+                  <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
                   <folding />
                 </state>
               </provider>
@@ -137,8 +93,8 @@
           <file leaf-file-name="general.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ar/assets/css/general.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7123443" vertical-offset="578" max-vertical-offset="2958">
-                  <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.7058824" vertical-offset="2448" max-vertical-offset="3383">
+                  <caret line="180" column="12" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -177,9 +133,11 @@
         <option value="$PROJECT_DIR$/ar/chapter1.html" />
         <option value="$PROJECT_DIR$/ar/inc/footer.php" />
         <option value="$PROJECT_DIR$/ar/inc/header.php" />
-        <option value="$PROJECT_DIR$/ar/assets/css/general.css" />
         <option value="$PROJECT_DIR$/sr/assets/css/general.css" />
+        <option value="$PROJECT_DIR$/ar/performance/chapter2_1.php" />
         <option value="$PROJECT_DIR$/ar/performance/chapter2_8.php" />
+        <option value="$PROJECT_DIR$/ar/assets/css/general.css" />
+        <option value="$PROJECT_DIR$/ar/performance/chapter2_9.php" />
       </list>
     </option>
   </component>
@@ -216,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,57 +347,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axiata-ar-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axiata-ar-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axiata-ar-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="axiata-ar-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="corporate profile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,7 +413,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15351813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15671642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -537,9 +451,104 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_8.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3978" max-vertical-offset="5933">
+          <caret line="266" column="41" selection-start-line="266" selection-start-column="41" selection-end-line="266" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2193">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="799">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1564">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="5678">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2193">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="799">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1564">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_8.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1212" max-vertical-offset="5644">
           <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sr/nurturing people/1_nurturing_commitment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49591598" vertical-offset="1275" max-vertical-offset="5780">
-          <caret line="100" column="10" selection-start-line="89" selection-start-column="4" selection-end-line="100" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sr/nurturing people/basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4655" max-vertical-offset="5542">
@@ -796,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ar/assets/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7123443" vertical-offset="578" max-vertical-offset="2958">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sr/assets/css/general.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2193">
@@ -814,8 +808,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5355893" vertical-offset="714" max-vertical-offset="5678">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="-74.15385" vertical-offset="6062" max-vertical-offset="9656">
+          <caret line="470" column="40" selection-start-line="470" selection-start-column="40" selection-end-line="470" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr/nurturing people/1_nurturing_commitment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="1071" max-vertical-offset="5780">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7058824" vertical-offset="2448" max-vertical-offset="3383">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/performance/chapter2_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="3264">
+          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
           <folding />
         </state>
       </provider>
