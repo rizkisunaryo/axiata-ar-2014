@@ -15,20 +15,21 @@
 canvas.smallTriangle{
     width:0; height:0;
     position:absolute;
-	border-top: 3px solid transparent;
-	border-bottom: 3px solid transparent;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
 }
 canvas.triangleLeft{
-    border-right: 6px solid white;
+    border-right: 12px solid white;
 }
 canvas.triangleRight{
-    border-left: 6px solid white;
+    border-left: 12px solid white;
 }
-canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !important;}
-canvas.Blue{border-left-color: #0072bc !important; border-right-color: #0072bc !important;}
-canvas.Orange{border-left-color: #f37121 !important; border-right-color: #f37121 !important;}}
-canvas.Purple{border-left-color: #0e2f75 !important; border-right-color: #0e2f75 !important;}
-canvas.Green{border-left-color: #00793a !important; border-right-color: #00793a !important;}            
+canvas.Red{border-left-color:    #c40c42 !important; border-right-color: #8b0029 !important;}
+canvas.Blue{border-left-color:   #0072bc !important; border-right-color: #0072bc !important;}
+canvas.Orange{border-left-color: #f38b24 !important; border-right-color: #f37121 !important;}
+canvas.Purple{border-left-color: #0c4da2 !important; border-right-color: #0e2f75 !important;}
+canvas.Green{border-left-color:  #10aa4c !important; border-right-color: #00793a !important;}            
+canvas.Grey{border-left-color:   #6d6e71 !important; border-right-color: #00793a !important;}            
 /*'Blue','Orange','purple','Red','Grean'*/
 /*------------*/
 /*------------*/
@@ -41,21 +42,86 @@ canvas.Green{border-left-color: #00793a !important; border-right-color: #00793a 
     font-family: axiataBold;
     text-align: justify;
     text-justify: inter-word;
+    
 }
 .section1{
-    margin: 90px auto;
+/*    margin: 90px auto;*/
     padding-left: 55px;
     padding-top: 35px;
     padding-right: 63px;
     padding-bottom: 0px;
-    
+    background: url(../../img/Revenue_n_EBITDA.png);
+    background-repeat: no-repeat;
+      background-position-y: 417px;
+    padding: 53px 43px 0px 53px;
 }
 
-.report_chart .zoom-in {
+.bigtitle{ color: #c40c42; display: inline-block;
+/*width: 377px;*/
+ margin-right: 60px; position: relative; top: -238px;}
+.bigtitle div{
+    margin-bottom: 0px;
+}
+.bigtitle .foot_notes{
+    color: #43494f;
+    font: 400 15.92px AxiataBold;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.foot_notes .foot_note {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.foot_notes span{
+      margin-left: 15px;
+}
+.bigtitle .small_txt{ 
+    color: #c40c42;
+    font: 400 31.48px / 36.679px AxiataBold;
+    height: 24px;
+}
+.bigtitle .med_txt{
+    color: #c40c42;
+    font: 400 52.2px / 57.66px AxiataBold;
+    height: 34px;
+}
+.bigtitle .big_txt{
+    color: #c40c42;
+    font: 400 83.62px / 92.255px AxiataBold;
+    height: 67px;
+}
+.bigtitle .bigger_txt{
+    color: #c40c42;
+    font: 400 84.25px / 92.255px AxiataBold;
+}
+
+.graphs{display: inline-block;margin-top: 6px;padding-top: 0px;}
+.graph{
+    width: 424px;
+    height: 253px;
+    background-color: #00ffff;
+    margin-top: 47px;
+}
+.graph .title{
+    position: relative;
+    top: -82px;
+}
+.graph .title .big_txt{
+    color: #c40c42;
+    font: 400 35.5px / 67.166px AxiataBold;
+    height: 30px;
+}
+.graph .title .small_txt{
+    color: #c40c42;
+    font: 400 25px / 67.166px AxiataBold;
+    height: 26px;
+}
+.graph .zoom-in {
     position: absolute;
     top:0px;
     right: -7px;
     width: 22px;
     height: 19px;
-    background: url(../../img/chapter2/Zoom-in-Icon.png);/>
+    background: url(../../img/chapter2/Zoom-in-Icon.png) ;
 }

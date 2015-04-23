@@ -8,15 +8,43 @@
 <div idclass="spacer s0"></div>
 		
 <div id="movingSectionContainer" >
-    <div class="section1 section" style="display:none;">
-        <div class="report_geographical_locations_title">
-        <p class="small_txt">Reporting By</p>
-        <p class="big_txt">Geographical</p>
-        <p class="small_txt">Location</p>
-            <div id="bs1"></div>
+    <center>
+    <div class="section1 section" style="">
+        <div class="bigtitle">
+        <div class="small_txt">Summary Breakdown</div>
+        <div class="med_txt">of Operating</div>
+        <div class="big_txt">Revenue</div>
+        <div class="bigger_txt">& EBITDA</div>
+        <div class="foot_notes">
+            <div class="foot_note"><canvas class="triangleRight Blue smallTriangle" ></canvas><span>Celcom</span></div>
+            <div class="foot_note"><canvas class="triangleRight Purple smallTriangle" ></canvas><span>XL</span></div>
+            <div class="foot_note"><canvas class="triangleRight Orange smallTriangle" ></canvas><span>Dialog</span></div>
+            <div class="foot_note"><canvas class="triangleRight Red smallTriangle" ></canvas><span>Robi</span></div>
+            <div class="foot_note"><canvas class="triangleRight Green smallTriangle" ></canvas><span>Smart</span></div>
+            <div class="foot_note"><canvas class="triangleRight Grey smallTriangle" ></canvas><span>Others</span></div>
+        </div>
+        </div>
+        <div class="graphs">
+            <div class="graph">
+                <div class="title">
+                <div class="small_txt">2014 & 2013</div>
+                <div class="big_txt">Operating</div>
+                <div class="big_txt">Revenue</div>
+            
+                    </div>
+            </div>
+            <div class="graph">
+                <div class="title">
+                <div class="small_txt">2014 & 2013</div>
+                <div class="big_txt">Operating</div>
+                <div class="big_txt">Revenue</div>
+            
+                    </div>
+            </div>
         </div>
     </div>
     
+        </center>
 </div>
 
 
