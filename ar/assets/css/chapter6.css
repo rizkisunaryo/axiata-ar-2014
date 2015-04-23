@@ -57,10 +57,16 @@
 }
 
 
+
+
+
+
+
+
 .section2
 {
 	width:960px;
-	min-height:730px;
+	height:730px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -69,8 +75,8 @@
 .section2 .leftSection
 {
 	width:50%;
-	height:800px;
-	margin: -690px 0 0 440px;
+	height:820px;
+	margin: -700px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -81,7 +87,7 @@
 {
 	font-size:22px;
 	font-family:axiataBold;
-	margin:100px 0 0 50px;
+	margin:150px 0 0 50px;
 	color:#fff;
 }
 
@@ -99,6 +105,7 @@
 .leftSection .text
 {
 	z-index:30;
+	height:1500px; 
 	
 }
 
@@ -185,6 +192,9 @@
 	width:50px;height:50px;
 	margin:35px 0 0 80px;
 }
+
+
+
 
 
 

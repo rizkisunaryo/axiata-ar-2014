@@ -1,9 +1,41 @@
+/* general files*/
+/*------------*/
+canvas.smallTriangle{
+    width:0; height:0;
+    position:absolute;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+canvas.triangleLeft{
+    border-right: 6px solid white;
+}
+canvas.triangleRight{
+    border-left: 6px solid white;
+}
+canvas.Red1{border-left-color: #8b0029 !important; border-right-color: #8b0029 !important;}
+canvas.Red2{border-left-color: #b5073c !important; border-right-color: #b5073c !important;}
+canvas.Red3{border-left-color: #f27595 !important; border-right-color: #f27595 !important;}
+canvas.Blue1{border-left-color: #0072bc !important; border-right-color: #0072bc !important;}
+canvas.Blue2{border-left-color: #00aeef !important; border-right-color: #00aeef !important;}
+canvas.Blue3{border-left-color: #57cbf5 !important; border-right-color: #57cbf5 !important;}
+canvas.Orange1{border-left-color: #f37121 !important; border-right-color: #f37121 !important;}
+canvas.Orange2{border-left-color: #f38b24 !important; border-right-color: #f38b24 !important;}
+canvas.Orange3{border-left-color: #f7a820  !important; border-right-color: #f7a820 !important;}
+canvas.Purple1{border-left-color: #0e2f75 !important; border-right-color: #0e2f75 !important;}
+canvas.Purple2{border-left-color: #17469e !important; border-right-color: #17469e !important;}
+canvas.Purple3{border-left-color: #5175ba !important; border-right-color: #5175ba !important;}
+canvas.Green1{border-left-color: #00793a !important; border-right-color: #00793a !important;}            
+canvas.Green2{border-left-color: #10aa4c !important; border-right-color: #10aa4c !important;}            
+canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e !important;}            
+/*'Blue','Orange','purple','Red','Grean'*/
+/*------------*/
+/*------------*/
 #movingSectionContainer{
-    
+    color: #
 }
 .section{
  width: 960px;
-    border: 1px solid #c40c42;
+    
     min-height: 719px;
     font-family: axiataBold;
     text-align: justify;
@@ -19,7 +51,7 @@
 }
 
 .report_geographical_locations_img{
-    height: 516px;
+    height: 533px;
     width: 910px;
     background-image: url(../../img/chapter2/MergedLayers_tablet_building.png);
     background-position: 10px;
@@ -86,6 +118,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
+      left: 6px;
 }
 .report_chart .float-txt p{
     margin: 0px;
@@ -101,6 +134,17 @@
     -webkit-transform: rotate(-45deg); 
     -moz-transform: rotate(-45deg); 
 }
+
+.bottom_note{
+      position: absolute;
+  bottom: 11px;
+  left: 512px;
+  width: 194px;
+  height: 55px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 10px;
+}
 .report_chart .big_txt{
     font: 400 12.26px AxiataBold;
 }
@@ -111,7 +155,7 @@
 .report_chart .zoom-in {
     position: absolute;
     top:0px;
-    right: 0px;
+    right: -7px;
     width: 22px;
     height: 19px;
     background: url(../../img/chapter2/Zoom-in-Icon.png);/>
@@ -131,19 +175,55 @@
     font-size: 9.26px;
 }
 .bar-triangles-container{
-    position: relative;
+/*    position: relative;*/
     display: inline-block;
     margin-right: 2px;
+    width: 100%;
+    margin-right: 1px;
+      height: 130px;
+      text-align: center;
+    
 }
 .bar-triangles-container .bars{
+    width: 17%;
     display: inline-block;
-    margin-right: 
+/*    width: 40px;*/
+      position: relative;
+
+  margin-right: 1px;
+/*    margin-right: */
 }
 .bar-triangles{
-    width: 24px;
-    height: 100px;
-    background: blue;
+    margin-right: 1px;
+      display: inline-block;
+      position: relative;
+      width: 9px;
+    position: relative;
+  height: 130px;
+  bottom: -121px;
+    margin-top: 5px;
+
+}
+
+.bar1_0{
+    margin-left:2px;
+}
+.bar1_0{
+    margin-left:22px;
+}
+.graphs-footnote {
+    font-size: 6px;
     display: inline-block;
-    position: absolute;
-    margin: 0px;
+    margin-left: 7px;
+    left: 10px;
+    float: right
+    
+}
+.graphs-footnote p{
+    display: inline-block;
+    
+}
+.graphs-footnote div{
+    display: inline-block;
+    margin-left: 14px;
 }

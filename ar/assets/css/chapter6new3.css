@@ -1,0 +1,251 @@
+@import url("navbar.css");
+@import url("fonts.css");
+
+canvas.triangleLeftGray {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid gray;
+	width:0; height:0;
+}
+
+canvas.triangleRightGray {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid gray;
+	width:0; height:0;
+}
+
+canvas.triangleLeftRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #e51b1b;
+	width:0; height:0;
+}
+
+canvas.triangleRightRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #e51b1b;
+	width:0; height:0;
+}
+
+canvas.triangleLeftGreen {
+	position:absolute;
+	border-top: 6px solid #0e6e41;
+	border-bottom: 6px solid #0e6e41;
+	border-right: 12px solid #0e6e41;
+	width:0; height:0;
+}
+
+canvas.triangleRightGreen {
+	position:absolute;
+	border-top: 6px solid #0e6e41;
+	border-bottom: 6px solid #0e6e41;
+	border-left: 12px solid #0e6e41;
+	width:0; height:0;
+}
+canvas.triangleLeftBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #1d357f;
+	width:0; height:0;
+}
+
+canvas.triangleRightBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #1d357f;
+	width:0; height:0;
+}
+
+.graphSection
+{
+	width:960px;
+	background-image:url("../img/chapter6/section4/graph1.png");
+	background-position:   top left;
+	background-repeat: no-repeat;
+
+
+	margin:0 auto;
+	overflow:hidden;
+	z-index:30;
+	
+}
+
+.graphSection #bar1
+{
+	position: relative;
+	top:285px;
+	margin-left:78px;
+	margin-right:-25px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar2
+{
+	position: relative;
+	top:285px;
+	margin-left:78px;
+	margin-right:70px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar3
+{
+	position: relative;
+	top:285px;
+	margin-left: 26px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar4
+{
+	position: relative;
+	top:285px;
+	margin-left: 50px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar5
+{
+	position: relative;
+	top:285px;
+	margin-left: 100px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar6
+{
+	position: relative;
+	top:285px;
+	margin-left: 50px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+
+
+.graphSection #bar7
+{
+	position: relative;
+	top:620px;
+	margin-left:-348px;
+	margin-right:-25px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar8
+{
+	position: relative;
+	top:620px;
+	margin-left:78px;
+	margin-right:70px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar9
+{
+	position: relative;
+	top:620px;
+	margin-left: 26px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar10
+{
+	position: relative;
+	top:620px;
+	margin-left: 50px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar11
+{
+	position: relative;
+	top:620px;
+	margin-left: 105px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar12
+{
+	position: relative;
+	top:620px;
+	margin-left: 50px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+
+.graphSection .paragraph1
+{
+	width:500px;
+	margin-left: 450px;
+}
+.graphSection .paragraph1 .title1:first-of-type
+{
+	margin-top: 20px;
+}
+.graphSection .paragraph1 .title1
+{
+	color:#ed1c24;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+}
+.graphSection .paragraph1 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+}
+
+.graphSection .paragraph2
+{
+	margin-left: 0px;
+}
+.graphSection .paragraph2 .title1:first-of-type
+{
+	margin-top: 20px;
+}
+.graphSection .paragraph2 .title1
+{
+	color:#ed1c24;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+}
+.graphSection .paragraph2 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+}
+
+
+
+
+.minusMargin
+{
+ position: relative;
+}
