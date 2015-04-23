@@ -1,0 +1,61 @@
+/* general files*/
+/*------------*/
+.blue{color: #007dc6;}
+.orange{color: #f28a23;}
+.red{color: #b5073b;}
+.blue-dark{color: #16479e;}
+.green{color: #008942;}
+.inline{display: inline-block;} 
+.center{text-align: center;}
+.clined-45{
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg); 
+}
+
+canvas.smallTriangle{
+    width:0; height:0;
+    position:absolute;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+canvas.triangleLeft{
+    border-right: 6px solid white;
+}
+canvas.triangleRight{
+    border-left: 6px solid white;
+}
+canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !important;}
+canvas.Blue{border-left-color: #0072bc !important; border-right-color: #0072bc !important;}
+canvas.Orange{border-left-color: #f37121 !important; border-right-color: #f37121 !important;}}
+canvas.Purple{border-left-color: #0e2f75 !important; border-right-color: #0e2f75 !important;}
+canvas.Green{border-left-color: #00793a !important; border-right-color: #00793a !important;}            
+/*'Blue','Orange','purple','Red','Grean'*/
+/*------------*/
+/*------------*/
+#movingSectionContainer{
+    
+}
+.section{
+    width: 960px;
+    min-height: 719px;
+    font-family: axiataBold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.section1{
+    margin: 90px auto;
+    padding-left: 55px;
+    padding-top: 35px;
+    padding-right: 63px;
+    padding-bottom: 0px;
+    
+}
+
+.report_chart .zoom-in {
+    position: absolute;
+    top:0px;
+    right: -7px;
+    width: 22px;
+    height: 19px;
+    background: url(../../img/chapter2/Zoom-in-Icon.png);/>
+}

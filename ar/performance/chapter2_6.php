@@ -7,12 +7,13 @@
 
 <div idclass="spacer s0"></div>
 		
-<div id="movingSectionContainer">
-    <div class="section1 section">
+<div id="movingSectionContainer" >
+    <div class="section1 section" style="display:none;">
         <div class="report_geographical_locations_title">
         <p class="small_txt">Reporting By</p>
         <p class="big_txt">Geographical</p>
         <p class="small_txt">Location</p>
+            <div id="bs1"></div>
         </div>
 <!--        <img  class="report_geographical_locations_img" src="../assets/img/report_geographical_locations.png"/>-->
         
@@ -25,22 +26,17 @@
                         <p class="small_txt">(RM Billion)</p>
                     </div>
                     <div class="graphs">
-                        <?php
-                        for($i=0; $i<1;$i++){
-                        ?>
                         <div class="bar-triangles-container">
-                            <?php
-                            for($j=0; $j<1;$j++){
-                            ?>
-                                <div class="bars bars1_201<?php echo $i;?>">
-                                    <div id="bar1_<?php echo $j;?>" class="bar-triangles bar-triangle<?php echo $j;?>"></div>
-                                    <div id="bar1_<?php echo $j;?>" class="bar-triangles bar-triangles<?php echo $j;?>"></div>
-                                    <div id="bar1_<?php echo $j;?>" class="bar-triangles bar-triangles<?php echo $j;?>"></div>
-                                </div>
-                            <?php } ?>
-                        </div>
+                        <?php
+                        for($i=0; $i<5 ; $i++){
+                        ?>
+                            <div class="bars bars1_201<?php echo $i;?>">
+                                    <div id="bar<?php echo $i;?>_0" class="bar-triangles bar-triangle<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_1" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_2" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                            </div>    
                         <?php } ?>
-                        
+                        </div>
                     </div>
                     <div class="graphs-x-timeline">
                         <?php
@@ -50,6 +46,9 @@
                         <?php } ?>
                     </div>
                     <div class="graphs-footnote">
+                        <div><canvas class="triangleRight Blue1 smallTriangle" style=" "></canvas><p>a</p></div>
+                        <div><canvas class="triangleRight Blue2 smallTriangle" style=" "></canvas><p>b</p></div>
+                        <div><canvas class="triangleRight Blue3 smallTriangle" style=" "></canvas><p>c</p></div>
                     </div>
                 </div>
                 <div class="report_chart_2 report_chart">
@@ -59,6 +58,17 @@
                         <p class="small_txt">(SLR Billion)</p>
                     </div>
                     <div class="graphs">
+                        <div class="bar-triangles-container">
+                        <?php
+                        for($i=0; $i<5 ; $i++){
+                        ?>
+                            <div class="bars bars1_201<?php echo $i;?>">
+                                    <div id="bar<?php echo $i;?>_0" class="bar-triangles bar-triangle<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_1" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_2" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                            </div>    
+                        <?php } ?>
+                        </div>
                     </div>
                     <div class="graphs-x-timeline">
                         <p class="inline center clined-45">2010</p>
@@ -68,6 +78,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
+                        <div><canvas class="triangleRight Orange1 smallTriangle" style=" "></canvas><p>a</p></div>
+                        <div><canvas class="triangleRight Orange2 smallTriangle" style=" "></canvas><p>b</p></div>
+                        <div><canvas class="triangleRight Orange3 smallTriangle" style=" "></canvas><p>c</p></div>
                     </div>
                 </div>
                 <div class="report_chart_3 report_chart">
@@ -77,6 +90,17 @@
                         <p class="small_txt">(IDR Trillion)</p>
                     </div>
                     <div class="graphs">
+                        <div class="bar-triangles-container">
+                        <?php
+                        for($i=0; $i<5 ; $i++){
+                        ?>
+                            <div class="bars bars1_201<?php echo $i;?>">
+                                    <div id="bar<?php echo $i;?>_0" class="bar-triangles bar-triangle<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_1" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_2" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                            </div>    
+                        <?php } ?>
+                        </div>
                     </div>
                     <div class="graphs-x-timeline">
                         <p class="inline center clined-45">2010</p>
@@ -86,6 +110,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
+                        <div><canvas class="triangleRight Purple1 smallTriangle" style=" "></canvas><p>a</p></div>
+                        <div><canvas class="triangleRight Purple2 smallTriangle" style=" "></canvas><p>b</p></div>
+                        <div><canvas class="triangleRight Purple3 smallTriangle" style=" "></canvas><p>c</p></div>
                     </div>
                 </div>
                 <div class="report_chart_4 report_chart">
@@ -95,6 +122,17 @@
                         <p class="small_txt">(BDT Billion)</p>
                     </div>
                     <div class="graphs">
+                        <div class="bar-triangles-container">
+                        <?php
+                        for($i=0; $i<5 ; $i++){
+                        ?>
+                            <div class="bars bars1_201<?php echo $i;?>">
+                                    <div id="bar<?php echo $i;?>_0" class="bar-triangles bar-triangle<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_1" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_2" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                            </div>    
+                        <?php } ?>
+                        </div>
                     </div>
                     <div class="graphs-x-timeline">
                         <p class="inline center clined-45">2010</p>
@@ -104,6 +142,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
+                        <div><canvas class="triangleRight Red1 smallTriangle" style=" "></canvas><p>a</p></div>
+                        <div><canvas class="triangleRight Red2 smallTriangle" style=" "></canvas><p>b</p></div>
+                        <div><canvas class="triangleRight Red3 smallTriangle" style=" "></canvas><p>c</p></div>
                     </div>
                 </div>
                 <div class="report_chart_5 report_chart">
@@ -113,6 +154,17 @@
                         <p class="small_txt">(USD Million)</p>
                     </div>
                     <div class="graphs">
+                        <div class="bar-triangles-container">
+                        <?php
+                        for($i=0; $i<5 ; $i++){
+                        ?>
+                            <div class="bars bars1_201<?php echo $i;?>">
+                                    <div id="bar<?php echo $i;?>_0" class="bar-triangles bar-triangle<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_1" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                                    <div id="bar<?php echo $i;?>_2" class="bar-triangles bar-triangles<?php echo $i;?>"></div>
+                            </div>    
+                        <?php } ?>
+                        </div>
                     </div>
                     <div class="graphs-x-timeline">
                         <p class="inline center clined-45">2010</p>
@@ -122,9 +174,19 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
+                        <div><canvas class="triangleRight Green1 smallTriangle" style=" "></canvas><p>a</p></div>
+                        <div><canvas class="triangleRight Green2 smallTriangle" style=" "></canvas><p>b</p></div>
+                        <div><canvas class="triangleRight Green3 smallTriangle" style=" "></canvas><p>c</p></div>
                     </div>
                 </div>
             </div>
+
+            <p class="bottom_note">
+                All financial numbers are based on
+                audited financial figures and follows 
+                the respective country GAAP.
+            </p>
+            
         </div>
         
         
@@ -136,5 +198,13 @@
 <?php
     include("../inc/footer.php");
 ?>
+<script>
+    
+    $(document).ready(function(){
+        
+            
+    });
+    
+</script>
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_6.css">
 <script src="../assets/js/ch2/chapter2_6.js"></script>

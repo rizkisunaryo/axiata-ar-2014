@@ -1,7 +1,7 @@
 function animateGraph(rowNumber,selector,isGoingUp,color,height) {
 	    var facingLeft = false;
 	    var facing = '';
-	    var top=6;
+	    var top=3;
 	    if (!isGoingUp) top=0;
 	    var left=0;
 	    var opacity=1.0;
@@ -9,10 +9,10 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
 	    for (i1=1;i1<=height*4;i1++) {
 	        if (i1%2==0) {
 	            facingLeft=!facingLeft;
-	            left=12;
+	            left=6;
 	        } else {
-	            if (isGoingUp) top-=6;
-	            else top+=6;
+	            if (isGoingUp) top-=3;
+	            else top+=3;
 	            left=0;
 	        }
 
@@ -38,7 +38,33 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
 	    }, 1000/blockCount*i);
 	}
 
-
+    sizes=[[[14,10,6],[14,10,6],[14,10,6],[14,10,6],[14,10,6]],
+               [[15,7,4],[16,7,4],[17,8,4],[18,8,5],[17,7,6]],
+               [[11,6,2],[12,6,2],[14,6,2],[15,6,2],[16,7,2]],
+               [[13,8,3],[13,8,3],[14,8,3],[13,6,2],[16,6,2]],
+               [[11,5,2],[12,5,2],[14,6,1],[15,7,2],[16,8,3]],
+               [[4,1,1],[4,1,6],[4,1,6],[8,4,2],[14,6,3]]];
+    graph_colors=['-','Blue','Orange','Purple','Red','Green'];  
+    function animateGraph_onegraph(k){
+        var up=true;
+        for(i=0; i<5;i++){
+                    if(i==4 && k==3){up=false;}
+                    else if(i==1 && k==4){up=false;}
+                    else if((i==0 || i==1 || i==2)&& k==5){up=false;}
+                    else{ up=true;}
+            
+                    animateGraph(1,".report_chart_"+k+" #bar"+i+"_0",true," "+graph_colors[k]+"1 smallTriangle",sizes[k][i][0]);
+                    animateGraph(1,".report_chart_"+k+" #bar"+i+"_1",true," "+graph_colors[k]+"2 smallTriangle",sizes[k][i][1]);
+                    animateGraph(1,".report_chart_"+k+" #bar"+i+"_2",up," "+graph_colors[k]+"3 smallTriangle",sizes[k][i][2]);
+                } 
+        
+    }
 $(document).ready(function(){
-animateGraph(3,'#bar1_0',true,'Grey',100);
+//animateGraph(1,"#bar1_0",true," Red smallTriangle",12);
+    $('.section1').fadeIn();
+    setTimeout(function(){animateGraph_onegraph(1);},400);
+    setTimeout(function(){animateGraph_onegraph(5);},800);
+    setTimeout(function(){animateGraph_onegraph(2);},1200);
+    setTimeout(function(){animateGraph_onegraph(3);},1600);
+    setTimeout(function(){animateGraph_onegraph(4);},2000);
 });
