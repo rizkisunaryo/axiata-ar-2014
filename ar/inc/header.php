@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="../assets/css/animations.css">
     <link rel="stylesheet" href="../assets/css/navbar.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/general.css?<?php echo date('l jS \of F Y h:i:s A'); ?>">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -22,7 +24,7 @@
 
 <body>
 <div class="container">
-    <div class="navbar panel">
+    <div class="rel navbar panel">
 
         <div class="navbarContent">
 

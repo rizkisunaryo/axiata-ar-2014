@@ -5,7 +5,6 @@
 <script src="../assets/js/viewportchecker.js"></script>
 <script src="../assets/js/css3-animate-it.js"></script>
 <script src="../assets/js/jquery.transit.min.js"></script>
-<script src="../assets/js/chapter1.js"></script>
 
 <script type="text/javascript">
     var exploreMoreOpened=false;
@@ -32,21 +31,6 @@
 
         });
 
-        var controller = new ScrollMagic.Controller();
-        // var scene = new ScrollMagic.Scene({triggerElement: "#advancingAsiaSection",triggerHook:"onLeave"})
-        // 						.setPin("#advancingAsiaSection")
-        // 						.addTo(controller);
-        var scene = new ScrollMagic.Scene({triggerElement: "#advancingAsiaSection",triggerHook:"onLeave"})
-            .setPin("#advancingAsiaSection")
-            .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave"})
-            .setPin("#groupProfileBg")
-            .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: "#stick",triggerHook:"onEnter"})
-            .setPin("#groupProfileText")
-            .addTo(controller);
     });
 </script>
 

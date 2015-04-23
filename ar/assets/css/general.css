@@ -1,5 +1,5 @@
-@import url("navbar.css");
-@import url("fonts.css");
+/*@import url("navbar.css");
+@import url("fonts.css");*/
 
 .clearfix{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;line-height: 0}
 .row{clear:both}
@@ -46,31 +46,65 @@
     transition:all 0.5s ease-in-out;
 }
 
+/**
+* Sizing
+*/
+
+.wrap{width: 1100px}
 .col{float:left}
+.col1{width:100%}
+.col2{width:50%}
+.col3{width:33.3333333333%}
+.col4{width:25%}
+.col5{width:20%}
+.col6{width:16.6666666667%}
+.col7{width:14.2857142857%}
+.col8{width:12.5%}
+.col9{width:11.1111111111%}
+.col2{width:2%}
+.col10{width:10%}
 .col20{width:20%}
+.col25{width:25%}
+.col30{width:30%}
+.col40{width:40%}
+.col45{width:45%}
+.col45{width:45%}
+.col50{width:50%}
+.col60{width:60%}
+.col70{width:70%}
+.col75{width:75%}
 .col80{width:80%}
+.col90{width:90%}
+.col98{width:98%}
+.img-responsive {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
 
 
 .removeMargin{
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+    -webkit-padding-start: 0px;
 }
 
 .text__color--black{
     color: #000;
 }
-.text__color--white{
-    color: #fff;
-}
-.text__color--dark-blue{
-    color: #001c5b;
-}
-.text__color--grey{
-    color: #58595b;
-}
-.text__color--lightgrey{
-    color: #8a8c8f;
-}
+.text__color--white{  color: #fff;  }
+.text__color--dark-blue{  color: #001c5b;  }
+.text__color--grey{  color: #58595b;  }
+.text__color--lightgrey{  color: #8a8c8f;  }
+.text__color--lightred{  color: #c40d42;  }
+.text__color--lightred2{  color: #be0041;  }
+.text__color--lightpurple{  color: #e7337e;  }
+.text__color--yellow{  color: #f9b73f;  }
+.text__color--orange{  color: #ee7627;  }
+.text__color--darkorange{  color: #e3481e;  }
+.text__color--green{  color: #2eaa52;  }
+.text__color--purple{  color: #b13b80;  }
 
 .axiataBold{
     font-family: axiataBold;
@@ -80,6 +114,8 @@
 }
 
 
+.font9{  font-size: 9px;  }
+.font10{  font-size: 10px;  }
 .font14{  font-size: 14px;  }
 .font15{  font-size: 15px;  }
 .font20{  font-size: 20px;  }
@@ -121,4 +157,13 @@
 .section--map{
     min-height: 1198px;
     background: #ffffff url(../img/chapter8/ch8-map.png) no-repeat top left;
+}
+
+
+.legend-list{
+    height: 25px;
+}
+.legend-icon{
+    line-height: 25px;
+    vertical-align: middle;
 }
