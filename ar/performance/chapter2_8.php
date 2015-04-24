@@ -80,6 +80,7 @@
             colors: ['#B13B80', '#1C4ea0', '#f9b73f', '#ee7627', '#be0041', '#e7337e',
                 '#FF9655', '#FFF263', '#6AF9C4'],
             chart: {
+                marginLeft: -80,
                 style: {
                     fontFamily: 'AxiataBook'
                 }
@@ -103,11 +104,11 @@
                 pie: {
                     dataLabels: {
                         enabled: true,
-                            distance: -15,
+                            distance: -5,
                             style: {
                             fontWeight: 'bold',
                                 color: 'white',
-    //                            textShadow: '0px 1px 2px black'
+                                textShadow: '0px 1px 2px black'
                             }
                         },
                     startAngle: 0,
@@ -123,15 +124,59 @@
                 type: 'pie',
                     name: '2014 Assets',
                     innerSize: '75%',
-                    data: [
-                        ['16.2%',   16.2],
-                        ['39.3%',   39.3],
-                        ['22.0%',   22.0],
-                        ['1.5%',    1.5],
-                        ['14.8%',   14.8],
-                        ['6.2%',    6.2],
+                data: [
+                    {
+                        name: '15.4%',
+                        y: 15.4,
+                        dataLabels: {
+                            distance: 30,
+                            rotation: 30,
+                            x: 307.37938851547324,
+                        },
 
-                    ],
+                    },
+                    {
+                        name: '40.6%',
+                        y: 40.6,
+                        dataLabels: {
+                            rotation: -50,
+                        },
+
+                    },
+                    {
+                        name: '26.1%',
+                        y: 26.1,
+                        dataLabels: {
+                            rotation: -30,
+                        },
+
+                    },
+                    {
+                        name: '1.3%',
+                        y: 1.3,
+                        dataLabels: {
+                            rotation: -5,
+                        },
+
+                    },
+                    {
+                        name: '10.4%',
+                        y: 10.4,
+                        dataLabels: {
+                            rotation: 45,
+                        },
+
+                    },
+                    {
+                        name: '6.2%',
+                        y: 6.2,
+                        dataLabels: {
+                            rotation: -85,
+                        },
+
+                    },
+
+                ],
                 borderWidth: 0
             }],
 
@@ -141,6 +186,7 @@
             colors: ['#B13B80', '#1C4ea0', '#f9b73f', '#ee7627', '#be0041', '#e7337e',
                 '#FF9655', '#FFF263', '#6AF9C4'],
             chart: {
+                marginLeft: -80,
                 style: {
                     fontFamily: 'AxiataBook'
                 }
@@ -184,6 +230,59 @@
                 type: 'pie',
                 name: '2013 Assets',
                 innerSize: '75%',
+               /* data: [
+                    {
+                        name: '16.2%',
+                        y: 16.2,
+                        dataLabels: {
+                            distance: 30,
+                            rotation: 30,
+                            x: 307.37938851547324,
+                        },
+
+                    },
+                    {
+                        name: '39.3%',
+                        y: 39.3,
+                        dataLabels: {
+                            rotation: -50,
+                        },
+
+                    },
+                    {
+                        name: '19.9%',
+                        y: 22.0,
+                        dataLabels: {
+                            rotation: -30,
+                        },
+
+                    },
+                    {
+                        name: '1.5%',
+                        y: 1.5,
+                        dataLabels: {
+                            rotation: -5,
+                        },
+
+                    },
+                    {
+                        name: '14.8%',
+                        y: 14.8,
+                        dataLabels: {
+                            rotation: 45,
+                        },
+
+                    },
+                    {
+                        name: '6.2%',
+                        y: 6.2,
+                        dataLabels: {
+                            rotation: -85,
+                        },
+
+                    },
+
+                ],*/
                 data: [
                     ['15.45%',   15.45],
                     ['40.6%',       40.6],
@@ -201,6 +300,7 @@
             colors: [ '#1C4ea0', '#f9b73f', '#ee7627', '#be0041', '#e7337e', '#B13B80', '#2eaa52',
                 '#FF9655', '#FFF263', '#6AF9C4'],
             chart: {
+                marginLeft: -80,
                 style: {
                     fontFamily: 'AxiataBook'
                 }
@@ -211,6 +311,15 @@
             exporting:{
                 enabled: false
             },
+            labels:{
+                items: [{
+                    style: {
+                        rotation: 45,
+                        left: '100px',
+                        top: '100px'
+                    }
+                }]
+            },
             title: {
             text: ' ',
                 align: 'center',
@@ -218,18 +327,19 @@
                 y: 50
             },
             tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
             },
             plotOptions: {
                 pie: {
                     dataLabels: {
-                            rotatew : 'auto',
                             enabled: true,
-                            distance: -15,
+                            distance: -5,
+                            align: 'center',
+
+                            verticalAlign: 'middle',
                             style: {
-                            fontWeight: 'bold',
                                 color: 'white',
-    //                            textShadow: '0px 1px 2px black'
+                                textShadow: '0px 1px 2px black'
                             }
                         },
                     startAngle: 0,
@@ -246,24 +356,94 @@
                     name: '2014 Liabilities',
                     innerSize: '75%',
                     data: [
-                        ['28.3%',   28.3],
-                        ['3.7%',       3.7],
-                        ['19.9%', 19.9],
-                        ['4.9%',    4.9],
-                        ['17.5%',     17.5],
-                        ['8.7%',     8.7],
-                        ['17.0%',     17.0],
+                        {
+                            name: '28.3%',
+                            y: 28.3,
+                            dataLabels: {
+                                rotation: 55,
+                            },
+
+                        },
+                        {
+                            name: '3.7%',
+                            y: 3.7,
+                            dataLabels: {
+                                rotation: -50,
+                            },
+
+                        },
+                        {
+                            name: '19.9%',
+                            y: 19.9,
+                            dataLabels: {
+                                rotation: -30,
+                            },
+
+                        },
+                        {
+                            name: '4.9%',
+                            y: 4.9,
+                            dataLabels: {
+                                rotation: -5,
+                            },
+
+                        },
+                        {
+                            name: '17.5%',
+                            y: 17.5,
+                            dataLabels: {
+                                rotation: 45,
+                            },
+
+                        },
+                        {
+                            name: '8.7%',
+                            y: 8.7,
+                            dataLabels: {
+                                rotation: -85,
+                            },
+
+                        },
+                        {
+                            name: '17.0%',
+                            y: 17.0,
+                            dataLabels: {
+                                rotation: -40,
+                                align: 'middle',
+                                verticalAlign: 'middle',
+                                padding: 0,
+                            },
+
+                        }
 
                     ],
                 borderWidth: 0
             }],
 
+        }, function(chartObj) {
+            $.each(chartObj.series[0].data, function (i, point) {
+                console.debug(i);
+                console.debug(point);
+                var degree = (point.angle * 180) / Math.PI;
+                var rotation = 0;
+                if(i == '0'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
+                }else  if(i == '5'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                }else  if(i == '6'){
+//                    point.dataLabel.attr({x: point.dataLabel._pos.x + 50});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 30});
+                }
+
+                point.dataLabel.show();
+            });
         });
 
         $('#2013-liabilities').highcharts({
             colors: ['#1C4ea0', '#f9b73f', '#ee7627', '#be0041', '#e7337e', '#B13B80', '#2eaa52',
                 '#FF9655', '#FFF263', '#6AF9C4'],
             chart: {
+                marginLeft: -80,
                 style: {
                     fontFamily: 'AxiataBook'
                 }
@@ -287,7 +467,9 @@
                 pie: {
                     dataLabels: {
                         enabled: true,
-                        distance: -15,
+                        distance: -5,
+                        align: 'center',
+                        verticalAlign: 'middle',
                         style: {
                             fontWeight: 'bold',
                             color: 'white',
@@ -308,13 +490,65 @@
                 name: '2013 Liabilities',
                 innerSize: '75%',
                 data: [
-                    ['30.9%',   30.9],
-                    ['4.0%',       4.0],
-                    ['20.4%', 20.4],
-                    ['5.1%',    5.1],
-                    ['17.5%',     17.5],
-                    ['8.7%',     8.7],
-                    ['17.0%',     17.0],
+                    {
+                        name: '30.9%',
+                        y: 30.9,
+                        dataLabels: {
+                            rotation: 55,
+                        },
+
+                    },
+                    {
+                        name: '4.0%',
+                        y: 4.0,
+                        dataLabels: {
+                            rotation: -50,
+                        },
+
+                    },
+                    {
+                        name: '20.4%',
+                        y: 20.4,
+                        dataLabels: {
+                            rotation: -10,
+                        },
+
+                    },
+                    {
+                        name: '5.1%',
+                        y: 5.1,
+                        dataLabels: {
+                            rotation: 30,
+                        },
+
+                    },
+                    {
+                        name: '19.6%',
+                        y: 19.6,
+                        dataLabels: {
+                            rotation: 65,
+                        },
+
+                    },
+                    {
+                        name: '6.0%',
+                        y: 6.0,
+                        dataLabels: {
+                            rotation: -58,
+                        },
+
+                    },
+                    {
+                        name: '14.0%',
+                        y: 14.0,
+                        dataLabels: {
+                            rotation: -20,
+                            align: 'middle',
+                            verticalAlign: 'middle',
+                            padding: 0,
+                        },
+
+                    }
 
                 ],
                 borderWidth: 0

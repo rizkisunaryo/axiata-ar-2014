@@ -1,0 +1,217 @@
+@import url("navbar.css");
+@import url("fonts.css");
+
+canvas.triangleLeftYellow {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #f39200;
+	width:0; height:0;
+}
+
+canvas.triangleRightYellow {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #f39200;
+	width:0; height:0;
+}
+
+canvas.triangleLeftRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #e51b1b;
+	width:0; height:0;
+}
+
+canvas.triangleRightRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #e51b1b;
+	width:0; height:0;
+}
+
+canvas.triangleLeftGreen {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #00652a;
+	width:0; height:0;
+}
+
+canvas.triangleRightGreen {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #00652a;
+	width:0; height:0;
+}
+canvas.triangleLeftBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #1d357f;
+	width:0; height:0;
+}
+
+canvas.triangleRightBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #1d357f;
+	width:0; height:0;
+}
+
+.graphSection
+{
+	width:960px;
+	background-image:url("../img/chapter6/section7/graph1.png");
+	background-position:   top left;
+	background-repeat: no-repeat;
+
+
+	margin:0 auto;
+	overflow:hidden;
+	z-index:30;
+	
+}
+
+.graphSection #bar1
+{
+	position: relative;
+	top:340px;
+	margin-left:102px;
+	margin-right:-25px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar2
+{
+	position: relative;
+	top:340px;
+	margin-left:78px;
+	margin-right:70px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar3
+{
+	position: relative;
+	top:340px;
+	margin-left: 48px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar4
+{
+	position: relative;
+	top:340px;
+	margin-left: 58px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar5
+{
+	position: relative;
+	top:340px;
+	margin-left: 115px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar6
+{
+	position: relative;
+	top:340px;
+	margin-left: 58px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+
+
+.graphSection #bar7
+{
+	position: relative;
+	top:340px;
+	margin-left:113px;
+	margin-right:-25px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+.graphSection #bar8
+{
+	position: relative;
+	top:340px;
+	margin-left:85px;
+	margin-right:70px;
+	width:20px;
+	display: inline;
+	height:200px;
+}
+
+
+.graphSection .paragraph1
+{
+	width:950px;
+	margin-left: 0px;
+}
+.graphSection .paragraph1 .title1:first-of-type
+{
+	margin-top: 500px;
+
+}
+.graphSection .paragraph1 .title1
+{
+	color:#fdb933;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+}
+.graphSection .paragraph1 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+}
+
+.graphSection .paragraph2
+{
+	margin-left: 0px;
+}
+.graphSection .paragraph2 .title1:first-of-type
+{
+	margin-top: 10px;
+}
+.graphSection .paragraph2 .title1
+{
+	color:#fdb933;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+}
+.graphSection .paragraph2 .content
+{
+	color:#4d4d4f;
+	font-size: 16px !important;
+	font-family: axiataBook;
+	margin-left: 55px;
+	text-align: justify;
+}
+
+
+
+
+.marginMinus
+{
+	margin-top: -500px !important;
+}
