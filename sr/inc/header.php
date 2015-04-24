@@ -79,7 +79,7 @@
             </div>
             <img class="logoImg" src="../assets/img/navbar/logo.png" />
             <div class="menuRightNav">
-                <a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp;
+<!--                <a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp;-->
 
             </div>
         </div>
