@@ -31,22 +31,35 @@
 }
 .section1 .img2
 {
-	margin:0 0 280px -650px;
+	margin:0 0 280px -850px;
 	
+}
+.section1 .img3
+{
+	margin:-600px 0 520px -450px;
+}
+.section1 .img4
+{
+	margin:0 0 220px -500px;
+	position: absolute;
+	top:500px;
+	left:44%;
+	z-index: 0000;
 }
 .section1 .prp
 {
-	margin:0 0 -80px 680px;
+	margin:0 0 -100px 590px;
 }
 .section1 .ann
 {
 	margin:270px 0 -330px 660px;
+	opacity: 0;
 }
 .section1 .rationalkite
 {
 
 	display: block;
-	margin:500px 0 -500px 780px;
+	margin:500px 0 -500px 680px;
 
 }
 /*.section1 img
@@ -88,18 +101,33 @@
 	overflow:hidden;
 	background:#ffffff;
 	padding:0 60px;
+
+}
+.section2:first-of-type
+{
 	margin-bottom: -50px;
+	clear: both;
+
 }
 
+.section2 .filterBtn:first-of-type
+{
+	border-right: solid 1px #afafaf;
+
+}
+.section2 .filterBtn:last-of-type
+{
+	border-left: solid 1px #afafaf;
+
+}
 .section2 .filterBtn
 {
-	width:200px;
 	float:left;
-	margin:0 37px;
 	font-family: axiataBold;
 	font-size:26px;
 	color:#c2063a;
 	cursor: pointer;
+	padding:0 30px;
 }
 .section2 .filterBtn.active
 {
@@ -127,6 +155,18 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border:1px solid #c4c5c5;
+}
+
+
+.element-item.navigatorMukhtar
+{
+	border:0 !important;
+	margin-bottom: -50px;
+	margin-top: 10px;
+}
+.navigatorMukhtar.hidden
+{
+	display: none;
 }
 
 
@@ -161,6 +201,11 @@
 .col1
 {
 	width:300px;
+}
+
+.col1_5
+{
+	width:455px;
 }
 
 .col2
@@ -219,7 +264,7 @@
 }  
 
 .element-item:hover .overbox {  
-    opacity: .5;
+    opacity: .8;
 }
 
 .element-item .overtext {
@@ -230,6 +275,15 @@
     transition: all 300ms ease-out;
 	transform: translateY(40px);
 	-webkit-transform: translateY(40px);
+	
+}
+
+.element-item .overtext3 {
+	margin-top:120px !important;
+}
+
+.element-item .overtextsmall {
+	margin-top:-100px !important;
 }
 
 
@@ -237,8 +291,11 @@
 	font-size: 2.5em;
 	text-transform: uppercase;
 	opacity: 0;
+	margin-top: -40px;
 	transition-delay: 0.1s;
     transition-duration: 0.2s;
+    font-family: axiataBold;
+	font-size: 20px;
 }
 
 .element-item:hover .title, .box:focus .title {  
@@ -253,6 +310,8 @@
 	opacity: 0;
 	transition-delay: 0.2s;
     transition-duration: 0.2s;
+    font-family: axiataBook;
+    font-size: 16px;
 }
 
 .element-item:hover .tagline, .box:focus .tagline {  
@@ -466,40 +525,80 @@
 
 
 
-#kite-small {
+.kite-tiny {
+	-webkit-animation-name: kite-tiny-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 5s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-tiny-animation;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+/* Safari */
+@-webkit-keyframes kite-tiny-animation {
+    0%   {top:500px;left:55%;}
+    100%   {top:540px;left:56%;}
+
+}
+
+/* Standard syntax */
+@keyframes kite-tiny-animation {
+	 0%   {top:500px;left:55%;}
+    100%   {top:540px;left:56%;}
+}
+
+
+
+
+
+.kite-small {
 	-webkit-animation-name: kite-small-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 1.5s; /* Safari */    
+    -webkit-animation-duration: 3s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
     -webkit-animation-direction: alternate; /* Safari */    
     animation-name: kite-small-animation;
     animation-timing-function: linear;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    position: relative;
 }
 
 /* Safari */
 @-webkit-keyframes kite-small-animation {
-    0%   {left:115px;}
-    100%   {left:105px;}
+    0%   {margin-left:-430px;}
+    100%   {margin-left:-440px;}
 }
 
 /* Standard syntax */
 @keyframes kite-small-animation {
-	0%   {left:115px;}
-    100%   {left:105px;}
+	0%   {margin-left:-430px;}
+    100%   {margin-left:-440px;}
 }
+
+
+
+
+
+
+
+
 
 .kite-medium {
 	-webkit-animation-name: kite-medium-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 4s; /* Safari */    
+    -webkit-animation-duration: 9s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
     -webkit-animation-direction: alternate; /* Safari */    
     animation-name: kite-medium-animation;
     animation-timing-function: linear;
-    animation-duration: 4s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     position: absolute;

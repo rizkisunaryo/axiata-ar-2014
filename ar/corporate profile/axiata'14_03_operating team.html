@@ -28,7 +28,7 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
 					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
 					
 					<div class="animatedParent">
@@ -78,7 +78,7 @@
 				</div>
 				<img class="logoImg" src="../assets/img/navbar/logo.png" />
 				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
+					<a style="opacity:0;" id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img style="opacity:0;" id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
 					
 				</div>
 			</div>	
@@ -108,10 +108,15 @@
 				</div>
 				<div class="name2">
 					<p class="text"> 
-						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<!--<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Hasnul Suhaimi</span> <br/>
 						President Director <br/>
+						<span class="purple">PT XL Axiata Tbk</span>-->
+						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<span class="purple">Dian Siswarini</span> <br/>
+						President Director <br/>
 						<span class="purple">PT XL Axiata Tbk</span>
+
 					</p>
 				</div>
 				<div class="name3">
@@ -127,14 +132,14 @@
 			<div class="section7">
 				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/24.html" />
 				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/25.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/26.html" />
-				<h1 class="header1">Profile of Operating Companies’</h1>
+				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/27.html" />
+				<h1 class="header1">Profile of</h1>
 				<h1 class="header2">Management Team</h1>
 				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Supun Weerasinghe</span> <br/>
-						Managing Director &amp; Chief Executive Officer<br/>
+						Managing Director &amp; Chief Executive Officer <br/>
 						<span class="purple">Robi Axiata Limited</span>
 					</p>
 				</div>
@@ -143,11 +148,35 @@
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Thomas Hundt</span> <br/>
 						Chief Executive Officer<br/>
-						<span class="purple">
-						Smart Axiata Co. Ltd. </span>
+						<span class="purple">Smart Axiata Co. Ltd.</span>
 					</p>
 				</div>
 				<div class="name3">
+					<p class="text"> 
+						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<span class="purple">Mohd Khairil Abdullah</span> <br/>
+						Chief Executive Officer<br/>
+						<span class="purple">Axiata Digital Services Sdn Bhd</span>
+					</p>
+				</div>
+			</div>
+			
+			<div class="section8">
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/28.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/26.html" />
+				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/29.html" />
+				<img class="plusButton" id="plusButton4" src="../assets/img/chapter4/section2/plus.png" data-url="../board/30.html" />
+				<h1 class="header1">Profile of</h1>
+				<h1 class="header2">Management Team</h1>
+				<div class="name1">
+					<p class="text"> 
+						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<span class="purple">Suresh Sidhu</span> <br/>
+						Chief Executive Officer<br/>
+						<span class="purple">edotco Group Sdn Bhd</span>
+					</p>
+				</div>
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Karen Kooi</span> <br/>
@@ -155,7 +184,24 @@
 						<span class="purple">M1 Limited</span>
 					</p>
 				</div>
+				<div class="name3">
+					<p class="text"> 
+						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<span class="purple">Himanshu Kapania</span> <br/>
+						Managing Director<br/>
+						<span class="purple">Idea Cellular Limited</span>
+					</p>
+				</div>
+				<div class="name4">
+					<p class="text"> 
+						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
+						<span class="purple">Adnan Asdar</span> <br/>
+						Chief Executive Officer<br/>
+						<span class="purple">Multinet Pakistan (Private) Limited</span>
+					</p>
+				</div>
 			</div>
+			
 		</div>
 		
 	
@@ -196,7 +242,7 @@
   <script type="text/javascript">
 	var exploreMoreOpened=false;
 	
-	var sectionsNumber= 8;
+	var sectionsNumber= 9;
 	
 	var lastScrollTop = 0;
 	
@@ -264,6 +310,7 @@
 		new ScrollMagic.Scene({
 				triggerElement: '#movingSectionContainer',
 				duration:.1,
+				offset:-90,
 				triggerHook: 'onLeave'
 			})
 			.setPin('#movingSectionContainer',{pushFollowers: false})
@@ -275,7 +322,7 @@
 					triggerElement: '.section'+i,
 					triggerHook: 'onLeave',
 					offset: -90,
-					duration:730
+					duration:770
 				})
 				.setPin('.section'+i,{pushFollowers: false})
 				.addTo(controller);
@@ -317,7 +364,7 @@
 				openSpeed  : 150,
 				closeEffect : 'elastic',
 				closeSpeed  : 150,
-				width : '965px',
+				width : '990px',
 				height:'100%',
 				padding: 0,
 				margin: [90,0,0,0],
@@ -329,7 +376,7 @@
 				},
 				beforeShow: function(){	
 					$("body").css({'overflow-y':'hidden'});
-					//$('.fancybox-wrap').css('margin-left','-10px');
+					$('.fancybox-wrap').css('margin-left','-10px');
 				},
 				afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
 			});

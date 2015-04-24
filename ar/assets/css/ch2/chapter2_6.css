@@ -42,8 +42,9 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     text-justify: inter-word;
 }
 .section1{
-    margin: 90px auto;
+    margin: 0px auto;
     padding-left: 55px;
+      padding-left: 75px;
     padding-top: 35px;
     padding-right: 63px;
     padding-bottom: 0px;
@@ -138,7 +139,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 .bottom_note{
       position: absolute;
   bottom: 11px;
-  left: 512px;
+  left: 602px;
   width: 194px;
   height: 55px;
   padding: 10px;
