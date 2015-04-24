@@ -1,0 +1,17 @@
+@import url("../navbar.css");
+@import url("../fonts.css");
+@import url("../fonts2.css");
+
+
+
+.section{
+    margin: 84px 42px 42px 0px;
+ -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.title{ display: block; color: #c40c42; font-size: 15.2px; font-weight: bolder; margin-bottom: 18px;}
+.big_txt{ color: #4d4d4f; font-weight: bolder; font-size: 15px;}
+.small_txt{ color: #4d4d4f; font-size: 14.5px;}
+.part{margin-bottom: 18px;}
+.row{  width: 100%;  padding-left: 93px;}
+.col2{width:  48%; display: inline-block;  vertical-align: top;}
