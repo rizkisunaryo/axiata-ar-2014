@@ -29,8 +29,8 @@
         <div class="navbarContent">
 
             <div class="menuLeftNav">
-<!--                <img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />-->
-                <a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+                <img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+                <a onclick="javascript: window.history.back();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
 
                 <div class="animatedParent">
                     <div class="dropDownMenu animated bounceInDown">
@@ -79,7 +79,7 @@
             </div>
             <img class="logoImg" src="../assets/img/navbar/logo.png" />
             <div class="menuRightNav">
-<!--                <a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp;-->
+                <a style="opacity:0;" id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img style="opacity:0;" id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp;
 
             </div>
         </div>
