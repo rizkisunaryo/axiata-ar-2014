@@ -128,6 +128,7 @@
 .font14{  font-size: 14px;  }
 .font15{  font-size: 15px;  }
 .font16{  font-size: 16px;  }
+.font16{  font-size: 18px;  }
 .font20{  font-size: 20px;  }
 .font25{  font-size: 25px;  }
 .font31{  font-size: 31px;  }
@@ -136,6 +137,7 @@
 .font120{  font-size: 120px;  }
 
 .lineHeight100{ line-height: 100%;}
+.lineHeight{ line-height: 1.3;}
 
 .divider{
     width: 1080px;
@@ -191,4 +193,8 @@
 }
 .box-wrap{
     padding: 18px 25px;
+}
+
+.contribution{
+    background: url("../img/chapter1/nr/contribution_bg.png") no-repeat;
 }
