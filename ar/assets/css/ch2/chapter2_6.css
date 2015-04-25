@@ -137,13 +137,13 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 }
 
 .bottom_note{
-      position: absolute;
-  bottom: 11px;
-  left: 602px;
+  position: absolute;
+  bottom: 60px;
+  left: 452px;
   width: 194px;
   height: 55px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #000;
   font-size: 10px;
 }
 .report_chart .big_txt{
@@ -159,7 +159,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     right: -7px;
     width: 22px;
     height: 19px;
-    background: url(../../img/chapter2/Zoom-in-Icon.png);/>
+/*    background: url(../../img/chapter2/Zoom-in-Icon.png);/>*/
 }
 .report_chart .graphs{
     height: 130px;}
@@ -169,11 +169,13 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 .report_chart .graphs-x-timeline {
     border-top: 1px solid #6d6e71;
     color: #6d6e71;
+      height: 32px;
+    
 }
 .report_chart .graphs-x-timeline p{
-    width: 19%;
     width: 18%;
     font-size: 9.26px;
+    margin-top: 26px;
 }
 .bar-triangles-container{
 /*    position: relative;*/
@@ -227,4 +229,10 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 .graphs-footnote div{
     display: inline-block;
     margin-left: 14px;
+}
+.fa-search-plus, .fa-search-minus{
+  color: #8B8B8A;
+  -webkit-transform: rotate(-11deg);
+  -moz-transform: rotate(-45deg);
+  font-size: 22px;
 }
