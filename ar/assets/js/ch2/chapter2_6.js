@@ -61,6 +61,8 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
     }
 function zoomElement(elementClass){
     selector="."+elementClass;
+    $(selector).find('.fa-search-plus').toggle();
+    $(selector).find('.fa-search-minus').toggle();
     if($(selector).hasClass('zoomedTo'))
     {
         $('body').zoomTo({targetsize:1, duration:300});

@@ -155,7 +155,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 }
 .report_chart .zoom-in {
     position: absolute;
-    top:0px;
+    top:10px;
     right: -7px;
     width: 22px;
     height: 19px;
