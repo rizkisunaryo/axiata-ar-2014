@@ -20,7 +20,7 @@
           </div>
           <div style="position:relative;">
             <div style="position:relative; color:#787f84; font-size:22px; margin-top:10px;" class="title">Dear Shareholders,</div>
-            <div style="position:relative; margin-top:10px;">
+            <div class="grey4Color" style="position:relative; margin-top:10px;">
               Our journey towards realising our ambition to be a regional champion by 2015 is fast approaching its mark. I am pleased to report that Axiata has upheld its promise - raising the performance bar whilst remaining committed to its transformation into a new generation telecommunications company by 2020.<br />
               <br />
               <br />
