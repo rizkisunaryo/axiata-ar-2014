@@ -234,7 +234,7 @@ container
 .exploreMore
 {
 	width:960px;
-	height:730px;
+	height:600px;
 	margin:30px 0 0 -10px;
 	background-color:#ffffff;
 	border-top:1px solid #e7eaec;
@@ -310,4 +310,29 @@ container
 .explore9
 {
 	background: #fff url('../img/explore/9.png') no-repeat top left !important;
+}
+
+.downloadreport
+{
+	font-family: axiataBook;
+	font-size:15px;
+	width:400px !important;
+	height: 60px !important;
+	color:#6d6e71;
+
+}
+.downloadreport img
+{
+	margin-bottom: -10px;
+	margin-left: -10px;
+	padding-right: 10px;
+}
+.downloadreport a
+{
+	margin-left:-200px;
+	cursor: pointer;
+}
+.downloadreport a:hover
+{
+	color:#c21444;
 }

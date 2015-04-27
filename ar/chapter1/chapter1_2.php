@@ -1,86 +1,9 @@
-<!doctype html>
+<?php
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Axiata annual report">
-  <meta name="author" content="TwitterJaya - Muktar SayedSaleh">
-	
-  <title>Axiata annual report</title>	
-	
-  <link rel="stylesheet" href="../assets/css/normalize.css">
-  <link rel="stylesheet" href="../assets/css/ch1/chapter1_2.css">
-  <link rel="stylesheet" href="../assets/css/animations.css">
- 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
+    include("../inc/header.php");
 
-<body>
-	<div class="container" style="overflow-x:hidden;">
-		<div class="navbar panel">
-			
-			<div class="navbarContent">
-			
-				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
-					
-					<div class="animatedParent">
-						<div class="dropDownMenu animated bounceInDown">
-							<ul>
-								<li class="purple"><a href="#">Download Full Report</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Financial Statements</a></li>
-								<li><a href="#">AGM Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Download By Chapter</a></li>
-								<li><a href="#">At A Glance</a></li>
-								<li><a href="#">Shaping The Future</a></li>
-								<li><a href="#">Financial Performance</a></li>
-								<li><a href="#">Corporate Profile</a></li>
-								<li><a href="#">Investment Performance</a></li>
-								<li><a href="#">Operating Companies Business Review</a></li>
-								<li><a href="#">New Business Units</a></li>
-								<li><a href="#">Corporate Responsibility</a></li>
-								<li><a href="#">Other Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Instructions</a></li>
-							</ul>
-						</div>
-					</div>
-					
-					
-					<div class="animatedParent">
-						<div class="exploreMore animated bounceInDown">
-							<ul>
-								<li class="explore1"></li>
-								<li class="explore2"></li>
-								<li class="explore3"></li>
-								<li class="explore4"></li>
-								<li class="explore5"></li>
-								<li class="explore6"></li>
-								<li class="explore7"></li>
-								<li class="explore8"></li>
-								<!--<li class="hiddenExplorePic"></li>-->
-								<li class="explore9"></li>
-								
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-				<img class="logoImg" src="../assets/img/navbar/logo.png" />
-				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
-					
-				</div>
-			</div>	
-		</div>
+?>
+<link rel="stylesheet" href="../assets/css/ch1/chapter1_2.css">
 
 		<div id="scrollTrigger" style="position:fixed; top:50%; z-index:1000;"></div>
 
@@ -93,26 +16,33 @@
 			<div id="groupProfileText" style="z-index:10;">
 				<div style="position:relative; width:960px; margin:0 auto;">
 					<div style="position:relative; background-color:black; color:white; width:510px; padding:30px; opacity:0.8; left:25px;">
-            <div style="position:relatvie; font-size:94px; color:#bcbec0; line-height:100%;" class="title">Group<br>Profile</div>
-            <div style="position:relatvie; color:#bcbec0;">
-              Axiata Group Berhad is one of the largest Asian telecommunications group in Asia with over 260 million customers. Axiata’s vision is to be a regional champion by 2015 by piecing together the best throughout the region in connectivity, technology and talent, uniting them towards a single goal: Advancing Asia.<br>
-              <br>
-              Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with significant strategic stakes in India and Singapore. In addition, the Malaysian-grown holding company has stakes in nonmobile telecommunications operations in Pakistan.<br>
-              <br>
-              The Group’s mobile subsidiaries and associates operate under the brand name “Celcom” in Malaysia, “XL” in Indonesia, “Dialog” in Sri Lanka, “Robi” in Bangladesh, “Smart” in Cambodia, “Idea” in India and “M1” in Singapore. Added to this the Group has established a communications infrastructure solutions and services<br>
-              <br>
-              The Group, including its subsidiaries and associates, has over 260 million mobile subscribers in Asia. The Group revenue for 2014 was RM18.7 billion (USD5.4 billion). Its market capitalisation stood at over RM60.5 billion (USD17.5 billion) at the end 2014.<br>
-              <br>
-              The Group provides employment to over 29,000 people across Asia.<br>
-              <br>
-              Axiata was awarded the Frost &amp; Sullivan Asia Pacific ICT Award for Best Telecom Group for five consecutive years in 2009, 2010, 2011, 2012, 2013 and 2014 and the Telecom Asia Best Regional Mobile Group 2010 and 2011 for its operations in multiple Asian markets. In 2011, Axiata was the only Malaysian company to make the Forbes Asia Fab 50 List.<br>
-              <br>
-              <br>
-              <span class="title">Axiata’s Journey</span><br>
-              <br>
-              Axiata was incorporated in Malaysia on 12 June 1992 as a private limited company under the name of TMI, operating as a division within TM. The initial focus was on expanding the Group’s footprint, primarily through mergers and acquisitions, building a portfolio which balances interests in emerging markets with low mobile penetration rates, and best-in-class and innovation driven subsidiaries in mature markets.
+            <div style="position:relatvie; font-size:94px; color:#bcbec0; line-height:100%;" class="title">Group<br>
+              <span class="title maroonColor" style="font-size:94px; line-height:100%;">Profile</span>
             </div>
-            <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
+            <div style="position:relatvie; color:#bcbec0;">
+              Axiata Group Berhad (Axiata) is one of the largest Asian telecommunications groups in Asia with over 260 million customers. Axiata’s vision is to be a regional champion by 2015 by piecing together the best throughout the region in connectivity, technology and talent, uniting them towards a single goal: Advancing Asia.<br />
+              <br />
+              Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with significant strategic stakes in India and Singapore. In addition, the Malaysian-grown holding company has a stake in non-mobile telecommunications operations in Pakistan. <br />
+              <br />
+              The Group’s mobile subsidiaries and associates operate under the brand name “Celcom” in Malaysia, “XL” in Indonesia, “Dialog” in Sri Lanka, “Robi” in Bangladesh, “Smart” in Cambodia, “Idea” in India and “M1” in Singapore. Added to this, the Group has established a communications infrastructure solutions and services company called “edotco”. <br />
+              <br />
+              The Group revenue for 2014 was RM18.7 billion (USD5.7 billion). Its market capitalisation stood at over RM60.5 billion (USD18.5 billion) at the end of 2014.<br />
+              <br />
+              The Group provides employment to over 25,000 people across Asia.<br />
+              <br />
+              Axiata was awarded the Frost & Sullivan Asia Pacific ICT Award for Best Telecom Group for six consecutive years in 2009, 2010, 2011, 2012, 2013 and 2014 and the Telecom Asia Best Regional Mobile Group 2010 and 2011 for its operations in multiple Asian markets. In 2011, Axiata was the only Malaysian company to make the Forbes Asia Fab 50 List.<br />
+              <br />
+              <br />
+              <span class="title" style="line-height:2; color:#fff;">Axiata’s Journey</span><br />
+              Axiata was incorporated in Malaysia on 12 June 1992 as a private limited company under the name of TMI, operating as a division within TM. In 2008, the TM Group completed a strategic demerger exercise which resulted in an enhanced TMI, which was merged with Celcom. TMI was subsequently listed on Bursa Securities on 28 April 2008 and in March 2009, TMI changed its name to Axiata Group Berhad and launched a new identity, enhancing its position as a leading regional mobile operator. The move was a requisite step to reinforce the Group’s new business philosophy and its commitment to advancing Asia by addressing the unfulfilled communication needs of local populations with affordable and innovative products and services. Axiata has gone from 40 million customers, pre-demerger, to over 260 million across eight countries, in seven years, making Axiata one of the largest mobile players in Asia.<br />
+              <br />
+              <br />
+              <span class="title" style="line-height:2; color:#fff;">Shaping the Future</span><br />
+              Axiata has always been ahead of the curve, quickly adapting to change and positioning its business model to capitalise on the developments in an increasingly digitalised world. Parallel to its investments in network and technology modernisation over the years, Axiata has also evolved its business to embrace the digital age and fast growing demand for data. 2015 will be a critical year for Axiata as it progresses in its transformation beyond a traditional telecommunications company.<br />
+              <br />
+              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available online.
+            </div>
+            <!-- <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
               <div style="position:relative; font-size:35px; left:220px;" class="title">2007 vs 2014</div>
               <div style="position:relative; margin-top:15px; line-height:1;">
                 <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
@@ -155,13 +85,13 @@
               In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Details of Axiata’s sustainability efforts are available as a separate booklet, together with this Annual Report.<br>
               <br>
               <span style="font-size:11px;">*Market Capitalisation 2008 vs 2014</span>
-            </div>
+            </div> -->
           </div>
 				</div>
 			</div>
 		</section>
 
-		<section id="corporateInformation" style="margin-top:150px;">
+		<section id="corporateInformation" style='margin-top:80px;background-image: url(&quot;../assets/img/chapter1/corner.png&quot;);   background-repeat: no-repeat;   background-position-y: -10px;background-position-x: 237px;'>
       <div class="center-content" style="position:relative; max-width:890px; width:100%; margin:0 auto; height:auto; z-index:0;">
         <div style="position:relative;">
           <div class="title" style="position:relative; color:#8a8c8e; font-size:26px;">Corporate</div>
@@ -199,7 +129,7 @@
           <span class="title">Bella Ann Almeida</span><br>
           Independent Non-Executive Director
         </div>
-        <div style="position:relative; margin-top:-588px; left:445px;">
+        <div style="position:relative; margin-top:-588px; left:481px;">
           <span class="title maroonColor">Share Registrar</span><br>
           <br>
           <span class="title">Tricor Investor Services Sdn Bhd</span><br>
@@ -231,7 +161,7 @@
           Email : ir@axiata.com
         </div>
       </div>
-      <div style="position:relative; width:960px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:40px; color:white; padding:40px;">
+      <div style="position:relative; width:880px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:80px; color:white; padding:40px;">
         <div style="position:relative;">
           <span class="title">Group Company Secretary</span><br>
           <br>
@@ -260,85 +190,52 @@
         </div>
       </div>
     </section>
-		
-		<script src="../assets/js/jquery.js"></script>
-	  <script src="../assets/js/TweenMax.min.js"></script>
-	  <script src="../assets/js/ScrollMagic.min.js"></script>
-	  <script src="../assets/js/animation.gsap.js"></script>
-	  <script src="../assets/js/viewportchecker.js"></script>
-	  <script src="../assets/js/css3-animate-it.js"></script>
-	  <script src="../assets/js/jquery.transit.min.js"></script>
-		
-		<script type="text/javascript">
-		var isPercentageReached=[false,false,false,false,false];
 
-	  $(function () {
-			$('.dropDownMenu').hide();
-			$('#mobileMenu').click(function(){
-				$('.exploreMore').hide();
-				$('.dropDownMenu').slideToggle();
-			});
-			
-			$('.exploreMore').hide();
-			$('#explore, #exploreMoreLnk').click(function(){
-				exploreMoreOpened=!exploreMoreOpened;
-				if(exploreMoreOpened)
-				{
-					$('#explore').attr('src','assets/img/chapter4/navbar/close.png').transition({ rotate: '90deg' });
-				}
-				else
-				{
-					$('#explore').attr('src','assets/img/chapter4/navbar/explore.png').transition({ rotate: '-90deg' });
-				}
-				$('.dropDownMenu').hide();
-				$('.exploreMore').slideToggle();
+<?php
+    include("../inc/footer.php");
+?>
 
-			});
+<script type="text/javascript">
+    // var isPercentageReached=[false,false,false,false,false];
 
-			// SCROLL MAGIC
-			var groupProfileTextHeight = parseInt($('#groupProfileText').height()) + 120 - 637;
-			$('#groupProfileText').css('margin-top',(-groupProfileTextHeight-637)+'px');
+    $(function () {
+      // SCROLL MAGIC
+      var groupProfileTextHeight = parseInt($('#groupProfileText').height()) + 120;
+      $('#groupProfileText').css('margin-top',(-groupProfileTextHeight)+'px');
 
-			var controller = new ScrollMagic.Controller();
-			new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:groupProfileTextHeight})
-									.setPin("#groupProfileBg")
-									.addTo(controller);
-			
-			// OTHERS
-			$(window).on('scroll', function(){
-        fromZero('#revenue',87,0);
-        fromZero('#ebitda',69,1);
-        fromZero('#pat',66,2);
-        fromZero('#subscribers',565,3);
-        fromZero('#marketcap',345,4);
-	    });
-		});
+      var controller = new ScrollMagic.Controller();
+      new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:groupProfileTextHeight})
+                  .setPin("#groupProfileBg")
+                  .addTo(controller);
+      
+      // OTHERS
+      // $(window).on('scroll', function(){
+   //      fromZero('#revenue',87,0);
+   //      fromZero('#ebitda',69,1);
+   //      fromZero('#pat',66,2);
+   //      fromZero('#subscribers',565,3);
+   //      fromZero('#marketcap',345,4);
+    //   });
+    });
 
-		function fromZero(selector,toNumber,booleanNumber) {
-			// console.log($('#scrollTrigger').offset().top+":"+$('#percentageTopTrigger').offset().top);
-			// console.log($('#scrollTrigger').offset().top>$('#percentageTopTrigger').offset().top);
-	    if ($('#scrollTrigger').offset().top>$('#percentageTopTrigger').offset().top && !isPercentageReached[booleanNumber]) {
-        isPercentageReached[booleanNumber]=true;
-        $(selector).text(0);
-        $({someValue: 0}).animate({someValue: toNumber}, {
-            duration: 1000,
-            easing:'swing', // can be anything
-            step: function() { // called on every step
-                // Update the element's text with rounded-up value:
-                $(selector).text(Math.round(this.someValue));
-            }
-        });
-	    }
-	    else if ($('#scrollTrigger').offset().top<$('#percentageTopTrigger').offset().top-$(window).height()/2) {
-        isPercentageReached[booleanNumber]=false;
-        $(selector).text(0);
-	    }
-		}
-		</script>
-		
-		
-		
-		
-	</div>
-</body>
-</html>
+    // function fromZero(selector,toNumber,booleanNumber) {
+    //  // console.log($('#scrollTrigger').offset().top+":"+$('#percentageTopTrigger').offset().top);
+    //  // console.log($('#scrollTrigger').offset().top>$('#percentageTopTrigger').offset().top);
+   //    if ($('#scrollTrigger').offset().top>$('#percentageTopTrigger').offset().top && !isPercentageReached[booleanNumber]) {
+  //       isPercentageReached[booleanNumber]=true;
+  //       $(selector).text(0);
+  //       $({someValue: 0}).animate({someValue: toNumber}, {
+  //           duration: 1000,
+  //           easing:'swing', // can be anything
+  //           step: function() { // called on every step
+  //               // Update the element's text with rounded-up value:
+  //               $(selector).text(Math.round(this.someValue));
+  //           }
+  //       });
+   //    }
+   //    else if ($('#scrollTrigger').offset().top<$('#percentageTopTrigger').offset().top-$(window).height()/2) {
+  //       isPercentageReached[booleanNumber]=false;
+  //       $(selector).text(0);
+   //    }
+    // }
+    </script>

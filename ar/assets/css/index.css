@@ -14,7 +14,7 @@
 	overflow:hidden;
 	z-index:30;
 	margin-bottom: 20px;
-	border-bottom:2px solid #c2063a;
+	border-bottom:1px solid #c2063a;
 }
 
 .section1 .logo
@@ -124,10 +124,14 @@
 {
 	float:left;
 	font-family: axiataBold;
-	font-size:26px;
+	font-size:20px;
 	color:#c2063a;
 	cursor: pointer;
-	padding:0 30px;
+	padding:0 20px 90px !important;
+	width:280px;
+	text-align: center;
+	height:100px;
+
 }
 .section2 .filterBtn.active
 {
@@ -161,12 +165,17 @@
 .element-item.navigatorMukhtar
 {
 	border:0 !important;
+	margin-top: 10px;
+}
+.element-item.navigatorMukhtar:first-of-type
+{
+	border:0 !important;
 	margin-bottom: -50px;
 	margin-top: 10px;
 }
-.navigatorMukhtar.hidden
+.navigatorMukhtar
 {
-	display: none;
+	margin-bottom: 70px;
 }
 
 
