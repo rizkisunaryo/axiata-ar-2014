@@ -59,6 +59,22 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
                 } 
         
     }
+function zoomElement(elementClass){
+    selector="."+elementClass;
+    $(selector).find('.fa-search-plus').toggle();
+    $(selector).find('.fa-search-minus').toggle();
+    if($(selector).hasClass('zoomedTo'))
+    {
+        $('body').zoomTo({targetsize:1, duration:300});
+        $(selector).removeClass('zoomedTo');
+    }
+    else
+    {
+        $(selector).zoomTo({targetsize:0.75, duration:300});
+        $(selector).addClass('zoomedTo');
+    }
+    
+}
 $(document).ready(function(){
 //animateGraph(1,"#bar1_0",true," Red smallTriangle",12);
     $('.section1').fadeIn();
@@ -67,4 +83,10 @@ $(document).ready(function(){
     setTimeout(function(){animateGraph_onegraph(2);},1200);
     setTimeout(function(){animateGraph_onegraph(3);},1600);
     setTimeout(function(){animateGraph_onegraph(4);},2000);
+    
+    
+    $('.zoom-in').click(function(){
+        zoomElement($(this).data('target'));
+    });
+    
 });
