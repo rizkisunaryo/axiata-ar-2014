@@ -20,7 +20,8 @@
         <div class="row">
             <div class="col col50">
                 <div class="contribution">
-                    fsafsa
+                    <div class="axiataBold font52 text__color--lightred"> USD93 <span class="block axiataBook font15 text__color--darkgrey">GDP Contribution</div>
+                    <div class="axiataBold font31 text__color--lightred"> billion</div>
                 </div>
             </div>
             <div class="col col50">

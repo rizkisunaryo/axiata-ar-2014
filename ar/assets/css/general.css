@@ -132,6 +132,7 @@
 .font20{  font-size: 20px;  }
 .font25{  font-size: 25px;  }
 .font31{  font-size: 31px;  }
+.font52{  font-size: 52px;  }
 .font57{  font-size: 57px;  }
 .font79{  font-size: 79px;  }
 .font120{  font-size: 120px;  }
@@ -191,10 +192,17 @@
 .conference-wrap{
     padding: 15px 0;
 }
+.conference-wrap--title{
+    padding: 15px 0 0 0;
+}
+
 .box-wrap{
     padding: 18px 25px;
 }
 
 .contribution{
+    padding-left: 30px;
+    padding-right: 30px;
     background: url("../img/chapter1/nr/contribution_bg.png") no-repeat;
+    background-size: 405px 115px;
 }

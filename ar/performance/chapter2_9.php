@@ -133,7 +133,7 @@
 
             </div>
              <div class="row text__color--darkgrey">
-                 <div class="conference-wrap">
+                 <div class="conference-wrap--title">
                     <div class="font20">Non-Deal Roadshow</div>
                  </div>
                 <div class="col col3">
@@ -200,7 +200,7 @@
             </div>
             <div class="row">
                 <p class="axiataBold text__color--lightred font15">Quarterly Results and Analysts Briefings</p>
-                <div class="text__color--darkgrey font15">
+                <div class="text__color--darkgrey font15 lineHeight text-justify ">
                     <p>Axiata organises quarterly analysts results briefings chaired by the President & GCEO and GCFO once the quarterly financial performance is announced on Bursa Securities. These analysts briefings are conducted via conference calls and attended by the senior management of major OpCos as an avenue to provide dialogue between fund managers and research analysts with the Group’s Senior Management as well as provide a platform for analysts and fund managers to receive a balanced and complete view of the Group’s performance and the challenges facing the Group. The holding of analysts briefings immediately after the release of the results is aimed at facilitating timely publication and/or dissemination of analysts reports to the investing community. Consistent with equitable sharing of information and treatment of its shareholders, materials intended for analysts briefings are made available immediately after the release of the financial results.</p>
                     <p>The Company’s quarterly financial performance materials presented during the analysts briefings are available online on the investor relations page at www.axiata.com/investor/financial-reports/.</p>
                     <p>The Company’s quarterly financial performance materials presented during the analysts briefings are available online on the investor relations page at www.axiata.com/investor/financial-reports/.</p>
@@ -209,7 +209,7 @@
             </div>
             <div class="row">
                 <p class="axiataBold text__color--lightred font15">Media Conferences</p>
-                <div class="text__color--darkgrey font15">
+                <div class="text__color--darkgrey font15 lineHeight text-justify">
                     <p>Media conferences are held on a half-yearly basis upon release of half-year and full-year results. The media conferences are held separately from analysts briefings to address the different requirements of each group and to be more productive and efficient. Management ensures that all information is equally disseminated and materials for both the analysts briefings and media conferences are made available on Axiata’s website.</p>
                     <p>In 2014, Axiata conducted 289 meetings with investors and analysts via face-to-face meetings and conference calls. In addition to the above, an Analysts Day was also organised on 8 October 2014 in Kuala Lumpur. The event was well received with participation by 64 analysts and investors, both local and foreign-based. Long-term strategies, new technology trends, financial strategies, data revenue and profitability as well as highlights of the tower company business were among the key topics covered.</p>
                 </div>
@@ -242,10 +242,11 @@
             openSpeed  : 150,
             closeEffect : 'elastic',
             closeSpeed  : 150,
-            width : '100%',
+            autoSize : false,
+            width : 'auto',
             height:'100%',
             padding: 0,
-            margin: [10,0,0,0],
+            margin: [90,0,0,0],
             scrolling   : 'no',
             overlayOpacity: 1,
             overlayColor:	'#ffffff',
