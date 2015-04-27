@@ -91,7 +91,7 @@
 			</div>
 		</section>
 
-		<section id="corporateInformation" style="margin-top:150px;">
+		<section id="corporateInformation" style='margin-top:80px;background-image: url(&quot;../assets/img/chapter1/corner.png&quot;);   background-repeat: no-repeat;   background-position-y: -10px;background-position-x: 237px;'>
       <div class="center-content" style="position:relative; max-width:890px; width:100%; margin:0 auto; height:auto; z-index:0;">
         <div style="position:relative;">
           <div class="title" style="position:relative; color:#8a8c8e; font-size:26px;">Corporate</div>
@@ -129,7 +129,7 @@
           <span class="title">Bella Ann Almeida</span><br>
           Independent Non-Executive Director
         </div>
-        <div style="position:relative; margin-top:-588px; left:445px;">
+        <div style="position:relative; margin-top:-588px; left:481px;">
           <span class="title maroonColor">Share Registrar</span><br>
           <br>
           <span class="title">Tricor Investor Services Sdn Bhd</span><br>
@@ -161,7 +161,7 @@
           Email : ir@axiata.com
         </div>
       </div>
-      <div style="position:relative; width:960px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:40px; color:white; padding:40px;">
+      <div style="position:relative; width:880px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:80px; color:white; padding:40px;">
         <div style="position:relative;">
           <span class="title">Group Company Secretary</span><br>
           <br>
