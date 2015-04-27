@@ -2,6 +2,10 @@
 @import url("../fonts.css");
 @import url("../fonts2.css");
 
+.container {
+	overflow-x:hidden; 
+}
+
 .percentage {
 	font-family: axiataBold;
 	font-size:49px;
