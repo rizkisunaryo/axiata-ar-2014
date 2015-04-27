@@ -18,39 +18,76 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col50">
+            <div class="col-justify col50">
                 <div class="contribution">
-                    <div class="axiataBold font52 text__color--lightred"> USD93 <span class="block axiataBook font15 text__color--darkgrey">GDP Contribution</div>
-                    <div class="axiataBold font31 text__color--lightred"> billion</div>
-                </div>
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-
-            </div>
-            <div class="col col50">
-                <div class="col col80">
-                    <div class="font9 text__color--darkgrey">
-                        <p>* excludes idea and M1</p>
-                        <p>Axiata’s 2014 Sustainability and National Contribution Report, Committed to Development, Towards a Digital Future is available online at www.axiata.com and can be downloaded on AppStore and GooglePlay. </p>
+                    <div class="contribution-wrapper">
+                        <span class="axiataBold font52 text__color--lightred"> USD93</span>
+                        <span class="axiataBold font30 text__color--lightred"> billion</span>
+                        <span class="block axiataBook font15 text__color--darkgrey">GDP Contribution </span>
                     </div>
                 </div>
-                <div class="col col20">
-                    <img src="../assets/img/chapter1/nr/ch_1_contribution.png">
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <div class="axiataBook font15 text__color--darkgrey"> Created more than</div>
+                        <div class="axiataBold font52 text__color--lightred">1.5 <span class="font30">million</span>  <span class="axiataBook font15 text__color--darkgrey font15"> job across Asia </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <div class="axiataBook font15 text__color--darkgrey">Capital Investment since 2008</div>
+                        <div class="axiataBold font52 text__color--lightred">USD15.4 <span class="font30">billion</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <div class="axiataBook font15 text__color--darkgrey">Subscribers</div>
+                        <div class="axiataBold font30 text__color--lightred">over <span class="font52"> 260 </span> <span class="font30">million</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <span class="axiataBook font20 text__color--darkgrey lineHeight100"> Spent more than</span>
+                        <span class="block axiataBold font52 text__color--lightred lineHeight90">USD38 <span class="font30"> billion </span> </span>
+                        <span class="block axiataBook font15 text__color--darkgrey lineHeight100">on operating expenditures </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <div class="axiataBook font15 text__color--darkgrey">Network coverage connecting more than*</div>
+                        <div class="axiataBold font52 text__color--lightred">~450 <span class="font30">million people</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution">
+                    <div class="contribution-wrapper">
+                        <span class="axiataBook font20 text__color--darkgrey lineHeight100"> Employed more than</span>
+                        <span class="block axiataBold font52 text__color--lightred lineHeight100"> 25,000 </span>
+                        <span class="block axiataBook font15 text__color--darkgrey lineHeight100">employees across Asia </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-justify col50">
+                <div class="contribution-info">
+                    <div class="col col78">
+                        <div class="contribution-text font9 text__color--darkgrey">
+                            <p>* excludes idea and M1</p>
+                            <p class="text-justify">Axiata’s 2014 Sustainability and National Contribution Report, Committed to Development, Towards a Digital Future is available online at www.axiata.com and can be downloaded on AppStore and GooglePlay. </p>
+                        </div>
+                    </div>
+                    <div class="col col20">
+                        <img class="col1" src="../assets/img/chapter1/nr/ch_1_contribution.png">
+                    </div>
                 </div>
             </div>
 
