@@ -1,86 +1,9 @@
-<!doctype html>
+<?php
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Axiata annual report">
-  <meta name="author" content="TwitterJaya - Muktar SayedSaleh">
-	
-  <title>Axiata annual report</title>	
-	
-  <link rel="stylesheet" href="../assets/css/normalize.css">
-  <link rel="stylesheet" href="../assets/css/ch1/chapter1_6.css">
-  <link rel="stylesheet" href="../assets/css/animations.css">
- 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
+    include("../inc/header.php");
 
-<body>
-	<div class="container" style="overflow-x:hidden;">
-		<div class="navbar panel">
-			
-			<div class="navbarContent">
-			
-				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
-					
-					<div class="animatedParent">
-						<div class="dropDownMenu animated bounceInDown">
-							<ul>
-								<li class="purple"><a href="#">Download Full Report</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Financial Statements</a></li>
-								<li><a href="#">AGM Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Download By Chapter</a></li>
-								<li><a href="#">At A Glance</a></li>
-								<li><a href="#">Shaping The Future</a></li>
-								<li><a href="#">Financial Performance</a></li>
-								<li><a href="#">Corporate Profile</a></li>
-								<li><a href="#">Investment Performance</a></li>
-								<li><a href="#">Operating Companies Business Review</a></li>
-								<li><a href="#">New Business Units</a></li>
-								<li><a href="#">Corporate Responsibility</a></li>
-								<li><a href="#">Other Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Instructions</a></li>
-							</ul>
-						</div>
-					</div>
-					
-					
-					<div class="animatedParent">
-						<div class="exploreMore animated bounceInDown">
-							<ul>
-								<li class="explore1"></li>
-								<li class="explore2"></li>
-								<li class="explore3"></li>
-								<li class="explore4"></li>
-								<li class="explore5"></li>
-								<li class="explore6"></li>
-								<li class="explore7"></li>
-								<li class="explore8"></li>
-								<!--<li class="hiddenExplorePic"></li>-->
-								<li class="explore9"></li>
-								
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-				<img class="logoImg" src="../assets/img/navbar/logo.png" />
-				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
-					
-				</div>
-			</div>	
-		</div>
+?>
+<link rel="stylesheet" href="../assets/css/ch1/chapter1_6.css">
 
 		<div id="scrollTrigger90px" style="position:fixed; top:90px; z-index:1000;"></div>
 		<div id="scrollTrigger10" style="position:fixed; top:10%; z-index:1000;"></div>
@@ -218,27 +141,23 @@
 					& Group Chief Executive Officer
 				</div>
     	</div>
-    	<div id="ceo2Text1" style="position:relative; top:-2730px; left:620px;">
+    	<div id="ceo2Text1" style="position:relative; top:-3180px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
     	</div>
-    	<div id="ceo2Text2" style="position:relative; top:-1880px; left:620px;">
+    	<div id="ceo2Text2" style="position:relative; top:-2170px; left:620px;">
     		<img src="../assets/img/chapter1/6/robi.png" />
     	</div>
-    	<div id="ceo2Text3" style="position:relative; top:-1590px; left:620px;">
+    	<div id="ceo2Text3" style="position:relative; top:-2040px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
     	</div>
-    	<div id="ceo2Text4" style="position:relative; top:-1070px; left:30px;">
+    	<div id="ceo2Text4" style="position:relative; top:-1240px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
     	</div>
     </section>
 		
-		<script src="../assets/js/jquery.js"></script>
-	  <script src="../assets/js/TweenMax.min.js"></script>
-	  <script src="../assets/js/ScrollMagic.min.js"></script>
-	  <script src="../assets/js/animation.gsap.js"></script>
-	  <script src="../assets/js/viewportchecker.js"></script>
-	  <script src="../assets/js/css3-animate-it.js"></script>
-	  <script src="../assets/js/jquery.transit.min.js"></script>
+<?php
+    include("../inc/footer.php");
+?>
 		
 		<script type="text/javascript">
 		var ceo2TextBool = [false,false,false,false];
@@ -250,31 +169,9 @@
 	  		console.log(ceo2TextTop[i]);
 	  	};
 
-			$('.dropDownMenu').hide();
-			$('#mobileMenu').click(function(){
-				$('.exploreMore').hide();
-				$('.dropDownMenu').slideToggle();
-			});
-			
-			$('.exploreMore').hide();
-			$('#explore, #exploreMoreLnk').click(function(){
-				exploreMoreOpened=!exploreMoreOpened;
-				if(exploreMoreOpened)
-				{
-					$('#explore').attr('src','../assets/img/chapter4/navbar/close.png').transition({ rotate: '90deg' });
-				}
-				else
-				{
-					$('#explore').attr('src','../assets/img/chapter4/navbar/explore.png').transition({ rotate: '-90deg' });
-				}
-				$('.dropDownMenu').hide();
-				$('.exploreMore').slideToggle();
-
-			});
-
 			// SCROLL MAGIC
-			var ceo1Text1Height = $('#ceo1Text1').height()+90;
-			$('#ceo1Text1').css('margin-top',(-ceo1Text1Height)+'px');
+			var ceo1Text1Height = $('#ceo1Text1').height()-670+90;
+			$('#ceo1Text1').css('margin-top',(-ceo1Text1Height-670)+'px');
 			var controller = new ScrollMagic.Controller();
 			new ScrollMagic.Scene({triggerElement: "#ceo1BgDiv",triggerHook:"onLeave",duration:ceo1Text1Height})
 									.setPin("#ceo1BgDiv")
@@ -314,10 +211,3 @@
 			}
 		}
 		</script>
-		
-		
-		
-		
-	</div>
-</body>
-</html>
