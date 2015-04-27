@@ -1,14 +1,12 @@
 <?php
-
     include("../inc/header.php");
-
 ?>
 
 
 <div idclass="spacer s0"></div>
 		
-<div id="movingSectionContainer" >
-    <div class="section1 section" style="display:none;">
+<div id="movingSectionContainer" class="zoomViewport" >
+    <div class="section1 section " style="display:none;">
         <div class="report_geographical_locations_title">
         <p class="small_txt">Reporting By</p>
         <p class="big_txt">Geographical</p>
@@ -19,8 +17,11 @@
         
         <div class="report_geographical_locations_img"  >
             <div class="chart_container">
-                <div class="report_chart_1 report_chart">
-                    <a href="#" class="zoom-in"></a>
+                <div class="report_chart_1 report_chart" >
+                    <a href="#" class="zoom-in" data-target="report_chart_1">
+                        <i class="fa fa-search-plus"></i>
+                        <i class="fa fa-search-minus" style="display:none;"></i>
+                    </a>
                     <div class="float-txt">
                         <p class="big_txt blue">MALAYSIA</p>
                         <p class="small_txt">(RM Billion)</p>
@@ -52,7 +53,10 @@
                     </div>
                 </div>
                 <div class="report_chart_2 report_chart">
-                    <a href="#" class="zoom-in"></a>
+                    <a href="#" class="zoom-in" data-target="report_chart_2">
+                        <i class="fa fa-search-plus"></i>
+                        <i class="fa fa-search-minus" style="display:none;"></i>
+                    </a>
                     <div class="float-txt">
                         <p class="big_txt orange">SRI LANKA</p>
                         <p class="small_txt">(SLR Billion)</p>
@@ -84,7 +88,10 @@
                     </div>
                 </div>
                 <div class="report_chart_3 report_chart">
-                    <a href="#" class="zoom-in"></a>
+                    <a href="#" class="zoom-in" data-target="report_chart_3">
+                        <i class="fa fa-search-plus"></i>
+                        <i class="fa fa-search-minus" style="display:none;"></i>
+                    </a>
                     <div class="float-txt">
                         <p class="big_txt blue-dark">INDONESIA</p>
                         <p class="small_txt">(IDR Trillion)</p>
@@ -116,7 +123,10 @@
                     </div>
                 </div>
                 <div class="report_chart_4 report_chart">
-                    <a href="#" class="zoom-in"></a>
+                    <a href="#" class="zoom-in" data-target="report_chart_4">
+                        <i class="fa fa-search-plus"></i>
+                        <i class="fa fa-search-minus" style="display:none;"></i>
+                    </a>
                     <div class="float-txt">
                         <p class="big_txt red">BANGLADESH</p>
                         <p class="small_txt">(BDT Billion)</p>
@@ -148,7 +158,10 @@
                     </div>
                 </div>
                 <div class="report_chart_5 report_chart">
-                    <a href="#" class="zoom-in"></a>
+                    <a href="#" class="zoom-in" data-target="report_chart_5">
+                        <i class="fa fa-search-plus"></i>
+                        <i class="fa fa-search-minus" style="display:none;"></i>
+                    </a>
                     <div class="float-txt">
                         <p class="big_txt green">CAMBODI</p>
                         <p class="small_txt">(USD Million)</p>
@@ -208,3 +221,4 @@
 </script>
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_6.css">
 <script src="../assets/js/ch2/chapter2_6.js"></script>
+<script src="../assets/js/jquery.zoomooz.min.js"></script>

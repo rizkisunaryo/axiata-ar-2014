@@ -58,7 +58,8 @@ canvas.Grey{border-left-color:   #6d6e71 !important; border-right-color: #00793a
 
 .bigtitle{ color: #c40c42; display: inline-block;
 /*width: 377px;*/
- margin-right: 60px; position: relative; top: -238px;}
+ margin-right: 60px; position: relative; top: -13px;
+  vertical-align: top;}
 .bigtitle div{
     margin-bottom: 0px;
 }

@@ -147,7 +147,7 @@
                         name: '26.1%',
                         y: 26.1,
                         dataLabels: {
-                            rotation: -30,
+                            rotation: 70,
                         },
 
                     },
@@ -155,7 +155,9 @@
                         name: '1.3%',
                         y: 1.3,
                         dataLabels: {
-                            rotation: -5,
+                            rotation: -65,
+                            color: 'black',
+                            textShadow: '0px 0px 0px black'
                         },
 
                     },
@@ -163,7 +165,7 @@
                         name: '10.4%',
                         y: 10.4,
                         dataLabels: {
-                            rotation: 45,
+                            rotation: -40,
                         },
 
                     },
@@ -171,7 +173,7 @@
                         name: '6.2%',
                         y: 6.2,
                         dataLabels: {
-                            rotation: -85,
+                            rotation: -10,
                         },
 
                     },
@@ -180,6 +182,30 @@
                 borderWidth: 0
             }],
 
+        }, function(chartObj) {
+            $.each(chartObj.series[0].data, function (i, point) {
+
+                var degree = (point.angle * 180) / Math.PI;
+                var rotation = 0;
+                if(i == '0') {
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '1'){
+/*                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});*/
+                }else  if(i == '3'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
+//                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '4'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 13});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 15});
+                }else  if(i == '5'){
+//                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 20});
+                }
+
+                point.dataLabel.show();
+            });
         });
 
         $('#2013-assets').highcharts({
@@ -230,7 +256,7 @@
                 type: 'pie',
                 name: '2013 Assets',
                 innerSize: '75%',
-               /* data: [
+                data: [
                     {
                         name: '16.2%',
                         y: 16.2,
@@ -253,7 +279,7 @@
                         name: '19.9%',
                         y: 22.0,
                         dataLabels: {
-                            rotation: -30,
+                            rotation: 70,
                         },
 
                     },
@@ -261,7 +287,8 @@
                         name: '1.5%',
                         y: 1.5,
                         dataLabels: {
-                            rotation: -5,
+                            rotation: 1,
+                            color: 'black'
                         },
 
                     },
@@ -269,7 +296,7 @@
                         name: '14.8%',
                         y: 14.8,
                         dataLabels: {
-                            rotation: 45,
+                            rotation: -40,
                         },
 
                     },
@@ -277,24 +304,48 @@
                         name: '6.2%',
                         y: 6.2,
                         dataLabels: {
-                            rotation: -85,
+                            rotation: -10,
                         },
 
                     },
 
-                ],*/
-                data: [
-                    ['15.45%',   15.45],
-                    ['40.6%',       40.6],
-                    ['26.1%', 26.1],
-                    ['1.3%',    1.3],
-                    ['10.4%',     10.4],
-                    ['6.2%',     6.2],
-
                 ],
+//                data: [
+//                    ['15.45%',   15.45],
+//                    ['40.6%',       40.6],
+//                    ['26.1%', 26.1],
+//                    ['1.3%',    1.3],
+//                    ['10.4%',     10.4],
+//                    ['6.2%',     6.2],
+//
+//                ],
                 borderWidth: 0
             }],
 
+        }, function(chartObj) {
+            $.each(chartObj.series[0].data, function (i, point) {
+
+                var degree = (point.angle * 180) / Math.PI;
+                var rotation = 0;
+                if(i == '0') {
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '1'){
+                    /*                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
+                     point.dataLabel.attr({y: point.dataLabel._pos.y + 10});*/
+                }else  if(i == '3'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 30});
+//                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '4'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 13});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 15});
+                }else  if(i == '5'){
+//                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 20});
+                }
+
+                point.dataLabel.show();
+            });
         });
         $('#2014-liabilities').highcharts({
             colors: [ '#1C4ea0', '#f9b73f', '#ee7627', '#be0041', '#e7337e', '#B13B80', '#2eaa52',
@@ -360,7 +411,7 @@
                             name: '28.3%',
                             y: 28.3,
                             dataLabels: {
-                                rotation: 55,
+                                rotation: 45,
                             },
 
                         },
@@ -368,7 +419,7 @@
                             name: '3.7%',
                             y: 3.7,
                             dataLabels: {
-                                rotation: -50,
+                                rotation: 1,
                             },
 
                         },
@@ -384,7 +435,7 @@
                             name: '4.9%',
                             y: 4.9,
                             dataLabels: {
-                                rotation: -5,
+                                rotation: 15,
                             },
 
                         },
@@ -392,7 +443,7 @@
                             name: '17.5%',
                             y: 17.5,
                             dataLabels: {
-                                rotation: 45,
+                                rotation: 55,
                             },
 
                         },
@@ -426,8 +477,14 @@
                 console.debug(point);
                 var degree = (point.angle * 180) / Math.PI;
                 var rotation = 0;
-                if(i == '0'){
+                if(i == '0') {
                     point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '1'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '3'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 5});
                 }else  if(i == '5'){
                     point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
                 }else  if(i == '6'){
@@ -502,7 +559,7 @@
                         name: '4.0%',
                         y: 4.0,
                         dataLabels: {
-                            rotation: -50,
+                            rotation: 1,
                         },
 
                     },
@@ -542,7 +599,7 @@
                         name: '14.0%',
                         y: 14.0,
                         dataLabels: {
-                            rotation: -20,
+                            rotation: -30,
                             align: 'middle',
                             verticalAlign: 'middle',
                             padding: 0,
@@ -554,6 +611,29 @@
                 borderWidth: 0
             }],
 
+        }, function(chartObj) {
+            $.each(chartObj.series[0].data, function (i, point) {
+                console.debug(i);
+                console.debug(point);
+                var degree = (point.angle * 180) / Math.PI;
+                var rotation = 0;
+                if(i == '0') {
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '1'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                }else  if(i == '3'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 5});
+                }else  if(i == '5'){
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                }else  if(i == '6'){
+//                    point.dataLabel.attr({x: point.dataLabel._pos.x + 50});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 30});
+                }
+
+                point.dataLabel.show();
+            });
         });
     });
 
