@@ -30,7 +30,7 @@
 			
 				<div class="menuLeftNav">
 					<img style="opacity:0;" id="mobileMenu" class="clickable" src="assets/img/navbar/mobile-menu.png" />
-					<a style="opacity:0;" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<a style="opacity:0;" onclick="javascript: returnToNormalView();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
 					
 					<div class="animatedParent">
 						<div class="dropDownMenu animated fadeInDown">
@@ -70,8 +70,11 @@
 								<li data-target="newbusinessunit" class="scrollBtn  explore7"></li>
 								<li data-target="goverance" class="scrollBtn  explore8"></li>
 								<!--<li class="hiddenExplorePic"></li>-->
-								
+								<img src="assets/img/index/exploredivier.png" />
+								<li class="downloadreport"><a> <img src="assets/img/index/download.png" />Download Full Report</a></li>
+
 							</ul>
+
 						</div>
 					</div>
 					
@@ -1184,7 +1187,9 @@
 	{
 		$('.contentofstatus2').hide();
 		$('.contentofstatus1').fadeIn();
+		$('.leftMenuLink').css('opacity',0);
 		$.scrollTo(560,1000);
+		lastTrigger="-1"
 	}
 
 	$(function(){
@@ -1284,6 +1289,7 @@
 						lastTrigger="FUTURE";
 	  				});
 				}
+				$('.leftMenuLink').css('opacity',1);
 				return;
 			}
 			else

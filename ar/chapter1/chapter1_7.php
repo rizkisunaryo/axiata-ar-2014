@@ -1,101 +1,9 @@
-<!doctype html>
+<?php
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Axiata annual report">
-  <meta name="author" content="TwitterJaya - Muktar SayedSaleh">
-	
-  <title>Axiata annual report</title>	
-	
-  <link rel="stylesheet" href="../assets/css/normalize.css">
-  <link rel="stylesheet" href="../assets/css/ch1/chapter1_7.css">
-  <link rel="stylesheet" href="../assets/css/animations.css">
- 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    include("../inc/header.php");
 
-	<style type="text/css">
-	td {
-		padding: 15px;
-	}
-	.leftColumn {
-		border-right: 1px solid #d96285;
-		vertical-align: top;
-	}
-	.tableHeaderRow {
-		color: #fff;
-		background-color: #c40c42;
-	}
-	</style>
-
-</head>
-
-<body>
-	<div class="container" style="overflow-x:hidden;">
-		<div class="navbar panel">
-			
-			<div class="navbarContent">
-			
-				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="../assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
-					
-					<div class="animatedParent">
-						<div class="dropDownMenu animated bounceInDown">
-							<ul>
-								<li class="purple"><a href="#">Download Full Report</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Annual Report 2014</a></li>
-								<li><a href="#">Financial Statements</a></li>
-								<li><a href="#">AGM Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Download By Chapter</a></li>
-								<li><a href="#">At A Glance</a></li>
-								<li><a href="#">Shaping The Future</a></li>
-								<li><a href="#">Financial Performance</a></li>
-								<li><a href="#">Corporate Profile</a></li>
-								<li><a href="#">Investment Performance</a></li>
-								<li><a href="#">Operating Companies Business Review</a></li>
-								<li><a href="#">New Business Units</a></li>
-								<li><a href="#">Corporate Responsibility</a></li>
-								<li><a href="#">Other Information</a></li>
-								<li class="seperatorMenu"></li>
-								<li class="purple"><a href="#">Instructions</a></li>
-							</ul>
-						</div>
-					</div>
-					
-					
-					<div class="animatedParent">
-						<div class="exploreMore animated bounceInDown">
-							<ul>
-								<li class="explore1"></li>
-								<li class="explore2"></li>
-								<li class="explore3"></li>
-								<li class="explore4"></li>
-								<li class="explore5"></li>
-								<li class="explore6"></li>
-								<li class="explore7"></li>
-								<li class="explore8"></li>
-								<!--<li class="hiddenExplorePic"></li>-->
-								<li class="explore9"></li>
-								
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-				<img class="logoImg" src="../assets/img/navbar/logo.png" />
-				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="../assets/img/navbar/explore.png" />  &nbsp; 
-					
-				</div>
-			</div>	
-		</div>
+?>
+<link rel="stylesheet" href="../assets/css/ch1/chapter1_7.css">
 
 		<div id="scrollTrigger90px" style="position:fixed; top:90px; z-index:1000;"></div>
 		<div id="scrollTrigger10" style="position:fixed; top:10%; z-index:1000;"></div>
@@ -112,7 +20,7 @@
 		<div id="scrollTrigger100" style="position:fixed; top:100%; z-index:1000;"></div>
 
 		<section id="strategicJourney">
-			<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:860px; overflow:hidden; box-sizing:border-box;">
+			<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:910px; overflow:hidden; box-sizing:border-box;">
 				<div>
 					<span class="title grey8Color" style="font-size:25px;">Strategic Journey Towards</span><br />
 					<span class="title maroonColor" style="font-size:31px;">Building a New Generation Telco</span>
@@ -123,10 +31,10 @@
 				<div id="strategicBarHolder" style="position:relative; margin-top:0px; left:-330px; opacity:0;"><!-- left:-330px; opacity:0; -->
           <div id="strategicBar0" style="position:relative; top:453px;"><img src="../assets/img/chapter1/7/bar-1.png"></div>
           <div id="strategicBar1" style="position:relative; top:191px;"><img src="../assets/img/chapter1/7/bar-2.png"></div>
-          <div id="strategicBar2" style="position:relative; top:-154px;"><img src="../assets/img/chapter1/7/bar-3.png"></div>
-          <div id="strategicBar3" style="position:relative; top:-586px;"><img src="../assets/img/chapter1/7/bar-4.png"></div>
-          <div id="strategicBar4" style="position:relative; top:-1104px;"><img src="../assets/img/chapter1/7/bar-5.png"></div>
-          <div id="strategicBar5" style="position:relative; top:-1700px;"><img src="../assets/img/chapter1/7/bar-6.png"></div>
+          <div id="strategicBar2" style="position:relative; top:-158px;"><img src="../assets/img/chapter1/7/bar-3.png"></div>
+          <div id="strategicBar3" style="position:relative; top:-595px;"><img src="../assets/img/chapter1/7/bar-4.png"></div>
+          <div id="strategicBar4" style="position:relative; top:-1116px;"><img src="../assets/img/chapter1/7/bar-5.png"></div>
+          <div id="strategicBar5" style="position:relative; top:-1719px;"><img src="../assets/img/chapter1/7/bar-6.png"></div>
         </div>
         <div id="strategicBarTrigger1" style="position:absolute; top:700px;"></div>
         <div id="strategicBarTrigger2" style="position:absolute; top:851px;"></div>
@@ -252,13 +160,9 @@
       </div>
 		</section>
 		
-		<script src="../assets/js/jquery.js"></script>
-	  <script src="../assets/js/TweenMax.min.js"></script>
-	  <script src="../assets/js/ScrollMagic.min.js"></script>
-	  <script src="../assets/js/animation.gsap.js"></script>
-	  <script src="../assets/js/viewportchecker.js"></script>
-	  <script src="../assets/js/css3-animate-it.js"></script>
-	  <script src="../assets/js/jquery.transit.min.js"></script>
+<?php
+    include("../inc/footer.php");
+?>
 		
 		<script type="text/javascript">
 		var strategicBarTrigger1Top;
@@ -273,28 +177,6 @@
 			for (var i=0; i<=5; i++) {
 				strategicBars[i] = $('#strategicBar'+i);
 			};
-
-			$('.dropDownMenu').hide();
-			$('#mobileMenu').click(function(){
-				$('.exploreMore').hide();
-				$('.dropDownMenu').slideToggle();
-			});
-			
-			$('.exploreMore').hide();
-			$('#explore, #exploreMoreLnk').click(function(){
-				exploreMoreOpened=!exploreMoreOpened;
-				if(exploreMoreOpened)
-				{
-					$('#explore').attr('src','../assets/img/chapter4/navbar/close.png').transition({ rotate: '90deg' });
-				}
-				else
-				{
-					$('#explore').attr('src','../assets/img/chapter4/navbar/explore.png').transition({ rotate: '-90deg' });
-				}
-				$('.dropDownMenu').hide();
-				$('.exploreMore').slideToggle();
-
-			});
 
 			// SCROLL MAGIC
 			var controller = new ScrollMagic.Controller();
@@ -335,10 +217,3 @@
 			};
 		}
 		</script>
-		
-		
-		
-		
-	</div>
-</body>
-</html>

@@ -14,7 +14,7 @@
 	overflow:hidden;
 	z-index:30;
 	margin-bottom: 20px;
-	border-bottom:2px solid #c2063a;
+	border-bottom:1px solid #c2063a;
 }
 
 .section1 .logo
@@ -124,13 +124,13 @@
 {
 	float:left;
 	font-family: axiataBold;
-	font-size:24px;
+	font-size:20px;
 	color:#c2063a;
 	cursor: pointer;
-	padding:0 20px;
+	padding:0 20px 90px !important;
 	width:280px;
 	text-align: center;
-	height:120px;
+	height:100px;
 
 }
 .section2 .filterBtn.active
