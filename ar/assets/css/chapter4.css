@@ -44,7 +44,7 @@
 .section2
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -62,47 +62,47 @@
 
 .section2 #plusButton1
 {
-	margin: 200px 0 0 30px;
+	margin: 130px 0 0 50px;
 }
 
 .section2 #plusButton2
 {
-	margin: 210px 0 0 250px;
+	margin: 130px 0 0 250px;
 }
 
 .section2 #plusButton3
 {
-	margin: 340px 0 0 220px;
+	margin: 250px 0 0 220px;
 }
 
 .section2 #plusButton4
 {
-	margin: 240px 0 0 310px;
+	margin: 140px 0 0 390px;
 }
 .section2 #plusButton5
 {
-	margin: 260px 0 0 475px;
+	margin: 160px 0 0 485px;
 }
 
 .section2 #plusButton6
 {
-	margin: 260px 0 0 595px;
+	margin: 160px 0 0 595px;
 }
 .section2 #plusButton7
 {
-	margin: 360px 0 0 675px;
+	margin: 260px 0 0 685px;
 }
 .section2 #plusButton8
 {
-	margin: 240px 0 0 770px;
+	margin: 160px 0 0 770px;
 }
 .section2 #plusButton9
 {
-	margin: 220px 0 0 910px;
+	margin: 140px 0 0 910px;
 }
 .section2 #plusButton10
 {
-	margin: 370px 0 0 885px;
+	margin: 270px 0 0 900px;
 }
 
 .section2 .shadowTextContainer
