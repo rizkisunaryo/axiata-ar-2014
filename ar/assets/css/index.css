@@ -615,8 +615,8 @@
 
 /* Safari */
 @-webkit-keyframes kite-medium-animation {
-    0%   {top:215px;margin-left:-650px;}
-    100%   {top:285px;margin-left:-670px;}
+    0%   {top:215px;margin-left:-600px;}
+    100%   {top:285px;margin-left:-620px;}
 }
 
 /* Standard syntax */

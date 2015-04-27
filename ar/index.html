@@ -64,11 +64,11 @@
 								<li data-target="shapingthefuturesection" class="scrollBtn  explore2"></li>
 								<li data-target="performance2014" class="scrollBtn explore1"></li>
 								<!--<li data-target="finincialperformance" class="scrollBtn  explore3"></li>-->
-								<li data-target="corporateprofile" class="scrollBtn  explore4"></li>
-								<!--<li data-target="investmentperformance" class="scrollBtn  explore5"></li>-->
-								<li data-target="opcompanies" class="scrollBtn  explore6"></li>
-								<li data-target="newbusinessunit" class="scrollBtn  explore7"></li>
-								<li data-target="goverance" class="scrollBtn  explore8"></li>
+								<li data-target="corporateprofile" class="scrollBtn explore4"></li>
+								<li data-target="opcompanies" class="scrollBtn explore6"></li>
+								<li data-target="newbusinessunit" class="scrollBtn explore7"></li>
+								<li data-target="goverance" class="scrollBtn explore8"></li>
+								<li data-target="assets/pdf/1.pdf" class="linkBtn explore5"></li>
 								<!--<li class="hiddenExplorePic"></li>-->
 								<img src="assets/img/index/exploredivier.png" />
 								<li class="downloadreport"><a> <img src="assets/img/index/download.png" />Download Full Report</a></li>
@@ -1327,7 +1327,11 @@
 		  	$.scrollTo($('#'+t),1000,{offset:-100});
 		  });		      
 
-
+		$('.linkBtn').click(function(ev){
+			ev.preventDefault();
+			var win = window.open($(this).data('target'), '_blank');
+  			win.focus();
+		});
 
 	    /*var controller = new ScrollMagic.Controller({});
 		
