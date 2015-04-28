@@ -299,9 +299,9 @@
 		<script type="text/javascript">
 			var graphAnimationTime = 1000;
 			var bottomTrigger = $('#scrollTrigger100');
-			var isGraphRow1Reached = [false,false,false,false,false,false,false,false,false,false,false];
-			var isGraphRow2Reached = [false,false,false,false,false,false,false,false,false,false,false];
-			var isGraphRow3Reached = [false,false,false,false,false,false,false,false,false,false,false];
+			var isGraphRow1Reached = [false,false,false,false,false,false,false,false,false,false];
+			var isGraphRow2Reached = [false,false,false,false,false,false,false,false,false,false];
+			var isGraphRow3Reached = [false,false,false,false,false,false,false,false,false,false];
 			var graph1ToFunctionArray = [];
 			var graph2ToFunctionArray = [];
 			var graph3ToFunctionArray = [];
@@ -396,7 +396,7 @@
 
 		    if (bottomTriggerTop>bottomGraphTriggerTop && !graphReachedBool[column-1]) {
 	        graphReachedBool[column-1]=true;
-	        animateGraph(1,selector,isGoingUp,color,opacity,height);
+	        animateGraph(row,selector,isGoingUp,color,opacity,height);
 		    }
 		    else if (bottomTriggerTop<topGraphTriggerTop) {
 	        graphReachedBool[column-1]=false;
