@@ -346,43 +346,43 @@
 				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,10,true,"Red",1.0,14);
 
 				$(window).on('scroll', function(){
-					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,1,true,"Red",0.6,15);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,2,true,"Red",0.7,16);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,3,true,"Red",0.8,17);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,4,true,"Red",0.9,18);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,5,true,"Red",1.0,19);
-				<!---->
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,6,true,"Red",0.6,10);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,7,true,"Red",0.7,11);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,8,true,"Red",0.8,14);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,9,true,"Red",0.9,15);
-				animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,10,true,"Red",1.0,16);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,1,true,"Pink",0.7,15);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,2,true,"Pink",0.8,16);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,3,true,"Pink",0.9,17);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,4,true,"Pink",1.0,18);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,5,true,"Red",1.0,19);
+					<!---->
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,6,true,"Pink",0.7,10);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,7,true,"Pink",0.8,11);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,8,true,"Pink",0.9,14);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,9,true,"Pink",1.0,15);
+					animateGraphRowCall(graph1ToFunctionArray,isGraphRow1Reached,1,10,true,"Red",1.0,16);
 
 
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,1,true,"Red",0.6,10);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,2,true,"Red",0.7,13);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,3,true,"Red",0.8,14);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,4,true,"Red",0.9,13);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,5,true,"Red",1.0,12);
-				<!---->
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,6,true,"Red",0.6,9);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,7,true,"Red",0.7,10);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,8,true,"Red",0.8,13);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,9,true,"Red",0.9,14);
-				animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,10,true,"Red",1.0,15);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,1,true,"Pink",0.7,10);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,2,true,"Pink",0.8,13);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,3,true,"Pink",0.9,14);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,4,true,"Pink",1.0,13);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,5,true,"Red",1.0,12);
+					<!---->
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,6,true,"Pink",0.7,9);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,7,true,"Pink",0.8,10);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,8,true,"Pink",0.9,13);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,9,true,"Pink",1.0,14);
+					animateGraphRowCall(graph2ToFunctionArray,isGraphRow2Reached,2,10,true,"Red",1.0,15);
 
 
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,1,true,"Red",0.6,8);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,2,true,"Red",0.7,10);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,3,true,"Red",0.8,11);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,4,true,"Red",0.9,12);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,5,true,"Red",1.0,14);
-				<!---->
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,6,true,"Red",0.6,7);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,7,true,"Red",0.7,12);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,8,true,"Red",0.8,15);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,9,true,"Red",0.9,14);
-				animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,10,true,"Red",1.0,14);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,1,true,"Pink",0.7,8);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,2,true,"Pink",0.8,10);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,3,true,"Pink",0.9,11);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,4,true,"Pink",1.0,12);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,5,true,"Red",1.0,14);
+					<!---->
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,6,true,"Pink",0.7,7);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,7,true,"Pink",0.8,12);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,8,true,"Pink",0.9,15);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,9,true,"Pink",1.0,14);
+					animateGraphRowCall(graph3ToFunctionArray,isGraphRow3Reached,3,10,true,"Red",1.0,14);
 				});
 			});
 
