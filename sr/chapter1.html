@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/chapter1.css">
   <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/hover.css">
   <link rel="stylesheet" href="assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="stylesheet" href="assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
   <link rel="stylesheet" href="assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
@@ -29,11 +30,12 @@
 			<div class="navbarContent">
 			
 				<div class="menuLeftNav">
-					<img id="mobileMenu" class="clickable" src="assets/img/navbar/mobile-menu.png" />
-					<a class="menuLink leftMenuLink"><img id="mobileMenuArr" src="assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					<img style="opacity:0;" id="mobileMenu" class="clickable" src="../assets/img/navbar/mobile-menu.png" />
+					<a onclick="javascript: window.history.back();" class="menuLink leftMenuLink"><img id="mobileMenuArr" src="assets/img/navbar/leftArrow.png" /> &nbsp;Back</a>
+					
 					
 					<div class="animatedParent">
-						<div class="dropDownMenu animated fadeInDown">
+						<div class="dropDownMenu animated bounceInDown">
 							<ul>
 								<li class="purple"><a href="#">Download Full Report</a></li>
 								<li><a href="#">Annual Report 2014</a></li>
@@ -59,7 +61,7 @@
 					
 					
 					<div class="animatedParent">
-						<div class="exploreMore animated fadeInDown">
+						<div class="exploreMore animated bounceInDown">
 							<ul>
 								<li class="explore1"></li>
 								<li class="explore2"></li>
@@ -79,7 +81,7 @@
 				</div>
 				<img class="logoImg" src="assets/img/navbar/logo.png" />
 				<div class="menuRightNav">
-					<a id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img id="explore" class="clickable" src="assets/img/navbar/explore.png" />  &nbsp; 
+					<a style="opacity:0;" id="exploreMoreLnk" class="menuLink">Explore  &nbsp; </a> <img style="opacity:0;" id="explore" class="clickable" src="assets/img/navbar/explore.png" />  &nbsp; 
 					
 				</div>
 			</div>	
@@ -288,12 +290,12 @@
 				<h1 class="header2">Report Boundary</h1>
 				<div class="paragraph">
 					The 2014 Axiata Sustainability Report covers the sustainability performance of Axiata Group Berhad but is limited to operations where Axiata held a majority of the shares for the 12-month period ending 31st December 2014. These entities include:<br/>
-					•&nbsp;&nbsp;&nbsp;Axiata Group Berhad
-					•&nbsp;&nbsp;&nbsp;Celcom Axiata Berhad
-					•&nbsp;&nbsp;&nbsp;PT XL Axiata Tbk
-					•&nbsp;&nbsp;&nbsp;Dialog Axiata PLC
-					•&nbsp;&nbsp;&nbsp;Robi Axiata Limited
-					•&nbsp;&nbsp;&nbsp;Smart Axiata Company Limited
+					•&nbsp;&nbsp;&nbsp;Axiata Group Berhad<br/>
+					•&nbsp;&nbsp;&nbsp;Celcom Axiata Berhad<br/>
+					•&nbsp;&nbsp;&nbsp;PT XL Axiata Tbk<br/>
+					•&nbsp;&nbsp;&nbsp;Dialog Axiata PLC<br/>
+					•&nbsp;&nbsp;&nbsp;Robi Axiata Limited<br/>
+					•&nbsp;&nbsp;&nbsp;Smart Axiata Company Limited<br/>
 					•&nbsp;&nbsp;&nbsp;edotco Group Sdn Bhd
 					<br/><br/>
 					Since the operating environments in the five companies and the infrastructure operations differ significantly, the sustainability context and materiality would differ between each Opco. Due to this, the disclosure will be indexed with the colour logos of each company to indicate the relevance of the account. While this report discusses the sustainability approach of the Group as a whole, individual Sustainability Reports are available for XL, Dialog, Robi and Smart providing more specific details of the OpCo operations in their own markets.
@@ -302,6 +304,24 @@
 				</div>
 
 				<br/><br/>
+
+				<div class="logos">
+					<img data-url="nextpage" class="lnklogo logo1 hvr-wobble-horizontal" src="assets/img/chapter1/logo_celcom.png" />
+					<img data-url="nextpage" class="lnklogo logo2 hvr-wobble-horizontal" src="assets/img/chapter1/logo_xl.png" />
+					<img data-url="nextpage" class="lnklogo logo3 hvr-wobble-horizontal" src="assets/img/chapter1/logo_dialog.png" />
+					<img data-url="nextpage" class="lnklogo logo4 hvr-wobble-horizontal" src="assets/img/chapter1/logo_smart.png" />
+				</div>
+				<div style="clear:both;"></div>
+				<div class="logos">
+					<img data-url="nextpage" class="lnklogo logo5 hvr-wobble-horizontal" src="assets/img/chapter1/logo_robi.png" />
+					<img data-url="nextpage" class="lnklogo logo6 hvr-wobble-horizontal" src="assets/img/chapter1/logo_edotco.png" />
+					<img data-url="nextpage" class="popuplogo logo7 hvr-wobble-horizontal" src="assets/img/chapter1/logo_idea.png" />
+					<img data-url="nextpage" class="popuplogo logo8 hvr-wobble-horizontal" src="assets/img/chapter1/logo_m1.png" />
+
+				</div>
+
+				<div style="clear:both;"></div>
+				<br/>
 
 				<h1 class="header2">Independent Assurance</h1>
 				<div class="paragraph">
