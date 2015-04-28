@@ -81,8 +81,8 @@ canvas.triangleRightBlue {
 .graphSection #bar1
 {
 	position: relative;
-	top:270px;
-	margin-left:82px;
+	top:273px;
+	margin-left:81px;
 	margin-right:-25px;
 	width:20px;
 	display: inline;
@@ -91,8 +91,8 @@ canvas.triangleRightBlue {
 .graphSection #bar2
 {
 	position: relative;
-	top:270px;
-	margin-left:78px;
+	top:273px;
+	margin-left:79px;
 	margin-right:70px;
 	width:20px;
 	display: inline;
@@ -101,7 +101,7 @@ canvas.triangleRightBlue {
 .graphSection #bar3
 {
 	position: relative;
-	top:270px;
+	top:273px;
 	margin-left: 28px;
 	width:20px;
 	display: inline;
@@ -110,8 +110,8 @@ canvas.triangleRightBlue {
 .graphSection #bar4
 {
 	position: relative;
-	top:270px;
-	margin-left: 54px;
+	top:273px;
+	margin-left: 52px;
 	width:20px;
 	display: inline;
 	height:200px;
@@ -119,8 +119,8 @@ canvas.triangleRightBlue {
 .graphSection #bar5
 {
 	position: relative;
-	top:270px;
-	margin-left: 100px;
+	top:273px;
+	margin-left: 98px;
 	width:20px;
 	display: inline;
 	height:200px;
@@ -128,8 +128,8 @@ canvas.triangleRightBlue {
 .graphSection #bar6
 {
 	position: relative;
-	top:270px;
-	margin-left: 50px;
+	top:273px;
+	margin-left: 52px;
 	width:20px;
 	display: inline;
 	height:200px;
@@ -140,7 +140,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:622px;
-	margin-left:-357px;
+	margin-left:-356px;
 	margin-right:-25px;
 	width:20px;
 	display: inline;
@@ -160,7 +160,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:625px;
-	margin-left: 27px;
+	margin-left: 28px;
 	width:20px;
 	display: inline;
 	height:200px;
@@ -169,7 +169,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:622px;
-	margin-left: 60px;
+	margin-left: 54px;
 	width:20px;
 	display: inline;
 	height:200px;
@@ -178,7 +178,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:622px;
-	margin-left: 90px;
+	margin-left: 97px;
 	width:20px;
 	display: inline;
 	height:200px;
