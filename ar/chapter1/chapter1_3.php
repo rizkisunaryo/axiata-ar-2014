@@ -26,6 +26,7 @@
           <div id="redGraphLine1" style="position:relative; margin-top:-440px; width:0px; overflow:hidden;">
             <img src="../assets/img/chapter1/3/red-line-1.png" />
           </div>
+          <div id="bottomGraphTrigger1" style="position:absolute; top:300px;"></div>
         </div>
         <div style="position:relative; margin-top:150px;">
           <div style="position:relative;">
@@ -37,6 +38,7 @@
           <div id="redGraphLine2" style="position:relative; margin-top:-500px; width:0px; overflow:hidden;">
             <img src="../assets/img/chapter1/3/red-line-2.png" />
           </div>
+          <div id="bottomGraphTrigger2" style="position:absolute; top:300px;"></div>
         </div>
       </div>
     </section>
@@ -62,6 +64,7 @@
 		function animateGraphLine(graphNumber) {
 	    var greySelector = "#greyGraphLine"+graphNumber;
 	    var redSelector = "#redGraphLine"+graphNumber;
+	    var bottomGraphTrigger = "#bottomGraphTrigger"+graphNumber;
 
 	    if ($('#scrollTriggerBottom').offset().top<$(greySelector).offset().top) {
 	        isGraphRowReached[graphNumber-1]=false;
@@ -72,7 +75,7 @@
 	        $(greySelector).css('width','0px');
 	        $(redSelector).css('width','0px');
 	    }
-	    else if ($('#scrollTriggerMiddle').offset().top>=$(greySelector).offset().top && !isGraphRowReached[graphNumber-1]) {
+	    else if ($('#scrollTriggerBottom').offset().top>=$(bottomGraphTrigger).offset().top && !isGraphRowReached[graphNumber-1]) {
 	        isGraphRowReached[graphNumber-1]=true;
 	        $( greySelector ).animate({
 	            width: 780
@@ -86,7 +89,7 @@
 		        }, animationTime, function() {
 		            // Animation complete.
 		        });
-	    		}, animationTime);
+	    		}, 2000);
 	    		graphToFunctionArray[graphNumber]=redGraphTo;
 	    }
 		}
