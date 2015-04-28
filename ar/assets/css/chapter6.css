@@ -464,7 +464,7 @@
 .section5
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -473,8 +473,8 @@
 .section5 .leftSection
 {
 	width:50%;
-	height:800px;
-	margin: -740px 0 0 440px;
+	height:1800px;
+	margin: 100px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -558,7 +558,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section5/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -598,7 +598,7 @@
 .section6
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -607,8 +607,8 @@
 .section6 .leftSection
 {
 	width:50%;
-	height:860px;
-	margin: -700px 0 0 440px;
+	height:1860px;
+	margin: 100px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -692,7 +692,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section6/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -732,7 +732,7 @@
 .section7
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -741,8 +741,8 @@
 .section7 .leftSection
 {
 	width:50%;
-	height:860px;
-	margin: -50px 0 0 440px;
+	height:1860px;
+	margin: 700px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -826,7 +826,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section7/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
