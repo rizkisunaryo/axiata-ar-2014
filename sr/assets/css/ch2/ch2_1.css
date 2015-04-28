@@ -13,12 +13,15 @@ width: 100%;
     font-size: 15px;
     margin-bottom: 20px;
     color: #4d4d4f;
+    line-height: 1.3;
+    color: #4d4d4f;
     
 }
 
 .title {
     font-weight: bolder;
     margin-bottom: 21px;
+    font-family: AxiataBold;
 }
 .title .small_txt{
     font-size: 25px;
@@ -110,3 +113,55 @@ width: 100%;
   text-indent: -1em;
   padding-left: 1.5em;
 }
+.paragraph_title{
+    font-family: AxiataBook;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #c83055;
+}
+.row{
+    width: 100%;
+    margin-top: 30px;
+}
+.col{
+    display: inline-block;
+    
+}
+.col2{
+    width: 376px;
+    background: url(../img/red-line-stakeholder_engagement.png);
+    background-repeat: no-repeat;
+    background-position-x: 188px;
+    background-position-y: -510px;
+}
+.col2.background_active{
+    background-position-y: 0px;   
+    -webkit-transition:  2s; /* Safari */
+    transition: 2s;
+}
+.card{
+
+}
+.title_card{
+    background-color: #c40d42;
+    color:white;
+    width: 100%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.desc_card{
+    margin-top: 15px;
+    font-size: 15px;
+    color:#4d4d4f;
+    /*width: 100%;*/
+    padding: 15px;
+    background-color: #c6c6c6;
+}
+.desc_card .title{ font-weight: bold; font-family: AxiataBold;  margin-bottom: 3px;}
+.desc_card .desc{  font-weight: lighter;}
+.foot_note{ margin-top:27px;font-size: 9px;}
+
+
+
+
