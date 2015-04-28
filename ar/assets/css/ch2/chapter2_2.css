@@ -1,0 +1,57 @@
+@import url("../navbar.css");
+@import url("../fonts.css");
+@import url("../fonts2.css");
+
+.graphYear {
+	-ms-transform: rotate(330deg); /* IE 9 */
+	-webkit-transform: rotate(330deg); /* Chrome, Safari, Opera */
+	transform: rotate(330deg);
+}
+
+canvas.triangleLeftGrey {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid grey;
+	width:0; height:0;
+}
+
+canvas.triangleRightGrey {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid grey;
+	width:0; height:0;
+}
+
+canvas.triangleLeftRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #700019;
+	width:0; height:0;
+}
+
+canvas.triangleRightRed {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #700019;
+	width:0; height:0;
+}
+
+canvas.triangleLeftPink {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #d71149;
+	width:0; height:0;
+}
+
+canvas.triangleRightPink {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #d71149;
+	width:0; height:0;
+}
