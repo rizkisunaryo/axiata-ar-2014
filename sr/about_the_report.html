@@ -174,8 +174,8 @@
 				<div class="logos">
 					<img data-url="http://www.robi.com.bd/en/corporate/sustainabilityreport%E2%80%9D%3Ehttp://www.robi.com.bd/en/corporate/sustainability-report" class="lnklogo logo5 hvr-wobble-horizontal" src="assets/img/chapter1/logo_robi.png" />
 					<img data-url="nextpage" class="lnklogo logo6 hvr-wobble-horizontal" src="assets/img/chapter1/logo_edotco.png" />
-					<img data-url="nextpage" class="popuplogo logo7 hvr-wobble-horizontal" src="assets/img/chapter1/logo_idea.png" />
-					<img data-url="nextpage" class="popuplogo logo8 hvr-wobble-horizontal" src="assets/img/chapter1/logo_m1.png" />
+					<img data-url="popup1.html" class="popuplogo logo7 hvr-wobble-horizontal" src="assets/img/chapter1/logo_idea.png" />
+					<img data-url="popup2.html" class="popuplogo logo8 hvr-wobble-horizontal" src="assets/img/chapter1/logo_m1.png" />
 
 				</div>
 
@@ -334,9 +334,9 @@
 		$('.popuplogo').click(function(ev){
 			ev.preventDefault();
 			var url = $(this).data('url');
-
+			//alert(url);
 			$.fancybox.open({
-				href : 'axiatadigitalproducts.html',
+				href : url,
 				type : 'iframe',
 				openEffect : 'elastic',
 				openSpeed  : 150,
