@@ -64,11 +64,11 @@
 								<li data-target="shapingthefuturesection" class="scrollBtn  explore2"></li>
 								<li data-target="performance2014" class="scrollBtn explore1"></li>
 								<!--<li data-target="finincialperformance" class="scrollBtn  explore3"></li>-->
-								<li data-target="corporateprofile" class="scrollBtn  explore4"></li>
-								<!--<li data-target="investmentperformance" class="scrollBtn  explore5"></li>-->
-								<li data-target="opcompanies" class="scrollBtn  explore6"></li>
-								<li data-target="newbusinessunit" class="scrollBtn  explore7"></li>
-								<li data-target="goverance" class="scrollBtn  explore8"></li>
+								<li data-target="corporateprofile" class="scrollBtn explore4"></li>
+								<li data-target="opcompanies" class="scrollBtn explore6"></li>
+								<li data-target="newbusinessunit" class="scrollBtn explore7"></li>
+								<li data-target="goverance" class="scrollBtn explore8"></li>
+								<li data-target="assets/pdf/1.pdf" class="linkBtn explore5"></li>
 								<!--<li class="hiddenExplorePic"></li>-->
 								<img src="assets/img/index/exploredivier.png" />
 								<li class="downloadreport"><a> <img src="assets/img/index/download.png" />Download Full Report</a></li>
@@ -733,12 +733,15 @@
 
 
 					<div id="PERFORMANCE" class="section2 element-item lazyload navigatorMukhtar">
-						<div class="filterBtn" data-filter="INTEGRITY">UNCOMPROMISING INTEGRITY</div>
-						<div class="active filterBtn" data-filter="PERFORMANCE">EXCEPTIONAL PERFORMANCE</div>
-						<div class="filterBtn" data-filter="FUTURE">SUSTAINABLE FUTURE</div>
+						
+						<div class="borderTop">
+							<div class="filterBtn" data-filter="INTEGRITY">UNCOMPROMISING INTEGRITY</div>
+							<div class="active filterBtn" data-filter="PERFORMANCE">EXCEPTIONAL PERFORMANCE</div>
+							<div class="filterBtn" data-filter="FUTURE">SUSTAINABLE FUTURE</div>
+						</div>
 					</div>
 
-
+					
 					<div data-url="nextpage.html" data-original="assets/img/index/map.png" class="menu1 element-item lazyload cell metal green col2 row1">
 						<div class="overbox">
 							<div class="title overtext">
@@ -1095,9 +1098,11 @@
 
 
 					<div id="FUTURE" class="section2 element-item lazyload  navigatorMukhtar">
-						<div class="filterBtn" data-filter="INTEGRITY">UNCOMPROMISING INTEGRITY</div>
-						<div class="filterBtn" data-filter="PERFORMANCE">EXCEPTIONAL PERFORMANCE</div>
-						<div class="active filterBtn" data-filter="FUTURE">SUSTAINABLE FUTURE</div>
+						<div class="borderTop">
+							<div class="filterBtn" data-filter="INTEGRITY">UNCOMPROMISING INTEGRITY</div>
+							<div class="filterBtn" data-filter="PERFORMANCE">EXCEPTIONAL PERFORMANCE</div>
+							<div class="active filterBtn" data-filter="FUTURE">SUSTAINABLE FUTURE</div>
+						</div>
 					</div>
 
 
@@ -1327,7 +1332,11 @@
 		  	$.scrollTo($('#'+t),1000,{offset:-100});
 		  });		      
 
-
+		$('.linkBtn').click(function(ev){
+			ev.preventDefault();
+			var win = window.open($(this).data('target'), '_blank');
+  			win.focus();
+		});
 
 	    /*var controller = new ScrollMagic.Controller({});
 		
