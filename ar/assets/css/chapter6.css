@@ -66,7 +66,7 @@
 .section2
 {
 	width:960px;
-	height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -75,8 +75,8 @@
 .section2 .leftSection
 {
 	width:50%;
-	height:820px;
-	margin: -700px 0 0 440px;
+	min-height:820px;
+	margin: 500px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -143,10 +143,6 @@
 {
 	margin-top:60px !important;
 }
-.section2 .leftSection .sectionContent .bolder
-{
-	font-weight:bolder;
-}
 .ruler
 {
 	color:#959a9f;
@@ -161,7 +157,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section2/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -184,7 +180,7 @@
 	background-color:#333;
 	width:230px;
 	height:120px;
-	margin:570px 0 0 120px;
+	margin:570px 0 0 150px;
 }
 
 .videoSliderContainer img
@@ -198,10 +194,11 @@
 
 
 
+
 .section3
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -210,8 +207,8 @@
 .section3 .leftSection
 {
 	width:50%;
-	height:800px;
-	margin: -740px 0 0 440px;
+	height:1200px;
+	margin: 90px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -295,7 +292,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section3/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -333,7 +330,7 @@
 .section4
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -342,8 +339,8 @@
 .section4 .leftSection
 {
 	width:50%;
-	height:800px;
-	margin: -740px 0 0 440px;
+	height:1800px;
+	margin: 100px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -427,7 +424,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section4/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -985,7 +982,7 @@
 	background-color:#333;
 	width:230px;
 	height:120px;
-	margin:570px 0 0 120px;
+	margin:480px 0 0 120px;
 }
 
 .videoSliderContainer img
@@ -1112,3 +1109,8 @@ p
 	position: absolute; top: 0; left: 480px;
 }
 
+.leftSection .sectionContent .bolder
+{
+	font-weight:bolder;
+	font-family: axiataBold;
+}
