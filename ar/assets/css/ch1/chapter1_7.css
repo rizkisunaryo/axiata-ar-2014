@@ -5,3 +5,15 @@
 .container {
 	overflow-x:hidden; 
 }
+
+td {
+	padding: 15px;
+}
+.leftColumn {
+	border-right: 1px solid #d96285;
+	vertical-align: top;
+}
+.tableHeaderRow {
+	color: #fff;
+	background-color: #c40c42;
+}

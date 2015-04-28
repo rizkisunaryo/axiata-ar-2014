@@ -20,7 +20,7 @@
           </div>
           <div style="position:relative;">
             <div style="position:relative; color:#787f84; font-size:22px; margin-top:10px;" class="title">Dear Shareholders,</div>
-            <div style="position:relative; margin-top:10px;">
+            <div class="grey4Color" style="position:relative; margin-top:10px;">
               Our journey towards realising our ambition to be a regional champion by 2015 is fast approaching its mark. I am pleased to report that Axiata has upheld its promise - raising the performance bar whilst remaining committed to its transformation into a new generation telecommunications company by 2020.<br />
               <br />
               <br />
@@ -45,6 +45,8 @@
 							<span class="title maroonColor">Continued Recognition of Management Excellence</span><br />
 							<br />
 							Alongside these awards, I am happy to note that Axiata’s outstanding leadership continues to receive local and international recognition. It gives me great pleasure to have this opportunity to congratulate Dato’ Sri Jamaludin, President and Group CEO, who was honoured with two very distinguished awards in 2014 for CEO of the Year at the MSWG-Asean Corporate Governance Transparency Index Awards as well as Malaysia’s Outstanding CEO 2014, at the Edge Billion Ringgit Club. Most recently in March this year, Dato’ Sri Jamaludin was the recipient of the 2015 GSM Association Chairman award which recognises outstanding personal contribution to the growth and development of mobile communications around the world. The awards are an acknowledgement of his leadership and valuable contribution in shaping Axiata into one of Asia’s most successful mobile networks. <br />
+							<br />
+							<img src="../assets/img/chapter1/5/awards-box.png" style="width:100%" /><br />
 							<br />
 							This year, I am very pleased to welcome back Dr Muhamad Chatib Basri to the Axiata Board of Directors line-up. Having served as the Chairman of the Investment Coordination Board and subsequently as the Minister of Finance of Indonesia, Dr Chatib brings with him a wealth of experience and knowledge of Indonesia, one of our biggest markets in the region. In addition, he brings invaluable expertise in international trade and macroeconomics which extends beyond Asia, an important addition to Axiata as we continue our journey as a regional champion.<br />
 							<br />

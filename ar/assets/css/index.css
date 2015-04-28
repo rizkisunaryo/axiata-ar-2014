@@ -28,7 +28,49 @@
 {
 	margin:-150px 0 0 80px;
 	padding-bottom: 100px;
+
+    
 }
+
+@-moz-document url-prefix() { 
+  .section1 .img1
+	{
+		margin:-120px 0 0 100px !important;
+		padding-bottom: 100px;
+	}
+	.section1 .img2
+	{
+		margin:-60px 0 0 -610px !important;
+		
+	}
+	.kite-big {
+		-moz-animation-name: kite-big-animation; /* Safari */
+		-moz-animation-timing-function: linear;
+	    -moz-animation-duration: 1.5s; /* Safari */    
+	    -moz-animation-iteration-count: infinite; /* Safari */
+	    -moz-animation-direction: alternate; /* Safari */    
+	    animation-name: kite-big-animation;
+	    animation-timing-function: linear;
+	    animation-duration: 1.5s;
+	    animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	    display: inline-block;
+	}
+
+	/* Safari */
+	@-webkit-keyframes kite-big-animation {
+	    0%   {margin-top:-120px; margin-left:70px;}
+	    100%   {margin-top:-140px;}
+	}
+
+	/* Standard syntax */
+	@keyframes kite-big-animation {
+	    0%   {margin-top:-130px; margin-left:130px;}
+	    100%   {margin-top:-100px;}
+	}
+}
+
+
 .section1 .img2
 {
 	margin:0 0 280px -850px;
@@ -127,12 +169,21 @@
 	font-size:20px;
 	color:#c2063a;
 	cursor: pointer;
-	padding:0 20px 90px !important;
+	padding:0 20px 0px !important;
 	width:280px;
 	text-align: center;
-	height:100px;
+	height:40px;
 
 }
+.borderTop
+{
+	padding-top: 20px !important;
+	border-top:1px solid #c2063a;
+	padding-bottom: 50px;
+
+}
+
+
 .section2 .filterBtn.active
 {
 	color:#0f529f;
@@ -165,17 +216,15 @@
 .element-item.navigatorMukhtar
 {
 	border:0 !important;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	margin-left: -20px;
 }
 .element-item.navigatorMukhtar:first-of-type
 {
 	border:0 !important;
 	margin-bottom: -50px;
 	margin-top: 10px;
-}
-.navigatorMukhtar
-{
-	margin-bottom: 70px;
 }
 
 
@@ -284,6 +333,10 @@
     transition: all 300ms ease-out;
 	transform: translateY(40px);
 	-webkit-transform: translateY(40px);
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	
 }
 
@@ -615,8 +668,8 @@
 
 /* Safari */
 @-webkit-keyframes kite-medium-animation {
-    0%   {top:215px;margin-left:-650px;}
-    100%   {top:285px;margin-left:-670px;}
+    0%   {top:215px;margin-left:-600px;}
+    100%   {top:285px;margin-left:-620px;}
 }
 
 /* Standard syntax */

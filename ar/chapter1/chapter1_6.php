@@ -31,7 +31,7 @@
 	        <div class="title" style="font-size:21px; color:#787f84; margin-top:0px;">
 	        	Dear Shareholders,
 	        </div>
-	        <div style="margin-top:10px;">
+	        <div class="grey4Color" style="margin-top:10px;">
 	        	In 2014, we continued to reshape the Group to realise our 2015 vision of becoming a regional champion and a leader, to meet our long-term financial and non-financial objectives. To that effect, we have worked hard on the financial results for 2014 whilst also developing new long-term opportunities and initiatives.<br />
 	        	<br />
 	        	<br />
@@ -46,7 +46,7 @@
 	        <div class="title" style="font-size:90px; color:#bcbec0; margin-top:0px;">
 	        	31.5%
 	        </div>
-	        <div style="margin-top:30px;">
+	        <div class="grey4Color" style="margin-top:30px;">
 	        	<span class="title maroonColor">Transforming Our Core Business</span><br />
 	        	<br />
 						The Group saw a mixed year with stellar results from most OpCos, especially Dialog, Robi and Smart, but Celcom’s previous exemplary track record was marred by its 2014 performance. Our affiliate, Idea, also performed extremely well. <br />
@@ -74,8 +74,8 @@
       </div>
     </section>
 
-    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3000px; overflow:hidden;">
-    	<div style="position:relative; z-index:10; padding:55px;">
+    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3420px; overflow:hidden;">
+    	<div class="grey4Color" style="position:relative; z-index:10; padding:55px;">
     		<div style="width:545px;">
 	    		Following suit, our regional affiliates also saw a good 2014. Idea reported all round strong performance for the 9 months FY14 with revenue increasing by 19% and M1 full year FY2014 at 7%. PAT for Idea and M1 was up by 63% and 10% respectively.<br />
 	    		<br />

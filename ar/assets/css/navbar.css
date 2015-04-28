@@ -234,7 +234,7 @@ container
 .exploreMore
 {
 	width:960px;
-	height:600px;
+	height:700px;
 	margin:30px 0 0 -10px;
 	background-color:#ffffff;
 	border-top:1px solid #e7eaec;
@@ -251,12 +251,12 @@ container
 
 .exploreMore ul li
 {
-	width:177px;
+	width:170px;
 	height:194px;
-	margin: 15px 3px;
+	margin: 15px 1px;
 	background:#ffffff;
 	float:left;
-	
+	cursor: pointer;
 }
 
 .hiddenExplorePic{
@@ -289,7 +289,7 @@ container
 
 .explore5
 {
-	background: #fff url('../img/explore/5.png') no-repeat top left !important;
+	background: #fff url('../img/explore/77.png') no-repeat top left !important;
 }
 
 .explore6

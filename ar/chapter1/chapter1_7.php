@@ -39,7 +39,7 @@
         <div id="strategicBarTrigger1" style="position:absolute; top:700px;"></div>
         <div id="strategicBarTrigger2" style="position:absolute; top:851px;"></div>
 			</div>
-			<div style="width:960px; margin:0 auto; padding:0 55px; box-sizing:border-box;">
+			<div class="grey4Color" style="width:960px; margin:0 auto; padding:0 55px; box-sizing:border-box;">
       	Axiata is today one of the largest Asian telecommunications companies with presence in eight countries. Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with strategic stakes in India and Singapore. Added to this, the Group has established a communications infrastructure solutions and services company, edotco. Since 2007, Axiata grew its subscriber base by more than six times to serve over 266 million people, revenue for the Group increased 87% to RM18.7 million, PAT by 80% to RM2.3 billion and market capitalisation has increased more than four times to RM58.9 billion. <br />
       	<br />
       	<br />
@@ -49,7 +49,7 @@
 				<br />
 				Axiata defines its ‘New Generation Telco’ objectives along four parameters and related key measurements:
       </div>
-      <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<table style="border-bottom: 1px solid #d96285;">
       		<colgroup>
 	      		<col width="320">
@@ -79,7 +79,7 @@
       		</tbody>
       	</table>
       </div>
-      <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<span class="title">Challenges and opportunities</span><br />
       	<br />
 				The industry has evolved at a remarkable pace and today we face multi-dimensional challenges and opportunities from within our markets, society and people.<br />
@@ -110,7 +110,7 @@
       <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<img src="../assets/img/chapter1/7/box-content.png" />
       </div>
-      <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<span class="title" style="line-height:200%;">Transform the core:</span><br />
 				<span style="line-height:200%;">Mobile Data Leadership</span><br />
 				<div style="margin-bottom:10px;">Today data services account for one fifth of Axiata’s revenue. Our mid-term focus is to gain mobile data leadership. In other words, Axiata aims to become the most attractive and used highway for mobile internet, and our strategy follows four paradigms:</div>
