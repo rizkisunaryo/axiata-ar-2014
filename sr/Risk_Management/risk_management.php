@@ -171,8 +171,8 @@
 <?php
     include("../inc/footer.php");
 ?>
-<link rel="stylesheet" href="../assets/css/stake_holder/ch2_1.css">
-<script src="../assets/js/stakeholder/ch2_1.js"></script>
+<link rel="stylesheet" href="../assets/css/ch2/ch2_1.css">
+<script src="../assets/js/ch2/ch2_1.js"></script>
 <script type="text/javascript">
     
         

@@ -129,13 +129,14 @@ width: 100%;
 }
 .col2{
     width: 376px;
-    background: url(../img/red-line-stakeholder_engagement.png);
+    background: url(../../img/red-line-stakeholder_engagement.png);
     background-repeat: no-repeat;
     background-position-x: 188px;
     background-position-y: -510px;
 }
 .col2.background_active{
-    background-position-y: 0px;   
+    background-position-y: -500px;
+    background-position-y: 0px;
     -webkit-transition:  2s; /* Safari */
     transition: 2s;
 }
