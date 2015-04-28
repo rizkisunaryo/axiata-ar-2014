@@ -46,7 +46,7 @@
             <div class="col-justify col50">
                 <div class="contribution">
                     <div class="contribution-wrapper">
-                        <div class="axiataBook font15 text__color--darkgrey">Subscribers</div>
+                        <div class="axiataBook font15 text__color--darkgrey">Subscribers:</div>
                         <div class="axiataBold font30 text__color--lightred">over <span class="font52"> 260 </span> <span class="font30">million</span></div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-justify col50">
                 <div class="contribution-info">
-                    <div class="col col78">
+                    <div class="col col80">
                         <div class="contribution-text font9 text__color--darkgrey">
                             <p>* excludes idea and M1</p>
                             <p class="text-justify">Axiata’s 2014 Sustainability and National Contribution Report, Committed to Development, Towards a Digital Future is available online at www.axiata.com and can be downloaded on AppStore and GooglePlay. </p>
