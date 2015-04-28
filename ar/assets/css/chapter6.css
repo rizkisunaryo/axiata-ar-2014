@@ -865,7 +865,7 @@
 .section8
 {
 	width:960px;
-	min-height:730px;
+	height:640px;
 	background-color:#c5ced4;
 	margin:0 auto;
 	overflow:hidden;
@@ -874,8 +874,8 @@
 .section8 .leftSection
 {
 	width:50%;
-	height:860px;
-	margin: -50px 0 0 440px;
+	height:1860px;
+	margin: 700px 0 0 440px;
 	position: relative;
 	background-color: rgba(0,0,0,0.5);
 
@@ -959,7 +959,7 @@
 {
 	width:100%;
 	float:left;
-	min-height:730px;
+	height:640px;
 	background: url("../img/chapter6/section8/background.png") no-repeat center center;
 	background-size: 100% 100%;
 }

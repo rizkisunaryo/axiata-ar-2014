@@ -21,7 +21,7 @@ canvas.triangleLeftRed {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-right: 12px solid #e51b1b;
+	border-right: 12px solid #e94e1b;
 	width:0; height:0;
 }
 
@@ -29,7 +29,7 @@ canvas.triangleRightRed {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-left: 12px solid #e51b1b;
+	border-left: 12px solid #e94e1b;
 	width:0; height:0;
 }
 
@@ -37,7 +37,7 @@ canvas.triangleLeftGreen {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-right: 12px solid #00652a;
+	border-right: 12px solid #e94e1b;
 	width:0; height:0;
 }
 
@@ -45,14 +45,14 @@ canvas.triangleRightGreen {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-left: 12px solid #00652a;
+	border-left: 12px solid #e94e1b;
 	width:0; height:0;
 }
 canvas.triangleLeftBlue {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-right: 12px solid #1d357f;
+	border-right: 12px solid #e94e1b;
 	width:0; height:0;
 }
 
@@ -60,7 +60,7 @@ canvas.triangleRightBlue {
 	position:absolute;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
-	border-left: 12px solid #1d357f;
+	border-left: 12px solid #e94e1b;
 	width:0; height:0;
 }
 
