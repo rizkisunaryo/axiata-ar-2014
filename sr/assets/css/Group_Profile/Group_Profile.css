@@ -1,0 +1,14 @@
+@import url("../navbar.css");
+@import url("../fonts.css");
+@import url("../fonts2.css");
+
+.percentage {
+	font-family: axiataBold;
+	font-size:49px;
+}
+
+.percentageExplanation {
+	position: relative;
+	font-family: axiataBold;
+	font-size:21px;
+}

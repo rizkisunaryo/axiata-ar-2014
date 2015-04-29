@@ -3,14 +3,14 @@
     include("../inc/header.php");
 
 ?>
-<link rel="stylesheet" href="../assets/css/ch1/chapter1_2.css">
+<link rel="stylesheet" href="../assets/css/Group_Profile/Group_Profile.css">
 
 		<div id="scrollTrigger" style="position:fixed; top:50%; z-index:1000;"></div>
 
 		<section id="groupProfileSection">
 			<div id="groupProfileBg" style="z-index:0;">
 				<div style="position:relative; width:960px; margin:0 auto;">
-					<img src="../assets/img/chapter1/2/01-group-profile.png" />
+					<img src="../assets/img/Group_Profile/Group_Profile/01-group-profile.png" />
 				</div>
 			</div>
 			<div id="groupProfileText" style="z-index:10;">
@@ -45,27 +45,27 @@
             <!-- <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
               <div style="position:relative; font-size:35px; left:220px;" class="title">2007 vs 2014</div>
               <div style="position:relative; margin-top:15px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
+                <div style="position:relative; line-height:1;"><img src="../assets/img/Group_Profile/Group_Profile/from-zero-arrow.png"></div>
                 <div class="maroonColor percentage" style="position:relative; margin-top:-45px; left:35px; line-height:1;"><span id="revenue" class="percentage">0</span>%</div>
                 <div class="percentageExplanation" style="position:relative; left:43px; margin-top:-2px; line-height:1;">Revenue</div>
               </div>
               <div style="position:relative; left:160px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
+                <div style="position:relative; line-height:1;"><img src="../assets/img/Group_Profile/Group_Profile/from-zero-arrow.png"></div>
                 <div class="maroonColor percentage" style="position:relative; margin-top:-45px; left:35px; line-height:1;"><span id="ebitda" class="percentage">0</span>%</div>
                 <div class="percentageExplanation" style="left:68px; margin-top:-2px; line-height:1;">Ebitda</div>
               </div>
               <div style="position:relative; left:320px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
+                <div style="position:relative; line-height:1;"><img src="../assets/img/Group_Profile/Group_Profile/from-zero-arrow.png"></div>
                 <div class="maroonColor percentage" style="left:35px; position:relative; margin-top:-45px; line-height:1;"><span id="pat" class="percentage">0</span>%</div>
                 <div class="percentageExplanation" style="position:relative; margin-top:-2px; left:97px; line-height:1;">PAT</div>
               </div>
               <div style="position:relative; margin-top:35px; left:50px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
+                <div style="position:relative; line-height:1;"><img src="../assets/img/Group_Profile/Group_Profile/from-zero-arrow.png"></div>
                 <div class="maroonColor percentage" style="position:relative; left:35px; margin-top:-45px; line-height:1;"><span id="subscribers" class="percentage">0</span>%</div>
                 <div class="percentageExplanation" style="position:relative; left:45px; margin-top:-2px; line-height:1;">Subscribers</div>
               </div>
               <div style="position:relative; left:235px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
+                <div style="position:relative; line-height:1;"><img src="../assets/img/Group_Profile/Group_Profile/from-zero-arrow.png"></div>
                 <div class="maroonColor percentage" style="position:relative; left:35px; margin-top:-45px; line-height:1;"><span id="marketcap" class="percentage">0</span>%</div>
                 <div class="percentageExplanation" style="position:relative; margin-top:-2px; width:155px; text-align:right; left:15px; line-height:1;">Market<br>Capitalisation</div>
               </div>
@@ -91,106 +91,6 @@
 			</div>
 		</section>
 
-		<section id="corporateInformation" style='margin-top:140px;background-image: url(&quot;../assets/img/chapter1/corner.png&quot;);   background-repeat: no-repeat;   background-position-y: -10px;background-position-x: 237px;'>
-      <div class="center-content" style="position:relative; max-width:890px; width:100%; margin:0 auto; height:auto; z-index:0;">
-        <div style="position:relative;">
-          <div class="title" style="position:relative; color:#8a8c8e; font-size:26px;">Corporate</div>
-          <div class="title maroonColor" style="position:relative; font-size:32px;">Information</div>
-        </div>
-        <div style="position:relative; margin-top:20px;">
-          <span class="title maroonColor">Board of Directors</span><br>
-          <br>
-          <span class="title">Tan Sri Dato’ Azman Hj. Mokhtar</span><br>
-          Chairman<br>
-          Non-Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Dato’ Sri Jamaludin Ibrahim</span><br>
-          Managing Director/President &amp;<br>
-          Group Chief Executive Officer<br>
-          <br>
-          <span class="title">Tan Sri Ghazzali Sheikh Abdul Khalid</span><br>
-          Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Datuk Azzat Kamaludin</span><br>
-          Senior Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Dato’ Abdul Rahman Ahman</span><br>
-          Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Juan Villalonga Navarro</span><br>
-          Independent Non-Executive Director<br>
-          <br>
-          <span class="title">David Lau Nai Pek</span><br>
-          Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Kenneth Shen</span><br>
-          Non-Independent Non-Executive Director<br>
-          <br>
-          <span class="title">Bella Ann Almeida</span><br>
-          Independent Non-Executive Director
-        </div>
-        <div style="position:relative; margin-top:-588px; left:481px;">
-          <span class="title maroonColor">Share Registrar</span><br>
-          <br>
-          <span class="title">Tricor Investor Services Sdn Bhd</span><br>
-          (Company No. 118401-V)<br>
-          Level 17, The Gardens North Tower<br>
-          Mid Vally City, Lingkaran Syed Putra<br>
-          59200 Kuala Lumpur, Malaysia<br>
-          Tel : +603 2264 3883<br>
-          Fax : +603 2282 1886<br>
-          <br>
-          <span class="title maroonColor">Auditors</span><br>
-          <br>
-          PricewaterhouseCoopers (AF: 1146)<br>
-          Level 10, 1 Sentral, Jalan Travers<br>
-          Kuala Lumpur Sentral<br>
-          50706 Kuala Lumpur, Malaysia<br>
-          Tel : +603 2173 1188<br>
-          Fax : +603 2173 1288<br>
-          <br>
-          <span class="title maroonColor">Website</span><br>
-          <br>
-          www.axiata.com<br>
-          <br>
-          <br>
-          <span class="title maroonColor">Investor Relations</span><br>
-          <br>
-          Tel   : +603 2263 8856<br>
-          Fax   : +603 2278 3337<br>
-          Email : ir@axiata.com
-        </div>
-      </div>
-      <div style="position:relative; width:880px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:80px; color:white; padding:40px;">
-        <div style="position:relative;">
-          <span class="title">Group Company Secretary</span><br>
-          <br>
-          Suryani Hussein<br>
-          LS0009277
-        </div>
-        <div style="position:relative; left:250px; margin-top:-78px;">
-          <span class="title">Registered Office</span><br>
-          <br>
-          Level 5, Corporate Headquarters<br>
-          Axiata Tower, 9 Jalan Stesen Sentral 5<br>
-          Kuala Lumpur Sentral<br>
-          50470 Kuala Lumpur, Malaysia<br>
-          Tel : +603 2263 8888<br>
-          Fax : +603 2263 8903
-        </div>
-        <div style="position:relative; left:580px; margin-top:-158px;">
-          <span class="title">Stock Exchange Listing</span><br>
-          <br>
-          Listed on Main Market of Bursa Malaysia<br>
-          Securities Berhad<br>
-          Listing Date  : 28 April 2008<br>
-          Stock Code  : 6888<br>
-          Stock Name  : Axiata<br>
-          Stock Sector  : Trading/Services
-        </div>
-      </div>
-    </section>
-
 <?php
     include("../inc/footer.php");
 ?>
@@ -204,7 +104,7 @@
       $('#groupProfileText').css('margin-top',(-groupProfileTextHeight)+'px');
 
       var controller = new ScrollMagic.Controller();
-      new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:groupProfileTextHeight})
+      new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:(groupProfileTextHeight)})
                   .setPin("#groupProfileBg")
                   .addTo(controller);
       

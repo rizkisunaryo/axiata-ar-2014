@@ -1,0 +1,31 @@
+@import url("../navbar.css");
+@import url("../fonts.css");
+@import url("../fonts2.css");
+
+#trigger {
+	position:absolute; 
+	width:20px; 
+	height:20px; 
+	/*border-color:#fff; 
+	border-style:solid;*/
+}
+
+#trigger2 {
+	position:absolute; 
+	width: 86px; 
+	height: 60px;
+	/*border-color:#fff; 
+	border-style:solid;
+*/}
+
+#trigger:hover ~ #sibling {
+	display:block;
+}
+
+#trigger2:hover ~ #sibling {
+	display:block;
+}
+
+#sibling {
+	display:none;
+}
