@@ -16,6 +16,169 @@
             <span class="fa fa-play left_arrow "></span>
             </div>
         </div>
+        <div class="table first">
+            <div class="header white_txt">
+                <div class="tr" style="border-bottom:1px solid white; padding-left:25px; padding-top:9px; width: 827px;">
+                Sustainability Targets of the Group & Progress Made
+                </div>
+            </div>
+        </div>
+        <div class=" weirdTable smaller_txt">
+        <!-- column 1 -->
+            <div class="scrollTableSide inline white_txt">
+                <div class="cell 1st red_bg ">Pillar</div>
+                <div class="cell 2nd orange_bg ">Beyond Short Term<br>Profits</div>
+                <div class="cell 3rd dark-blue_bg ">Nurturing People</div>
+                <div class="cell 4th purple_bg ">Process Excellence</div>
+                <div class="cell 5th green_bg ">Planet & Society</div>
+            </div>
+            <div class="scrollableTable inline ">
+                    <div class="row_cust 1st red_bg  white_txt">
+                        <div class="cell_cust">Material Issue</div>
+                        <div class="cell_cust">Targets in 2014</div>
+                        <div class="cell_cust">Status</div>
+                        <div class="cell_cust">Progress made in 2014</div>
+                        <div class="cell_cust">Sustainability targets for 2015</div>
+                        <div class="cell_cust">Improvement</div>
+                        <div class="cell_cust">Innovation</div>
+                        <div class="cell_cust">Investment</div>
+                        <div class="cell_cust">Impact</div>
+                    </div>
+                    <div class="row_cust 2nd ">
+
+                        <div class="cell_cust">Network Quality & Coverage</div>
+                        <div class="cell_cust">Study SROI aspects from our network investment in each market</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">Details covered in Beyond Short Term profits section (page 025)</div>
+                        <div class="cell_cust">Study SROI aspects from our network investment in each market</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                    </div>
+                    <div class="row_cust 3rd  ">
+                        
+                        
+                        <div class="cell_cust">Digital Inclusion</div>
+                        <div class="cell_cust">Report on Group&#65535;ffe2&#65535;ff80&#65535;ff99s availability, affordability and applicability factors in rural populations and marginalised segments.</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">This report initiates a disclosure on the 4A  inclusive model (page 027)</div>
+                        <div class="cell_cust">Launching mapped out new ADS projects across our markets</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                    </div>
+                    <div class="row_cust 4th  grey_bg">
+                        <div class="cell_cust">Product innovation<br>& Research</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                    </div>
+                    <div class="row_cust 5th  ">
+                        <div class="cell_cust">Employee<br>Development<br>& Welfare</div>
+                        <div class="cell_cust">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">OpCo wise culture programme conducted based on the OpCo values and core values (page 039)</div>
+                        <div class="cell_cust">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        
+                    </div>
+                <div class="row_cust 6th  ">
+                        <div class="cell_cust">Governance &<br>Responsible Business<br>Conduct</div>
+                        <div class="cell_cust">MERGE!!!</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">2014 EES conducted in November across group. Follow up studies conducted as required</div>
+                        <div class="cell_cust">Completion of BCM programmes for Each OpCo and reporting on progress made</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 7th  ">
+                        <div class="cell_cust">Data & Privacy</div>
+                        <div class="cell_cust">Establish  adherence to PDPA across relevant countries.</div>
+                        <div class="cell_cust"> <img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">Report details out our continuous adherence to the PDPA (page 051)</div>
+                        <div class="cell_cust">Review of privacy and data standards and preparedness in each market</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 8th  ">
+                        <div class="cell_cust">Supply Chain<br>Management</div>
+                        <div class="cell_cust">Study SROI aspects from our network investment in each market</div>
+                        <div class="cell_cust"> <img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">Supplier code of conduct introduced. Supplier forum for 2014 conducted. (page 047)</div>
+                        <div class="cell_cust">Set up improved mechanism for calculating local procurement</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 9th  ">
+                        <div class="cell_cust">Customer Service</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">To improve the processes in each market to become the best customer service provider</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 10th  ">
+                        <div class="cell_cust">Energy &<br>Climate Change</div>
+                        <div class="cell_cust">Report on the progress made over the edotco target</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">The tracking of live information established via the Echo centre (page 057)</div>
+                        <div class="cell_cust">Report on the progress made over the edotco target</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 11th  ">
+                        <div class="cell_cust">Community Impact</div>
+                        <div class="cell_cust">New products lined up in M-money, M-advertising, M-edu, M-health</div>
+                        <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
+                        <div class="cell_cust">National contribution study conducted in 2014, the methodology used for this report and beyond (page 070)</div>
+                        <div class="cell_cust">Tracking of the Group's Corporate Reponsibility initiatives and their impact</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                <div class="row_cust 12th  ">
+                        <div class="cell_cust">Disaster & Response</div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust"></div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        <div class="cell_cust">√</div>
+                        
+                    </div>
+                    
+            </div>
+        </div>
 
         <div class="table">
             <div class="header white_txt">

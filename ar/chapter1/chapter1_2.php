@@ -40,7 +40,7 @@
               <span class="title" style="line-height:2; color:#fff;">Shaping the Future</span><br />
               Axiata has always been ahead of the curve, quickly adapting to change and positioning its business model to capitalise on the developments in an increasingly digitalised world. Parallel to its investments in network and technology modernisation over the years, Axiata has also evolved its business to embrace the digital age and fast growing demand for data. 2015 will be a critical year for Axiata as it progresses in its transformation beyond a traditional telecommunications company.<br />
               <br />
-              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available online.
+              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available <a href="../../sr/index.html">online</a>.
             </div>
             <!-- <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
               <div style="position:relative; font-size:35px; left:220px;" class="title">2007 vs 2014</div>

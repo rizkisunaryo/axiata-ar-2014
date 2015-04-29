@@ -17,6 +17,11 @@
 .red_txt{ color: #c40d42;}
 .white_txt{ color: #fff;}
 
+.red_bg{ background-color: #c40d42;}
+.orange_bg{ background-color: #ee7203;}
+.dark-blue_bg{ background-color: #164194;}
+.purple_bg{ background-color: #a3195b;}
+.green_bg{ background-color: #95c11f;}
 
 /* sides */
 .marg_15{ margin: 0px;}
