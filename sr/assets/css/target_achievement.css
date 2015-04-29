@@ -71,7 +71,7 @@
 
 .scrollableTable{
   width: 662px;
-  overflow-x: hidden;
+  overflow-x: visible;
   margin-left: -5px;
   vertical-align: top;
 }
@@ -83,7 +83,7 @@
 .weirdTable{ margin-bottom: 30px;}
 
 .row_cust{
-	width: 1000px;
+	width: 1274px;
 	margin-left: 0px;
 }
 .row_cust .cell_cust{

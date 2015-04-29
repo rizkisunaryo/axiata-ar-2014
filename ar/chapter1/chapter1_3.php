@@ -72,8 +72,8 @@
 		        clearTimeout(graphToFunctionArray[graphNumber]);
 		      }
 		      $(greySelector).stop();
-	        $(greySelector).css('width','0px');
-	        $(redSelector).css('width','0px');
+	        // $(greySelector).css('width','0px');
+	        // $(redSelector).css('width','0px');
 	    }
 	    else if ($('#scrollTriggerBottom').offset().top>=$(bottomGraphTrigger).offset().top && !isGraphRowReached[graphNumber-1]) {
 	        isGraphRowReached[graphNumber-1]=true;

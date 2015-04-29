@@ -15,7 +15,7 @@
           <div style="position:relative; font-size:26px;" class="title grey8Color">Prudent and</div>
           <div style="position:relative; font-size:33px;" class="title maroonColor">Disciplined Dividend Payout</div>
           <div style="position:relative; font-size:16px; margin-top:15px;" class="title maroonColor">
-            Axiata declared a 22 sen per share single tier dividend (including interim dividend of 8 sen per share paid last year), implying a dividend payout ratio of 84%, which marks a 9% increase from 2013’s ordinary dividend payout ratio of 75%. The increased Dividend Payout Ratio (DPR) of 84% takes into consideration Axiata’s financial performance, growth expansion strategies as well as dividends received from subsidiaries in FY2014. Management is committed to sustain positive performance with financial discipline, efficient cash management and prudent investments, and growth strategies moving forward.
+            Axiata declared a 22 sen per share single tier dividend (including interim dividend of 8 sen per share paid last year), a dividend payout ratio of 84%, which marks a 9% increase from 2013’s ordinary dividend payout ratio of 75%. The increased Dividend Payout Ratio (DPR) of 84% takes into consideration Axiata’s financial performance, growth expansion strategies as well as dividends received from subsidiaries in FY2014. Management is committed to sustain positive performance with financial discipline, efficient cash management and prudent investments, and growth strategies moving forward.
           </div>
         </div>
         <div style="position:relative; margin-top:-80px;">
