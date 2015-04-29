@@ -62,3 +62,9 @@ canvas.triangleRightLightBlue {
   -moz-transform: rotate(-45deg);
   font-size: 22px;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #marginTop {
+  	height: 18px;
+  }
+}
