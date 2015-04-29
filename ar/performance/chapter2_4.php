@@ -4,7 +4,9 @@
 
 ?>
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_4.css">
-
+<style type="text/css">
+  .bold{font-family: AxiataBold;}
+</style>
 		<div id="scrollTrigger90px" style="position:fixed; top:90px; z-index:1000;"></div>
 		<div id="scrollTrigger10" style="position:fixed; top:10%; z-index:1000;"></div>
 		<div id="scrollTrigger20" style="position:fixed; top:20%; z-index:1000;"></div>
@@ -44,14 +46,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow1Number">
                   <div style="position:relative; top:-310px; left:8px;">15.6</div>
 									<div style="position:relative; top:-341px; left:60px;">16.3</div>
 									<div style="position:relative; top:-372px; left:114px;">17.7</div>
 									<div style="position:relative; top:-403px; left:163px;">18.4</div>
-									<div style="position:relative; top:-435px; left:216px;">18.7</div>
+									<div class="bold" style="position:relative; top:-435px; left:216px;">18.7</div>
                 </div>
               </div>
               <div style="position:absolute; top:48px; left:227px;">
@@ -76,14 +78,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow2Number">
                   <div style="position:relative; top:-272px; left:13px;">2.1</div>
 									<div style="position:relative; top:-362px; left:63px;">2.7</div>
 									<div style="position:relative; top:-406px; left:114px;">2.9</div>
 									<div style="position:relative; top:-402px; left:167px;">2.7</div>
-									<div style="position:relative; top:-373px; left:218px;">2.3</div>
+									<div class="bold" style="position:relative; top:-373px; left:218px;">2.3</div>
                 </div>
               </div>
               <div style="position:absolute; top:48px; left:227px;">
@@ -108,14 +110,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow3Number">
                   <div style="position:relative; top:-355px; left:9px;">11.8</div>
 									<div style="position:relative; top:-387px; left:62px;">12.1</div>
 									<div style="position:relative; top:-393px; left:114px;">11.8</div>
 									<div style="position:relative; top:-389px; left:164px;">10.7</div>
-									<div style="position:relative; top:-396px; left:219px;">9.0</div>
+									<div class="bold" style="position:relative; top:-396px; left:219px;">9.0</div>
                 </div>
               </div>
               <div style="position:absolute; top:62px; left:227px;">
@@ -143,14 +145,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow1Number">
                   <div style="position:relative; top:-336px; left:13px;">7.1</div>
 									<div style="position:relative; top:-361px; left:64px;">7.2</div>
 									<div style="position:relative; top:-385px; left:116px;">7.4</div>
 									<div style="position:relative; top:-401px; left:168px;">7.3</div>
-									<div style="position:relative; top:-409px; left:220px;">7.0</div>
+									<div class="bold" style="position:relative; top:-409px; left:220px;">7.0</div>
                 </div>
               </div>
               <div style="position:absolute; top:43px; left:227px;">
@@ -175,14 +177,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow2Number">
                   <div style="position:relative; top:-307px; left:10px;">2.5</div>
 									<div style="position:relative; top:-326px; left:63px;">2.5</div>
 									<div style="position:relative; top:-382px; left:115px;">2.8</div>
 									<div style="position:relative; top:-401px; left:167px;">2.8</div>
-									<div style="position:relative; top:-349px; left:218px;">2.2</div>
+									<div class="bold" style="position:relative; top:-349px; left:218px;">2.2</div>
                 </div>
               </div>
               <div style="position:absolute; top:48px; left:227px;">
@@ -220,14 +222,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear bold" style="position:relative; top:-274px; left:155px;">2014</div>
                 </div>
                 <div class="graphRow3Number">
                   <div style="position:relative; top:-235px; left:9px;">160</div>
 									<div style="position:relative; top:-302px; left:62px;">199</div>
 									<div style="position:relative; top:-333px; left:112px;">205</div>
 									<div style="position:relative; top:-400px; left:164px;">244</div>
-									<div style="position:relative; top:-444px; left:216px;">266</div>
+									<div class="bold" style="position:relative; top:-444px; left:216px;">266</div>
                 </div>
               </div>
               <div style="position:absolute; top:30px; left:227px;">
