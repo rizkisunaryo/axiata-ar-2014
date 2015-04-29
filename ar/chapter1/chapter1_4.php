@@ -20,19 +20,19 @@
         </div>
         <div style="position:relative; margin-top:-80px;">
           <div style="position:relative; top:-800px;">
-            <div style="position:absolute; left:123px; top:130px;">
+            <div style="position:absolute; left:91px; top:130px;">
               <img src="../assets/img/chapter1/4/bar-1-elements.png">
             </div>
-            <div style="position:absolute; left:241px; top:179px;">
+            <div style="position:absolute; left:209px; top:179px;">
               <img src="../assets/img/chapter1/4/bar-2-elements.png">
             </div>
-            <div style="position:absolute; left:386px; top:127px;">
+            <div style="position:absolute; left:354px; top:127px;">
               <img src="../assets/img/chapter1/4/bar-3-elements.png">
             </div>
-            <div style="position:absolute; left:545px; top:174px;">
+            <div style="position:absolute; left:513px; top:174px;">
               <img src="../assets/img/chapter1/4/bar-4-elements.png">
             </div>
-            <div style="position:absolute; left:640px; top:450px;">
+            <div style="position:absolute; left:608px; top:450px;">
               <img src="../assets/img/chapter1/4/bar-5-elements.png">
             </div>
           </div>
