@@ -1,0 +1,64 @@
+@import url("../navbar.css");
+@import url("../fonts.css");
+@import url("../fonts2.css");
+
+.graphYear {
+	-ms-transform: rotate(330deg); /* IE 9 */
+	-webkit-transform: rotate(330deg); /* Chrome, Safari, Opera */
+	transform: rotate(330deg);
+}
+
+canvas.triangleLeftGrey {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid grey;
+	width:0; height:0;
+}
+
+canvas.triangleRightGrey {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid grey;
+	width:0; height:0;
+}
+
+canvas.triangleLeftBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #0c4da2;
+	width:0; height:0;
+}
+
+canvas.triangleRightBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #0c4da2;
+	width:0; height:0;
+}
+
+canvas.triangleLeftLightBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 12px solid #1191d0;
+	width:0; height:0;
+}
+
+canvas.triangleRightLightBlue {
+	position:absolute;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 12px solid #1191d0;
+	width:0; height:0;
+}
+
+.fa-search-plus, .fa-search-minus{
+  color: #8B8B8A;
+  -webkit-transform: rotate(-11deg);
+  -moz-transform: rotate(-45deg);
+  font-size: 22px;
+}
