@@ -9,6 +9,7 @@
 	/*border-color:#fff; 
 	border-style:solid;*/
 	cursor: pointer;
+	z-index: 100;
 }
 
 #trigger2 {
@@ -18,6 +19,7 @@
 	/*border-color:#fff; 
 	border-style:solid;*/
 	cursor: pointer;
+	z-index: 100;
 }
 
 #trigger:hover ~ #sibling {
