@@ -251,9 +251,9 @@ container
 
 .exploreMore ul li
 {
-	width:170px;
-	height:194px;
-	margin: 15px 1px;
+	width:200px;
+	height:350px;
+	margin: 15px 5px;
 	background:#ffffff;
 	float:left;
 	cursor: pointer;
@@ -295,6 +295,7 @@ container
 .explore6
 {
 	background: #fff url('../img/explore/6.png') no-repeat top left !important;
+	margin-left: -30px !important;
 }
 
 .explore7
@@ -305,6 +306,7 @@ container
 .explore8
 {
 	background: #fff url('../img/explore/8.png') no-repeat top left !important;
+
 }
 
 .explore9
