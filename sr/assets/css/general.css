@@ -74,6 +74,7 @@
 .col45{width:45%}
 .col50{width:50%}
 .col60{width:60%}
+.col65{width:65%}
 .col70{width:70%}
 .col75{width:75%}
 .col78{width:78%}
@@ -94,6 +95,13 @@
     transition:all 0.5s ease-in-out;
 }
 
+.col__right-border{
+    border-right: 1px dashed white;
+}
+
+.col__right-border--dot{
+    border-right: 1px dotted white;
+}
 
 .margin-auto{
     margin: 0 auto;
@@ -102,6 +110,11 @@
 .removeMargin{
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+    -webkit-margin-start: 0em;
+}
+
+.removeMargin--add-start-margin {
+    -webkit-padding-start: 1em;
 }
 
 .text__color--black{
@@ -113,14 +126,23 @@
 .text__color--white{
     color: #fff;
 }
+.text__color--blue{
+    color: #004f9f;
+}
 .text__color--dark-blue{
     color: #001c5b;
+}
+.text__color--blue-dark{
+    color: #213a8f;
 }
 .text__color--grey{
     color: #58595b;
 }
 .text__color--lightgrey{
     color: #8a8c8f;
+}
+.text__color--grey-light{
+    color: #9d9d9c;
 }
 
 
@@ -130,6 +152,10 @@
 .bg__color--lightblue{
     background-color: #33AFED;
 }
+
+.bg__color--lightgrey{
+    background-color: #e3e3e3;
+}
 .axiataBold{
     font-family: axiataBold;
 }
@@ -138,6 +164,8 @@
 }
 
 
+.font9{  font-size: 9px;  }
+.font12{  font-size: 12px;  }
 .font13{  font-size: 13px;  }
 .font14{  font-size: 14px;  }
 .font15{  font-size: 15px;  }
@@ -146,6 +174,7 @@
 .font25{  font-size: 25px;  }
 .font31{  font-size: 31px;  }
 .font41{  font-size: 41px;  }
+.font52{  font-size: 52px;  }
 .font57{  font-size: 57px;  }
 .font79{  font-size: 79px;  }
 .font120{  font-size: 120px;  }
@@ -186,6 +215,11 @@
 .section--map{
     min-height: 1198px;
     background: #ffffff url(../img/chapter6/section2/ch8-map.png) no-repeat top left;
+}
+
+
+.container{
+    padding: 23px;
 }
 
 .nurturing-box{
@@ -241,6 +275,10 @@
     margin-left: 80px;  /* width of image */
 }
 
+.nurturing-item .nurturing-improvement span{
+    margin-left: 110px;
+}
+
 /*table.nurturing-table, */
 /*.nurturing-table thead:first-child{*/
     /*border-top: 1px solid black;*/
@@ -273,9 +311,48 @@
     padding: 20px 15px;
 }
 
+
+.nurturing-employee-left{
+    padding-right: 8px;
+    width: 90px;
+}
+.nurturing-employee-right{
+    padding-left: 5px;
+}
+
+.nurturing-welfare{
+    position: absolute;
+    right: -18px;
+    top: 50px;
+}
+
+.nurturing-welfare-image{
+    width: 145px;
+    height: 115px;
+}
+
+.nurturing-approach-list{
+    width: 386px;
+}
+
+.col50.col-border{
+    width: calc(50% - 1px);
+}
+
+.col-nurturing{
+    height: 285px;
+}
 .col-nurturing:nth-child(-n+2) {
     border-bottom: 1px dotted #ffffff;
+    padding-bottom: 35px;
 }
-/*.col-nurturing:nth-child(even) {*/
-    /*border-left: 1px dotted #ffffff;*/
-/*}*/
+.col-nurturing:nth-child(n+3) {
+    padding-top: 25px;
+}
+.col-nurturing:nth-child(even) {
+    border-left: 1px dotted #ffffff;
+}
+
+.popup__workplace--celcom-img{
+    right: 23px;
+}
