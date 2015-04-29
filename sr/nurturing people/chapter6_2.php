@@ -22,18 +22,25 @@
                 <div>
                     <p class="axiataBold font20">Nurturing people</p>
                     <div class="rel nurturing-employee">
-                        <div class="bg__color--darkblue nurturing-employee-top">
-                            <div class="nurturing-employee-left"></div>
-                            <div class="nurturing-employee-right"></div>
+                        <div class="row bg__color--darkblue nurturing-employee-top">
+                            <div class="col col20 col__right-border">
+                                <span class="axiataBold font16">Context</span>
+                                <span class="block font12">Nature of our operations and region as well. </span>
+                            </div>
+                            <div class="col col65 nurturing-employee-right">
+                                <span class="axiataBold font16">Goal</span>
+                                <span class="block font12 text-justify">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H&S practice</span>
+                            </div>
                         </div>
                         <div class="bg__color--lightblue nurturing-employee-top">
                             <span class="axiataBold font17">Approach</span>
-                            <ul class="font13">
+                            <ul class="nurturing-approach-list font12 removeMargin removeMargin--add-start-margin">
                                 <li>Offer comprehensive learning and development opportunities 				across Axiata in our talent development programme</li>
                                 <li>We use our annual Employee Engagement survey to assess our 			engagement levels,</li>
                                 <li>Our H&S, well being processes ensure best practices. </li>
                             </ul>
                         </div>
+                        <div class="nurturing-welfare"><img class="nurturing-welfare-image" src="../assets/img/chapter6/section2/nurturing_welfare.png"/></div>
                     </div>
                 </div>
             </div>
@@ -90,10 +97,39 @@
         <div class="rel section section--blue text__color--white panel">
             <div class="axiataBold font31 text-center">Nurturing People</div>
             <div class="rel">
-                <div class="col col50 col-nurturing">
+                <div class="col col50 col-nurturing col-border col__right-border--dot">
                     <span class="axiataBold font25 uppercase">Improvements</span>
+                    <div class="row">
+                        <div class="col col60">
+                            <div class="nurturing-item">
+                                <div class="nurturing-item--img">
+                                    <img src="../assets/img/chapter6/section2/nurturing_hand.png"/>
+                                </div>
+                                <div class="nurturing-improvement">
+                                    <span class="font15">GADP Talent <br >Pipeline grew</span>
+                                    <span class="block axiataBold font41">26%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col40">
+                            <span class="axiataBold font52">96%</span>
+                            <span class="block font15">Participation in Employee <br >Engagement Survey</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col45">
+                            <span class="block axiataBold font41">3,130</span>
+                            <span class="font15">employees attended</span>
+                            <span class="block axiataBold font41">UI.EP</span>
+                            <span class="font15">training</span>
+                        </div>
+                        <div class="col col40">
+                            <span class="font15">Dialog Employee <br > Volunteer hours <br >increased</span>
+                            <span class="block axiataBold font41">4.6x</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col col50 col-nurturing">
+                <div class="col col50 col-border col-nurturing">
                     <span class="axiataBold font25 uppercase">Innovations</span>
                     <div>
                         <p class="axiataBold font25 uppercase">Axiata CHampions</p>
@@ -101,13 +137,24 @@
                         <p class="axiataBold font25 uppercase">Prism 2.0</p>
                     </div>
                 </div>
-                <div class="col col50 col-nurturing">
+                <div class="col col50 col-border col-nurturing">
                     <span class="axiataBold font25 uppercase">Ivestments</span>
                 </div>
-                <div class="col col50 col-nurturing">
+                <div class="col col50 col-border col-nurturing">
                     <span class="axiataBold font25 uppercase">Impact</span>
                     <div>
                         <span class="font15">In 2014 <span class="block axiataBold font41">81%</span><span class="block">Top Management Position</span><span class="block">Filled Internally</span></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col40">
+                            <span class="font15">Group EmployeeEngagement Index Remains Stable at </span>
+                            <span class="block axiataBold font41">83x</span>
+                        </div>
+                        <div class="col col60">
+                            <span class="block axiataBold font41">%0 Axiata Champions</span>
+                            <span class="font15">Recognised </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,7 +242,7 @@
             <div class="nuturing-button__title row text-center font17 text__color--lightblack axiataBold">Your text sit here</div>
             <div class="row">
                 <div class="col col4">
-                    <div class="nurturing-box nurturing-box--smal">
+                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/workplace.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_leader.png">
                         <span class="block axiataBold font20">Nurturing<br > Future <br >Leaders</span>
                     </div>
@@ -227,3 +274,47 @@
 <?php
     include ('../inc/footer.php');
 ?>
+
+<!--READ MORE POP UP-->
+<script type="text/javascript" src="../assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script>
+    $('.workplace-button').click(function(ev){
+        ev.preventDefault();
+        var url = $(this).data('url');
+        console.debug(url);
+
+        $.fancybox.open({
+            href : url,
+//            type : 'iframe',
+            openEffect : 'elastic',
+            openSpeed  : 150,
+            closeEffect : 'elastic',
+            closeSpeed  : 150,
+            autoSize : false,
+            width : 'auto',
+            height:'100%',
+            padding: 0,
+            margin: [90,0,0,0],
+            scrolling   : 'no',
+            overlayOpacity: 1,
+            overlayColor:	'#ffffff',
+            helpers : {
+                overlay : {
+                    locked : false,
+//                    css: {'background-color': '#000000'}
+                }
+            },
+            beforeShow: function(){
+//                parent.window.scrollTo(0,0);
+                $("body").css({'overflow-y':'hidden'});
+                //$('.fancybox-wrap').css('margin-left','-10px');
+            },
+            afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
+        });
+    });
+</script>
