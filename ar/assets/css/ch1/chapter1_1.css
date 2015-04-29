@@ -8,6 +8,8 @@
 	height:20px; 
 	/*border-color:#fff; 
 	border-style:solid;*/
+	cursor: pointer;
+	z-index: 100;
 }
 
 #trigger2 {
@@ -15,8 +17,10 @@
 	width: 86px; 
 	height: 60px;
 	/*border-color:#fff; 
-	border-style:solid;
-*/}
+	border-style:solid;*/
+	cursor: pointer;
+	z-index: 100;
+}
 
 #trigger:hover ~ #sibling {
 	display:block;
