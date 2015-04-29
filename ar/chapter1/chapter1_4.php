@@ -10,7 +10,7 @@
 		<div id="scrollTriggerBottom" style="position:fixed; top:100%; z-index:1000;"></div>
 
 		<section id="disciplinedDividendPayout" style="margin-top:90px;">
-      <div style="position:relative; background-color:#ffffff; height:950px; max-width:960px; width:100%; margin:0 auto; padding:35px;">
+      <div style="position:relative; background-color:#ffffff; height:1100px; width:960px; padding:35px; margin:0 auto; box-sizing:border-box;">
         <div style="position:relative;">
           <div style="position:relative; font-size:26px;" class="title grey8Color">Prudent and</div>
           <div style="position:relative; font-size:33px;" class="title maroonColor">Disciplined Dividend Payout</div>
@@ -55,6 +55,10 @@
 	            </div>
 	          </div>
           </div>
+        </div>
+        <div style="position:absolute; top:1030px; left:130px; font-size:10px;">
+        	* Inclusive of the special dividend paid<br />
+  				DPS – Dividend Per Share
         </div>
       </div>
     </section>
