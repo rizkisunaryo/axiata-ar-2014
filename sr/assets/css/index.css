@@ -32,48 +32,12 @@
     
 }
 
-@-moz-document url-prefix() { 
-  .section1 .img1
-	{
-		margin:-120px 0 0 100px !important;
-		padding-bottom: 100px;
-	}
-	.section1 .img2
-	{
-		margin:-60px 0 0 -610px !important;
-		
-	}
-	.kite-big {
-		-moz-animation-name: kite-big-animation; /* Safari */
-		-moz-animation-timing-function: linear;
-	    -moz-animation-duration: 1.5s; /* Safari */    
-	    -moz-animation-iteration-count: infinite; /* Safari */
-	    -moz-animation-direction: alternate; /* Safari */    
-	    animation-name: kite-big-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1.5s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	    display: inline-block;
-	}
 
-	/* Safari */
-	@-webkit-keyframes kite-big-animation {
-	    0%   {margin-top:-120px; margin-left:70px;}
-	    100%   {margin-top:-140px;}
-	}
-
-	/* Standard syntax */
-	@keyframes kite-big-animation {
-	    0%   {margin-top:-130px; margin-left:130px;}
-	    100%   {margin-top:-100px;}
-	}
-}
 
 
 .section1 .img2
 {
-	margin:0 0 280px -800px;
+	margin:0 0 280px -80px;
 	
 }
 .section1 .img3
@@ -263,6 +227,10 @@
 {
 	width:455px;
 }
+.col0_5
+{
+	width:222px;
+}
 
 .col2
 {
@@ -287,6 +255,15 @@
 .row3
 {
 	height:920px;
+}
+.row0_5
+{
+	height:260px;
+}
+.row0_5 .overbox
+{
+	margin:0;
+	padding:0;
 }
 
 
@@ -724,4 +701,67 @@
 #img-menu:hover > #img-desc {
     opacity: 1;
     top:0;
+}
+
+
+#INTEGRITY1 .filterBtn
+{
+	display: inline-block;
+	width: 280px !important;
+	margin-left:260px; !important;
+	clear: both;
+}
+
+@-moz-document url-prefix() { 
+  .section1 .img1
+	{
+		margin:-120px 0 0 100px !important;
+		padding-bottom: 100px;
+	}
+	.section1 .img2
+	{
+		margin:-60px 0 0 -610px !important;
+		
+	}
+	.kite-big {
+		-moz-animation-name: kite-big-animation; /* Safari */
+		-moz-animation-timing-function: linear;
+	    -moz-animation-duration: 1.5s; /* Safari */    
+	    -moz-animation-iteration-count: infinite; /* Safari */
+	    -moz-animation-direction: alternate; /* Safari */    
+	    animation-name: kite-big-animation;
+	    animation-timing-function: linear;
+	    animation-duration: 1.5s;
+	    animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	    display: inline-block;
+	}
+
+	/* Safari */
+	@-webkit-keyframes kite-big-animation {
+	    0%   {margin-top:-120px; margin-left:70px;}
+	    100%   {margin-top:-140px;}
+	}
+
+	/* Standard syntax */
+	@keyframes kite-big-animation {
+	    0%   {margin-top:-130px; margin-left:130px;}
+	    100%   {margin-top:-100px;}
+	}
+	.navigatorMukhtar
+	{
+		border:0 !important;
+		margin-top: 20px;
+		margin-bottom: 80px;
+		margin-left: auto;
+		margin-right: auto !important;
+		width: 960px;
+	}
+	#INTEGRITY1 .filterBtn
+	{
+		display: inline-block;
+		width: 280px !important;
+		margin-left:260px; !important;
+		clear: both;
+	}
 }
