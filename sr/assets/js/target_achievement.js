@@ -23,20 +23,5 @@ locked=false;
 $(document).ready(function(){
 	
 	
-	// $('body').on( "scroll",function(){
-	// 	if(locked){ alert('s');}
-	// 	else
-	// 	{
-	// 		locked=true;
-	// 		if(elementInViewport($('.desc_card')[0]))
-	// 		{
-	// 			$('col2').addClass('background_active');
-	// 		}
-	// 		else
-	// 		{
-	// 			$('col2').removeClass('background_active');	
-	// 		}
-	// 		locked=false;
-	// 	}
-	// });
+	
 });
