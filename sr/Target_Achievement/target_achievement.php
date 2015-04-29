@@ -26,11 +26,11 @@
         <div class=" weirdTable smaller_txt">
         <!-- column 1 -->
             <div class="scrollTableSide inline white_txt">
-                <div class="cell 1st red_bg ">Pillar</div>
-                <div class="cell 2nd orange_bg ">Beyond Short Term<br>Profits</div>
-                <div class="cell 3rd dark-blue_bg ">Nurturing People</div>
-                <div class="cell 4th purple_bg ">Process Excellence</div>
-                <div class="cell 5th green_bg ">Planet & Society</div>
+                <div class="cell _1st red_bg ">Pillar</div>
+                <div class="cell _2nd orange_bg ">Beyond Short Term<br>Profits</div>
+                <div class="cell _3rd dark-blue_bg ">Nurturing People</div>
+                <div class="cell _4th purple_bg ">Process Excellence</div>
+                <div class="cell _5th green_bg ">Planet & Society</div>
             </div>
             <div class="scrollableTable inline ">
                     <div class="row_cust 1st red_bg  white_txt">
@@ -60,7 +60,7 @@
                         
                         
                         <div class="cell_cust">Digital Inclusion</div>
-                        <div class="cell_cust">Report on Group&#65535;ffe2&#65535;ff80&#65535;ff99s availability, affordability and applicability factors in rural populations and marginalised segments.</div>
+                        <div class="cell_cust">Report on Group's availability, affordability and applicability factors in rural populations and marginalised segments.</div>
                         <div class="cell_cust"><img src="../assets/img/target_achievement_fullCircle.png"/></div>
                         <div class="cell_cust">This report initiates a disclosure on the 4A  inclusive model (page 027)</div>
                         <div class="cell_cust">Launching mapped out new ADS projects across our markets</div>

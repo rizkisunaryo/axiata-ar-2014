@@ -58,16 +58,17 @@
 
 
 .scrollTableSide{
-	width: 190px;
+	width: 186px;
 }
 .scrollTableSide .cell{
 	text-align: center;
+	width: 186px;
 }
-.scrollTableSide .cell.1st{}
-.scrollTableSide .cell.2nd{}
-.scrollTableSide .cell.3rd{}
-.scrollTableSide .cell.4th{}
-.scrollTableSide .cell.5th{}
+.scrollTableSide .cell._1st{padding-top:13px; height:22px;}
+.scrollTableSide .cell._2nd{padding-top:95px;  height:135px;}
+.scrollTableSide .cell._3rd{padding-top:46px;  height:54px;}
+.scrollTableSide .cell._4th{padding-top:153px; height:162px;}
+.scrollTableSide .cell._5th{padding-top:110px; height:118px;}
 
 .scrollableTable{
   width: 662px;
@@ -85,12 +86,14 @@
 .row_cust{
 	width: 1274px;
 	margin-left: 0px;
+	overflow-y: hidden;
+	border-bottom: 1px solid grey;
 }
 .row_cust .cell_cust{
 	display: inline-block;
 }
 
-.row_cust .cell_cust{ text-align: center; border-right: 1px solid #4d4d4f;}
+.row_cust .cell_cust{ text-align: center; border-right: 1px solid #4d4d4f; vertical-align: top; height: 100%;}
 .row_cust .cell_cust:nth-child(1){ width:150px;}
 .row_cust .cell_cust:nth-child(2){ width: 196px;}
 .row_cust .cell_cust:nth-child(3){ width: 63px;}

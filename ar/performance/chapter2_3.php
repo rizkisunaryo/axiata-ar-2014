@@ -18,12 +18,15 @@
 <div id="scrollTrigger80" style="position:fixed; top:80%; z-index:1000;"></div>
 <div id="scrollTrigger90" style="position:fixed; top:90%; z-index:1000;"></div>
 <div id="scrollTrigger100" style="position:fixed; top:100%; z-index:1000;"></div>
-
+<style type="text/css">
+  .grey_txt{ color: #4d4d4f;}
+  .foot_note{font-size: 13px; margin-top: 10px;}
+</style>
 <section id="keyHighlightsSection">
 	<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:1400px; box-sizing:border-box; overflow:hidden;">
 		<div id="keyPerfHeader" style="position:relative; background-color:white; z-index:20; padding-top:100px; top:-100px;">
       <div style="position:relative;">
-        <div class="title" style="position:relative; font-size:26px; font-color:#8a8c8e;">Key Performance</div>
+        <div class="title" style="position:relative; font-size:26px; color:#8a8c8e;">Key Performance</div>
         <div class="title maroonColor" style="position:relative; font-size:33px;">Indicators</div>
         <div style="position:relative; margin-top:20px;">As a Group, Axiata is firm on setting its Key Performance Indicators (KPIs) based on the Group’s strategic direction and vision of being a regional champion. Below is our progress on the KPIs measured and published each year.</div>
       </div>
@@ -52,7 +55,7 @@
         <tr>
           <td height="240" style="border-right:solid 1px; border-bottom:solid 1px; padding-left:15px; padding-right:40px;">
             <div class="title maroonColor" style="position:relative; font-size:22px;">Revenue Growth</div>
-            <div style="position:relative; margin-top:10px;">Revenue growth measures overall YoY growth of the Group relative to competitors and the industry, excluding all translation impact</div>
+            <div style="position:relative; margin-top:10px;">Revenue growth measures overall YoY growth of the Group relative to its competitors and the industry, excluding all translation impact</div>
           </td>
           <td style="border-right:solid 1px; border-bottom:solid 1px;">
             <div id="graphTriggerBottomRow4" style="position:relative; width:83px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10; margin:0 auto; top:70px;"></div>
@@ -68,13 +71,13 @@
             </div>
           </td>
           <td rowspan="2" style="border-bottom:solid 1px; padding-left:30px; padding-right:15px;">
-            <div style="position:relative;">Challenging year for the Group primarily due to the delay of one quarter in Axis acquisition in Indonesia, coupled with challenges faced in the Malaysia operations arising from the IT transformation programme</div>
+            <div style="position:relative;">Challenging year for the Group primarily due to the delay of one quarter in Axis acquisition in Indonesia, coupled with challenges faced in the Malaysian operations arising from the IT transformation programme</div>
           </td>
         </tr>
         <tr>
           <td height="200" style="border-right:solid 1px; border-bottom:solid 1px; padding-left:15px; padding-right:40px;">
             <div class="title maroonColor" style="position:relative; font-size:22px;">EBITDA Growth</div>
-            <div style="position:relative; margin-top:10px;">EBITDA growth measures overall YoY growth of the Group relative to competitors and the industry, excluding all translation impact</div>
+            <div style="position:relative; margin-top:10px;">EBITDA growth measures overall YoY growth of the Group relative to its competitors and the industry, excluding all translation impact</div>
           </td>
           <td style="border-right:solid 1px; border-bottom:solid 1px;">
             <div id="graphTriggerBottomRow5" style="position:relative; width:83px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10; margin:0 auto; top:10px;"></div>
@@ -135,7 +138,9 @@
           </td>
         </tr>
       </table>
+      <div class="foot_note grey_txt">* Based on constant currency</div>
     </div>
+    
 	</div>
 </section>
 
