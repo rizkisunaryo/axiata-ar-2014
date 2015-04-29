@@ -45,7 +45,7 @@
                   <div style="position:relative; font-size:22px;" class="title">15.6</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">billion</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">Revenue</div>
+                <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">Revenue</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div id="graphTriggerBottomRow1" style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -59,14 +59,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;  font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow1Number">
                   <div style="position:relative; top:-310px; left:8px;">15.6</div>
 									<div style="position:relative; top:-341px; left:60px;">16.3</div>
 									<div style="position:relative; top:-372px; left:114px;">17.7</div>
 									<div style="position:relative; top:-403px; left:163px;">18.4</div>
-									<div style="position:relative; top:-435px; left:216px;">18.7</div>
+									<div style="position:relative; top:-435px; left:216px; font-family: AxiataBold;">18.7</div>
                 </div>
               </div>
             </div>
@@ -82,13 +82,13 @@
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; background-image:url('../assets/img/chapter2/2/arrow-up2.png'); background-repeat:no-repeat; background-position:left top; width:36px; height:30px;"></div>
-                  <div style="position:relative;" class="title">10%</div>
+                  <div style="position:relative;" class="title">11%</div>
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; font-size:22px;" class="title">2.1</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">billion</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">PAT</div>
+                <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">PAT</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div id="graphTriggerBottomRow2" style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -102,14 +102,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow2Number">
                   <div style="position:relative; top:-247px; left:13px;">2.1</div>
 									<div style="position:relative; top:-302px; left:64px;">2.7</div>
 									<div style="position:relative; top:-335px; left:115px;">2.9</div>
 									<div style="position:relative; top:-342px; left:168px;">2.7</div>
-									<div style="position:relative; top:-349px; left:219px;">2.3</div>
+									<div style="position:relative; top:-349px; left:219px; font-family: AxiataBold;">2.3</div>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@
                   <div style="position:relative; font-size:22px;" class="title">244</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">million</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">SUBS</div>
+                <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">SUBS</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div id="graphTriggerBottomRow3" style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -145,19 +145,19 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow3Number">
                   <div style="position:relative; top:-223px; left:9px;">160</div>
 									<div style="position:relative; top:-266px; left:61px;">199</div>
 									<div style="position:relative; top:-298px; left:112px;">205</div>
 									<div style="position:relative; top:-329px; left:164px;">244</div>
-									<div style="position:relative; top:-373px; left:216px;">266</div>
+									<div style="position:relative; top:-373px; left:216px; font-family: AxiataBold;">266</div>
                 </div>
               </div>
             </div>
 					</div>
-					<div id="rightCol" style="position:relative; margin-top:-1528px; margin-left:460px;">
+					<div id="rightCol" style="position:relative;   margin-top: -1506px; margin-left:460px;">
 						<div style="position:relative;">
               <div style="position:relative;">
                 <div style="position:relative; font-size:16px;" class="title">Market Capitalisation</div>
@@ -170,13 +170,13 @@
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; background-image:url('../assets/img/chapter2/2/arrow-up2.png'); background-repeat:no-repeat; background-position:left top; width:36px; height:30px;"></div>
-                  <div style="position:relative;" class="title">1.5*</div>
+                  <div style="position:relative;" class="title">1.5x</div>
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; font-size:22px;" class="title">40.1</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">billion</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">Market Cap</div>
+                <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">Market Cap</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -190,14 +190,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow1Number">
                   <div style="position:relative; top:-248px; left:7px;">40.1</div>
 									<div style="position:relative; top:-279px; left:59px;">43.5</div>
 									<div style="position:relative; top:-335px; left:112px;">56.1</div>
 									<div style="position:relative; top:-367px; left:162px;">58.9</div>
-									<div style="position:relative; top:-398px; left:214px;">60.5</div>
+									<div style="position:relative; top:-398px; left:214px; font-family: AxiataBold;">60.5</div>
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@
               <div style="position:relative; margin-top:80px;">
                 <div style="position:relative;">
                   <div style="position:relative; font-size:22px;" class="title">7.05</div>
-                  <div style="position:relative; font-size:14px; font-color:#808285;" class="title">rm</div>
+                  <div style="position:relative; font-size:14px; font-color:#808285;" class="title">RM</div>
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; background-image:url('../assets/img/chapter2/2/arrow-up2.png'); background-repeat:no-repeat; background-position:left top; width:36px; height:30px;"></div>
@@ -217,9 +217,9 @@
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; font-size:22px;" class="title">4.75</div>
-                  <div style="position:relative; font-size:14px; font-color:#808285;" class="title">rm</div>
+                  <div style="position:relative; font-size:14px; font-color:#808285;" class="title">RM</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">Share Price</div>
+                <div style="position:relative; font-size:12px; margin-top:10px;opacity:0;">Share Price</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -233,14 +233,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow2Number">
                   <div style="position:relative; top:-236px; left:6px;">4.75</div>
 									<div style="position:relative; top:-267px; left:60px;">5.14</div>
 									<div style="position:relative; top:-323px; left:110px;">6.59</div>
 									<div style="position:relative; top:-354px; left:161px;">6.90</div>
-									<div style="position:relative; top:-385px; left:215px;">7.05</div>
+									<div style="position:relative; top:-385px; left:215px; font-family: AxiataBold;">7.05</div>
                 </div>
               </div>
             </div>
@@ -256,13 +256,13 @@
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; background-image:url('../assets/img/chapter2/2/arrow-up2.png'); background-repeat:no-repeat; background-position:left top; width:36px; height:30px; left:-5px;"></div>
-                  <div style="position:relative;" class="title">2x</div>
+                  <div style="position:relative;" class="title">2.2x</div>
                 </div>
                 <div style="position:relative; margin-top:10px;">
                   <div style="position:relative; font-size:22px;" class="title">10</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">sen</div>
                 </div>
-                <div style="position:relative; font-size:12px; margin-top:10px;">DPS</div>
+                <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">DPS</div>
               </div>
               <div style="position:relative; left:100px;">
                 <div style="position:relative; width:250px; height:6px; border-style:solid; border-top-style:none; border-width:1px; background-color:white; z-index:10;"></div>
@@ -276,14 +276,14 @@
 									<div class="graphYear" style="position:relative; top:-216px; left:0px;">2011</div>
 									<div class="graphYear" style="position:relative; top:-235px; left:50px;">2012</div>
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
-									<div class="graphYear" style="position:relative; top:-274px; left:155px;">2014</div>
+									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
                 <div class="graphRow3Number">
                   <div style="position:relative; top:-211px; left:14px;">10</div>
 									<div style="position:relative; top:-291px; left:66px;">19</div>
 									<div style="position:relative; top:-346px; left:116px;">23</div>
 									<div style="position:relative; top:-354px; left:168px;">22</div>
-									<div style="position:relative; top:-373px; left:221px;">22</div>
+									<div style="position:relative; top:-373px; left:221px; font-family: AxiataBold;">22</div>
                 </div>
               </div>
             </div>
