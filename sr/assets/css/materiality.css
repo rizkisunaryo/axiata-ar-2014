@@ -1,0 +1,95 @@
+@import url("navbar.css");
+@import url("fonts.css");
+@import url("a_main_style.css");
+
+
+/* general files*/
+/*------------*/
+canvas.smallTriangle{
+    width:0; height:0;
+    position:absolute;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+canvas.triangleLeft{
+    border-right: 6px solid white;
+}
+canvas.triangleRight{
+    border-left: 6px solid white;
+}
+canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !important;}
+/*'Blue','Orange','purple','Red','Grean'*/
+/*------------*/
+/*------------*/
+
+.section{
+	width:852px;
+	padding: 54px;
+	padding-top: 10px;
+
+}
+.paragraph{
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+.main_title{
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.paragraph_title{
+    font-family: AxiataBook;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #c83055;
+}
+.row{
+    width: 100%;
+    margin-top: 30px;
+}
+.col{
+    display: inline-block;
+    
+}
+.col2{
+    width: 376px;
+    background: url(../img/red-line-stakeholder_engagement.png);
+    background-repeat: no-repeat;
+    background-position-x: 188px;
+    background-position-y: -510px;
+    background-position-y: 0px;
+}
+.col2.background_active{
+    /*background-position-y: -500px;*/
+    /*background-position-y: 0px;*/
+    /*-webkit-transition:  2s; /* Safari */
+    /*transition: 2s;*/
+}
+.card{
+
+}
+.title_card{
+    background-color: #c40d42;
+    color:white;
+    width: 100%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.desc_card{
+    margin-top: 15px;
+    font-size: 15px;
+    color:#4d4d4f;
+    /*width: 100%;*/
+    padding: 15px;
+    background-color: #c6c6c6;
+}
+.desc_card .title{ font-weight: bold; font-family: AxiataBold;  margin-bottom: 3px;}
+.desc_card .desc{  font-weight: lighter;}
+.foot_note{ margin-top:27px;font-size: 9px;}
+
+
+
+
