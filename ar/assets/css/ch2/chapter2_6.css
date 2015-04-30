@@ -137,9 +137,9 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
 }
 
 .bottom_note{
-    position: absolute;
-  bottom: 0px;
-  left: 612px;
+    position: relative;
+  bottom: -418px;
+  left: 362px;
   width: 194px;
   height: 55px;
   padding: 10px;
