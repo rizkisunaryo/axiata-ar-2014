@@ -228,3 +228,19 @@ h5 {
 	font-family:'AxiataBold', Arial;
 	font-size:18px;
 }
+
+.bottombox {
+	width:165px;
+	float:left;
+	background:#6d767a;
+	color:#ffffff;
+	height:470px;
+	position:relative;
+	padding:15px;
+}
+
+.fancybox-inner {
+	overflow:hidden!important;
+	margin-left:-10px;
+}
+	

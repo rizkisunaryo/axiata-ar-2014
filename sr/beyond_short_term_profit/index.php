@@ -5,6 +5,10 @@
 ?>
 <link href="style.css" rel="stylesheet">
 <link href="fonts/fonts.css" rel="stylesheet">
+ <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+
 
 <div class="topcontainer">
 	<div class="header">
@@ -314,29 +318,29 @@ incoming calls become free</span></td>
     </div>
     
 <div style="width:960px; margin-left:-50px; margin-right:-50px; margin-top: 20px; margin-bottom:20px; height:1px; border-bottom:1px solid #e7eaec;"></div>
-<div class="title-orange">LONG-TERM INVESTMENT</div>
-<div style="float:left; width:545px; text-align:justify; padding-top:15px;">
+<div class="title-orange" data-sr="enter bottom, move 20px">LONG-TERM INVESTMENT</div>
+<div style="float:left; width:545px; text-align:justify; padding-top:15px;" data-sr="enter bottom, move 20px">
 Axiata is a long-term investor in all our countries with investments stretching beyond 20 years in Bangladesh, 19 years in Sri Lanka and 17 years in Cambodia. The long-term sustainability of all our business operations is key to our success as a regional telecommunications champion. We have made significant economic contributions in these countries, amounting to approximately USD93 billion GDP Contribution from 2008 to 2014. We have also expanded employment opportunities these countries, amounting to 1.5 million employment opportunities created.
 <br><br>
 In 2013, we commissioned an independent study of our contribution to the economy in each of our OpCo countries. The National Contribution Report on page 070 details the findings of our long-term economic and social contribution.
 </div>
-<div style="float:right; width:300px; color:#f47920; margin-top:80px;"><span class="bold" style="font-size:41px; letter-spacing:-1px;">USD93 billion</span><br>
+<div style="float:right; width:300px; color:#f47920; margin-top:80px;" data-sr="enter bottom, move 20px"><span class="bold" style="font-size:41px; letter-spacing:-1px;">USD93 billion</span><br>
   <span class="medium">GDP Contribution from 2008 to 2014</span></div>
 <div class="clearfix"></div>
-<div style="margin-top:30px;" class="title-orange">SERVICES BEYOND COMMERCIAL MOTIVATION<br>
+<div style="margin-top:30px;" class="title-orange" data-sr="enter bottom, move 20px">SERVICES BEYOND COMMERCIAL MOTIVATION<br>
 </div>
-<div style="margin-top:5px;" class="title-orange">Investment for Coverage<br>
+<div style="margin-top:5px;" class="title-orange" data-sr="enter bottom, move 20px">Investment for Coverage<br>
 </div>
-<div style="margin-top:10px;" class="justify">
+<div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 In 2014, we continued to introduce innovative and attractive data services and applicable mobile-based services for our customers in rural communities. 
 <br><br>
 Our products and services are catered to both the urban and rural communities equally, with focus on being inclusive irrespective of social or economic differences.  Approximately more than 19,500 of our sites (49%) are located in rural areas of the OpCo countries. Approximately 450 million lives across Asia are connected through our multiple networks.</div>
-<div style="margin-top:10px;" class="title-orange">Investment for Technology<br>
+<div style="margin-top:10px;" class="title-orange" data-sr="enter bottom, move 20px">Investment for Technology<br>
 </div>
-<div style="margin-top:10px;" class="justify">
+<div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 In each of our markets, we have made a special effort to serve and connect diverse groups of customers. Our approach to sustainability is not only about expanding into new markets; it is also about providing affordable products using high quality technology to meet the diverse needs of our socially diverse groups of customers. Today, inclusion means more than having network coverage and a mobile phone to connect on that network. Technology has evolved to such an extent that one’s productivity and output is linked to the type of digital device one owns: there is a difference in what a customer could achieve with a smart phone as against a feature phone.</div>
-<div style="margin-top:30px;" class="title-orange">DIGITAL INCLUSION AND DIGITISED ECOSYSTEMS</div>
-<div style="margin-top:10px;" class="justify">
+<div style="margin-top:30px;" class="title-orange" data-sr="enter bottom, move 20px">DIGITAL INCLUSION AND DIGITISED ECOSYSTEMS</div>
+<div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 For our operations the definition of ‘inclusion’ means making high-end products affordable and accessible to under-served communities and enabling them to exploit the potential of high-quality digital ecosystems. Our efforts at inclusion are explained using 4 key parameters of inclusion. This is the model first introduced by our Sri Lankan Opco Dialog. This model introduces the concepts of affordability, accessibility, availability and applicability (Page 027) in to the product planning process. <br>
 <br>
 At Axiata, we embrace a vision of responsibility that goes beyond profit-making. Our Digital services are to broaden business opportunities for creating new markets, operational efficiency, effective access to capital, and adding long-term value that benefits our people, our shareholders, the communities, and the economies in which we operate.<br>
@@ -344,8 +348,8 @@ At Axiata, we embrace a vision of responsibility that goes beyond profit-making.
 In 2014, Axiata continued to strengthen access to digital services such as m-money, m-health, m-advertising, m-insurance and social networking. More than 20 million people across the region already subscribe to these new initiatives. These pioneer initiatives have facilitated digital inclusion in their respective countries and helped reduce the digital divide. The initiatives have enabled groups of society, generally excluded from the benefits of digital development and new products, to be connected and to engage in activities such as banking, insurance, e-learning, social media and specialist health services.</div>
 
 
-<div style="margin-top:30px;" class="title-orange">GLOBAL MOBILE DEVELOPMENT</div>
-<div style="margin-top:10px;" class="justify">
+<div style="margin-top:30px;" class="title-orange" data-sr="enter bottom, move 20px">GLOBAL MOBILE DEVELOPMENT</div>
+<div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 Axiata has played a very active role in GSMA’s Mobile for Development efforts. The opportunity to work alongside our global peers in the GSMA allows us to play an important role in shaping the priorities of the industry at the global level. Axiata’s focus on initiatives that provide relevant and transformative services to help improve sources of income and empower lives, is having an impact on global digitisation initiatives and in creating digitised societies in other parts of the world.<br>
 <br>
 As a Group, we have supported GSMA on two key global programmes. In 2014, GSMA partnered with Child Helpline International commemorating the 25th anniversary of the United Nations Convention on the Rights of the Child (CRC) with the objective of promoting child helplines across the globe. This includes measures to strengthen relationships between national mobile operators and their in-country helplines further collaborating on issues such as a safer Internet for children.<br>
@@ -359,10 +363,87 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
     
 </div>
 
-<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>To read more about our Commitment to Beyond Short-Term Profits, click the buttons below</div>
-<div style="width:860px; padding:0 50px; margin:auto; background:#f47b20; color:#ffffff;">Axiata Digital Innovation Fund</div>
+<div style="width:860px; padding:0 50px; margin:auto; background:#f47b20; color:#ffffff; padding-top:40px; padding-bottom:40px;" data-sr="enter bottom, move 20px, no reset">
+ <span style="font-size:17px;" class="bold">Axiata Digital Innovation Fun</span><img src="../assets/img/c4/bstp_new.png" width="78" height="73" alt=""/><br>
+ <div style="width:542px; float:left;" class="justify">
+   <p>The Axiata Digital Innovation Fund (ADIF), launched in 2014, seeks to assist Malaysian companies discover their full digital potential. As part of our efforts in growing digital ecosystems and in Advancing Asia, we believe we have a responsibility to help other digital service entities access new markets, new sources of funding and new technology.<br>
+     <br>
+     Axiata’s 13 million customers in Malaysia and 260 million* in across Asia provides unique opportunities for these companies to grow their networks and forge new partnerships. So far, Axiata has committed RM100 million for this fund.</p>
+   <ul style="margin-left:-30px;">
+     <li>ADIF is in support of the Malaysian Government’s objective to build up the capabilities of local technology companies. ADIF will aid companies in the digital services space with innovative products and revenue generating, but require support to grow in terms of funding, know-how and market access.</li>
+     <li>These Malaysian digital services entrepreneurs will have unprecedented access to funding and regional partnership opportunities with Axiata.</li>
+     <li>The programme also supports the Malaysian government’s call for the transformation of the nation into a developed and high-income economy that is sustainable and inclusive by creating a pool of knowledge workers in high-value jobs.</li>
+     </ul>
+   <p style="font-size:10px;">* Includes Idea &amp; M1</p>
+ </div>
+ <div style="float:right; width:300px; color:#f0f0f0; margin-top:140px;">Providing opportunities for<br>
+   Malaysian digital entrepreneurs<br>
+   <span style="font-size:25px;" class="bold">to reach</span><br>
+   <span style="font-size:68px; line-height:0.8" class="bold">260</span><span style="font-size:41px; line-height:1" class="bold"> million</span>
+   <br>
+   <span style="font-size:27px; padding-left:150px; line-height:0.7" class="bold">customers</span>
+   <span style="font-size:15px; padding-left:150px; line-height:1">across 8 countries</span>
+ </div>
+ <div class="clearfix"></div>
+</div>
 
+<div style="width:860px; margin:auto; padding:0 50px 40px;" class="secondcontainer">
+	<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>To read more about our Commitment to Beyond Short-Term Profits, click the buttons below</div>
+    <div class="bottombox" data-sr="enter bottom, move 20px, no reset, wait 0s">
+    <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-money.php"></div>
+    
+            <div style="color:#f47b20; font-size:21px;" class="bold">M-Money</div>
+            <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom1.png" width="85" height="105" alt=""/></div>
+            <div class="medium"><br>
+              eZ Cash<br>
+              <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">SLR<br>
+              8.5 million</span><br>
+              in 333,000<br>
+        	transactions for 2014<br>
+        <br>
+        <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">2.5 million</span><br>
+              transactions using XL Tunai in 2014</div>
+    </div>
+      <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.2s">
+      <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-commerce.php"></div>
+      <div style="color:#f47b20; font-size:21px;" class="bold">M-Commerce</div>
+          <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom2.png" width="85" height="105" alt=""/></div>
+        <div class="medium"><br>
+            More than<br>
+            <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">19 million</span><br>
+            monthly visits accessing more than<br>
+      <br>
+      <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">2 million</span><br>
+        Products<br>
+        <br>
+        More than
+        <br>
+        <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">400,000</span><br>
+people <br>
+benefit from <br>
+Guru.lk services </div>
+      </div>
+    <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.6s">
+    <div style="color:#f47b20; font-size:21px;" class="bold">M-Insurance</div>
+      <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-insurance.php"></div>
+            <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom3.png" width="85" height="105" alt=""/></div>
+      <div class="medium"><br>
+              <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">6 million</span><br>
+              in Bangladesh and
+        <br>
+        <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">1.5 million</span><br>
+        in Indonesia insured  via M-insurance</div>
+    </div>
+    <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.8s">
+    <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-other.php"></div>
+    <div style="color:#f47b20; font-size:21px;" class="bold">Other<br>
+      Digital<br>
+Initiatives</div>
+            <div style="padding-top:20px;"></div></div>
+    <div class="clearfix"></div>
+    </div>
 
+</div>
 
 <?php
     include("../inc/footer.php");
@@ -371,6 +452,12 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
 <link rel="stylesheet" href="parallax.css">
 <script src="parallax.js"></script>
 <script src="scrollReveal.min.js"></script>
+<script type="text/javascript" src="../assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
 <script>
 
       (function($) {
@@ -379,11 +466,42 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
 
         window.sr= new scrollReveal({
           reset: true,
-          move: '50px',
-          mobile: true
         });
 
       })();
+	  
+	  
+	  
+	  
+	  $('.popupinfo').click(function(ev){
+			ev.preventDefault();
+			var url = $(this).data('url');
+
+			$.fancybox.open({
+				href : url,
+				type : 'iframe',
+				openEffect : 'elastic',
+				openSpeed  : 150,
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+				width : '960px',
+				height:'100%',
+				padding: 0,
+				margin: [0,0,0,0],
+				scrolling   : 'auto',
+				 helpers : {
+					overlay : {
+						locked : false
+					}
+				},
+				beforeShow: function(){	
+					$("body").css({'overflow-y':'auto','overflow-x':'hidden'});
+					//$('.fancybox-wrap').css('margin-left','-10px');
+				},
+				afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
+			});
+		});
+
 
 </script>
 <script src="countUp.js"></script>
