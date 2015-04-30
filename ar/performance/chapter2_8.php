@@ -1,6 +1,9 @@
 <?php
     include("../inc/header.php");
 ?>
+<style type="text/css">
+    .font12{ font-size: 12px;}
+</style>
     <div class="rel section">
         <p class="text__color--lightgrey font25 axiataBold"> Summary Breakdown of <span class="block text__color--lightred font31">Assets & Liabilities</p>
 
@@ -30,16 +33,16 @@
                 <div>
                     <div class="col col40">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font9 text__color--grey v-middle">Property, plant and equipment </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--yellow"></i> <span class="font9 text__color--grey v-middle">Intangible assets </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--orange"></i> <span class="font9 text__color--grey v-middle">Other assets </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font12 text__color--grey v-middle">Property, plant and equipment </span> </li><br>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--yellow"></i> <span class="font12 text__color--grey v-middle">Intangible assets </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--orange"></i> <span class="font12 text__color--grey v-middle">Other assets </span> </li>
                         </ul>
                     </div>
                     <div class="col col60">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightpurple"></i> <span class="font9 text__color--grey v-middle">Deposits, cash and bank balances </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font9 text__color--grey v-middle">Trade and other receivables </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font9 text__color--grey v-middle">Associates/Joint ventures </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightpurple"></i> <span class="font12 text__color--grey v-middle">Deposits, cash and bank balances </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font12 text__color--grey v-middle">Trade and other receivables </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font12 text__color--grey v-middle">Associates/Joint ventures </span> </li>
                         </ul>
                     </div>
                 </div>
@@ -49,17 +52,17 @@
                 <div>
                     <div class="col col40">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font9 text__color--grey v-middle">Borrowings </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--yellow"></i> <span class="font9 text__color--grey v-middle">Non-controlling interests </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--orange"></i> <span class="font9 text__color--grey v-middle">Reserves </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightred2"></i> <span class="font9 text__color--grey v-middle">Share premium </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font12 text__color--grey v-middle">Borrowings </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--yellow"></i> <span class="font12 text__color--grey v-middle">Non-controlling interests </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--orange"></i> <span class="font12 text__color--grey v-middle">Reserves </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightred2"></i> <span class="font12 text__color--grey v-middle">Share premium </span> </li>
                         </ul>
                     </div>
                     <div class="col col60">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font9 text__color--grey v-middle">Share capital </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--purple"></i> <span class="font9 text__color--grey v-middle">Other liabilities </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font9 text__color--grey v-middle">Trade and other payables </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font12 text__color--grey v-middle">Share capital </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--purple"></i> <span class="font12 text__color--grey v-middle">Other liabilities </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font12 text__color--grey v-middle">Trade and other payables </span> </li>
                         </ul>
                     </div>
                 </div>
@@ -129,9 +132,11 @@
                         name: '15.4%',
                         y: 15.4,
                         dataLabels: {
-                            distance: 30,
-                            rotation: 30,
+                            distance: 20,
+                            rotation: 20,
+                            enabled: true,
                             x: 307.37938851547324,
+
                         },
 
                     },
@@ -139,7 +144,7 @@
                         name: '40.6%',
                         y: 40.6,
                         dataLabels: {
-                            rotation: -50,
+                            rotation: -53,
                         },
 
                     },
@@ -157,7 +162,7 @@
                         dataLabels: {
                             rotation: -65,
                             color: 'black',
-                            textShadow: '0px 0px 0px black'
+                            //textShadow: '0px 0px 0px black'
                         },
 
                     },
@@ -262,7 +267,7 @@
                         y: 16.2,
                         dataLabels: {
                             distance: 30,
-                            rotation: 30,
+                            rotation: 22,
                             x: 307.37938851547324,
                         },
 
@@ -296,7 +301,7 @@
                         name: '14.8%',
                         y: 14.8,
                         dataLabels: {
-                            rotation: -40,
+                            rotation: -42,
                         },
 
                     },
@@ -451,7 +456,7 @@
                             name: '8.7%',
                             y: 8.7,
                             dataLabels: {
-                                rotation: -85,
+                                rotation: -70,
                             },
 
                         },
@@ -551,7 +556,7 @@
                         name: '30.9%',
                         y: 30.9,
                         dataLabels: {
-                            rotation: 55,
+                            rotation: 51,
                         },
 
                     },
@@ -567,7 +572,7 @@
                         name: '20.4%',
                         y: 20.4,
                         dataLabels: {
-                            rotation: -10,
+                            rotation: -15,
                         },
 
                     },
@@ -583,7 +588,7 @@
                         name: '19.6%',
                         y: 19.6,
                         dataLabels: {
-                            rotation: 65,
+                            rotation: 75,
                         },
 
                     },
