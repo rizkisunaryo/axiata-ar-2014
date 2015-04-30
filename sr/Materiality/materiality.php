@@ -92,7 +92,9 @@
             <div class="bold small_txt red_txt"> 
                 Material Issues by the 4 sustainability pillars of Axiata and relevance to our OpCos.
             </div>
-            <div class="table">
+            
+            <img src="../assets/img/table_mt.png" style="margin-top:20px;" />
+            <div class="table" style="display:none;">
             <div class="header red_bg white_txt">
                 <div class="th_col">Material Issues</div>
                 <div class="th_col">The Sustainability Pillar<br>covering this issue</div>
