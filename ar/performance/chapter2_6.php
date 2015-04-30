@@ -47,9 +47,9 @@
                         <?php } ?>
                     </div>
                     <div class="graphs-footnote">
-                        <div><canvas class="triangleRight Blue1 smallTriangle" style=" "></canvas><p>a</p></div>
-                        <div><canvas class="triangleRight Blue2 smallTriangle" style=" "></canvas><p>b</p></div>
-                        <div><canvas class="triangleRight Blue3 smallTriangle" style=" "></canvas><p>c</p></div>
+                        <div><canvas class="triangleRight Blue1 smallTriangle" style=" "></canvas><p>Revenue</p></div>
+                        <div><canvas class="triangleRight Blue2 smallTriangle" style=" "></canvas><p>EBTIDA</p></div>
+                        <div><canvas class="triangleRight Blue3 smallTriangle" style=" "></canvas><p>PAT</p></div>
                     </div>
                 </div>
                 <div class="report_chart_2 report_chart">
@@ -82,9 +82,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
-                        <div><canvas class="triangleRight Orange1 smallTriangle" style=" "></canvas><p>a</p></div>
-                        <div><canvas class="triangleRight Orange2 smallTriangle" style=" "></canvas><p>b</p></div>
-                        <div><canvas class="triangleRight Orange3 smallTriangle" style=" "></canvas><p>c</p></div>
+                        <div><canvas class="triangleRight Orange1 smallTriangle" style=" "></canvas><p>Revenue</p></div>
+                        <div><canvas class="triangleRight Orange2 smallTriangle" style=" "></canvas><p>EBTIDA</p></div>
+                        <div><canvas class="triangleRight Orange3 smallTriangle" style=" "></canvas><p>PAT</p></div>
                     </div>
                 </div>
                 <div class="report_chart_3 report_chart">
@@ -117,9 +117,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
-                        <div><canvas class="triangleRight Purple1 smallTriangle" style=" "></canvas><p>a</p></div>
-                        <div><canvas class="triangleRight Purple2 smallTriangle" style=" "></canvas><p>b</p></div>
-                        <div><canvas class="triangleRight Purple3 smallTriangle" style=" "></canvas><p>c</p></div>
+                        <div><canvas class="triangleRight Purple1 smallTriangle" style=" "></canvas><p>Revenue</p></div>
+                        <div><canvas class="triangleRight Purple2 smallTriangle" style=" "></canvas><p>EBTIDA</p></div>
+                        <div><canvas class="triangleRight Purple3 smallTriangle" style=" "></canvas><p>PAT</p></div>
                     </div>
                 </div>
                 <div class="report_chart_4 report_chart">
@@ -152,9 +152,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
-                        <div><canvas class="triangleRight Red1 smallTriangle" style=" "></canvas><p>a</p></div>
-                        <div><canvas class="triangleRight Red2 smallTriangle" style=" "></canvas><p>b</p></div>
-                        <div><canvas class="triangleRight Red3 smallTriangle" style=" "></canvas><p>c</p></div>
+                        <div><canvas class="triangleRight Red1 smallTriangle" style=" "></canvas><p>Revenue</p></div>
+                        <div><canvas class="triangleRight Red2 smallTriangle" style=" "></canvas><p>EBTIDA</p></div>
+                        <div><canvas class="triangleRight Red3 smallTriangle" style=" "></canvas><p>PAT</p></div>
                     </div>
                 </div>
                 <div class="report_chart_5 report_chart">
@@ -187,9 +187,9 @@
                         <p class="inline center clined-45">2014</p>
                     </div>
                     <div class="graphs-footnote">
-                        <div><canvas class="triangleRight Green1 smallTriangle" style=" "></canvas><p>a</p></div>
-                        <div><canvas class="triangleRight Green2 smallTriangle" style=" "></canvas><p>b</p></div>
-                        <div><canvas class="triangleRight Green3 smallTriangle" style=" "></canvas><p>c</p></div>
+                        <div><canvas class="triangleRight Green1 smallTriangle" style=" "></canvas><p>Revenue</p></div>
+                        <div><canvas class="triangleRight Green2 smallTriangle" style=" "></canvas><p>EBTIDA</p></div>
+                        <div><canvas class="triangleRight Green3 smallTriangle" style=" "></canvas><p>PAT</p></div>
                     </div>
                 </div>
             </div>

@@ -52,7 +52,8 @@ canvas.Grey{border-left-color:   #6d6e71 !important; border-right-color: #00793a
     padding-bottom: 0px;
     background: url(../../img/Revenue_n_EBITDA.png);
     background-repeat: no-repeat;
-      background-position-y: 417px;
+      background-position-y: 464px;
+      background-position: 0 443px;
     padding: 53px 43px 0px 53px;
 }
 
@@ -101,7 +102,7 @@ canvas.Grey{border-left-color:   #6d6e71 !important; border-right-color: #00793a
 .graph{
     width: 424px;
     height: 253px;
-    background-color: #00ffff;
+    /*background-color: #00ffff;*/
     margin-top: 47px;
 }
 .graph .title{

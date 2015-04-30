@@ -4,7 +4,12 @@
 
 ?>
 
+<style type="text/css">
+    .cust_img{
+        margin-top: -70px;
 
+    }
+</style>
 <div idclass="spacer s0"></div>
 		
 <div id="movingSectionContainer" >
@@ -31,6 +36,7 @@
                 <div class="big_txt">Operating</div>
                 <div class="big_txt">Revenue</div>
                 </div>
+                <img class="cust_img" src="../assets/img/hexagon1.png"/>
                  <canvas id="hexagon"></canvas> 
             </div>
             <div class="graph">
@@ -40,6 +46,7 @@
                 <div class="big_txt">Revenue</div>
             
                     </div>
+                <img class="cust_img" src="../assets/img/hexagon2.png"/>
                 <canvas id="hexagon"></canvas> 
             </div>
         </div>
