@@ -223,8 +223,6 @@ h5 {
 	border-top:0!important;
 }
 
-.title-orange {
-	color:#f47920;
-	font-family:'AxiataBold', Arial;
-	font-size:18px;
+.bottombox {
+	float:left; width:265px; height:265px; background:#95c11f; color:#ffffff;
 }
