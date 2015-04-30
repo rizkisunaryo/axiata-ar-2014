@@ -112,12 +112,12 @@
             </div>
             
             <div class="row">
-                <div class="col col2" style=" margin-right: 98px; ">
+                <div class="col col2 background_active" style=" margin-right: 98px; ">
                         <div class="title_card">External Sources</div>
                         <div class="desc_card">
                             <div class="title">Industry perception</div>
                             <div class="desc">
-                                We conducted a benchmarking study comparing the sustainability performance of the top 20 global telecommunications companies4 in 2014. A detailed review was carried out looking into publicly available information on the material issues of our peers. 
+                                We conducted a benchmarking study comparing the sustainability performance of the top 20 global telecommunications companies<sup>4</sup> in 2014. A detailed review was carried out looking into publicly available information on the material issues of our peers. 
                             </div>
                         </div>
                         <div class="desc_card">
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                 </div>        
-                <div class="col col2" >
+                <div class="col col2 background_active" >
                         <div class="title_card">Internal Sources</div>
                         <div class="desc_card">
                             <div class="title">Group KPI</div>
@@ -162,7 +162,7 @@
                 </div>        
             </div>
             <div class="foot_note">
-                4 https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/
+                <sup>4</sup> <a href="https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/" style="text-decoration:none;">https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/</a>
             </div>
         </div>
     </div>
@@ -171,7 +171,7 @@
 <?php
     include("../inc/footer.php");
 ?>
-<link rel="stylesheet" href="../assets/css/stake_holder/ch2_1.css">
+<link rel="stylesheet" href="../assets/css/stakeholder/ch2_1.css">
 <script src="../assets/js/stakeholder/ch2_1.js"></script>
 <script type="text/javascript">
     

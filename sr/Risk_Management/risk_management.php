@@ -15,7 +15,7 @@
             <br>
             <br>The Board has an on-going process in place for identifying, evaluating, monitoring and managing significant risks that may affect the achievement of the Group’s business objectives. The Board is assisted by the Group Risk Management Committee (GRMC), consisting of all members of Axiata Group Senior Leadership Team (SLT), in ensuring that the implementation of the approved policies, manuals and procedures on risks and controls are in place to mitigate key risk areas which have been identified and assessed by the risk owners.
             <br>
-            <br>The Axiata Enterprise Risk Management (ERM) Framework, benchmarked against ISO31000:20093 is used as a standardised approach in identifying, assessing, reporting and monitoring risks. To ensure consistency, the framework is adopted by all risk management teams across all OpCos.
+            <br>The Axiata Enterprise Risk Management (ERM) Framework, benchmarked against ISO31000:2009<sup>3</sup> is used as a standardised approach in identifying, assessing, reporting and monitoring risks. To ensure consistency, the framework is adopted by all risk management teams across all OpCos.
             <br>
             <br>Risk assessment involves the identification and analysis of the key risks based on certain criteria which takes into account its effect and likelihood. Appropriate mitigation strategies are then developed, taking into consideration the effectiveness of existing controls.
             <br>
@@ -42,7 +42,7 @@
         <div class="paragraph small_txt grey_txt">
             The Axiata Group’s enterprise risk management process is depicted in the next page.
 
-            <div class="tiny_txt foot_note">3 http://www.iso.org/iso/home/standards/iso31000.html</div>
+            <div class="tiny_txt foot_note"><sup>3</sup> <a href="http://www.iso.org/iso/home/standards/iso31000.html" style="text-decoration:none; ">http://www.iso.org/iso/home/standards/iso31000.html</a></div>
         </div>
     </div>
     <div class="diagramme_cover diagram_img">
