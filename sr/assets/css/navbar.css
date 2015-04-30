@@ -92,7 +92,7 @@ container
 {
 	position:relative;
 	width:140px;
-	margin:35px 0 0 10px;
+	margin:35px 0 0 -50px;
 	float:left;
 }
 #mobileMenu{
@@ -149,7 +149,7 @@ container
 .menuRightNav
 {
 	float:left;
-	margin:37px 0 0 300px;
+	margin:37px 0 0 405px;
 }
 
 #exploreMoreLnk
