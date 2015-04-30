@@ -69,6 +69,7 @@
 .col20{width:20%}
 .col25{width:25%}
 .col30{width:30%}
+.col35{width:35%}
 .col40{width:40%}
 .col45{width:45%}
 .col45{width:45%}
@@ -103,6 +104,10 @@
     border-right: 1px dotted white;
 }
 
+.col__right-border--dashed{
+    border-right: 1px dashed #878786;
+}
+
 .margin-auto{
     margin: 0 auto;
 }
@@ -129,8 +134,14 @@
 .text__color--blue{
     color: #004f9f;
 }
+.text__color--blue-light{
+    color: #0075bf;
+}
 .text__color--dark-blue{
     color: #001c5b;
+}
+.text__color--light-blue{
+    color: #005aab;
 }
 .text__color--blue-dark{
     color: #213a8f;
@@ -152,10 +163,18 @@
 .bg__color--lightblue{
     background-color: #33AFED;
 }
+.bg__color--bluelight{
+    background-color: #2276bd;
+}
 
 .bg__color--lightgrey{
     background-color: #e3e3e3;
 }
+.bg__color--white{
+    background-color: #ffffff;
+}
+
+
 .axiataBold{
     font-family: axiataBold;
 }
@@ -176,6 +195,7 @@
 .font41{  font-size: 41px;  }
 .font52{  font-size: 52px;  }
 .font57{  font-size: 57px;  }
+.font62{  font-size: 62px;  }
 .font79{  font-size: 79px;  }
 .font120{  font-size: 120px;  }
 
@@ -204,7 +224,7 @@
 }
 
 .section--blue{
-    min-height: 982px;
+    /*min-height: 982px;*/
     background: #1e408f;
 }
 .section--blue-bg{
@@ -213,8 +233,9 @@
 }
 
 .section--map{
-    min-height: 1198px;
+    /*min-height: 1198px;*/
     background: #ffffff url(../img/chapter6/section2/ch8-map.png) no-repeat top left;
+    background-size: 100%;
 }
 
 
@@ -339,12 +360,22 @@
     width: calc(50% - 1px);
 }
 
+.col70.col-border--dashed{
+    width: calc(70% - 1px);
+}
+
 .col-nurturing{
     height: 285px;
 }
+
 .col-nurturing:nth-child(-n+2) {
-    border-bottom: 1px dotted #ffffff;
     padding-bottom: 35px;
+    border-bottom: 1px dotted #ffffff;
+
+}
+.col-inclusivity:nth-child(-n+2) {
+    padding-bottom: 35px;
+    border-bottom: 1px dashed #878786;
 }
 .col-nurturing:nth-child(n+3) {
     padding-top: 25px;
@@ -355,4 +386,54 @@
 
 .popup__workplace--celcom-img{
     right: 23px;
+}
+
+.nurturing__padding-right{
+    padding-right: 10px;
+}
+.nurturing__padding-left{
+    padding-left: 10px;
+}
+
+.col-border--dashed{
+    border-right: 1px dashed  #878786;
+}
+
+.inclusivity-box{
+    height: 335px;
+}
+
+.inclusivity-logo--right{
+    position: absolute;
+    right: 5px;
+    top: 3px
+}
+
+.box-padding{
+    padding: 20px;
+}
+
+.workplace_chart{
+    max-width: 350px;
+}
+.axiata-champions{
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.infographic-image{
+    position: absolute;
+    top: 200px;
+    left: 302px;
+}
+
+.margin-left60{
+    margin-left: 60px;
+}
+.margin-left145{
+    margin-left: 145px;
+}
+
+.leader-box{
+    padding: 79px 20px;
 }
