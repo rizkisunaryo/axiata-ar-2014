@@ -155,6 +155,9 @@
 .text__color--grey-light{
     color: #9d9d9c;
 }
+.text__color--grey-dark{
+    color: #524e4c;
+}
 
 
 .bg__color--darkblue{
@@ -436,4 +439,9 @@
 
 .leader-box{
     padding: 79px 20px;
+}
+
+.volunteer-img{
+    margin-left: -50px;
+    margin-top: 30px;
 }

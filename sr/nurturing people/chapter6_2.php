@@ -2,6 +2,10 @@
     include ('../inc/header.php');
 ?>
 
+<link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+
     <div class="rel section section--blue-bg text__color--white panel">
         <div class="row">
             <h1 class="removeMargin axiataBold font57 lineHeight100 text__color--dark-blue">COMMITMENT TO</h1>
@@ -268,19 +272,19 @@
                     </div>
                 </div>
                 <div class="col col4">
-                    <div class="nurturing-box nurturing-box--smal">
+                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/culture.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_culture.png">
                         <span class="block axiataBold font20">Culture of Integrity</span>
                     </div>
                 </div>
                 <div class="col col4">
-                    <div class="nurturing-box nurturing-box--smal">
+                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/inclusivity.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_inclusivity.png">
                         <span class="block axiataBold font20">Inclusivity</span>
                     </div>
                 </div>
                 <div class="col col4">
-                    <div class="nurturing-box nurturing-box--smal">
+                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/workplace.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_workplace.png">
                         <span class="block axiataBold font20">Conducive Workplace</span>
                     </div>
@@ -305,18 +309,18 @@
 <script>
     $('.workplace-button').click(function(ev){
         ev.preventDefault();
-//        var url = $(this).data('url');
-//        console.debug(url);
+        var url = $(this).data('url');
+
 
         $.fancybox.open({
-            href : "popup/workplace.html",
-//            type : 'iframe',
+            href : url,
+            type : 'iframe',
             openEffect : 'elastic',
             openSpeed  : 150,
             closeEffect : 'elastic',
             closeSpeed  : 150,
             autoSize : false,
-            width : 'auto',
+            width : '965px',
             height:'100%',
             padding: 0,
             margin: [90,0,0,0],
