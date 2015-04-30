@@ -94,9 +94,10 @@
     </div>
     <div class="divider"></div>
 
-        <div class="rel section section--blue text__color--white panel">
+        <div class="row rel section section--blue text__color--white panel">
             <div class="axiataBold font31 text-center">Nurturing People</div>
             <div class="rel">
+
                 <div class="col col50 col-nurturing col-border col__right-border--dot">
                     <span class="axiataBold font25 uppercase">Improvements</span>
                     <div class="row">
@@ -124,14 +125,16 @@
                             <span class="font15">training</span>
                         </div>
                         <div class="col col40">
-                            <span class="font15">Dialog Employee <br > Volunteer hours <br >increased</span>
-                            <span class="block axiataBold font41">4.6x</span>
+                            <div class="box-padding">
+                                <span class="font15">Dialog Employee <br > Volunteer hours <br >increased</span>
+                                <span class="block axiataBold font41">4.6x</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col col50 col-border col-nurturing">
-                    <span class="axiataBold font25 uppercase">Innovations</span>
-                    <div>
+                    <span class="margin-left145 axiataBold font25 uppercase">Innovations</span>
+                    <div class="margin-left60">
                         <p class="axiataBold font25 uppercase">Axiata CHampions</p>
                         <p class="axiataBold font25 uppercase">Skim Latihan 1Malaysia <span class="block lowercase axiataBook font15">for 159 trainees </span></p>
                         <p class="axiataBold font25 uppercase">Prism 2.0</p>
@@ -139,34 +142,51 @@
                 </div>
                 <div class="col col50 col-border col-nurturing">
                     <span class="axiataBold font25 uppercase">Ivestments</span>
+                    <div class="row box-padding">
+                        <div class="col col40">
+                            <img src="../assets/img/chapter6/section2/teaching.png">
+                            <div >
+                                <span class="axiataBold font31">RM230</span>
+                                <span class="block  font31">million</span>
+                                <span class="block  font15">for Trainning & Development</span>
+                            </div>
+                        </div>
+                        <div class="col col30">
+                            <img src="../assets/img/chapter6/section2/employee.png">
+                            <div >
+                                <span class="axiataBold font31">RM23.9</span>
+                                <span class="block  font31">million</span>
+                                <span class="block  font15">or Employee Welfare</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col col50 col-border col-nurturing">
-                    <span class="axiataBold font25 uppercase">Impact</span>
-                    <div>
+                    <span class="margin-left145 axiataBold font25 uppercase">Impact</span>
+                    <div class="margin-left145">
                         <span class="font15">In 2014 <span class="block axiataBold font41">81%</span><span class="block">Top Management Position</span><span class="block">Filled Internally</span></span>
                     </div>
 
-                    <div class="row">
+                    <div class="row box-padding">
                         <div class="col col40">
-                            <span class="font15">Group EmployeeEngagement Index Remains Stable at </span>
+                            <span class="font15">Group Employee Engagement Index Remains Stable at </span>
                             <span class="block axiataBold font41">83x</span>
                         </div>
                         <div class="col col60">
-                            <span class="block axiataBold font41">%0 Axiata Champions</span>
+                            <span class="block axiataBold font41">50 Axiata Champions</span>
                             <span class="font15">Recognised </span>
                         </div>
                     </div>
                 </div>
+
+                <img class="infographic-image" src="../assets/img/chapter6/section2/4i.png">
             </div>
         </div>
 
         <div class="rel section section--map text__color--white panel">
+            <img src="../assets/img/chapter6/section2/map_data.png">
         </div>
-        <div class="rel section text__color--grey panel">
-
-
-        </div>
-        <div class="divider"></div>
 
         <div class="rel section text__color--grey panel">
             <table class="nurturing-table" width="100%">
@@ -285,11 +305,11 @@
 <script>
     $('.workplace-button').click(function(ev){
         ev.preventDefault();
-        var url = $(this).data('url');
-        console.debug(url);
+//        var url = $(this).data('url');
+//        console.debug(url);
 
         $.fancybox.open({
-            href : url,
+            href : "popup/workplace.html",
 //            type : 'iframe',
             openEffect : 'elastic',
             openSpeed  : 150,
