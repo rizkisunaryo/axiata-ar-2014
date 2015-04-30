@@ -117,7 +117,7 @@
              <div class="row text__color--darkgrey">
                 <div class="col col3">
                     <div class="conference-wrap">
-                        <div class="axiataBold font15">ASEAN Forum JO Morgan</div>
+                        <div class="axiataBold font15">ASEAN Forum JP Morgan</div>
                         <div class="font15">London <span class="block">8-9 Sep</div>
                     </div>
                 </div>
