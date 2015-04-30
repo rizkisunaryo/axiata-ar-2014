@@ -148,7 +148,7 @@
     		<img src="../assets/img/chapter1/6/robi.png" />
     	</div>
     	<div id="ceo2Text3" style="position:relative; top:-2040px; left:620px;">
-    		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
+    		<img src="../assets/img/chapter1/6/78million_over3years.png" />
     	</div>
     	<div id="ceo2Text4" style="position:relative; top:-1240px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
@@ -192,7 +192,7 @@
 
 		function animateCeo2Text(vNumber) {
 			var ceo2Text = $('#ceo2Text'+vNumber);
-			var triggerBottom = $('#scrollTrigger90');
+			var triggerBottom = $('#scrollTrigger100');
 			if (triggerBottom.offset().top<ceo2Text.offset().top) {
 				console.log(1);
 				ceo2TextBool[vNumber-1]=false;
