@@ -106,7 +106,7 @@
 					//$('.fancybox-wrap').css('margin-left','-10px');
 				},
 				afterClose: function(){  
-					// $("body").css({'overflow-y':'visible'});	
+					$("body").css({'overflow':'visible'});	
 				}
 			});
 		});
