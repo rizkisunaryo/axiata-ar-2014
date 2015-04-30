@@ -15,7 +15,7 @@
         <div class="report_geographical_locations_title">
         <p class="small_txt">Reporting By</p>
         <p class="big_txt">Geographical</p>
-        <p class="small_txt">Location</p>
+        <p class="small_txt">Location<sup>1</sup></p>
             <div id="bs1"></div>
         </div>
 <!--        <img  class="report_geographical_locations_img" src="../assets/img/report_geographical_locations.png"/>-->
@@ -285,7 +285,7 @@
             </div>
 
             <p class="bottom_note">
-                All financial numbers are based on
+                <sup>1</sup>&nbsp;All financial numbers are based on
                 audited financial figures and follows 
                 the respective country GAAP.
             </p>

@@ -65,6 +65,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     z-index: 100;
     padding: 0px; margin: 0px;
     color: #c40c42;
+    font-family: axiataBold;
 }
 .report_geographical_locations_title p{
     padding: 0px; margin: -7px;
@@ -145,6 +146,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
   padding: 10px;
   border: 1px solid #000;
   font-size: 10px;
+  font-family: axiataBook;
 }
 .report_chart .big_txt{
     font: 400 12.26px AxiataBold;
@@ -165,6 +167,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     height: 130px;}
 .report_chart .graphs-footnote {
     height: 10px;
+    font-family: axiataBook;
 }
 .report_chart .graphs-x-timeline {
     border-top: 1px solid #6d6e71;
@@ -185,6 +188,7 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     margin-right: 1px;
       height: 130px;
       text-align: center;
+      font-family: axiataBook;
     
 }
 .bar-triangles-container .bars{
