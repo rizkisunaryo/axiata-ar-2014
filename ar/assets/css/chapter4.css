@@ -121,7 +121,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";/* For IE 8*/
 	height:100%;
 	width:100%;
-	margin-top:-130px;
+	margin-top:-170px;
 	z-index:1;
 }
 
@@ -147,8 +147,8 @@
 {
 	font-family:axiataBook;
 	color:#fff;
-	margin:-120px 0 0 370px;
-	width:570px;
+	margin:-100px 0 0 370px;
+	width:400px;
 	line-height:1.5;
 	font-size:11px !important;
 }
@@ -766,6 +766,7 @@ p
 .topImg
 {
 	position: absolute; bottom: 0; right: 0;
+	margin-bottom: -20px;
 }
 
 

@@ -1328,7 +1328,9 @@
 
 		  $('.scrollBtn').on('click',function(){
 		  	var t=$(this).data('target');
+		  	returnToNormalView()
 		  	$('#exploreMoreLnk').trigger('click');
+
 		  	$.scrollTo($('#'+t),1000,{offset:-100});
 		  });		      
 
