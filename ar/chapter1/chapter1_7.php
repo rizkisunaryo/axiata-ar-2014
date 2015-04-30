@@ -108,7 +108,7 @@
 				Our overall long-term strategy centres around mobile data leadership and positioning for a new business model. The five pillars to the Group’s long-term strategy include: 
       </div>
       <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
-      	<img src="../assets/img/chapter1/7/box-content.png" />
+      	<img src="../assets/img/chapter1/7/box-content2.png" />
       </div>
       <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<span class="title" style="line-height:200%;">Transform the core:</span><br />
