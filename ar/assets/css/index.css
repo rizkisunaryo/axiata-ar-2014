@@ -727,3 +727,8 @@
     opacity: 1;
     top:0;
 }
+
+.whiteBorder
+{
+	border-color: #fff !important;
+}
