@@ -3,6 +3,9 @@
     include("../inc/header.php");
 
 ?>
+<link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_4.css">
 <style type="text/css">
   .bold{font-family: AxiataBold;}
@@ -199,7 +202,7 @@
               	<div style="position:absolute; width:50px; font-size:12px; left:208px;">note 5</div>
               </div>
               <div style="position:absolute; top:10px; left:300px;">
-                <a href="#" class="zoom-in" data-target="report_chart_1">
+                <a href="#" class="zoom-in" data-target="report_chart_1" data-url="graphs/normalized_patami.php">
                   <i class="fa fa-search-plus"></i>
                   <i class="fa fa-search-minus" style="display:none;"></i>
                 </a>
@@ -245,6 +248,11 @@
 <?php
     include("../inc/footer.php");
 ?>
+<script type="text/javascript" src="../assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 		<script src="../assets/js/jquery.zoomooz.min.js"></script>
 		<script type="text/javascript">
       function zoomElement(elementClass){
@@ -274,8 +282,33 @@
 			var graph3ToFunctionArray = [];
 
 			$(function () {
-        $('.zoom-in').click(function(){
-            zoomElement($(this).data('target'));
+        $('.zoom-in').click(function(ev){
+            ev.preventDefault();
+            var url = $(this).data('url');
+
+            $.fancybox.open({
+                href : url,
+                type : 'iframe',
+                openEffect : 'elastic',
+                openSpeed  : 150,
+                closeEffect : 'elastic',
+                closeSpeed  : 150,
+                width : '965px',
+                height:'100%',
+                padding: 0,
+                margin: [90,0,0,0],
+                scrolling   : 'no',
+                 helpers : {
+                    overlay : {
+                        locked : false
+                    }
+                },
+                beforeShow: function(){ 
+                    $("body").css({'overflow-y':'hidden'});
+                    //$('.fancybox-wrap').css('margin-left','-10px');
+                },
+                afterClose: function(){  $("body").css({'overflow-y':'visible'});   }
+            });
         });
 
 				callAllGraphAnimations();

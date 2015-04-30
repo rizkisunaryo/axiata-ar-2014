@@ -1,0 +1,1 @@
+<img src="../../assets/img/normalized_patami_2_4.png" style="padding-top:134; padding-left:64px;"/>
