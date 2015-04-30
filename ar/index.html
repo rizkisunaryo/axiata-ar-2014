@@ -71,7 +71,7 @@
 								<li data-target="assets/pdf/1.pdf" class="linkBtn explore5"></li>
 								<!--<li class="hiddenExplorePic"></li>-->
 								<img src="assets/img/index/exploredivier.png" />
-								<li class="downloadreport"><a href="assets/pdfs/Axiata 2014_SR_full.pdf"> <img src="assets/img/index/download.png" />Download Full Report</a></li>
+								<li class="downloadreport"><a href="assets/pdfs/Axiata2014_AR_Full.pdf" target="_blank" style="text-decoration:none; color:#c40c42;"> <img src="assets/img/index/download.png" />Download Full Report</a></li>
 
 							</ul>
 
@@ -1331,7 +1331,14 @@
 		  	var url=$(this).data('url');
 		  	if(url === undefined)
 		  		return false;
+		  	if(url.indexOf("/pdfs/")>0)
+		  	{
+		  		window.open(url,'_blank');
+		  	}
+		  	else
+		  	{
 		  	window.location = url;
+		  	}
 		  });
 
 
