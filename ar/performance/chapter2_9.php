@@ -192,7 +192,7 @@
         </div>
     </div>
 
-    <div class="hide" id="relation-content">
+    <div class="hide" id="relation-content" style="overflow-y:scroll">
         <div class="section">
             <div class="row" style="  margin-top: 36px;">
                 <p class="axiataBold text-justify font18 lineHeight text__color--lightred">The Investor Relations team is responsible to provide updates on the Company’s quarterly financial performance, corporate and regulatory developments as well as discuss strategic matters and address issues that the investing community may have with respect to the business or operations of the Company.</p>
@@ -246,7 +246,7 @@
             height:'100%',
             padding: 0,
             margin: [90,0,0,0],
-            scrolling   : 'no',
+            scrolling   : 'yes',
             overlayOpacity: 1,
             overlayColor:	'#ffffff',
             helpers : {
