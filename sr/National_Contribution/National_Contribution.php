@@ -31,3 +31,6 @@
   	<span style="margin-left:7px; font-size:10px;">View the methodology used for calculation.</span>
 	</div>
 </section>
+<?php
+	include("../inc/footer.php");
+	?>

@@ -359,6 +359,7 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
     
 </div>
 
+<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>To read more about our Commitment to Beyond Short-Term Profits, click the buttons below</div>
 <div style="width:860px; padding:0 50px; margin:auto; background:#f47b20; color:#ffffff;">Axiata Digital Innovation Fund</div>
 
 

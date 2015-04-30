@@ -48,7 +48,7 @@
 <section id="btnToPopupSection">
 	<div style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; padding-top:40px;">
 		<div class="title" style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; text-align:center; color:#524e4c; font-size:18px;">
-			Your text sit here
+			To read more about our Commitment to Process Excellence, click the buttons below
 		</div>
 	</div>
 	<div style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; padding-top:40px; padding-left:55px; overflow:hidden;">

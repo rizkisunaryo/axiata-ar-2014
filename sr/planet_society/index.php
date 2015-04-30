@@ -111,7 +111,7 @@
 </div>
 
 <div style="width:860px; margin:auto; padding:0 50px 40px;" class="secondcontainer">
-	<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>Your Text Sits Here</div>
+	<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>To read more about our Commitment to Planet & Society, click the buttons below</div>
 	<div class="clearfix"></div>
 	<div class="bottombox" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b1.png" width="223" height="151" alt=""/><br>
 	  <div class="bold" style="font-size:25px; padding-left:20px;">Greener<br>

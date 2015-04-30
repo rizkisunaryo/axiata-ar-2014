@@ -263,7 +263,7 @@
         </div>
         <div class="divider"></div>
         <div class="rel section text__color--grey panel">
-            <div class="nuturing-button__title row text-center font17 text__color--lightblack axiataBold">Your text sit here</div>
+            <div class="nuturing-button__title row text-center font17 text__color--lightblack axiataBold">To read more about our Commitment to Nurturing People, click the buttons below</div>
             <div class="row">
                 <div class="col col4">
                     <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/workplace.html">
