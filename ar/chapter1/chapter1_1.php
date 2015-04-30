@@ -17,9 +17,9 @@
           <div id="sibling" style="position:absolute; top:147px; left:300px;"><img src="../assets/img/chapter1/1/pop-up-_-bangladesh.png"></div>
         </div>
         <div style="position:absolute; top:0; left:0;">
-          <div style="top:325px; left:418px;" id="trigger"></div>
+          <div style="top:344px; left:386px;" id="trigger"></div>
           <div style="top:516px; left:202px;" id="trigger2"></div>
-          <div id="sibling" style="position:absolute; top:227px; left:430px;"><img src="../assets/img/chapter1/1/pop-up-_-cambodia.png"></div>
+          <div id="sibling" style="position:absolute; top:246px; left:396px;"><img src="../assets/img/chapter1/1/pop-up-_-cambodia.png"></div>
         </div>
         <div style="position:absolute; top:0; left:0;">
           <div style="top:595px; left:443px;" id="trigger2"></div>
