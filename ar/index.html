@@ -35,7 +35,7 @@
 					<div class="animatedParent">
 						<div class="dropDownMenu animated fadeInDown">
 							<ul>
-								<li class="purple"><a href="#">Download Full Report</a></li>
+								<li class="purple"><a style="text-deocration:none;" href="assets/pdfs/Axiata 2014_SR_full.pdf">Download Full Report</a></li>
 								<li><a href="#">Annual Report 2014</a></li>
 								<li><a href="#">Annual Report 2014</a></li>
 								<li><a href="#">Financial Statements</a></li>
@@ -71,7 +71,7 @@
 								<li data-target="assets/pdf/1.pdf" class="linkBtn explore5"></li>
 								<!--<li class="hiddenExplorePic"></li>-->
 								<img src="assets/img/index/exploredivier.png" />
-								<li class="downloadreport"><a> <img src="assets/img/index/download.png" />Download Full Report</a></li>
+								<li class="downloadreport"><a href="assets/pdfs/Axiata 2014_SR_full.pdf"> <img src="assets/img/index/download.png" />Download Full Report</a></li>
 
 							</ul>
 
@@ -1338,6 +1338,14 @@
 			ev.preventDefault();
 			var win = window.open($(this).data('target'), '_blank');
   			win.focus();
+		});
+
+
+		$('.urlurlurl').click(function(){
+			alert('f');
+			var win = window.open($(this).attr('href'), '_blank');
+  			win.focus();
+
 		});
 
 	    /*var controller = new ScrollMagic.Controller({});
