@@ -3,6 +3,7 @@
 ?>
 <style type="text/css">
     .font12{ font-size: 12px;}
+    .main_footer{position: relative; bottom: 0px; display: none;}
 </style>
     <div class="rel section">
         <p class="text__color--lightgrey font25 axiataBold"> Summary Breakdown of <span class="block text__color--lightred font31">Assets & Liabilities</p>
@@ -281,7 +282,7 @@
 
                     },
                     {
-                        name: '19.9%',
+                        name: '22.0%',
                         y: 22.0,
                         dataLabels: {
                             rotation: 70,
