@@ -42,8 +42,8 @@ function animateGraph(rowNumber,selector,isGoingUp,color,height) {
                [[15,7,4],[16,7,4],[17,8,4],[18,8,5],[17,7,6]],
                [[11,6,2],[12,6,2],[14,6,2],[15,6,2],[16,7,2]],
                [[13,8,3],[13,8,3],[14,8,3],[13,6,2],[16,6,2]],
-               [[11,5,2],[12,5,2],[14,6,1],[15,7,2],[16,8,3]],
-               [[4,1,1],[4,1,6],[4,1,6],[8,4,2],[14,6,3]]];
+               [[11,5,2],[12,5,2],[14,6,1],[15,7,2],[16,8,1]],
+               [[4,1,1],[4,1,2],[4,1,2],[8,4,2],[14,6,3]]];
     graph_colors=['-','Blue','Orange','Purple','Red','Green'];  
     function animateGraph_onegraph(k){
         var up=true;
@@ -83,9 +83,38 @@ $(document).ready(function(){
     setTimeout(function(){animateGraph_onegraph(2);},1200);
     setTimeout(function(){animateGraph_onegraph(3);},1600);
     setTimeout(function(){animateGraph_onegraph(4);},2000);
+    $('.zoom-in').click(function(ev){
+            ev.preventDefault();
+            var url = $(this).data('url');
+
+            $.fancybox.open({
+                href : url,
+                type : 'iframe',
+                openEffect : 'elastic',
+                openSpeed  : 150,
+                closeEffect : 'elastic',
+                closeSpeed  : 150,
+                width : '965px',
+                height:'100%',
+                padding: 0,
+                margin: [90,0,0,0],
+                scrolling   : 'no',
+                 helpers : {
+                    overlay : {
+                        locked : false
+                    }
+                },
+                beforeShow: function(){ 
+                    $("body").css({'overflow-y':'hidden'});
+                    //$('.fancybox-wrap').css('margin-left','-10px');
+                },
+                afterClose: function(){  $("body").css({'overflow-y':'visible'});   }
+            });
+        });
+        
     
     
-    $('.zoom-in').click(function(){
+    $('depricated was .zoom-in').click(function(){
         zoomElement($(this).data('target'));
     });
     

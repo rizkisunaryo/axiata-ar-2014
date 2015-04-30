@@ -1,0 +1,1 @@
+<img src="../../assets/img/sri_lanka_graph_1.png" style="padding-top:134; padding-left:64px;"/>
