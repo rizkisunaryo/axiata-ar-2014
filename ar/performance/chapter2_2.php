@@ -128,7 +128,7 @@
                   <div style="position:relative;" class="title">1.7x</div>
                 </div>
                 <div style="position:relative; margin-top:10px;">
-                  <div style="position:relative; font-size:22px;" class="title">244</div>
+                  <div style="position:relative; font-size:22px;" class="title">160</div>
                   <div style="position:relative; font-size:14px; font-color:#808285;" class="title">million</div>
                 </div>
                 <div style="position:relative; font-size:12px; margin-top:10px; opacity:0;">SUBS</div>
