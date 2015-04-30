@@ -17,11 +17,11 @@ html,body
 
 .section1
 {
-	height:750px;
+	height:550px;
 	width:960px;
 	margin-top: 90px !important;
 	background-color: #c4ced4;
-	background-image: url('../img/national/3.png');
+	background-image: url('../img/national/4.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	padding-bottom: 90px;
@@ -42,7 +42,7 @@ html,body
 {
 	font-family: axiataBold;
 	font-size:18px;
-	color: #c40d42;
+	color: #00a84c;
 }
 .section1 .full
 {
@@ -163,7 +163,7 @@ canvas.triangleRightBlue {
 	background-color: #ffffff;
 	margin-top: 0;
 	width:960px;
-	background-image: url('../img/national/3back.png');
+	background-image: url('../img/national/4back.png');
     background-position:   top center;
 	background-repeat: no-repeat;
 	margin:0 auto;
@@ -183,7 +183,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:350px;
-	margin-left:144px;
+	margin-left:138px;
 	margin-right:-25px;
 	width:20px;
 	display: inline;
@@ -225,7 +225,7 @@ canvas.triangleRightBlue {
 {
 	position: relative;
 	top:356px;
-	margin-left:70px;
+	margin-left:73px;
 	margin-right:-25px;
 	width:20px;
 	display: inline;
@@ -265,7 +265,7 @@ canvas.triangleRightBlue {
 .section2 #bar3_1
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:70px;
 	margin-right:-25px;
 	width:20px;
@@ -285,7 +285,7 @@ canvas.triangleRightBlue {
 .section2 #bar3_3
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -295,7 +295,7 @@ canvas.triangleRightBlue {
 .section2 #bar3_4
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -306,7 +306,7 @@ canvas.triangleRightBlue {
 .section2 #bar4_1
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:72px;
 	margin-right:-25px;
 	width:20px;
@@ -316,7 +316,7 @@ canvas.triangleRightBlue {
 .section2 #bar4_2
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -326,7 +326,7 @@ canvas.triangleRightBlue {
 .section2 #bar4_3
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -336,7 +336,7 @@ canvas.triangleRightBlue {
 .section2 #bar4_4
 {
 	position: relative;
-	top:350px;
+	top:358px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -357,7 +357,7 @@ canvas.triangleRightBlue {
 .section2 #bar5_2
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -377,7 +377,7 @@ canvas.triangleRightBlue {
 .section2 #bar5_4
 {
 	position: relative;
-	top:355px;
+	top:363px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -389,7 +389,7 @@ canvas.triangleRightBlue {
 .section2 #bar6_1
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:72px;
 	margin-right:-25px;
 	width:20px;
@@ -399,7 +399,7 @@ canvas.triangleRightBlue {
 .section2 #bar6_2
 {
 	position: relative;
-	top:340px;
+	top:345px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -419,7 +419,7 @@ canvas.triangleRightBlue {
 .section2 #bar6_4
 {
 	position: relative;
-	top:355px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -450,7 +450,7 @@ canvas.triangleRightBlue {
 .section2 #bar7_3
 {
 	position: relative;
-	top:350px;
+	top:355px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -460,7 +460,7 @@ canvas.triangleRightBlue {
 .section2 #bar7_4
 {
 	position: relative;
-	top:355px;
+	top:365px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -471,7 +471,7 @@ canvas.triangleRightBlue {
 .section2 #bar8_1
 {
 	position: relative;
-	top:350px;
+	top:345px;
 	margin-left:188px;
 	margin-right:-25px;
 	width:20px;
@@ -481,7 +481,7 @@ canvas.triangleRightBlue {
 .section2 #bar8_2
 {
 	position: relative;
-	top:350px;
+	top:358px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -491,7 +491,7 @@ canvas.triangleRightBlue {
 .section2 #bar8_3
 {
 	position: relative;
-	top:353px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -501,7 +501,7 @@ canvas.triangleRightBlue {
 .section2 #bar8_4
 {
 	position: relative;
-	top:356px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -522,7 +522,7 @@ canvas.triangleRightBlue {
 .section2 #bar9_2
 {
 	position: relative;
-	top:350px;
+	top:354px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -532,7 +532,7 @@ canvas.triangleRightBlue {
 .section2 #bar9_3
 {
 	position: relative;
-	top:353px;
+	top:356px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -542,7 +542,7 @@ canvas.triangleRightBlue {
 .section2 #bar9_4
 {
 	position: relative;
-	top:356px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -564,7 +564,7 @@ canvas.triangleRightBlue {
 .section2 #bar10_2
 {
 	position: relative;
-	top:347px;
+	top:350px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -584,7 +584,7 @@ canvas.triangleRightBlue {
 .section2 #bar10_4
 {
 	position: relative;
-	top:353px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -596,7 +596,7 @@ canvas.triangleRightBlue {
 .section2 #bar11_1
 {
 	position: relative;
-	top:345px;
+	top:340px;
 	margin-left:72px;
 	margin-right:-25px;
 	width:20px;
@@ -626,7 +626,7 @@ canvas.triangleRightBlue {
 .section2 #bar11_4
 {
 	position: relative;
-	top:365px;
+	top:362px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -637,7 +637,7 @@ canvas.triangleRightBlue {
 .section2 #bar12_1
 {
 	position: relative;
-	top:343px;
+	top:345px;
 	margin-left:72px;
 	margin-right:-25px;
 	width:20px;
@@ -719,7 +719,7 @@ canvas.triangleRightBlue {
 .section2 #bar14_1
 {
 	position: relative;
-	top:360px;
+	top:358px;
 	margin-left:72px;
 	margin-right:-25px;
 	width:20px;
@@ -729,7 +729,7 @@ canvas.triangleRightBlue {
 .section2 #bar14_2
 {
 	position: relative;
-	top:361px;
+	top:365px;
 	margin-left:25px;
 	margin-right:-25px;
 	width:20px;
@@ -788,7 +788,7 @@ canvas.triangleRightBlue {
 {
 	font-family: axiataBold;
 	font-size:18px;
-	color:#c40d42;
+	color:#00a84c;
 }
 
 
