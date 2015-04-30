@@ -238,4 +238,7 @@
   //       $(selector).text(0);
    //    }
     // }
+    $(document).ready(function(){
+      setTimeout(function(){$('body').animate({scrollTop:680}, '500', 'swing')},1000);
+    });
     </script>
