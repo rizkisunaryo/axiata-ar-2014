@@ -34,7 +34,7 @@
                 <div class="cell _5th green_bg ">Planet & Society</div>
             </div>
             <div class="scrollableTable inline ">
-            
+
                     <div class="row_cust 1st red_bg  white_txt" style="height:35px">
                         <div class="cell_cust" style="border-left: 1px solid #c8c9ca;">Material Issue</div>
                         <div class="cell_cust">Targets in 2014</div>
@@ -182,7 +182,7 @@
             </div>
         </div>
 
-        <div class="table">
+        <div class="table" style="margin-top: -157px;">
             <div class="header white_txt">
                 <div class="tr" style="border-bottom:1px solid white; padding-left:25px; padding-top:9px; width: 827px;">
                 Assurance Poviders Recommendations and Progress made in 2014
