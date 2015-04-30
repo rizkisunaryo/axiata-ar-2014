@@ -36,7 +36,7 @@
 		<div id="img23" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/privacy-data.png"></div>
 		<div id="img24" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
 	</div>
-	<div style="position:absolute; top:410px; left:810px;"><img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" /></div>
+	<div style="position:absolute; top:410px;   left: 742px;"><img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" /></div>
 </section>
 
 <section id="infographicSection">
