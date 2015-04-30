@@ -6,10 +6,10 @@
 
 <div class="section_container book">
     <div class="section1 section grey_txt">
-        <div class="main_title">
+        <!-- <div class="main_title">
             <div class="med_txt grey_txt bold">Risk</div>
             <div class="big_txt red_txt bold">Management</div>
-        </div>
+        </div> -->
         
         <div class="paragraph_title">
             Materiality
@@ -76,8 +76,69 @@
             <div class="foot_note">
                 <sup>4</sup> <a href="https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/" style="text-decoration:none;">https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/</a>
             </div>
+        </div>
+        <div class="red_cover red_bg">
+            <div class="paragraph small_txt white_txt">
+                The diagram below plots the most material issues of the Group according to the materiality mapping process. We have plotted the relevance of these key material aspects across the Group.
+            </div>
+            <img src="../assets/img/materiality-diagram.png"/>
+            <div class="paragraph small_txt white_txt">
+                We have reported and discussed in detail on all our most material issues. Page 025, 035, 045, 053 discloses our approach to address these issues within Axiata's footprint. The issues that are not identified as most material, would be discussed as required.
+            </div>
+            <img src="../assets/img/foot_notes_materiality.png"/>
             
-    </div>
+        </div>
+        <div class="section1 section grey_txt section3">
+            <div class="bold small_txt red_txt"> 
+                Material Issues by the 4 sustainability pillars of Axiata and relevance to our OpCos.
+            </div>
+            <div class="table">
+            <div class="header red_bg white_txt">
+                <div class="th_col">Material Issues</div>
+                <div class="th_col">The Sustainability Pillar<br>covering this issue</div>
+                <div class="th_col">Relevant for<br>OpCo materiality</div>
+                <div class="th_col">Page</div>
+            </div>
+            <div class="cust_body">
+                <div class="col1">
+                    <div class="cell normal_cell"><img src="../assets/img/network_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/inclusion_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/product-innovation_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/employee-development_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/supply-chain_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/governance_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/privacy-data_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/customer-service_mt.png"/></div>
+                    <div class="cell normal_cell"><img src="../assets/img/Bg-copy-13_mt.png"/></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                </div>
+                <div class="col2">
+                    <div class="big_cell orange_bg">Beyond Short-term<br>Profits</div>
+                    <div class="big_cell dark-blue_bg">Nurturing People</div>
+                    <div class="big_cell purple_bg">Process Excellence</div>
+                    <div class="big_cell green_bg">Planet & Society</div>
+                    <div class="big_cell red_bg">Covered in Axiata Annual report</div>
+                </div>
+                <div class="col3">
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                    <div class="cell normal_cell"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
 
 </div>
 

@@ -29,8 +29,8 @@ canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !i
 
 }
 .paragraph{
-	margin-bottom: 13px;
-	margin-top: 13px;
+	margin-bottom: 28px;
+  	margin-top: 53px;
 }
 
 .main_title{
@@ -90,6 +90,41 @@ canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !i
 .desc_card .desc{  font-weight: lighter;}
 .foot_note{ margin-top:27px;font-size: 9px;}
 
+.red_cover{
+	height: 973px;
+	margin-top: 20px;
+	width:852px;
+	padding: 54px;
+	padding-top: 10px;
+}
 
+.small_cell{
 
+}
 
+.table .th_col:nth-child(1){width: 402px;}
+.table .th_col:nth-child(2){width: 222px;}
+.table .th_col:nth-child(3){width: 147px;}
+.table .th_col:nth-child(4){width: 147px;}
+.table .bd_col{
+	height: 730px;
+	}
+.table .bd_col.wide{
+	width: 400px;display: inline-block;
+
+}
+.table .bd_col.med{
+	width: 228px;display: inline-block;
+}
+.table .bd_col.small{
+	width: 224px;display: inline-block;
+}
+.table .col1 .cell{height: 57px; }
+.table .col2 .cell{}
+.table .col3 .cell{height: 57px;}
+
+.table .col1 .normal_cell{}
+.table .col2 .big_cell{width: 219px;}
+.table .col3 .normal_cell{}
+
+.section3{margin-top: 35px;}
