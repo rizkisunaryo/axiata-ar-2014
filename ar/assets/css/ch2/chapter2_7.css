@@ -120,10 +120,17 @@ canvas.Grey{border-left-color:   #6d6e71 !important; border-right-color: #00793a
     height: 26px;
 }
 .graph .zoom-in {
-    position: absolute;
-    top:0px;
-    right: -7px;
-    width: 22px;
-    height: 19px;
-    background: url(../../img/chapter2/Zoom-in-Icon.png) ;
+  position: relative;
+  top: -210px;
+  right: -377px;
+  min-width: 22px;
+  min-height: 19px;
+  text-decoration: none;
+  color: #4B4B4A;
+  /* background: url(../../img/chapter2/Zoom-in-Icon.png); */
+  font-size: 20px;
+}
+.graph .zoom-in .fa{
+    
+
 }

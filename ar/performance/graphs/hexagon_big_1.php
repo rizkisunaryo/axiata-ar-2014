@@ -1,0 +1,1 @@
+<img src="../../assets/img/hexagon1_big.png" style="padding-top:64; padding-left:64px;"/>
