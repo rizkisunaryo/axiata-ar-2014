@@ -97,6 +97,20 @@
 
 <script type="text/javascript">
     // var isPercentageReached=[false,false,false,false,false];
+    // var oldestTime = '2015/04/16 23:45:01.883';
+    var d = new Date();
+    var Y = d.getFullYear();
+    var M = zeroized(d.getMonth()+1);
+    var D = zeroized(d.getDate());
+    var h = zeroized(d.getHours());
+    var m = zeroized(d.getMinutes());
+    var s = zeroized(d.getSeconds());
+    var ms = zeroized(d.getMilliseconds());
+    console.log(Y+'/'+M+'/'+D+' '+h+':'+m+':'+s+'.'+ms);
+
+    function zeroized (pNumber) {
+      return pNumber<=9? '0'+pNumber : pNumber;
+    }
 
     $(function () {
       // SCROLL MAGIC
