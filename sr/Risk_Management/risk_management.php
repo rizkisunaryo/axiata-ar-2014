@@ -5,12 +5,12 @@
 ?>
 
 <div class="section_container book">
-    <div class="section1 section grey_txt">
+    <div class="section1 section grey-dark_txt">
         <div class="main_title">
             <div class="med_txt grey_txt bold">Risk</div>
             <div class="big_txt red_txt bold">Management</div>
         </div>
-        <div class="paragraph grey_txt small_txt"> 
+        <div class="paragraph grey-dark_txt small_txt"> 
             The Board is responsible and accountable for maintaining and ensuring a sound system of risk management and internal control practices to safeguard shareholders’ investments, stakeholders’ interest as well as the Group’s assets. Such systems cover not only financial controls but also operational and compliance controls.
             <br>
             <br>The Board has an on-going process in place for identifying, evaluating, monitoring and managing significant risks that may affect the achievement of the Group’s business objectives. The Board is assisted by the Group Risk Management Committee (GRMC), consisting of all members of Axiata Group Senior Leadership Team (SLT), in ensuring that the implementation of the approved policies, manuals and procedures on risks and controls are in place to mitigate key risk areas which have been identified and assessed by the risk owners.
@@ -49,7 +49,7 @@
         <div class="section ">
         <div class="">
             <!-- <div  class="diagram_img" ></div> -->
-            <div class="title white_txt bold">
+            <div class="title white_txt bold" style="padding-top:20px;">
                 <div class="med_txt ">Diagramme of Risk</div>
                 <div class="big_txt">Management Process</div>
             </div>
