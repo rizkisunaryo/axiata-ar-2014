@@ -1001,3 +1001,25 @@ canvas.triangleRightGreen {
   top: 0;
   left: 0;
 }
+@-moz-document url-prefix() { 
+	.section2 .bar1
+	{
+		position: relative;
+		top:200px;
+		margin-left:95px;
+		margin-right:90px;
+		width:20px;
+		display: inline;
+		height:190px;
+	}
+	.section2 .bar2
+	{
+		position: relative;
+		top:200px;
+		margin-left:10px;
+		margin-right:90px;
+		width:20px;
+		display: inline;
+		height:190px;
+	}
+}

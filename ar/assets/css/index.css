@@ -43,31 +43,8 @@
 		margin:-60px 0 0 -610px !important;
 		
 	}
-	.kite-big {
-		-moz-animation-name: kite-big-animation; /* Safari */
-		-moz-animation-timing-function: linear;
-	    -moz-animation-duration: 1.5s; /* Safari */    
-	    -moz-animation-iteration-count: infinite; /* Safari */
-	    -moz-animation-direction: alternate; /* Safari */    
-	    animation-name: kite-big-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1.5s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	    display: inline-block;
-	}
 
-	/* Safari */
-	@-webkit-keyframes kite-big-animation {
-	    0%   {margin-top:-120px; margin-left:70px;}
-	    100%   {margin-top:-140px;}
-	}
-
-	/* Standard syntax */
-	@keyframes kite-big-animation {
-	    0%   {margin-top:-130px; margin-left:130px;}
-	    100%   {margin-top:-100px;}
-	}
+	
 }
 
 
@@ -684,6 +661,11 @@
     -webkit-animation-duration: 1.5s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
     -webkit-animation-direction: alternate; /* Safari */    
+    -moz-animation-name: kite-big-animation; /* Safari */
+	-moz-animation-timing-function: linear;
+    -moz-animation-duration: 1.5s; /* Safari */    
+    -moz-animation-iteration-count: infinite; /* Safari */
+    -moz-animation-direction: alternate; /* Safari */    
     animation-name: kite-big-animation;
     animation-timing-function: linear;
     animation-duration: 1.5s;
@@ -694,7 +676,7 @@
 
 /* Safari */
 @-webkit-keyframes kite-big-animation {
-    0%   {margin-top:-110px; margin-left:70px;}
+    0%   {margin:-110px 0 0 70px; margin-left:70px;}
     100%   {margin-top:-90px;}
 }
 

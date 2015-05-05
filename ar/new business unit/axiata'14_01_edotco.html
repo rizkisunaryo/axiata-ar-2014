@@ -392,8 +392,14 @@
 			        countWithDecimal();
 			        $('#bar1').html('');
 			        $('#bar2').html('');
-			        animateGraph(1,"#bar1",true,"Green",15);
-					animateGraph(1,"#bar2",true,"Green",18);
+			        if (navigator.userAgent.indexOf("Firefox") > 0) {						animateGraph(1,"#bar1",true,"Green",14);
+						animateGraph(1,"#bar2",true,"Green",17);
+					}
+					else
+					{
+			        	animateGraph(1,"#bar1",true,"Green",15);
+						animateGraph(1,"#bar2",true,"Green",18);
+					}
 			    })
 			.addTo(controller);
 		var offset=-90;
@@ -419,8 +425,14 @@
 			        countWithDecimal();
 			        $('#bar1').html('');
 			        $('#bar2').html('');
-			        animateGraph(1,"#bar1",true,"Green",15);
-					animateGraph(1,"#bar2",true,"Green",18);
+            		if (navigator.userAgent.indexOf("Firefox") > 0) {						animateGraph(1,"#bar1",true,"Green",14);
+						animateGraph(1,"#bar2",true,"Green",17);
+					}
+					else
+					{
+			        	animateGraph(1,"#bar1",true,"Green",15);
+						animateGraph(1,"#bar2",true,"Green",18);
+					}
 			    })
 			.addTo(controller);
 		
