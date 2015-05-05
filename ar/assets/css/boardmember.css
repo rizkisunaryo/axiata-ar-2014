@@ -18,11 +18,11 @@ html,body
 
 .content .pic
 {
-	position: absolute; top:200px; left: 0;
+	position: absolute; top:10px; left: 0;
 	 width: auto;
-	 height: 500px;
+	 height: 630px;
 	 float:left;
-	 width:350px;
+	 width:390px;
 	
 }
 
@@ -39,8 +39,8 @@ html,body
 	font-family:axiataBook;
 	font-size:12px;
 	 float:left;
-	 max-width:570px;
-	 margin-left:310px;
+	 max-width:500px;
+	 margin-left:350px;
 	 margin-top:110px;
 	 text-align:justify;
 }

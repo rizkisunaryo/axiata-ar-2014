@@ -44,6 +44,40 @@
 			</p>
 		</div>
   
+  <script src="../assets/js/jquery.js"></script>
+  <script src="../assets/js/TweenMax.min.js"></script>
+  <script src="../assets/js/ScrollMagic.min.js"></script>
+  <script src="../assets/js/animation.gsap.js"></script>
+  <script src="../assets/js/viewportchecker.js"></script>
+  <script src="../assets/js/css3-animate-it.js"></script>
+  <script src="../assets/js/jquery.transit.min.js"></script>
+  <script src="../assets/js/jquery.scrollTo.min.js"></script>
+  
+  
+ 
+ 
+  <script type="text/javascript">
+	
+	
+	$(function(){
+		isScrollingNow=false;
+
+		var controller = new ScrollMagic.Controller({});
+		
+		new ScrollMagic.Scene({
+				triggerElement: '.content',
+				duration:80,
+				triggerHook: 'onEnter'
+			})
+			.setPin('.pic',{pushFollowers: false})
+			.addTo(controller);
+			
+	
+		
+	});
+  </script>
+  
+  
 
 </body>
 </html>
