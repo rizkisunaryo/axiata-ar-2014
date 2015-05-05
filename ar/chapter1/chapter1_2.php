@@ -42,57 +42,13 @@
               <br />
               In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available <a href="../../sr/index.html">online</a>.
             </div>
-            <!-- <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
-              <div style="position:relative; font-size:35px; left:220px;" class="title">2007 vs 2014</div>
-              <div style="position:relative; margin-top:15px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
-                <div class="maroonColor percentage" style="position:relative; margin-top:-45px; left:35px; line-height:1;"><span id="revenue" class="percentage">0</span>%</div>
-                <div class="percentageExplanation" style="position:relative; left:43px; margin-top:-2px; line-height:1;">Revenue</div>
-              </div>
-              <div style="position:relative; left:160px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
-                <div class="maroonColor percentage" style="position:relative; margin-top:-45px; left:35px; line-height:1;"><span id="ebitda" class="percentage">0</span>%</div>
-                <div class="percentageExplanation" style="left:68px; margin-top:-2px; line-height:1;">Ebitda</div>
-              </div>
-              <div style="position:relative; left:320px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
-                <div class="maroonColor percentage" style="left:35px; position:relative; margin-top:-45px; line-height:1;"><span id="pat" class="percentage">0</span>%</div>
-                <div class="percentageExplanation" style="position:relative; margin-top:-2px; left:97px; line-height:1;">PAT</div>
-              </div>
-              <div style="position:relative; margin-top:35px; left:50px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
-                <div class="maroonColor percentage" style="position:relative; left:35px; margin-top:-45px; line-height:1;"><span id="subscribers" class="percentage">0</span>%</div>
-                <div class="percentageExplanation" style="position:relative; left:45px; margin-top:-2px; line-height:1;">Subscribers</div>
-              </div>
-              <div style="position:relative; left:235px; margin-top:-80px; line-height:1;">
-                <div style="position:relative; line-height:1;"><img src="../assets/img/chapter1/2/from-zero-arrow.png"></div>
-                <div class="maroonColor percentage" style="position:relative; left:35px; margin-top:-45px; line-height:1;"><span id="marketcap" class="percentage">0</span>%</div>
-                <div class="percentageExplanation" style="position:relative; margin-top:-2px; width:155px; text-align:right; left:15px; line-height:1;">Market<br>Capitalisation</div>
-              </div>
-            </div>
-            <div style="position:relative; margin-top:20px;">
-              In 2008, the TM Group completed a strategic demerger exercise that saw the separation of the mobile business from TM. The demerger resulted in an enhanced TMI, which was merged with Celcom, enabling it to focus on its own core business and accelerate operational improvements and growth initiatives; emerging as an independent entity in the regional mobile telecommunications market.<br>
-              <br>
-              TMI was subsequently listed on Bursa Securities on 28 April 2008, marking a new chapter in its transformation towards  becoming a regional giant in the mobile communications market.<br>
-              <br>
-              In March 2009, TMI changed its name to Axiata Group Berhad and launched a new identity, as part of a rebranding exercise aimed at enhancing its position as a leading regional mobile operator. The move was a requisite step to reinforce the Group’s new business philosophy and its commitment to advancing Asia by addressing the unfulfilled communication needs of local populations with affordable and innovative products and services. Axiata has blazed a path across the region; from 40 million customers, pre-demerger, to over 240 million across 9 countries, in six years, making Axiata one of the largest mobile players in Asia.<br>
-              <br>
-              <br>
-              Shaping the Future<br>
-              <br>
-              Axiata has always been ahead of the curve, quickly adapting to change and positioning its business model to capitalise on the developments in an increasingly digitalised world. Parallel to its investments in network and technology modernisation over the years, Axiata has also evolved its business to embrace the digital age and fast growing demand for data. 2014 will be a critical year for Axiata as it progresses in its transformation beyond a traditional telecommunications company.<br>
-              <br>
-              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Details of Axiata’s sustainability efforts are available as a separate booklet, together with this Annual Report.<br>
-              <br>
-              <span style="font-size:11px;">*Market Capitalisation 2008 vs 2014</span>
-            </div> -->
           </div>
 				</div>
 			</div>
 		</section>
 
-		<section id="corporateInformation" style='margin-top:140px;background-image: url(&quot;../assets/img/chapter1/corner.png&quot;);   background-repeat: no-repeat;   background-position-y: -10px;background-position-x: 237px;'>
-      <div class="center-content" style="position:relative; max-width:890px; width:100%; margin:0 auto; height:auto; z-index:0;">
+		<section id="corporateInformation" style="margin-top:140px;">
+      <div class="center-content" style="position:relative; max-width:960px; width:100%; margin:0 auto; height:auto; z-index:0; padding:0 35px; box-sizing:border-box;">
         <div style="position:relative;">
           <div class="title" style="position:relative; color:#8a8c8e; font-size:26px;">Corporate</div>
           <div class="title maroonColor" style="position:relative; font-size:32px;">Information</div>
@@ -159,6 +115,9 @@
           Tel   : +603 2263 8856<br>
           Fax   : +603 2278 3337<br>
           Email : ir@axiata.com
+        </div>
+        <div style="position:absolute; top:20px; z-index:-10; left:0px;">
+          <img src="../assets/img/chapter1/corner.png" />
         </div>
       </div>
       <div style="position:relative; width:880px; margin:0 auto; float:none; padding:0 40px; background-color:#4a4d51; margin-top:80px; color:white; padding:40px;">
