@@ -9,7 +9,7 @@
 		<div id="scrollTriggerMiddle" style="position:fixed; top:50%; z-index:1000;"></div>
 		<div id="scrollTriggerBottom" style="position:fixed; top:100%; z-index:1000;"></div>
 
-		<section id="chairmanStatementSection" style="width:960px; margin:0 auto;">
+		<section id="chairmanStatementSection" style="width:960px; margin:0px auto; height:3275px;">
       <div id="chairmanStatementBgDiv" style="width:960px; left:0; background:#ffffff url('../assets/img/chapter1/5/02-chairman_s-statement.png') no-repeat left bottom; height:887px;" class="center-content">
       </div>
       <div id="chairmanStatementText" style="max-width:890px; width:100%; margin:0px auto; z-index:0; margin-top:40px;" id="divider" class="center-content">
@@ -76,11 +76,11 @@
 
 	  $(function () {
 			// SCROLL MAGIC
-			// var chairmanStatementTextHeight = parseInt($('#chairmanStatementText').height()) - 767 + 120;
-			$('#chairmanStatementText').css('margin-top',(-767)+'px');
+			var chairmanStatementTextHeight = parseInt($('#chairmanStatementText').height());
+			$('#chairmanStatementText').css('margin-top',(-chairmanStatementTextHeight-130)+'px');
 
 			var controller = new ScrollMagic.Controller();
-			new ScrollMagic.Scene({triggerElement: "#chairmanStatementBgDiv",triggerHook:"onLeave"})
+			new ScrollMagic.Scene({triggerElement: "#chairmanStatementBgDiv",triggerHook:"onLeave", duration:(chairmanStatementTextHeight-767+130)})
 									.setPin("#chairmanStatementBgDiv")
 									.addTo(controller);
 
