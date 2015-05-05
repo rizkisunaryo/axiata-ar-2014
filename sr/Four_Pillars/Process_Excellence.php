@@ -11,15 +11,15 @@
 <div id="trigger100" style="position:fixed; top:100%;"></div>
 
 <section id="dividerSection" style="margin-top:60px;">
-	<div style="width:960px; padding:0 55px;; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+	<div style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
 		<div style="position:relative; z-index:10;">
 			<div class="title" style="color:#45033a; font-size:56px;">COMMITMENT TO</div>
 			<div class="title" style="color:#fff; font-size:100px; margin-top:-12px;">PROCESS</div>
 			<div class="title" style="color:#fff; font-size:71px; margin-top:-12px;">EXCELLENCE</div>
 		</div>
-		<div style="position:absolute; top:10px; left:645px;"><img src="../assets/img/Four_Pillars/Process_Excellence/kite.png"></div>
+		<div style="position:absolute; top:-70px; left:490px;"><img src="../assets/img/Four_Pillars/Process_Excellence/kite.png"></div>
 	</div>
-	<div style="width:960px; padding:0 55px;; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
+	<div style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
 		<div style="width:570px; color:#fff;">
 			<span class="title" style="color:#fff; font-size:21px;">Introduction</span><br />
 			<br />
@@ -30,17 +30,21 @@
 			Sustainable governance processes are integral to sustainable operations. How we are advancing transparency within the Group, strengthening ethical processes, and ensuring business continuity are also discussed in this part of the report.
 		</div>
 	</div>
-	<div style="width:960px; padding:0 55px;; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+	<div style="width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
 		<div id="img21" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/supply-chain.png"></div>
 		<div id="img22" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-service.png"></div>
 		<div id="img23" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/privacy-data.png"></div>
 		<div id="img24" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
 	</div>
-	<div style="position:absolute; top:410px;   left: 742px;"><img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" /></div>
+	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box;">
+		<div style="position:absolute; left:650px; top:-910px;">
+			<img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" />
+		</div>
+	</div>
 </section>
 
 <section id="infographicSection">
-	<div style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+	<div style="width:960px; margin:0 auto; margin-top:-30px; box-sizing:border-box; background-color:#a3195b;">
 		<img src="../assets/img/Four_Pillars/Process_Excellence/02-infographic.png">
 	</div>
 </section>
