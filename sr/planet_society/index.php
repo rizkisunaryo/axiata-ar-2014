@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
-  
+
 <div class="topcontainer">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 650px;">
@@ -121,12 +121,12 @@
 	  <div class="bold" style="font-size:25px; padding-left:20px;">Greener<br>
       Operations</div>
 	</div>
-    <div class="bottombox plusButton" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" data-url="popup4.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Disaster <br>
       preparedness <br>
       and response</div>
     </div>
-    <div class="bottombox plusButton" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" data-url="popup5.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Our <br>
       Commitment<br>
 to Society</div>
@@ -192,7 +192,7 @@ to Society</div>
         width : '965px',
         height:'100%',
         padding: 0,
-        margin: [90,0,0,0],
+        margin: [0,0,0,0],
         scrolling   : 'no',
          helpers : {
           overlay : {
