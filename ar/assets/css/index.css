@@ -730,5 +730,5 @@
 
 .whiteBorder
 {
-	border-color: #fff !important;
+	border: 0 !important;
 }
