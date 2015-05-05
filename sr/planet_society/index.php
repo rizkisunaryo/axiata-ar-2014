@@ -113,16 +113,16 @@
 <div style="width:860px; margin:auto; padding:0 50px 40px;" class="secondcontainer">
 	<div style="font-size:17px; color:#524e4c; text-align:center; margin:40px 0 30px;" class="bold" data-sr='enter left, move 20px, opacity 0'>To read more about our Commitment to Planet & Society, click the buttons below</div>
 	<div class="clearfix"></div>
-	<div class="bottombox" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b1.png" width="223" height="151" alt=""/><br>
+	<div class="bottombox plusButton" data-url="popup3.html" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b1.png" width="223" height="151" alt=""/><br>
 	  <div class="bold" style="font-size:25px; padding-left:20px;">Greener<br>
       Operations</div>
 	</div>
-    <div class="bottombox" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Disaster <br>
       preparedness <br>
       and response</div>
     </div>
-    <div class="bottombox" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Our <br>
       Commitment<br>
 to Society</div>
@@ -153,3 +153,59 @@ to Society</div>
 
 </script>
 <script src="countUp.js"></script>
+
+
+
+<script src="../assets/js/jquery.js"></script>
+
+  
+ 
+  <script type="text/javascript" src="../assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  
+  
+  
+  <script type="text/javascript">
+ 
+  
+  $(function(){
+ 
+    
+    $('.plusButton').click(function(ev){
+      ev.preventDefault();
+      var url = $(this).data('url');
+
+      $.fancybox.open({
+        href : url,
+        type : 'iframe',
+        openEffect : 'elastic',
+        openSpeed  : 150,
+        closeEffect : 'elastic',
+        closeSpeed  : 150,
+        width : '965px',
+        height:'100%',
+        padding: 0,
+        margin: [90,0,0,0],
+        scrolling   : 'no',
+         helpers : {
+          overlay : {
+            locked : false
+          }
+        },
+        beforeShow: function(){ 
+          $("body").css({'overflow-y':'hidden'});
+          //$('.fancybox-wrap').css('margin-left','-10px');
+        },
+        afterClose: function(){  $("body").css({'overflow-y':'visible'}); }
+      });
+    });
+    
+
+  });
+  </script>
+  
+  
+

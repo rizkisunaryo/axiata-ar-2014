@@ -1,0 +1,116 @@
+
+@import url("fonts.css");
+
+html,body
+{
+	background:#fff;
+	height:100%;
+	font-family: axiataBook;
+}
+.content
+{
+	width:960px;
+	margin: 0 auto;
+}
+
+.section1
+{
+	height:1000px;
+	width:960px;
+	background-color: #ec6713;
+	background-image: url('../img/chapter1/background2.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-top: 0;
+}
+
+.section1 .right
+{
+	width:520px;
+	margin: 0 0 0 400px;
+	height: 450px;
+	font-family: axiatBool;
+	font-size: 16px;
+	padding-top: 80px;
+	text-align: justify;
+	color:#ffffff;
+}
+.section1 .right b
+{
+	font-family: axiataBold;
+	font-size:20px;
+}
+.section1 .full
+{
+	width:300px;
+	margin: 0 0 0 30px;
+	height: 200px;
+	font-family: axiatBool;
+	font-size: 16px;
+	margin-top: -10px !important;
+	text-align: justify;
+	color:#ffffff;
+	padding:20px;
+	background-image: url('../img/chapter1/background3.png');
+	background-repeat: no-repeat;
+}
+.section1 .full b
+{
+	font-family: axiataBold;
+	font-size:16px;
+}
+.section1 .full h1
+{
+	font-family: axiataBold;
+	font-size:20px;
+}
+
+
+.section2
+{
+	height:1000px;
+	width:960px;
+	background-color: #ffffff;
+	margin-top: 0;
+	color: #000000;
+}
+
+.section2 .right
+{
+	width:460px;
+	margin: 0 0 0 400px;
+	height: 450px;
+	font-family: axiatBool;
+	font-size: 16px;
+	padding-top: 80px;
+	text-align: justify;
+}
+.section2 .right b
+{
+	font-family: axiataBold;
+	font-size:20px;
+	color:#ec6713;
+}
+.section2 .full
+{
+	width:890px;
+	margin: 0 0 0 30px;
+	height: 450px;
+	font-family: axiatBool;
+	font-size: 16px;
+	padding-top: -10px;
+	text-align: justify;
+}
+.section2 .full b
+{
+	font-family: axiataBold;
+	font-size:16px;
+	color:#ec6713;
+}
+.section2 .full h1
+{
+	font-family: axiataBold;
+	font-size:20px;
+	color:#ec6713;
+}
+
