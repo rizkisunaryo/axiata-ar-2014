@@ -5,7 +5,11 @@
 ?>
 <link href="style.css" rel="stylesheet">
 <link href="fonts/fonts.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
+  
 <div class="topcontainer">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 650px;">
