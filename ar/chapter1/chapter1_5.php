@@ -20,7 +20,7 @@
           </div>
           <div style="position:relative;">
             <div style="position:relative; color:#787f84; font-size:22px; margin-top:10px;" class="title">Dear Shareholders,</div>
-            <div class="grey4Color" style="position:relative; margin-top:10px;">
+            <div class="grey4Color" style="position:relative; margin-top:10px; ">
               Our journey towards realising our ambition to be a regional champion by 2015 is fast approaching its mark. I am pleased to report that Axiata has upheld its promise - raising the performance bar whilst remaining committed to its transformation into a new generation telecommunications company by 2020.<br />
               <br />
               <br />
@@ -31,7 +31,7 @@
 							2014 was a challenging year, especially at Celcom. In addition, the Group, as with most regional companies, was impacted by adverse forex movements. The Group has nonetheless delivered overall healthy performance. This is a reflection of prudent cash management as well as a diverse portfolio. Our sustained underlying performance and strong cash position has allowed the Group to provide healthy returns to shareholders through a total dividend payout of 22 sen per share for the financial year ended 2014. The Group will continue to maintain a healthy dividend payout subject to overall financial performance, capital requirements, growth expansion strategies as well as dividends received from subsidiaries. <br />
 							<br />
 							<br />
-							<span class="title maroonColor">Commitment to Sustainable Long Term Value Creation across Five Countries</span><br />
+							<span class="title maroonColor animated bouncIn">Commitment to Sustainable Long Term Value Creation across Five Countries</span><br />
 							<br />
 							As we steer forward and strive to push our business to greater excellence, Axiata remains committed to bring value and strong contributions to societies in which we operate, as one of the top contributors to each of the respective countries’ economies.<br />
 							<br />
