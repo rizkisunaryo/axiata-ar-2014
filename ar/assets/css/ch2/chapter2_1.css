@@ -1,6 +1,7 @@
 @import url("../navbar.css");
 @import url("../fonts.css");
 @import url("../fonts2.css");
+@import url("../a_main_style.css");
 
 .container {
 	overflow-x:hidden; 
