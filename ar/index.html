@@ -1203,6 +1203,7 @@
 
 	function returnToNormalView()
 	{
+		$('.active').removeClass('active');
 		$('.contentofstatus2').hide();
 		$('.contentofstatus1').fadeIn();
 		$('.leftMenuLink').css('opacity',0);
@@ -1287,8 +1288,7 @@
 
 		$('.filterBtn').on( 'click', function() {
 			if($(this).hasClass('active'))
-			{
-				$('.active').removeClass('active');
+			{				
 				returnToNormalView();
 				return;
 
