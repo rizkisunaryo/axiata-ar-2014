@@ -5,7 +5,7 @@
 ?>
 
 <div class="section_container book">
-    <div class="section1 section grey_txt">
+    <div class="section1 section grey-dark_txt">
         <div class="title_header">
             <div class="main_title left inline">
                 <div class="med_txt grey_txt bold">Targets &</div>
@@ -193,7 +193,7 @@
                     <div class="td narrow">Progress</div>
                 </div>
             </div>
-            <div class="body smaller_txt grey_txt">
+            <div class="body smaller_txt grey-dark_txt">
                 <div class="tr">
                     <div class="td wide">Develop implementation and reporting guidelines for sustainability metrics</div>
                     <div class="td wide">Created a Sustainability Navigator based on MS share point, which includes reporting guidelines</div>

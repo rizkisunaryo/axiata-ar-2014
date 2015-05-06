@@ -1,4 +1,4 @@
-@import url("navbar.css");
+@import url("navbarlanding.css");
 @import url("fonts.css");
 * {
   -webkit-box-sizing: border-box;
@@ -115,18 +115,18 @@
 .section2
 {
 	width:960px;
-	min-height:100px;
+	min-height:70px;
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff;
 	padding:0 60px;
+	padding-top: 10px;
 
 }
 .section2:first-of-type
 {
 	margin-bottom: -50px;
 	clear: both;
-
 }
 
 .section2 .filterBtn:first-of-type
@@ -171,7 +171,7 @@
 .section3
 {
 	width:940px;
-	min-height:700px;
+	min-height:200px;
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff;
@@ -196,12 +196,6 @@
 	margin-top: 20px;
 	margin-bottom: 80px;
 	margin-left: -20px;
-}
-.element-item.navigatorMukhtar:first-of-type
-{
-	border:0 !important;
-	margin-bottom: -50px;
-	margin-top: 10px;
 }
 
 
@@ -790,4 +784,20 @@
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+#INTEGRITY1
+{
+	z-index: 99999;
+	height:70px;
 }

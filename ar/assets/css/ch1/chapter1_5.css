@@ -3,5 +3,5 @@
 @import url("../fonts2.css");
 
 .container {
-	overflow-x:hidden; 
+	overflow:hidden; 
 }

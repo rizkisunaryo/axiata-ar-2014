@@ -88,7 +88,7 @@
             <img src="../assets/img/foot_notes_materiality.png"/>
             
         </div>
-        <div class="section1 section grey_txt section3">
+        <div class="section1 section grey-dark_txt section3">
             <div class="bold small_txt red_txt"> 
                 Material Issues by the 4 sustainability pillars of Axiata and relevance to our OpCos.
             </div>

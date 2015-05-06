@@ -121,12 +121,12 @@
 	  <div class="bold" style="font-size:25px; padding-left:20px;">Greener<br>
       Operations</div>
 	</div>
-    <div class="bottombox plusButton" data-url="popup4.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" data-url="../popup4.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b2.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Disaster <br>
       preparedness <br>
       and response</div>
     </div>
-    <div class="bottombox plusButton" data-url="popup5.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
+    <div class="bottombox plusButton" data-url="../popup5.html" style="margin-left:29px;" data-sr='enter left, move 20px, opacity 0'><img src="../assets/img/c4/ps_b3.png" width="223" height="151" alt=""/><br>
       <div class="bold" style="font-size:25px; padding-left:20px;">Our <br>
       Commitment<br>
 to Society</div>
