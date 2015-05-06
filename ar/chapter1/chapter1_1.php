@@ -13,11 +13,11 @@
         <div class="numbering_div ">
           <div style="width: 89%; text-align:right; padding-bottom: 15px; padding-right:20px;font-size: 47px;" class="red_txt bold"> 2014</div>
           <div class="left_col_numbering bold red_txt">
-              <div style="padding-bottom: 17px;">Revenue</div>
+              <div style="padding-bottom: 16px;">Revenue</div>
               <div class="row_seperator"> </div>
-              <div style="padding-bottom: 13px;">PAT</div>
+              <div style="padding-bottom: 19px;">PAT</div>
               <div class="row_seperator"> </div>
-              <div style="padding-bottom: 15px;">Market Cap</div>
+              <div style="padding-bottom: 14px;">Market Cap</div>
               <div class="row_seperator"> </div>
               <div>Subscribers</div>
               <div class="row_seperator"> </div>

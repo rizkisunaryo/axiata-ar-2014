@@ -96,9 +96,13 @@
 }
 
 
+
 .numbering_div{
 	width: 349px;
 	height:393px;
+	background-image: url('../../img/Advancing_Asia/Advancing_Asia/numbering.png');
+	  background-repeat: no-repeat;
+  background-position: 0px 8px;
 }
 /*abd_ new part of code*/
 .right_col_numbering{
@@ -111,11 +115,11 @@
 }
 .right_col_numbering div{
 	display: inline-block;
-	font-size: 21px;
+	font-size: 19px;
 	line-height: 21px;
 }
 .row_seperator{
-	padding-top: 9px;
+	padding-top: 7px;
 	display: block !important;
 	content: "";
 }
@@ -130,7 +134,7 @@
 	vertical-align: top;
 }
 .left_col_numbering div{
-	font-size: 21px;
+	font-size: 19px;
 }
 /*.txt_red{
 	color: #c2063a;
