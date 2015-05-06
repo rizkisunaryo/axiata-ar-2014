@@ -33,7 +33,7 @@
 				<div style="margin-top:40px;">
 					<div id="leftCol" style="position:relative; margin-top:0px;">
 						<div style="position:relative;">
-              <div style="position:relative; left:50px;">
+              <div style="position:relative; left:50px;  top: 6px;">
                 <div id="graphTriggerTopRow1" style="position:relative; font-size:16px;" class="title">Operating Revenue</div>
                 <div style="position:relative; font-size:14px;">(RM Billion)</div>
               </div>
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div style="position:relative; top:-80px;">
-              <div style="position:relative; left:50px;">
+              <div style="position:relative; left:50px;  top: 3px;">
                 <div id="graphTriggerTopRow2" style="position:relative; font-size:16px;" class="title">PAT</div>
                 <div style="position:relative; font-size:14px;">(RM Billion)</div>
               </div>
@@ -97,7 +97,7 @@
               </div>
             </div>
             <div style="position:relative; top:-160px;">
-              <div style="position:relative; left:50px;">
+              <div style="position:relative; left:50px;  top: 2px;">
                 <div id="graphTriggerTopRow3" style="position:relative; font-size:16px;" class="title">ROIC</div>
                 <div style="position:relative; font-size:14px;">(%)</div>
               </div>

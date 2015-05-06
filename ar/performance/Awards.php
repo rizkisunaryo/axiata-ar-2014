@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col3">
                     <div class="award_header">
-                        <div class="txt">Malaysia</div>
+                        <div class="txt">MALAYSIA</div>
                         <a href="#" class=""><img class="point" src="../assets/img/chapter4/section2/plus.png" data-url="awards/malaysia.php"></a>
                     </div>
                     <div class="award_img"><img src="../assets/img/chapter2/award1.png" /> </div>
@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col3">
                     <div class="award_header">
-                        <div class="txt">bangladesh</div>
+                        <div class="txt">BANGLADESH</div>
                         <a href="#" class=""><img class="point" src="../assets/img/chapter4/section2/plus.png" data-url="awards/bangladesh.php"></a>
                     </div>
                     <div class="award_img"><img src="../assets/img/chapter2/awards/award4.png" /></div>

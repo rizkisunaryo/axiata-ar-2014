@@ -28,7 +28,7 @@
 				<div style="margin-top:40px;">
 					<div id="leftCol" style="position:relative; margin-top:0px;">
 						<div style="position:relative;">
-              <div style="position:relative;">
+              <div style="position:relative;  top: 27px;">
                 <div id="graphTriggerTopRow1" style="position:relative; font-size:16px;" class="title">Operating Revenue</div>
                 <div style="position:relative; font-size:14px;">(RM Billion)</div>
               </div>
@@ -71,7 +71,7 @@
               </div>
             </div>
             <div style="position:relative; top:-80px;">
-              <div style="position:relative;">
+              <div style="position:relative;  top: 27px;">
                 <div id="graphTriggerTopRow2" style="position:relative; font-size:16px;" class="title">PAT</div>
                 <div style="position:relative; font-size:14px;">(RM Billion)</div>
               </div>
@@ -114,7 +114,7 @@
               </div>
             </div>
             <div style="position:relative; top:-160px;">
-              <div style="position:relative;">
+              <div style="position:relative;  top: 27px;">
                 <div id="graphTriggerTopRow3" style="position:relative; font-size:16px;" class="title">Subscribers</div>
                 <div style="position:relative; font-size:14px;">(Million)</div>
               </div>
@@ -159,7 +159,7 @@
 					</div>
 					<div id="rightCol" style="position:relative;   margin-top: -1506px; margin-left:460px;">
 						<div style="position:relative;">
-              <div style="position:relative;">
+              <div style="position:relative;top:30px;">
                 <div style="position:relative; font-size:16px;" class="title">Market Capitalisation</div>
                 <div style="position:relative; font-size:14px;">(RM Billion)</div>
               </div>
@@ -202,7 +202,7 @@
               </div>
             </div>
             <div style="position:relative; top:-80px;">
-              <div style="position:relative;">
+              <div style="position:relative;top:30px;">
                 <div style="position:relative; font-size:16px;" class="title">Share Price</div>
                 <div style="position:relative; font-size:14px;">(RM)</div>
               </div>
@@ -245,7 +245,7 @@
               </div>
             </div>
             <div style="position:relative; top:-160px;">
-              <div style="position:relative;">
+              <div style="position:relative;top:30px;">
                 <div style="position:relative; font-size:16px;" class="title">Dividend Per Share</div>
                 <div style="position:relative; font-size:14px;">(Sen)</div>
               </div>
