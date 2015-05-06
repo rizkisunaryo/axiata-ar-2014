@@ -1,11 +1,12 @@
 @import url("../navbar.css");
 @import url("../fonts.css");
 @import url("../fonts2.css");
+@import url("../a_main_style.css");
 
 #trigger {
 	position:absolute; 
-	width:20px; 
-	height:20px; 
+	width:11px; 
+	height:11px; 
 	/*border-color:#fff; 
 	border-style:solid;*/
 	cursor: pointer;
@@ -33,3 +34,107 @@
 #sibling {
 	display:none;
 }
+
+
+/* beacon code*/
+.beacon{
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color:#C40C41;
+  height:3em;
+  width:3em;
+  border-radius:50%;
+  /*-webkit-transform:translateX(-50%) translateY(-50%);*/
+    -webkit-transform: translateX(24%) translateY(38%);
+    z-index: 50;
+}
+.beacon:before{
+    position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  left: -3px;
+  top: -3px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 2px #C40C41;/*#2980B9;*/
+  -webkit-animation: active 2s infinite linear;
+  animation:active 2s infinite linear;
+  z-index: 50;
+}
+.beacon:hover{
+ box-shadow: 0px 0px 0px 0px #CFD8DE;/*#2980B9;*/ 
+}
+
+@-webkit-keyframes active{
+  0%{
+    -webkit-transform:scale(.1);
+    opacity:1;
+  }
+  70%{
+    -webkit-transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+@keyframes active{
+  0%{
+    transform:scale(.1);
+    opacity:1;
+  }
+  70%{
+    transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+
+.numbering_div{
+	width: 349px;
+	height:393px;
+}
+/*abd_ new part of code*/
+.right_col_numbering{
+	
+	display: inline-block;
+	width: 177px;
+	padding-right: 10px;
+	text-align: right;
+	vertical-align: top;
+}
+.right_col_numbering div{
+	display: inline-block;
+	font-size: 21px;
+	line-height: 21px;
+}
+.row_seperator{
+	padding-top: 9px;
+	display: block !important;
+	content: "";
+}
+.more_seperator{
+	padding-bottom: 25px;
+}
+.left_col_numbering{
+	
+	display: inline-block;
+	width: 128px;
+	text-align: left;
+	vertical-align: top;
+}
+.left_col_numbering div{
+	font-size: 21px;
+}
+/*.txt_red{
+	color: #c2063a;
+}
+.grey_txt{
+
+}*/
