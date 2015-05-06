@@ -37,7 +37,7 @@
 					<div id="leftCol" style="position:relative; left:-300px; opacity:0; margin-top:0px; width:394px;">
 						<div style="margin-top:0px;">
 							<div class="block">
-							<div class="header grey_txt small-med_txt"> 
+							<div class="header grey_txt small-med_txt" >  
 							<div id="counter1" data-decimal="0" data-max="260" class="counterup red_txt bold counter" style="font-size:80px;  margin-bottom: -16px;">0</div>million<br>
 							<div style="padding-top:0px;" class="small-med_txt">subscribers, 9% YoY growth</div>
 							</div> 
@@ -58,9 +58,9 @@
 						</div>
 					</div>
 					<div id="rightCol" style="position:relative; left:300px; opacity:0; margin-top:-501px; margin-left:460px; width:394px;">
-						<div style="margin-top:0px;">
+						<div style="margin-top:7px;">
 							<div class="block">
-							<div class="header grey_txt small-med_txt"> 
+							<div class="header grey_txt small-med_txt" style="padding-bottom:13px;"> 
 							<div id="counter2" data-decimal="0" data-max="18" class="counterup red_txt bold counter" style="font-size:73px;  margin-bottom: -16px;">0</div><br>
 							<div style="padding-top:0px;" class="small-med_txt">Digital Business Units</div>
 							</div> 
@@ -69,11 +69,11 @@
 							</div>
 							</div>
 						</div>
-						<div style="margin-top:30px;">
+						<div style="margin-top:62px;">
 							<div class="block">
-							<div class="header grey_txt small-med_txt bold red_txt" style="font-size:68px;"> 
-							RM <div id="counter3" data-decimal="0" data-max="4" class="counterup red_txt bold counter" style="font-size:68px; margin-left: -23px; margin-bottom: -16px;">0</div>&nbsp;billion<br>
-							<div style="padding-top:0px;" class="small-med_txt">Capex Invested across the Axiata footprint</div>
+							<div class="header grey_txt " > 
+							<div class="small-med_txt bold red_txt" style="font-size:68px;">RM <div id="counter3" data-decimal="0" data-max="4" class="counterup red_txt bold counter" style="font-size:68px; margin-left: -23px; margin-bottom: -16px;">0</div>&nbsp;billion<br></div>
+							<div style="padding-top:0px;" class="small_txt grey_txt">Capex Invested across the Axiata footprint</div>
 							</div> 
 							<div class="grey_txt small_txt">
 							Advancing Asia by increasing connectivity, enhancing reliability and access for over 260 million people.
