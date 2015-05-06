@@ -34,7 +34,7 @@
                 <div>
                     <div class="col col40">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font12 text__color--grey v-middle">Property, plant and equipment </span> </li><br>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--dark-blue"></i> <span class="font12 text__color--grey v-middle">Property, plant and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;equipment </span> </li><br>
                             <li class="legend-list"> <i class="legend-icon fa fa-play text__color--yellow"></i> <span class="font12 text__color--grey v-middle">Intangible assets </span> </li>
                             <li class="legend-list"> <i class="legend-icon fa fa-play text__color--orange"></i> <span class="font12 text__color--grey v-middle">Other assets </span> </li>
                         </ul>
@@ -108,11 +108,11 @@
                 pie: {
                     dataLabels: {
                         enabled: true,
-                            distance: -5,
+                            distance: -10,
                             style: {
                             fontWeight: 'bold',
                                 color: 'white',
-                                textShadow: '0px 1px 2px black'
+                                // textShadow: '0px 1px 2px black'
                             }
                         },
                     startAngle: 0,
@@ -134,7 +134,7 @@
                         y: 15.4,
                         dataLabels: {
                             distance: 20,
-                            rotation: 20,
+                            rotation: 30,
                             enabled: true,
                             x: 307.37938851547324,
 
@@ -171,7 +171,7 @@
                         name: '10.4%',
                         y: 10.4,
                         dataLabels: {
-                            rotation: -40,
+                            rotation: -38,
                         },
 
                     },
@@ -179,7 +179,7 @@
                         name: '6.2%',
                         y: 6.2,
                         dataLabels: {
-                            rotation: -10,
+                            rotation: -13,
                         },
 
                     },
@@ -194,8 +194,8 @@
                 var degree = (point.angle * 180) / Math.PI;
                 var rotation = 0;
                 if(i == '0') {
-                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 5});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 18});
                 }else  if(i == '1'){
 /*                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
                     point.dataLabel.attr({y: point.dataLabel._pos.y + 10});*/
@@ -203,8 +203,8 @@
                     point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
 //                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
                 }else  if(i == '4'){
-                    point.dataLabel.attr({x: point.dataLabel._pos.x + 13});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 15});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 12});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 14});
                 }else  if(i == '5'){
 //                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
                     point.dataLabel.attr({y: point.dataLabel._pos.y + 20});
@@ -242,7 +242,7 @@
                 pie: {
                     dataLabels: {
                         enabled: true,
-                        distance: -15,
+                        distance: -10,
                         style: {
                             fontWeight: 'bold',
                             color: 'white',
@@ -268,7 +268,7 @@
                         y: 16.2,
                         dataLabels: {
                             distance: 30,
-                            rotation: 22,
+                            rotation: 32,
                             x: 307.37938851547324,
                         },
 
@@ -285,7 +285,7 @@
                         name: '22.0%',
                         y: 22.0,
                         dataLabels: {
-                            rotation: 70,
+                            rotation: 65,
                         },
 
                     },
@@ -302,7 +302,7 @@
                         name: '14.8%',
                         y: 14.8,
                         dataLabels: {
-                            rotation: -42,
+                            rotation: -47,
                         },
 
                     },
@@ -310,7 +310,7 @@
                         name: '6.2%',
                         y: 6.2,
                         dataLabels: {
-                            rotation: -10,
+                            rotation: -14,
                         },
 
                     },
@@ -334,8 +334,8 @@
                 var degree = (point.angle * 180) / Math.PI;
                 var rotation = 0;
                 if(i == '0') {
-                    point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x - 5});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 17});
                 }else  if(i == '1'){
                     /*                    point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
                      point.dataLabel.attr({y: point.dataLabel._pos.y + 10});*/
@@ -343,8 +343,8 @@
                     point.dataLabel.attr({x: point.dataLabel._pos.x - 30});
 //                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
                 }else  if(i == '4'){
-                    point.dataLabel.attr({x: point.dataLabel._pos.x + 13});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 15});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 12});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 14});
                 }else  if(i == '5'){
 //                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
                     point.dataLabel.attr({y: point.dataLabel._pos.y + 20});
@@ -390,7 +390,7 @@
                 pie: {
                     dataLabels: {
                             enabled: true,
-                            distance: -5,
+                            distance: -7,
                             align: 'center',
 
                             verticalAlign: 'middle',
@@ -425,7 +425,7 @@
                             name: '3.7%',
                             y: 3.7,
                             dataLabels: {
-                                rotation: 1,
+                                rotation: 20,
                             },
 
                         },
@@ -433,7 +433,7 @@
                             name: '19.9%',
                             y: 19.9,
                             dataLabels: {
-                                rotation: -30,
+                                rotation: -29,
                             },
 
                         },
@@ -441,7 +441,7 @@
                             name: '4.9%',
                             y: 4.9,
                             dataLabels: {
-                                rotation: 15,
+                                rotation: 17,
                             },
 
                         },
@@ -449,7 +449,7 @@
                             name: '17.5%',
                             y: 17.5,
                             dataLabels: {
-                                rotation: 55,
+                                rotation: 58,
                             },
 
                         },
@@ -457,7 +457,7 @@
                             name: '8.7%',
                             y: 8.7,
                             dataLabels: {
-                                rotation: -70,
+                                rotation: -72,
                             },
 
                         },
@@ -493,6 +493,7 @@
                     point.dataLabel.attr({x: point.dataLabel._pos.x + 5});
                 }else  if(i == '5'){
                     point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
                 }else  if(i == '6'){
 //                    point.dataLabel.attr({x: point.dataLabel._pos.x + 50});
                     point.dataLabel.attr({y: point.dataLabel._pos.y + 30});
@@ -530,7 +531,7 @@
                 pie: {
                     dataLabels: {
                         enabled: true,
-                        distance: -5,
+                        distance: -7,
                         align: 'center',
                         verticalAlign: 'middle',
                         style: {
@@ -557,7 +558,7 @@
                         name: '30.9%',
                         y: 30.9,
                         dataLabels: {
-                            rotation: 51,
+                            rotation: 48,
                         },
 
                     },
@@ -565,7 +566,7 @@
                         name: '4.0%',
                         y: 4.0,
                         dataLabels: {
-                            rotation: 1,
+                            rotation: 26,
                         },
 
                     },
@@ -573,7 +574,7 @@
                         name: '20.4%',
                         y: 20.4,
                         dataLabels: {
-                            rotation: -15,
+                            rotation: -18,
                         },
 
                     },
@@ -581,7 +582,7 @@
                         name: '5.1%',
                         y: 5.1,
                         dataLabels: {
-                            rotation: 30,
+                            rotation: 35,
                         },
 
                     },
@@ -589,7 +590,7 @@
                         name: '19.6%',
                         y: 19.6,
                         dataLabels: {
-                            rotation: 75,
+                            rotation: 76,
                         },
 
                     },
@@ -605,7 +606,7 @@
                         name: '14.0%',
                         y: 14.0,
                         dataLabels: {
-                            rotation: -30,
+                            rotation: -32,
                             align: 'middle',
                             verticalAlign: 'middle',
                             padding: 0,
@@ -625,17 +626,21 @@
                 var rotation = 0;
                 if(i == '0') {
                     point.dataLabel.attr({x: point.dataLabel._pos.x - 20});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 9});
                 }else  if(i == '1'){
                     point.dataLabel.attr({x: point.dataLabel._pos.x - 10});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 10});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 12});
                 }else  if(i == '3'){
-                    point.dataLabel.attr({x: point.dataLabel._pos.x + 5});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 3});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 3});
+                }else  if(i == '4'){
+                point.dataLabel.attr({x: point.dataLabel._pos.x + 5});
                 }else  if(i == '5'){
-                    point.dataLabel.attr({x: point.dataLabel._pos.x + 15});
+                    point.dataLabel.attr({x: point.dataLabel._pos.x + 13});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 16});
                 }else  if(i == '6'){
 //                    point.dataLabel.attr({x: point.dataLabel._pos.x + 50});
-                    point.dataLabel.attr({y: point.dataLabel._pos.y + 30});
+                    point.dataLabel.attr({y: point.dataLabel._pos.y + 27});
                 }
 
                 point.dataLabel.show();
