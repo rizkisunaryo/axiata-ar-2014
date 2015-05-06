@@ -11,7 +11,7 @@
 				<div style="position:absolute; font-size:54px; color:#cfd8de; top:100px; left:55px;" class="title">Advancing Asia</div>
         <div style="position:absolute; top: 117px; left: 613px;">
         <div class="numbering_div ">
-          <div style="width: 89%; text-align:right; padding-bottom: 15px; padding-right:20px;font-size: 47px;" class="red_txt bold"> 2014</div>
+          <div style="width: 89%; text-align:right; padding-bottom: 15px; padding-right:20px;font-size: 47px;"  class="red_txt bold"> 20<div id="counter0" data-decimal="0" data-max="14" class=" counterup bold" style="font-size: 47px; display:inline-block; "> 0</div></div>
           <div class="left_col_numbering bold red_txt">
               <div style="padding-bottom: 16px;">Revenue</div>
               <div class="row_seperator"> </div>
@@ -118,6 +118,6 @@
 
   }
   $(document).ready(function(){
-  countWithDecimal();
+  setTimeout(function(){countWithDecimal();},300);
   });
   </script> 

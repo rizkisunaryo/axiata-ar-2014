@@ -10,7 +10,7 @@
 	/*border-color:#fff; 
 	border-style:solid;*/
 	cursor: pointer;
-	z-index: 100;
+	z-index: 1;
 }
 
 #trigger2 {
@@ -20,7 +20,7 @@
 	/*border-color:#fff; 
 	border-style:solid;*/
 	cursor: pointer;
-	z-index: 100;
+	z-index: 2;
 }
 
 #trigger:hover ~ #sibling {
