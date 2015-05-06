@@ -76,7 +76,7 @@
 
 	  $(function () {
 			// SCROLL MAGIC
-			var chairmanStatementTextHeight = parseInt($('#chairmanStatementText').height());
+			var chairmanStatementTextHeight = parseInt($('#chairmanStatementText').height())+230;
 			$('#chairmanStatementText').css('margin-top',(-chairmanStatementTextHeight-130)+'px');
 
 			var controller = new ScrollMagic.Controller();
