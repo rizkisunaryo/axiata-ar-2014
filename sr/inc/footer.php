@@ -20,6 +20,7 @@
 <script src="../assets/js/viewportchecker.js"></script>
 <script src="../assets/js/css3-animate-it.js"></script>
 <script src="../assets/js/jquery.transit.min.js"></script>
+<script src="../assets/js/countUp.min.js"></script>
 
 <script type="text/javascript">
     var exploreMoreOpened=false;

@@ -12,13 +12,13 @@
         <!-- numbering div -->
         <div style="position:absolute; top: 117px; left: 613px;">
         <div class="numbering_div ">
-          <div style="width: 89%; text-align:right; padding-bottom: 15px; padding-right:20px;font-size: 47px;" class="red_txt bold"> 2014</div>
+          <div style="width: 89%; text-align:right; padding-bottom: 15px; padding-right:20px;font-size: 47px;"  class="red_txt bold"> 20<div id="counter0" data-decimal="0" data-max="14" class=" counterup bold" style="font-size: 47px; display:inline-block; "> 0</div></div>
           <div class="left_col_numbering bold red_txt">
-              <div style="padding-bottom: 17px;">Revenue</div>
+              <div style="padding-bottom: 24px;">Revenue</div>
               <div class="row_seperator"> </div>
-              <div style="padding-bottom: 13px;">PAT</div>
+              <div style="padding-bottom: 21px;">PAT</div>
               <div class="row_seperator"> </div>
-              <div style="padding-bottom: 15px;">Market Cap</div>
+              <div style="padding-bottom: 22px;">Market Cap</div>
               <div class="row_seperator"> </div>
               <div>Subscribers</div>
               <div class="row_seperator"> </div>
@@ -27,20 +27,20 @@
               <div>Countries</div>
           </div>
           <div class="right_col_numbering grey_txt">
-              <div>RM<div class="number_counter">18.7</div> billion</div>
-              <div>USD<div class="number_counter">5.7</div> billion</div>
+              <div>RM<div id="counter1" data-decimal="0" data-max="18" class="counterup counter">0</div>.<div id="counter12" data-decimal="0" data-max="7" class="counterup counter">0</div> billion</div>
+              <div>USD<div id="counter2" data-decimal="0" data-max="5" class="counterup counter">0</div>.<div id="counter22" data-decimal="0" data-max="7" class="counterup counter">0</div> billion</div>
               <div class="row_seperator"> </div>
-              <div>RM<div class="number_counter">2.3</div> billion</div>
-              <div>USD<div class="number_counter">0.7</div> billion</div>
+              <div>RM<div id="counter3" data-decimal="0" data-max="2" class="counterup counter">0</div>.<div id="counter32" data-decimal="0" data-max="3" class="counterup counter">0</div> billion</div>
+              <div>USD<div id="counter4" data-decimal="0" data-max="0" class="counterup counter">0</div>.<div id="counter42" data-decimal="0" data-max="7" class="counterup counter">0</div> billion</div>
               <div class="row_seperator"> </div>
-              <div>RM<div class="number_counter">60.5</div> billion</div>
-              <div>USD<div class="number_counter">18.5</div> billion</div>
+              <div>RM<div id="counter5" data-decimal="0" data-max="60" class="counterup counter">0</div>.<div id="counter52" data-decimal="0" data-max="5" class="counterup counter">0</div> billion</div>
+              <div>USD<div id="counter6" data-decimal="0" data-max="18" class="counterup counter">0</div>.<div id="counter62" data-decimal="0" data-max="5" class="counterup counter">0</div> billion</div>
               <div class="row_seperator"> </div>
-              <div> > <div class="number_counter">260</div> million</div>
+              <div> > <div id="counter7" data-decimal="0" data-max="260" class="counterup counter">0</div> million</div>
               <div class="row_seperator"> </div>
-              <div> <div class="number_counter">25,000</div> </div>
+              <div> <div id="counter8" data-decimal="0" data-max="25" class="counterup counter">0</div>,000</div>
               <div class="row_seperator"> </div>
-              <div> <div class="number_counter">8</div> </div>
+              <div> <div id="counter9" data-decimal="0" data-max="8" class="counterup counter">0</div> </div>
           </div>
         </div>
         <!-- <img src="../assets/img/Advancing_Asia/Advancing_Asia/numbering.png"> -->
@@ -96,3 +96,29 @@
 <?php
     include("../inc/footer.php");
 ?>
+<script type="text/javascript">
+  function countWithDecimal()
+  {
+    $('.counterup').each(function(){
+      
+      var options = {
+        useEasing : true, 
+        useGrouping : true, 
+        separator : ',', 
+        decimal : '.', 
+        prefix : '', 
+        suffix : '' 
+      };
+      
+      
+      var max=Number($(this).data('max'));
+      var noOfDecimal = Number($(this).data('decimal'));
+      var x =new countUp($(this).attr('id'), 0, max, noOfDecimal, 2.5, options);
+      x.start();
+    });
+
+  }
+  $(document).ready(function(){
+  setTimeout(function(){countWithDecimal();},300);
+  });
+  </script> 
