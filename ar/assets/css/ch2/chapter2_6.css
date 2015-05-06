@@ -339,3 +339,167 @@ canvas.Green3{border-left-color: #92c83e !important; border-right-color: #92c83e
     .report_chart_5 .graph_num .num:nth-child(13){  top: -104px;   left: -34px;}
     .report_chart_5 .graph_num .num:nth-child(14){  top: -67px;   left: 213px;}
     .report_chart_5 .graph_num .num:nth-child(15){  top: -49px;   left: 211px;}
+
+    @-moz-document url-prefix() {
+
+
+    .report_chart_1 .graph_num .num:nth-child(1){ top:-110px; left: 8px; }
+    .report_chart_1 .graph_num .num:nth-child(2){   top: -63px;    left: 9px;}
+    .report_chart_1 .graph_num .num:nth-child(3){   top: -43px;    left: 11px;}
+    .report_chart_1 .graph_num .num:nth-child(4){   top: -116px;    left: 17px;}
+    .report_chart_1 .graph_num .num:nth-child(5){   top: -62px;    left: 19px;}
+    .report_chart_1 .graph_num .num:nth-child(6){   top: -45px;    left: 21px;}
+    .report_chart_1 .graph_num .num:nth-child(7){   top: -122px;    left: 28px;}
+    .report_chart_1 .graph_num .num:nth-child(8){   top: -69px;    left: 30px;}
+    .report_chart_1 .graph_num .num:nth-child(9){   top: -45px;    left: 32px;}
+    .report_chart_1 .graph_num .num:nth-child(10){  top: -129px;   left: 37px;}
+    .report_chart_1 .graph_num .num:nth-child(11){  top: -69px;   left: 37px;}
+    .report_chart_1 .graph_num .num:nth-child(12){  top: -51px;   left: 39px;}
+    .report_chart_1 .graph_num .num:nth-child(13){  top: -122px;   left: 46px;}
+    .report_chart_1 .graph_num .num:nth-child(14){  top: -63px;   left: 48px;}
+    .report_chart_1 .graph_num .num:nth-child(15){  top: -57px;   left: 51px;}
+
+    .report_chart_2 .graph_num .num:nth-child(1){ top: -87px; left: 6px; }
+    .report_chart_2 .graph_num .num:nth-child(2){   top: -56px;    left: 6px;}
+    .report_chart_2 .graph_num .num:nth-child(3){   top: -32px;    left: 4px;}
+    .report_chart_2 .graph_num .num:nth-child(4){   top: -93px;    left: 6px;}
+    .report_chart_2 .graph_num .num:nth-child(5){   top: -58px;    left: 3px;}
+    .report_chart_2 .graph_num .num:nth-child(6){   top: -33px;    left: 2px;}
+    .report_chart_2 .graph_num .num:nth-child(7){   top: -105px;    left: 4px;}
+    .report_chart_2 .graph_num .num:nth-child(8){   top: -57px;    left: 0px;}
+    .report_chart_2 .graph_num .num:nth-child(9){   top: -34px;    left: 0px;}
+    .report_chart_2 .graph_num .num:nth-child(10){  top: -111px;   left: 0px;}
+    .report_chart_2 .graph_num .num:nth-child(11){  top: -56px;   left: 0px;}
+    .report_chart_2 .graph_num .num:nth-child(12){  top: -31px;   left: -2px;}
+    .report_chart_2 .graph_num .num:nth-child(13){  top: -117px;   left: 0px;}
+    .report_chart_2 .graph_num .num:nth-child(14){  top: -64px;   left: -3px;}
+    .report_chart_2 .graph_num .num:nth-child(15){  top: -34px;   left: -5px;}
+
+    .report_chart_3 .graph_num .num:nth-child(1){ top: -100px; left: 7px; }
+    .report_chart_3 .graph_num .num:nth-child(2){   top: -69px;    left: 8px;}
+    .report_chart_3 .graph_num .num:nth-child(3){   top: -38px;    left: 7px;}
+    .report_chart_3 .graph_num .num:nth-child(4){   top: -98px;    left: 11px;}
+    .report_chart_3 .graph_num .num:nth-child(5){   top: -69px;    left: 10px;}
+    .report_chart_3 .graph_num .num:nth-child(6){   top: -39px;    left: 11px;}
+    .report_chart_3 .graph_num .num:nth-child(7){   top: -105px;    left: 14px;}
+    .report_chart_3 .graph_num .num:nth-child(8){   top: -69px;    left: 14px;}
+    .report_chart_3 .graph_num .num:nth-child(9){   top: -39px;    left: 16px;}
+    .report_chart_3 .graph_num .num:nth-child(10){  top: -99px;   left: 18px;}
+    .report_chart_3 .graph_num .num:nth-child(11){  top: -56px;   left: 18px;}
+    .report_chart_3 .graph_num .num:nth-child(12){  top: -33px;   left: 19px;}
+    .report_chart_3 .graph_num .num:nth-child(13){  top: -118px;   left: 22px;}
+    .report_chart_3 .graph_num .num:nth-child(14){  top: -58px;   left: 23px;}
+    .report_chart_3 .graph_num .num:nth-child(15){  top: -22px;   left: 20px;}
+
+    .report_chart_4 .graph_num .num:nth-child(1){ top: -86px; left: 6px; }
+    .report_chart_4 .graph_num .num:nth-child(2){   top: -50px;    left: 3px;}
+    .report_chart_4 .graph_num .num:nth-child(3){   top: -33px;    left: 5px;}
+    .report_chart_4 .graph_num .num:nth-child(4){   top: -93px;    left: 8px;}
+    .report_chart_4 .graph_num .num:nth-child(5){   top: -51px;    left: 6px;}
+    .report_chart_4 .graph_num .num:nth-child(6){   top: -21px;    left: 3px;}
+    .report_chart_4 .graph_num .num:nth-child(7){   top: -105px;    left: 3px;}
+    .report_chart_4 .graph_num .num:nth-child(8){   top: -59px;    left: 0px;}
+    .report_chart_4 .graph_num .num:nth-child(9){   top: -27px;    left: -1px;}
+    .report_chart_4 .graph_num .num:nth-child(10){  top: -111px;   left: -0px;}
+    .report_chart_4 .graph_num .num:nth-child(11){  top: -63px;   left: -2px;}
+    .report_chart_4 .graph_num .num:nth-child(12){  top: -33px;   left: -5px;}
+    .report_chart_4 .graph_num .num:nth-child(13){  top: -118px;   left: -1px;}
+    .report_chart_4 .graph_num .num:nth-child(14){  top: -69px;   left: -5px;}
+    .report_chart_4 .graph_num .num:nth-child(15){  top: -30px;   left: -6px;}
+
+    .report_chart_5 .graph_num .num:nth-child(1){ top: -44px; left: 6px; }
+    .report_chart_5 .graph_num .num:nth-child(2){   top: -27px;    left: 5px;}
+    .report_chart_5 .graph_num .num:nth-child(3){   top: -22px;    left: 2px;}
+    .report_chart_5 .graph_num .num:nth-child(4){   top: -45px;    left: -2px;}
+    .report_chart_5 .graph_num .num:nth-child(5){   top: -27px;    left: -4px;}
+    .report_chart_5 .graph_num .num:nth-child(6){   top: -20px;    left: -7px;   font-size: 0.9em;}
+    .report_chart_5 .graph_num .num:nth-child(7){   top: -44px;    left: -10px;}
+    .report_chart_5 .graph_num .num:nth-child(8){   top: -26px;    left: -11px;}
+    .report_chart_5 .graph_num .num:nth-child(9){   top: -19px;    left: -15px;}
+    .report_chart_5 .graph_num .num:nth-child(10){  top: -69px;   left: -20px;}
+    .report_chart_5 .graph_num .num:nth-child(11){  top: -43px;   left: -26px;}
+    .report_chart_5 .graph_num .num:nth-child(12){  top: -31px;   left: -30px;}
+    .report_chart_5 .graph_num .num:nth-child(13){  top: -104px;   left: -34px;}
+    .report_chart_5 .graph_num .num:nth-child(14){  top: -67px;   left: 213px;}
+    .report_chart_5 .graph_num .num:nth-child(15){  top: -49px;   left: 211px;}
+    }
+
+    .report_chart_1 .safari.graph_num .num:nth-child(1){ top:-110px; left: 8px; }
+    .report_chart_1 .safari.graph_num .num:nth-child(2){   top: -63px;    left: 9px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(3){   top: -43px;    left: 11px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(4){   top: -116px;    left: 17px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(5){   top: -62px;    left: 19px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(6){   top: -45px;    left: 21px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(7){   top: -122px;    left: 28px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(8){   top: -69px;    left: 30px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(9){   top: -45px;    left: 32px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(10){  top: -129px;   left: 37px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(11){  top: -69px;   left: 37px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(12){  top: -51px;   left: 39px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(13){  top: -122px;   left: 46px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(14){  top: -63px;   left: 48px;}
+    .report_chart_1 .safari.graph_num .num:nth-child(15){  top: -57px;   left: 51px;}
+
+    .report_chart_2 .safari.graph_num .num:nth-child(1){ top: -87px; left: 6px; }
+    .report_chart_2 .safari.graph_num .num:nth-child(2){   top: -56px;    left: 6px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(3){   top: -32px;    left: 4px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(4){   top: -93px;    left: 6px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(5){   top: -58px;    left: 3px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(6){   top: -33px;    left: 2px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(7){   top: -105px;    left: 4px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(8){   top: -57px;    left: 0px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(9){   top: -34px;    left: 0px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(10){  top: -111px;   left: 0px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(11){  top: -56px;   left: 0px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(12){  top: -31px;   left: -2px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(13){  top: -117px;   left: 0px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(14){  top: -64px;   left: -3px;}
+    .report_chart_2 .safari.graph_num .num:nth-child(15){  top: -34px;   left: -5px;}
+
+    .report_chart_3 .safari.graph_num .num:nth-child(1){ top: -100px; left: 7px; }
+    .report_chart_3 .safari.graph_num .num:nth-child(2){   top: -69px;    left: 8px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(3){   top: -38px;    left: 7px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(4){   top: -98px;    left: 11px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(5){   top: -69px;    left: 10px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(6){   top: -39px;    left: 11px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(7){   top: -105px;    left: 14px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(8){   top: -69px;    left: 14px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(9){   top: -39px;    left: 16px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(10){  top: -99px;   left: 18px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(11){  top: -56px;   left: 18px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(12){  top: -33px;   left: 19px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(13){  top: -118px;   left: 22px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(14){  top: -58px;   left: 23px;}
+    .report_chart_3 .safari.graph_num .num:nth-child(15){  top: -22px;   left: 20px;}
+
+    .report_chart_4 .safari.graph_num .num:nth-child(1){ top: -86px; left: 6px; }
+    .report_chart_4 .safari.graph_num .num:nth-child(2){   top: -50px;    left: 3px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(3){   top: -33px;    left: 5px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(4){   top: -93px;    left: 8px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(5){   top: -51px;    left: 6px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(6){   top: -21px;    left: 3px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(7){   top: -105px;    left: 3px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(8){   top: -59px;    left: 0px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(9){   top: -27px;    left: -1px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(10){  top: -111px;   left: -0px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(11){  top: -63px;   left: -2px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(12){  top: -33px;   left: -5px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(13){  top: -118px;   left: -1px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(14){  top: -69px;   left: -5px;}
+    .report_chart_4 .safari.graph_num .num:nth-child(15){  top: -30px;   left: -6px;}
+
+    .report_chart_5 .safari.graph_num .num:nth-child(1){ top: -44px; left: 6px; }
+    .report_chart_5 .safari.graph_num .num:nth-child(2){   top: -27px;    left: 5px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(3){   top: -22px;    left: 2px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(4){   top: -45px;    left: -2px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(5){   top: -27px;    left: -4px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(6){   top: -20px;    left: -7px;   font-size: 0.9em;}
+    .report_chart_5 .safari.graph_num .num:nth-child(7){   top: -44px;    left: -10px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(8){   top: -26px;    left: -11px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(9){   top: -19px;    left: -15px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(10){  top: -69px;   left: -20px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(11){  top: -43px;   left: -26px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(12){  top: -31px;   left: -30px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(13){  top: -104px;   left: -34px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(14){  top: -67px;   left: 213px;}
+    .report_chart_5 .safari.graph_num .num:nth-child(15){  top: -49px;   left: 211px;}

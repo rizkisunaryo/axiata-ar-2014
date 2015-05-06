@@ -309,7 +309,10 @@
 <script>
     
     $(document).ready(function(){
-        
+    if (navigator.userAgent.indexOf('Safari') != -1 )
+    {
+        $(".graph_num").addClass("safari");
+    }    
             
     });
     
