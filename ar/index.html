@@ -91,15 +91,16 @@
 		
 		<div style="clear:both;"></div>
 		
-		<div class="section1 panel">
-			<img class="rationalkite" src="assets/img/index/rationale_kite.png" />
-			<img class="ann" src="assets/img/index/ann.png" />
-			<img class="logo" src="assets/img/index/logo.png"  />
-			<img class="prp" src="assets/img/index/propelled_by_technology.png" />
-			<img class="img1 kite-big" src="assets/img/index/kite-big.png"  />
-			<img class="img2 kite-medium" src="assets/img/index/kite-medium.png"  />
-			<img class="img3 kite-small" src="assets/img/index/kite-small.png"  />			
-			<img class="img4 kite-tiny" src="assets/img/index/tinyKite.png"  />			
+		<div class="section1 panel animatedParent" data-sequence="500">
+			<img data-id="1" class="img5 animated fadeInLeft" src="assets/img/index/triangleGray.png"  />			
+			<img data-id="2" class="logo animated fadeInUp" src="assets/img/index/logo.png"  />
+			<img data-id="3" class="img2  animated fadeInUp" src="assets/img/index/kite-medium.png"  />
+			<img data-id="4" class="img3 animated fadeInUp" src="assets/img/index/kite-small.png"  />
+			<!--<img class="prp" src="assets/img/index/propelled_by_technology.png" />-->
+			<img data-id="5" class="img1  animated fadeInUp" src="assets/img/index/kite-big.png"  />
+			<img data-id="6" class="img4 animated fadeInUp" src="assets/img/index/tinyKite.png"  />			
+			<!--<img data-id="3" class="rationalkite" src="assets/img/index/rationale_kite.png" />
+			<img data-id="3" class="ann" src="assets/img/index/ann.png" />-->
 		</div>
 		
 		
@@ -1212,6 +1213,21 @@
 	}
 
 	$(function(){
+
+
+		setTimeout(function(){ 
+
+			$('.section1').css('background-image', 'url(' + $('.img5').attr('src') + ')');
+			$('.section1').css('background-repeat', 'no-repeat');
+			$('.img5').remove(); 
+			$('.img1').removeClass('animated').removeClass('fadeInUp').addClass('kite-big');
+			$('.img2').removeClass('animated').removeClass('fadeInUp').addClass('kite-medium');
+			$('.img3').removeClass('animated').removeClass('fadeInUp').addClass('kite-small');
+			$('.img4').removeClass('animated').removeClass('fadeInUp').addClass('kite-tiny');
+			
+
+		}, 4000);
+
 
 		$('.contentofstatus2').hide();
 		$('.contentofstatus1').show();
