@@ -49,8 +49,7 @@
             <div class="graph">
                 <div class="title">
                 <div class="small_txt">2014 & 2013</div>
-                <div class="big_txt">Operating</div>
-                <div class="big_txt">Revenue</div>
+                <div class="big_txt">EBITDA</div>
             
                     </div>
                  <a href="#" class="zoom-in"   data-url="graphs/hexagon_big_2.php">
