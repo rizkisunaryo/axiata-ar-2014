@@ -243,4 +243,7 @@ h5 {
 	overflow:hidden!important;
 	margin-left:-10px;
 }
-	
+
+.title-info {
+	font-size: 30px;
+}
