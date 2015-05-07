@@ -270,7 +270,7 @@
             <div class="nuturing-button__title row text-center font17 text__color--lightblack axiataBold">To read more about our Commitment to Nurturing People, click the buttons below</div>
             <div class="row">
                 <div class="col col4 animated fadeInUp" data-id="1">
-                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/workplace.html">
+                    <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/leader.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_leader.png">
                         <span class="block axiataBold font20">Nurturing<br > Future <br >Leaders</span>
                     </div>
@@ -330,7 +330,7 @@
             width : '965px',
             height:'100%',
             padding: 0,
-            margin: [90,0,0,0],
+            margin: [0,0,0,0],
             scrolling   : 'no',
             overlayOpacity: 1,
             overlayColor:	'#ffffff',
