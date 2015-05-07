@@ -24,8 +24,8 @@
       </div>
       <div id="ceo1Text1" style="position:relative; padding:55px; z-index:10;">
       	<div>
-          <div style="font-size:41px; color:#bcbec0;" class="title">President and GCEO’s</div>
-          <div style="font-size:58px;" class="title maroonColor">Business Review</div>
+          <div style="font-size:47px; color:#bcbec0;" class="title">President and GCEO’s</div>
+          <div style="font-size:47px;" class="title maroonColor">Business Review</div>
         </div>
         <div style="width:425px; margin-top:60px;">
 	        <div class="title" style="font-size:21px; color:#787f84; margin-top:0px;">
@@ -74,7 +74,7 @@
       </div>
     </section>
 
-    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3420px; overflow:hidden;">
+    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3560px; overflow:hidden;">
     	<div class="grey4Color" style="position:relative; z-index:10; padding:55px;">
     		<div style="width:545px;">
 	    		Following suit, our regional affiliates also saw a good 2014. Idea reported all round strong performance for the 9 months FY14 with revenue increasing by 19% and M1 full year FY2014 at 7%. PAT for Idea and M1 was up by 63% and 10% respectively.<br />
@@ -88,7 +88,7 @@
 					<br />
 					Axiata has been preparing for this. Our diversified portfolio and strategy of focusing on the emerging and developed markets of Asia has put us in a strategic and strong position for long-term growth. The digital data revolution in our markets is now at the inflection point with the eco-system of high speed networks, smartphones, and applications in place. Asian smartphone penetration may rise substantially faster than growth rates for Europe and from a lower base in Axiata’s markets. This bodes well for the Group given our footprint and strategic investments in the past few years. 
 				</div>
-				<div style="margin-top:40px;">
+				<div style="width:545px; margin-top:40px;">
 					<span class="title maroonColor">Expanding Our Core – Building A New Generation Telco</span><br />
 					<br />
 					<span class="title">Gearing up new business units</span><br />
@@ -144,13 +144,16 @@
     	<div id="ceo2Text1" style="position:relative; top:-3180px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
     	</div>
-    	<div id="ceo2Text2" style="position:relative; top:-2170px; left:620px;">
+    	<div id="ceo2Text2" style="position:relative; top:-2530px; left:620px;">
     		<img src="../assets/img/chapter1/6/robi.png" />
     	</div>
-    	<div id="ceo2Text3" style="position:relative; top:-2040px; left:620px;">
+    	<div id="ceo2Text3" style="position:relative; top:-2400px; left:620px;">
+    		<img src="../assets/img/chapter1/6/right_box_shaking_hands.png" />
+    	</div>
+        <div id="ceo2Text4" style="position:relative; top:-2180px; left:620px;">
     		<img src="../assets/img/chapter1/6/78million_over3years.png" />
     	</div>
-    	<div id="ceo2Text4" style="position:relative; top:-1240px; left:30px;">
+    	<div id="ceo2Text5" style="position:relative; top:-1750px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
     	</div>
     </section>
@@ -164,7 +167,7 @@
 		var ceo2TextTop = [];
 
 	  $(function () {
-	  	for (var i=0; i<=3; i++) {
+	  	for (var i=0; i<=4; i++) {
 	  		ceo2TextTop[i]=$('#ceo2Text'+(i+1)).css('top');
 	  		console.log(ceo2TextTop[i]);
 	  	};
@@ -182,11 +185,13 @@
 			animateCeo2Text(2);
 			animateCeo2Text(3);
 			animateCeo2Text(4);
+			animateCeo2Text(5);
 			$(window).on('scroll', function(){
 				animateCeo2Text(1);
 				animateCeo2Text(2);
 				animateCeo2Text(3);
 				animateCeo2Text(4);
+				animateCeo2Text(5);
 			});
 		});
 
