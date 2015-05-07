@@ -74,7 +74,7 @@
       </div>
     </section>
 
-    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3420px; overflow:hidden;">
+    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3560px; overflow:hidden;">
     	<div class="grey4Color" style="position:relative; z-index:10; padding:55px;">
     		<div style="width:545px;">
 	    		Following suit, our regional affiliates also saw a good 2014. Idea reported all round strong performance for the 9 months FY14 with revenue increasing by 19% and M1 full year FY2014 at 7%. PAT for Idea and M1 was up by 63% and 10% respectively.<br />
@@ -144,13 +144,16 @@
     	<div id="ceo2Text1" style="position:relative; top:-3180px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
     	</div>
-    	<div id="ceo2Text2" style="position:relative; top:-2170px; left:620px;">
+    	<div id="ceo2Text2" style="position:relative; top:-2530px; left:620px;">
     		<img src="../assets/img/chapter1/6/robi.png" />
     	</div>
-    	<div id="ceo2Text3" style="position:relative; top:-2040px; left:620px;">
+    	<div id="ceo2Text3" style="position:relative; top:-2400px; left:620px;">
+    		<img src="../assets/img/chapter1/6/right_box_shaking_hands.png" />
+    	</div>
+        <div id="ceo2Text4" style="position:relative; top:-2180px; left:620px;">
     		<img src="../assets/img/chapter1/6/78million_over3years.png" />
     	</div>
-    	<div id="ceo2Text4" style="position:relative; top:-1240px; left:30px;">
+    	<div id="ceo2Text5" style="position:relative; top:-1840px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
     	</div>
     </section>
@@ -182,11 +185,13 @@
 			animateCeo2Text(2);
 			animateCeo2Text(3);
 			animateCeo2Text(4);
+			animateCeo2Text(5);
 			$(window).on('scroll', function(){
 				animateCeo2Text(1);
 				animateCeo2Text(2);
 				animateCeo2Text(3);
 				animateCeo2Text(4);
+				animateCeo2Text(5);
 			});
 		});
 
