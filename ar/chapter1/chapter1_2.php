@@ -15,7 +15,7 @@
 			</div>
 			<div id="groupProfileText" style="z-index:10;">
 				<div style="position:relative; width:960px; margin:0 auto;">
-					<div style="position:relative; background-color:black; color:white; width:510px; padding:30px; opacity:0.8; left:25px;">
+					<div style="position: absolute; background-color:black; color:white; width:598px; padding:30px; opacity:0.8; right:-275px;top: -470px;   height: 406px;right: 20px;overflow-y: scroll;">
             <div style="position:relatvie; font-size:94px; color:#bcbec0; line-height:100%;" class="title">Group<br>
               <span class="title maroonColor" style="font-size:94px; line-height:100%;">Profile</span>
             </div>
@@ -47,7 +47,7 @@
 			</div>
 		</section>
 
-		<section id="corporateInformation" style="margin-top:140px;">
+		<section id="corporateInformation" style="margin-top:40px;">
       <div class="center-content" style="position:relative; max-width:960px; width:100%; margin:0 auto; height:auto; z-index:0; padding:0 35px; box-sizing:border-box;">
         <div style="position:relative;">
           <div class="title" style="position:relative; color:#8a8c8e; font-size:26px;">Corporate</div>
@@ -159,13 +159,13 @@
 
     $(function () {
       // SCROLL MAGIC
-      var groupProfileTextHeight = parseInt($('#groupProfileText').height()) + 120;
-      $('#groupProfileText').css('margin-top',(-groupProfileTextHeight)+'px');
+      // var groupProfileTextHeight = parseInt($('#groupProfileText').height()) + 120;
+      // $('#groupProfileText').css('margin-top',(-groupProfileTextHeight)+'px');
 
-      var controller = new ScrollMagic.Controller();
-      new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:groupProfileTextHeight})
-                  .setPin("#groupProfileBg")
-                  .addTo(controller);
+      // var controller = new ScrollMagic.Controller();
+      // new ScrollMagic.Scene({triggerElement: "#groupProfileBg",triggerHook:"onLeave",duration:groupProfileTextHeight})
+      //             .setPin("#groupProfileBg")
+      //             .addTo(controller);
       
       // OTHERS
       // $(window).on('scroll', function(){
@@ -198,6 +198,6 @@
    //    }
     // }
     $(document).ready(function(){
-      setTimeout(function(){$('body').animate({scrollTop:680}, '500', 'swing')},1000);
+      //setTimeout(function(){$('body').animate({scrollTop:680}, '500', 'swing')},1000);
     });
     </script>
