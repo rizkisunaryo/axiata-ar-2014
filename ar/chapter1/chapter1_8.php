@@ -35,15 +35,15 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <div class="axiataBook font15 text__color--darkgrey"> Created more than</div>
-                        <div class="axiataBold font52 text__color--lightred">1.<div id="counter1" data-decimal="0" data-max="93" class="counterup counter">5</div> <span class="font30">million</span>  <span class="axiataBook font15 text__color--darkgrey font15"> job across Asia </span></div>
+                        <div class="axiataBold font52 text__color--lightred">1.<div id="counter1" data-decimal="0" data-max="5" class="counterup counter">5</div> <span class="font30">million</span>  <span class="axiataBook font15 text__color--darkgrey font15"> job across Asia </span></div>
                     </div>
                 </div>
             </div>
             <div class="col-justify col50">
                 <div class="contribution">
                     <div class="contribution-wrapper">
-                        <div class="axiataBook font15 text__color--darkgrey">Capital Investment since 200<div id="counter12" data-decimal="0" data-max="93" class="counterup counter">8</div></div>
-                        <div class="axiataBold font52 text__color--lightred">USD<div id="counter2" data-decimal="0" data-max="93" class="counterup counter">15</div>.4 <span class="font30">billion</span></div>
+                        <div class="axiataBook font15 text__color--darkgrey">Capital Investment since 200<div id="counter12" data-decimal="0" data-max="8" class="counterup counter">8</div></div>
+                        <div class="axiataBold font52 text__color--lightred">USD<div id="counter2" data-decimal="0" data-max="15" class="counterup counter">15</div>.4 <span class="font30">billion</span></div>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <div class="axiataBook font15 text__color--darkgrey">Subscribers:</div>
-                        <div class="axiataBold font30 text__color--lightred">over <span class="font52"> <div id="counter3" data-decimal="0" data-max="93" class="counterup counter">260</div> </span> <span class="font30">million</span></div>
+                        <div class="axiataBold font30 text__color--lightred">over <span class="font52"> <div id="counter3" data-decimal="0" data-max="260" class="counterup counter">260</div> </span> <span class="font30">million</span></div>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <span class="axiataBook font20 text__color--darkgrey lineHeight100"> Spent more than</span>
-                        <span class="block axiataBold font52 text__color--lightred lineHeight90">USD<div id="counter4" data-decimal="0" data-max="93" class="counterup counter">38</div> <span class="font30"> billion </span> </span>
+                        <span class="block axiataBold font52 text__color--lightred lineHeight90">USD<div id="counter4" data-decimal="0" data-max="38" class="counterup counter">38</div> <span class="font30"> billion </span> </span>
                         <span class="block axiataBook font15 text__color--darkgrey lineHeight100">on operating expenditures </span>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <div class="axiataBook font15 text__color--darkgrey">Network coverage connecting more than*</div>
-                        <div class="axiataBold font52 text__color--lightred">~<div id="counter5" data-decimal="0" data-max="93" class="counterup counter">450</div> <span class="font30">million people</span></div>
+                        <div class="axiataBold font52 text__color--lightred">~<div id="counter5" data-decimal="0" data-max="450" class="counterup counter">450</div> <span class="font30">million people</span></div>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <span class="axiataBook font20 text__color--darkgrey lineHeight100"> Employed more than</span>
-                        <span class="block axiataBold font52 text__color--lightred lineHeight100"> <div id="counter6" data-decimal="0" data-max="93" class="counterup counter">25</div>,000 </span>
+                        <span class="block axiataBold font52 text__color--lightred lineHeight100"> <div id="counter6" data-decimal="0" data-max="25" class="counterup counter">25</div>,000 </span>
                         <span class="block axiataBook font15 text__color--darkgrey lineHeight100">employees across Asia </span>
                     </div>
                 </div>

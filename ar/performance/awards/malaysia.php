@@ -80,6 +80,14 @@
                     <div class="big_txt">Malaysian Electronic Clearing Corporation Sdn Bhd<br> (MyClear)</div>
                     <div class="small_txt">Most Outstanding Merchant of Financial Process <br>Exchange (FPX) Award</div>
                 </div>
+                <div class="part">
+                    <div class="big_txt">Ministry of Human Resources & Social Security <br>Organisation</div>
+                    <div class="small_txt">Prime Minister’s Award for HR Excellence (Private Sector) <br>Prime Minister’s Award for HR Excellence (GLC)</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">5th Asia’s Best Employer Awards </div>
+                    <div class="small_txt">Asia’s Best Employer Awards in Telecommunications</div>
+                </div>
             </div>
             
         </div>

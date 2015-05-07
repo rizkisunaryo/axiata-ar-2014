@@ -18,14 +18,14 @@
                 </div>
                 <div class="part">
                     <div class="big_txt">Asia Communication Awards 2013</div>
-                    <div class="small_txt">Emerging Market Initiative of the Year - 'BIMA and Robi Life Insurance'</div>
+                    <div class="small_txt">Emerging Market Initiative of the Year – ‘BIMA and Robi Life Insurance’</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">22nd World HRD Congress 2014 </div>
+                    <div class="big_txt">World HRD Congress in 2014</div>
                     <div class="small_txt">
-                        Best Employer of the Year, Ranked Fifth
-                        <br>Talent Management 
-                        <br>Best HR Strategy 
+                        5th Best Employer
+                        <br>Best Talent Management
+                        <br>Best HR Strategy in line with Business
                         <br>Global HR Strategy
                     </div>
                 </div>

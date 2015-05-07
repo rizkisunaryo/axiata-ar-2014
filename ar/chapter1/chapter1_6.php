@@ -141,7 +141,7 @@
 					& Group Chief Executive Officer
 				</div>
     	</div>
-    	<div id="ceo2Text1" style="position:relative; top:-3180px; left:620px;">
+    	<div id="ceo2Text1" style="position:relative; top:-3340px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
     	</div>
     	<div id="ceo2Text2" style="position:relative; top:-2530px; left:620px;">
