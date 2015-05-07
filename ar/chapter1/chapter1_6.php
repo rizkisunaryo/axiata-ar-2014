@@ -24,8 +24,8 @@
       </div>
       <div id="ceo1Text1" style="position:relative; padding:55px; z-index:10;">
       	<div>
-          <div style="font-size:41px; color:#bcbec0;" class="title">President and GCEO’s</div>
-          <div style="font-size:58px;" class="title maroonColor">Business Review</div>
+          <div style="font-size:47px; color:#bcbec0;" class="title">President and GCEO’s</div>
+          <div style="font-size:47px;" class="title maroonColor">Business Review</div>
         </div>
         <div style="width:425px; margin-top:60px;">
 	        <div class="title" style="font-size:21px; color:#787f84; margin-top:0px;">
