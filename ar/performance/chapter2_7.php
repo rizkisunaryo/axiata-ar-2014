@@ -46,7 +46,7 @@
                 
                  <canvas id="hexagon"></canvas> 
             </div>
-            <div class="graph">
+            <div class="graph" style=" margin-top: 60px;">
                 <div class="title">
                 <div class="small_txt">2014 & 2013</div>
                 <div class="big_txt">EBITDA</div>
