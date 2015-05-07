@@ -13,17 +13,17 @@
 <div id="trigger100" style="position:fixed; top:100%;"></div>
 
 <section id="dividerSection" style="margin-top:60px;">
-	<div  class="animatedParent" data-sequence="300" style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
-		<div style="position:relative; z-index:10;">
-			<div class="title" style="color:#45033a; font-size:56px;" class="animated fadeInRight" data-id="1" >COMMITMENT TO</div>
+	<div  class="animatedParent" style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+		<div style="position:relative; z-index:10;" class="animated fadeInLeft">
+			<div class="title" style="color:#45033a; font-size:56px;" class="animated fadeInRight">COMMITMENT TO</div>
 			<div class="title" style="color:#fff; font-size:100px; margin-top:-12px;" class="animated fadeInRight" data-id="2">PROCESS</div>
 			<div class="title" style="color:#fff; font-size:71px; margin-top:-12px;" class="animated fadeInRight" data-id="3">EXCELLENCE</div>
 		</div>
 		<div style="position:absolute; top:-70px; left:490px;"><img src="../assets/img/Four_Pillars/Process_Excellence/kite.png"></div>
 	</div>
-	<div style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
-		<div style="width:570px; color:#fff;" class="animatedParent">
-			<span class="title" style="color:#fff; font-size:21px;">Introduction</span><br />
+	<div class="animatedParent"  style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
+		<div style="width:570px; color:#fff;" class="animated fadeInLeft">
+			<span class="title" style="color:#fff; font-size:21px;" >Introduction</span><br />
 			<br />
 			Implementing transparent, effective, ethical and sustainable processes is how we build digital ecosystems and advance Asia. To be sustainable, businesses must empower and enhance the experiences of all stakeholders. In this section we discuss how we are advancing sustainable processes in our supply chain and among our retailers, and encouraging suppliers and retailers to integrate sustainability practices in their operations.<br />
 			<br />
@@ -39,8 +39,8 @@
 		<div id="img24" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
 	</div>
 	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box;">
-		<div style="position:absolute; left:650px; top:-910px;" class="animatedParent">
-			<img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" class="animated fadeInRight" />
+		<div style="position:absolute; left:650px; top:-910px;">
+			<img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" />
 		</div>
 	</div>
 </section>
