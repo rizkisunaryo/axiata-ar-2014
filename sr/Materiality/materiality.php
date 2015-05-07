@@ -45,7 +45,7 @@
                             </div>
                         </div>
                 </div>        
-                <div class="col col2 background_active" >
+                <div class="col col2 background_active second_col" >
                         <div class="title_card">Internal Sources</div>
                         <div class="desc_card">
                             <div class="title">Group KPI</div>
