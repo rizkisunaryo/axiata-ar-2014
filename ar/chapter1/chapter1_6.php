@@ -88,7 +88,7 @@
 					<br />
 					Axiata has been preparing for this. Our diversified portfolio and strategy of focusing on the emerging and developed markets of Asia has put us in a strategic and strong position for long-term growth. The digital data revolution in our markets is now at the inflection point with the eco-system of high speed networks, smartphones, and applications in place. Asian smartphone penetration may rise substantially faster than growth rates for Europe and from a lower base in Axiata’s markets. This bodes well for the Group given our footprint and strategic investments in the past few years. 
 				</div>
-				<div style="margin-top:40px;">
+				<div style="width:545px; margin-top:40px;">
 					<span class="title maroonColor">Expanding Our Core – Building A New Generation Telco</span><br />
 					<br />
 					<span class="title">Gearing up new business units</span><br />
