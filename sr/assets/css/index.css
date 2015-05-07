@@ -19,38 +19,87 @@
 
 .section1 .logo
 {
-	margin:-10px 0 0 680px;
+	margin:0 0 0 720px;
 	width:235px;
 	height: 160px;
 	
 }
 .section1 .img1
 {
-	margin:-200px 0 0 80px;
-	padding-bottom: 100px;
+	margin:-800px 0 0 340px;
+	z-index:90;
 
-    
 }
-
-
-
 
 .section1 .img2
 {
-	margin:0 0 280px -80px;
+	margin:-400px 0 300px 300px;
 	
 }
 .section1 .img3
 {
-	margin:-600px 0 520px -450px;
+	margin:-120px 0 410px 80px;
 }
 .section1 .img4
 {
 	margin:0 0 220px -500px;
 	position: absolute;
+	top:550px;
+	left:70%;
+	z-index: 0000;
+}
+.section1 .img5
+{
+	margin:-410px 0 220px -385px;
+	position: absolute;
 	top:500px;
 	left:44%;
-	z-index: 0000;
+}
+
+
+
+
+
+@-moz-document url-prefix() { 
+  	.section1 .logo
+	{
+		margin:0 0 0 720px;
+		width:235px;
+		height: 160px;
+		
+	}
+	.section1 .img1
+	{
+		margin:-800px 0 0 340px;
+		z-index:90;
+
+	}
+
+	.section1 .img2
+	{
+		margin:-400px 0 300px 300px;
+		
+	}
+	.section1 .img3
+	{
+		margin:-120px 0 410px 80px;
+	}
+	.section1 .img4
+	{
+		margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:70%;
+		z-index: 0000;
+	}
+	.section1 .img5
+	{
+		margin:-410px 0 220px -385px;
+		position: absolute;
+		top:500px;
+		left:44%;
+	}
+	
 }
 .section1 .prp
 {
@@ -257,7 +306,7 @@
 }
 .row0_5
 {
-	height:260px;
+	height:222px;
 }
 .row0_5 .overbox
 {
@@ -561,6 +610,11 @@
 
 
 
+
+
+
+
+
 .kite-tiny {
 	-webkit-animation-name: kite-tiny-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
@@ -572,20 +626,43 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    position: relative;
 }
 
 /* Safari */
 @-webkit-keyframes kite-tiny-animation {
-    0%   {top:500px;left:55%;}
-    100%   {top:540px;left:56%;}
+    0%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:70%;
+		z-index: 0000;
+    }
+    100%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:72%;
+		z-index: 0000;
+    }
 
 }
 
 /* Standard syntax */
 @keyframes kite-tiny-animation {
-	 0%   {top:500px;left:55%;}
-    100%   {top:540px;left:56%;}
+	 0%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:70%;
+		z-index: 0000;
+    }
+    100%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:72%;
+		z-index: 0000;
+    }
 }
 
 
@@ -595,27 +672,26 @@
 .kite-small {
 	-webkit-animation-name: kite-small-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 3s; /* Safari */    
+    -webkit-animation-duration: 4s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
     -webkit-animation-direction: alternate; /* Safari */    
     animation-name: kite-small-animation;
     animation-timing-function: linear;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    position: relative;
 }
 
 /* Safari */
 @-webkit-keyframes kite-small-animation {
-    0%   {margin-left:-430px;}
-    100%   {margin-left:-440px;}
+    0%   {margin:-120px 0 410px 80px;}
+    100%   {margin:-120px 0 420px 90px;}
 }
 
 /* Standard syntax */
 @keyframes kite-small-animation {
-	0%   {margin-left:-430px;}
-    100%   {margin-left:-440px;}
+	0%   {margin:-120px 0 410px 80px;}
+    100%   {margin:-120px 0 410px 80px;}
 }
 
 
@@ -629,38 +705,39 @@
 .kite-medium {
 	-webkit-animation-name: kite-medium-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 9s; /* Safari */    
+    -webkit-animation-duration: 6s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
     -webkit-animation-direction: alternate; /* Safari */    
     animation-name: kite-medium-animation;
     animation-timing-function: linear;
-    animation-duration: 9s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    position: absolute;
 }
 
 /* Safari */
 @-webkit-keyframes kite-medium-animation {
-    0%   {top:215px;margin-left:-600px;}
-    100%   {top:285px;margin-left:-620px;}
+    0%   {margin:-400px 0 300px 300px;}
+    50%   {margin:-400px 0 350px 320px;}
+    100%   {margin:-400px 0 310px 260px;}
 }
 
 /* Standard syntax */
 @keyframes kite-medium-animation {
-	0%   {top:295px;}
-    100%   {top:285px;}
+	0%   {margin:-400px 0 300px 300px;}
+    50%   {margin:-400px 0 350px 320px;}
+    100%   {margin:-400px 0 310px 260px;}
 }
 
 .kite-big {
 	-webkit-animation-name: kite-big-animation; /* Safari */
 	-webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 1.5s; /* Safari */    
+    -webkit-animation-duration: 2s; /* Safari */    
     -webkit-animation-iteration-count: infinite; /* Safari */
-    -webkit-animation-direction: alternate; /* Safari */    
+    -webkit-animation-direction: alternate; /* Safari */      
     animation-name: kite-big-animation;
     animation-timing-function: linear;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     display: inline-block;
@@ -668,15 +745,40 @@
 
 /* Safari */
 @-webkit-keyframes kite-big-animation {
-    0%   {margin-top:-110px; margin-left:70px;}
-    100%   {margin-top:-90px;}
+	
+    0%   {margin:-800px 0 0 340px;}
+ 	50%   {margin:-800px 0 -10px 330px;}
+    100%   {margin:-800px 0 10px 330px;}
 }
 
 /* Standard syntax */
 @keyframes kite-big-animation {
-    0%   {margin-top:-130px; margin-left:130px;}
-    100%   {margin-top:-100px;}
+    0%   {margin:-800px 0 0 340px;}
+ 	50%   {margin:-800px 0 -10px 330px;}
+    100%   {margin:-800px 0 10px 330px;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -711,134 +813,163 @@
 	clear: both;
 }
 
-@-moz-document url-prefix() { 
-  .section1 .img1
-	{
-		margin:-120px 0 0 100px !important;
-		padding-bottom: 100px;
-	}
-	.section1 .img2
-	{
-		margin:-60px 0 0 -610px !important;
-		
-	}
-	.kite-big {
-		-moz-animation-name: kite-big-animation; /* Safari */
-		-moz-animation-timing-function: linear;
-	    -moz-animation-duration: 1.5s; /* Safari */    
-	    -moz-animation-iteration-count: infinite; /* Safari */
-	    -moz-animation-direction: alternate; /* Safari */    
-	    animation-name: kite-big-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1.5s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	    display: inline-block;
-	}
 
-	/* Safari */
-	@-webkit-keyframes kite-big-animation {
-	    0%   {margin-top:-120px; margin-left:70px;}
-	    100%   {margin-top:-140px;}
-	}
-
-	/* Standard syntax */
-	@keyframes kite-big-animation {
-	    0%   {margin-top:-130px; margin-left:130px;}
-	    100%   {margin-top:-100px;}
-	}
-	.navigatorMukhtar
-	{
-		border:0 !important;
-		margin-top: 20px;
-		margin-bottom: 80px;
-		margin-left: auto;
-		margin-right: auto !important;
-		width: 960px;
-	}
-	#INTEGRITY1 .filterBtn
-	{
-		display: inline-block;
-		width: 280px !important;
-		margin-left:260px; !important;
-		clear: both;
-	}
+.whiteBorder
+{
+	border: 0 !important;
 }
 
 
 
 
+
+
+
 @-moz-document url-prefix() { 
 	
+.kite-tiny {
+	-webkit-animation-name: kite-tiny-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 5s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-tiny-animation;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari */
+@-webkit-keyframes kite-tiny-animation {
+    0%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:70%;
+		z-index: 0000;
+    }
+    100%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:72%;
+		z-index: 0000;
+    }
+
+}
+
+/* Standard syntax */
+@keyframes kite-tiny-animation {
+	 0%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:70%;
+		z-index: 0000;
+    }
+    100%   {
+    	margin:0 0 220px -500px;
+		position: absolute;
+		top:550px;
+		left:72%;
+		z-index: 0000;
+    }
+}
 
 
-	.kite-tiny {
-	    animation-name: kite-tiny-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	}
 
+
+
+.kite-small {
+	-webkit-animation-name: kite-small-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 4s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-small-animation;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari */
+@-webkit-keyframes kite-small-animation {
+    0%   {margin:-120px 0 410px 80px;}
+    100%   {margin:-120px 0 420px 90px;}
+}
+
+/* Standard syntax */
+@keyframes kite-small-animation {
+	0%   {margin:-120px 0 410px 80px;}
+    100%   {margin:-120px 0 410px 80px;}
+}
+
+
+
+
+
+
+
+
+
+.kite-medium {
+	-webkit-animation-name: kite-medium-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 6s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */    
+    animation-name: kite-medium-animation;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Safari */
+@-webkit-keyframes kite-medium-animation {
+    0%   {margin:-400px 0 300px 300px;}
+    50%   {margin:-400px 0 350px 320px;}
+    100%   {margin:-400px 0 310px 260px;}
+}
+
+/* Standard syntax */
+@keyframes kite-medium-animation {
+	0%   {margin:-400px 0 300px 300px;}
+    50%   {margin:-400px 0 350px 320px;}
+    100%   {margin:-400px 0 310px 260px;}
+}
+
+.kite-big {
+	-webkit-animation-name: kite-big-animation; /* Safari */
+	-webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 2s; /* Safari */    
+    -webkit-animation-iteration-count: infinite; /* Safari */
+    -webkit-animation-direction: alternate; /* Safari */      
+    animation-name: kite-big-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: inline-block;
+}
+
+/* Safari */
+@-webkit-keyframes kite-big-animation {
 	
-	@keyframes kite-tiny-animation {
-		 0%   {margin-top:50px;left:55%;}
-	    100%   {margin-top:45px;left:55.2%;}
-	}
+    0%   {margin:-800px 0 0 340px;}
+ 	50%   {margin:-800px 0 -10px 330px;}
+    100%   {margin:-800px 0 10px 330px;}
+}
 
+/* Standard syntax */
+@keyframes kite-big-animation {
+    0%   {margin:-800px 0 0 340px;}
+ 	50%   {margin:-800px 0 -10px 330px;}
+    100%   {margin:-800px 0 10px 330px;}
+}
 
-
-
-
-	.kite-small {
-	    animation-name: kite-small-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1.5s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	}
-
-
-	/* Standard syntax */
-	@keyframes kite-small-animation {
-		0%   {margin-left:-430px;margin-top:-120px;}
-	    100%   {margin-left:-440px;margin-top:-110px;}
-	}
-
-
-
-
-
-
-	.kite-medium {
-		animation-name: kite-medium-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	}
-
-	/* Standard syntax */
-	@keyframes kite-medium-animation {
-		0%   {top:295px;}
-	    100%   {top:285px;}
-	}
-
-	.kite-big {
-	    animation-name: kite-big-animation;
-	    animation-timing-function: linear;
-	    animation-duration: 1.5s;
-	    animation-iteration-count: infinite;
-	    animation-direction: alternate;
-	    position: relative;
-	}
-
-
-	/* Standard syntax */
-	@keyframes kite-big-animation {
-	    0%   {top:-30px; left:-10px;}
-	    100%   {top:-10px;left:-30px;}
-	}
 
 
 
