@@ -3,6 +3,11 @@
     include("../inc/header.php");
 
 ?>
+<style type="text/css">
+  tr td:nth-child(2){
+    vertical-align: bottom;
+  }
+</style>
 <link href="style.css" rel="stylesheet">
 <link href="fonts/fonts.css" rel="stylesheet">
  <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -109,7 +114,7 @@ Digitised Ecosystems<br>
 
 <div style="background:url(../assets/img/c4/bstp_8.png) no-repeat; width:852px; height:629px; margin-top:40px; padding-bottom:30px;">
 	<div class="secondsection" data-sr='enter left, move 30px, opacity 0'>
-    	<div style="font-size:25px;" class="bold" data-sr='enter left, move 20px, opacity 0'>IMPROVEMENT</div>
+    	<div style="font-size:25px;" class="bold" data-sr='enter left, move 20px, opacity 0'>IMPROVEMENTS</div>
         <div><img src="../assets/img/c4/bstp_9.png" width="306" height="87" alt=""/></div>
         <div class="bold" style="width:150px; float:left; font-size:64px; margin-top:-10px;">49%</div><div style="float:left; width:200px; margin-top:10px; line-height:0.9;">Coverage in<br><span class="bold">Rural Areas</span></div><div class="clearfix"></div>
         <div style="width:63px; float:left;"><img src="../assets/img/c4/bstp_10.png" width="63" height="91"/></div><div style="float:left; margin-left:8px;"><span style="font-size:48px; letter-spacing:-1px;" class="bold">8.3 million</span><br>
@@ -145,7 +150,7 @@ and increases savings.</span></div>
         <div style="width:240px; float:left; margin-left:8px;"><img src="../assets/img/c4/bstp_15.png" width="90" height="72" alt=""/><br>
 <span style="font-size:31px; letter-spacing:-2px;" class="bold">USD28.9 million</span><br>
 funding for Digital Services<br>
-Since 2013 </div>
+since 2013 </div>
         <div class="clearfix"></div>
         <div style="width:90px; float:left; margin-top:-10px;"><img src="../assets/img/c4/bstp_16.png" /></div><div style="float:left; width:200px; margin-left:10px;"><span style="font-size:31px; letter-spacing:-2px;" class="bold">RM100 million</span><br>
 committed for ADIF</div>
@@ -183,7 +188,7 @@ committed for ADIF</div>
 
 <div style="width:860px; margin:auto; padding:0 50px;" class="secondcontainer">
 	<div style="font-size:31px; color:#f47920; text-align:center; margin:40px 0 30px;" class="bold">Our Network &amp; Products</div>
-    <div class="medium">Our OpCo’s champion various products and services that are inclusive for many who are otherwise unable to access the services of a digital ecosystem. Few examples are listed down following the 4A inclusion model5 followed by Dialog in Sri Lanka.</div>
+    <div class="medium">Our OpCo’s champion various products and services that are inclusive for many who are otherwise unable to access the services of a digital ecosystem. Few examples are listed down following the 4A inclusion models followed by Dialog in Sri Lanka.</div>
     <div style="background:#ececec; width:100%; margin-top:20px; padding:15px 0;">
     	<div style="width:829px; height:492px; background:url(../assets/img/c4/bstp_22.png); margin:auto;">
        	  <div style="width:808px; float:right">
@@ -218,7 +223,7 @@ committed for ADIF</div>
                             </tr>
                             <tr>
                               <td align="left" valign="top">Celcom:</td>
-                              <td align="left" valign="top" class="normal">some of customer centres are<br>
+                              <td align="left" valign="top" class="normal">some customer centres are<br>
                               <span class="orange bold">accessible</span> to <span class="orange bold">disabled persons</span></td>
                             </tr>
                           </tbody>
@@ -322,7 +327,7 @@ incoming calls become free</span></td>
 <div style="float:left; width:545px; text-align:justify; padding-top:15px;" data-sr="enter bottom, move 20px">
 Axiata is a long-term investor in all our countries with investments stretching beyond 20 years in Bangladesh, 19 years in Sri Lanka and 17 years in Cambodia. The long-term sustainability of all our business operations is key to our success as a regional telecommunications champion. We have made significant economic contributions in these countries, amounting to approximately USD93 billion GDP Contribution from 2008 to 2014. We have also expanded employment opportunities these countries, amounting to 1.5 million employment opportunities created.
 <br><br>
-In 2013, we commissioned an independent study of our contribution to the economy in each of our OpCo countries. The National Contribution Report on page 070 details the findings of our long-term economic and social contribution.
+In 2013, we commissioned an independent study of our contribution to the economy in each of our OpCo countries. The National Contribution Report details the findings of our long-term economic and social contribution.
 </div>
 <div style="float:right; width:300px; color:#f47920; margin-top:80px;" data-sr="enter bottom, move 20px"><span class="bold" style="font-size:41px; letter-spacing:-1px;">USD93 billion</span><br>
   <span class="medium">GDP Contribution from 2008 to 2014</span></div>
@@ -341,7 +346,7 @@ Our products and services are catered to both the urban and rural communities eq
 In each of our markets, we have made a special effort to serve and connect diverse groups of customers. Our approach to sustainability is not only about expanding into new markets; it is also about providing affordable products using high quality technology to meet the diverse needs of our socially diverse groups of customers. Today, inclusion means more than having network coverage and a mobile phone to connect on that network. Technology has evolved to such an extent that one’s productivity and output is linked to the type of digital device one owns: there is a difference in what a customer could achieve with a smart phone as against a feature phone.</div>
 <div style="margin-top:30px;" class="title-orange" data-sr="enter bottom, move 20px">DIGITAL INCLUSION AND DIGITISED ECOSYSTEMS</div>
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
-For our operations the definition of ‘inclusion’ means making high-end products affordable and accessible to under-served communities and enabling them to exploit the potential of high-quality digital ecosystems. Our efforts at inclusion are explained using 4 key parameters of inclusion. This is the model first introduced by our Sri Lankan Opco Dialog. This model introduces the concepts of affordability, accessibility, availability and applicability (Page 027) in to the product planning process. <br>
+For our operations the definition of ‘inclusion’ means making high-end products affordable and accessible to under-served communities and enabling them to exploit the potential of high-quality digital ecosystems. Our efforts at inclusion are explained using 4 key parameters of inclusion. This is the model first introduced by our Sri Lankan Opco Dialog. This model introduces the concepts of affordability, accessibility, availability and applicability in to the product planning process. <br>
 <br>
 At Axiata, we embrace a vision of responsibility that goes beyond profit-making. Our Digital services are to broaden business opportunities for creating new markets, operational efficiency, effective access to capital, and adding long-term value that benefits our people, our shareholders, the communities, and the economies in which we operate.<br>
 <br>
@@ -354,7 +359,7 @@ Axiata has played a very active role in GSMA’s Mobile for Development efforts.
 <br>
 As a Group, we have supported GSMA on two key global programmes. In 2014, GSMA partnered with Child Helpline International commemorating the 25th anniversary of the United Nations Convention on the Rights of the Child (CRC) with the objective of promoting child helplines across the globe. This includes measures to strengthen relationships between national mobile operators and their in-country helplines further collaborating on issues such as a safer Internet for children.<br>
 <br>
-Axiata also became the founding signatory of the Humanitarian Connectivity Charter which includes several best practices the industry would aspire to take up in providing better solutions for issues arising before, during and after a disaster. Page 063 contains more information on the charter.<br>
+Axiata also became the founding signatory of the Humanitarian Connectivity Charter which includes several best practices the industry would aspire to take up in providing better solutions for issues arising before, during and after a disaster.<br>
 <br>
 Individual OpCos continue to work with GSMA for projects on specific topics such as m-women, green-power, m-agri etc. Dialog in Sri Lanka and Robi in Bangladesh have current programmes in partnership with GSMA. In Bangladesh, BRAC Bangladesh, in partnership with Robi, was awarded a GSMA mWomen Innovation Fund grant to create a mobile learning service aimed at improving employability for rural adolescent girls.</div>
 
