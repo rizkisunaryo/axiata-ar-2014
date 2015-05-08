@@ -40,7 +40,7 @@
         <div id="strategicBarTrigger2" style="position:absolute; top:851px;"></div>
 			</div>
 			<div class="grey4Color animatedParent" style="width:960px; margin:0 auto; padding:0 55px; box-sizing:border-box;">
-      	Axiata is today one of the largest Asian telecommunications companies with presence in eight countries. Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with strategic stakes in India and Singapore. Added to this, the Group has established a communications infrastructure solutions and services company, edotco. Since 2007, Axiata grew its subscriber base by more than six times to serve over 266 million people, revenue for the Group increased 87% to RM18.7 million, PAT by 80% to RM2.3 billion and market capitalisation has increased more than four times to RM58.9 billion. <br />
+      	Axiata is today one of the largest Asian telecommunications companies with presence in eight countries. Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with strategic stakes in India and Singapore. Added to this, the Group has established a communications infrastructure solutions and services company, edotco. Since 2007, Axiata grew its subscriber base by more than six times to serve over 266 million people, revenue for the Group increased 87% to RM18.7 million, PAT by 80% to RM2.3 billion and market capitalisation has increased more than four times to RM60.5 billion. <br />
       	<br />
       	<br />
 				<span class="title animated fadeInLeft">Axiata’s strategic objectives</span><br />

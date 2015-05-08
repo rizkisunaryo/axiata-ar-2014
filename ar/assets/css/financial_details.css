@@ -1,0 +1,29 @@
+@import url("navbar.css");
+@import url("fonts.css");
+@import url("a_main_style.css");
+
+.section
+{
+	padding-left: 24px;
+	padding-right:24px;
+	text-align: center;
+	width: 960px;
+	margin-top: 90px;
+	font-family: axiataBook;
+
+}
+.main_footer{
+	  margin-top: -46px;
+}
+.tiles{
+	text-align: center;
+}
+.tile{
+	display: inline-block;
+	margin-right: 9px;
+	cursor: 
+}
+
+.title_text{
+	margin-bottom: 39px;
+}
