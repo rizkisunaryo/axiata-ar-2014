@@ -4,13 +4,15 @@
 <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<style type="text/css">
-    
-</style>
 
+<style type="text/css">
+    .rel.navbar.panel{
+        position: fixed;
+    }
+</style>
 <div idclass="spacer s0"></div>
 		
-<div id="movingSectionContainer" class="zoomViewport" >
+<div id="movingSectionContainer" class="zoomViewport" style="margin-top:70px;">
     <div class="section1 section " style="display:none; overflow:hidden;">
         <div class="report_geographical_locations_title">
         <p class="small_txt">Reporting By</p>

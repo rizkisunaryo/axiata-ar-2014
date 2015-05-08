@@ -21,7 +21,14 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
+<style type="text/css">
+	
+		.logo_firfox{
+			height: 148px !important;
+			width: 195px !important;
+		}
 
+</style>
 <body>
 	<div class="container">
 		<div class="navbar panel">
@@ -1496,8 +1503,9 @@ The App version of the report can be downloaded on:
 	    })
 		.addTo(controller);
 		
-
-		
+		var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+		if(isFirefox)
+		{$('.logo').addClass('logo_firfox');}
 		  
 	});
   </script>

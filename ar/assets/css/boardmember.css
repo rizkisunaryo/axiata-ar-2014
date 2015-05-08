@@ -67,3 +67,8 @@ html,body
 	border-bottom: 6px solid transparent;
 	border-left: 6px solid green;
 }
+
+.li{
+	text-indent: -1em;
+    padding-left: 1em;
+}

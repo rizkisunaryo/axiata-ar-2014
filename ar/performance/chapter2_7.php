@@ -11,12 +11,17 @@
         margin-top: -70px;
 
     }
+
+    .rel.navbar.panel{
+        position: fixed;
+    }
+
 </style>
 <div idclass="spacer s0"></div>
 		
 <div id="movingSectionContainer" >
     <center>
-    <div class="section1 section" style=" overflow:hidden;">
+    <div class="section1 section" style=" overflow:hidden; margin-top:70px;">
         <div class="bigtitle">
         <div class="small_txt">Summary Breakdown</div>
         <div class="med_txt">of Operating</div>

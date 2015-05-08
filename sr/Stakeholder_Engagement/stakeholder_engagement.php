@@ -8,6 +8,9 @@
         position: fixed;
     }
 </style>
+<style type="text/css">
+    
+</style>
 <div class="section_container" style="margin-top:70px;">
     <div class="section1 section">
         <div class="title">

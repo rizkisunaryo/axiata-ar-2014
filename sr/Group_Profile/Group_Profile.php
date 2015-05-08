@@ -16,8 +16,8 @@
 			<div id="groupProfileText" style="z-index:10;">
 				<div style="position:relative; width:960px; margin:0 auto;">
 					<div style="position: absolute; background-color:black; color:white; width:598px; padding:30px; opacity:0.8; right:-275px;top: -470px;   height: 406px;right: 20px;overflow-y: scroll;">
-            <div style="position:relatvie; font-size:94px; color:#bcbec0; line-height:100%;" class="title">Group<br>
-              <span class="title maroonColor" style="font-size:94px; line-height:100%;">Profile</span>
+            <div style="position:relatvie; font-size:80px; color:#bcbec0; line-height:100%; margin-bottom: 15px;" class="title">Group
+              <span class="title maroonColor" style="font-size:80px; display:inline-block; line-height:100%;">Profile</span>
             </div>
             <div style="position:relatvie; color:#bcbec0;">
               Axiata Group Berhad (Axiata) is one of the largest Asian telecommunications groups in Asia with over 260 million customers. Axiata’s vision is to be a regional champion by 2015 by piecing together the best throughout the region in connectivity, technology and talent, uniting them towards a single goal: Advancing Asia.<br />
@@ -41,6 +41,7 @@
               Axiata has always been ahead of the curve, quickly adapting to change and positioning its business model to capitalise on the developments in an increasingly digitalised world. Parallel to its investments in network and technology modernisation over the years, Axiata has also evolved its business to embrace the digital age and fast growing demand for data. 2015 will be a critical year for Axiata as it progresses in its transformation beyond a traditional telecommunications company.<br />
               <br />
               In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available online.
+              <br /><br />
             </div>
             <!-- <div id="percentageTopTrigger" style="position:relative; margin-top:10px;">
               <div style="position:relative; font-size:35px; left:220px;" class="title">2007 vs 2014</div>

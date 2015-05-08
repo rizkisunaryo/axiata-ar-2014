@@ -3,7 +3,11 @@
 ?>
 <style type="text/css">
     .font12{ font-size: 12px;}
-    .main_footer{position: relative; bottom: 0px; display: none;}
+    /*.main_footer{position: relative; bottom: 0px; display: none;}*/
+    .main_footer{
+        /*position: fixed;
+        bottom: 0px;*/
+    }
     .rel.navbar.panel{
         position: fixed;
     }
@@ -12,7 +16,7 @@
         padding-left: 0px;
     }
 </style>
-    <div class="rel section" style="margin-top:70px">
+    <div class="rel section" style="margin-top:70px; height:900px;">
         <p class="text__color--lightgrey font25 axiataBold"> Summary Breakdown of <span class="block text__color--lightred font31">Assets & Liabilities</p>
 
         <div class="rel">
@@ -75,8 +79,12 @@
                     </div>
                 </div>
             </div>
+            <br><br><br>
         </div>
+
     </div>
+
+           
 </div>
 
 <?php

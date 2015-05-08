@@ -16,8 +16,8 @@
 			<div id="groupProfileText" style="z-index:10;">
 				<div style="position:relative; width:960px; margin:0 auto;">
 					<div style="position: absolute; background-color:black; color:white; width:598px; padding:30px; opacity:0.8; right:-275px;top: -470px;   height: 406px;right: 20px;overflow-y: scroll;">
-            <div style="position:relatvie; font-size:94px; color:#bcbec0; line-height:100%;" class="title">Group<br>
-              <span class="title maroonColor" style="font-size:94px; line-height:100%; ">Profile</span>
+            <div style="position:relatvie; font-size:80px; color:#bcbec0; line-height:100%; margin-bottom: 15px;" class="title">Group
+              <span class="title maroonColor" style="font-size:80px; display:inline-block; line-height:100%;">Profile</span>
             </div>
             <div style="position:relatvie; color:#bcbec0;">
               Axiata Group Berhad (Axiata) is one of the largest Asian telecommunications groups in Asia with over 260 million customers. Axiata’s vision is to be a regional champion by 2015 by piecing together the best throughout the region in connectivity, technology and talent, uniting them towards a single goal: Advancing Asia.<br />

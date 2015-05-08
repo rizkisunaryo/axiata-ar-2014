@@ -210,7 +210,24 @@
 				</div>
 				
 			</div>
-			
+			<div class="main_footer" style="  width:100%;   border-top: 1px solid #E5E4E4;  padding-top: 10px; padding-bottom:10px;  background-color: #FFF;padding-bottom: 30px;">
+    
+	    <div class="" style="color:#808285; font-family: AxiataBook; font-size:11px;   margin-left:auto; margin-right:auto; width:960px;">
+	        This is an interactive digital version of the Axiata Annual Report 2014, Shaping the Future – Towards A Digital Company. The printable versions, according to chapters, are available in PDF format on this website.
+	        <br><br>
+	        
+	<div class="download_app_links">
+	The App version of the report can be downloaded on:
+	<br>
+	        <a href="" style><img src="../assets/img/app-store-logo.png"/></a>
+	        <a href=""><img src="../assets/img/google-store-logo.png"/></a>
+	        <br>
+	        <br>
+	        </div>
+	<div style="font-size:9px;">Copyright © 2009 - 2015 Axiata Group Berhad. All rights reserved.</div>
+	    </div>
+	    
+	</div>
 		</div>
 		
 	
@@ -220,6 +237,7 @@
 
 	
 
+	
 	
 	
     
@@ -345,6 +363,14 @@
 				})
 				.setPin('.section8_1',{pushFollowers: false})
 				.addTo(controller);
+		new ScrollMagic.Scene({
+					triggerElement: '.main_footer',
+					triggerHook: 'onLeave',
+					offset: -90,
+					duration:730
+				})
+				.setPin('.main_footer',{pushFollowers: false})
+				.addTo(controller);			
 		//slide(1);
 		//alert(currentDivId);
 		
