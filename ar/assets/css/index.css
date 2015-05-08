@@ -49,10 +49,10 @@
 }
 .section1 .img5
 {
-	margin:-410px 0 220px -384px;
-	position: absolute;
-	top:500px;
-	left:44%;
+	margin:-410px 0 -220px 0;
+	position: relative;
+	top:323px;
+	left:0;
 }
 
 
@@ -93,10 +93,10 @@
 	}
 	.section1 .img5
 	{
-		margin:-410px 0 220px -384px;
-		position: absolute;
-		top:500px;
-		left:44%;
+		margin:-410px 0 -220px 0;
+		position: relative;
+		top:323px;
+		left:0;
 	}
 	
 }
