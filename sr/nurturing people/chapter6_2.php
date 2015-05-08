@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-    <div class="rel section section--blue-bg text__color--white panel">
+    <div style="overflow:hidden;" class="rel section section--blue-bg text__color--white panel">
         <div class="row animatedParent" data-sequence="400">
             <h1 data-id="1" class="animated fadeInLeft removeMargin axiataBold font57 lineHeight100 text__color--dark-blue">COMMITMENT TO</h1>
             <h2 data-id="2" class="animated fadeInLeft removeMargin axiataBold font79 lineHeight100">NURTURING <span class="font120">PEOPLE</h2>
@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <div class="col col60">
-                <div class="animatedParent" data-sequence="400">
+                <div class="animatedParent">
                     <p data-id="1" class="animated fadeInLeft font15 text-justify">In 2014, Axiata focused on strengthening its values: uncompromising integrity and exceptional performance.</p>
                     <p data-id="2" class="animated fadeInLeft font15 text-justify">We nurture future leaders and drive exceptional performance across the Group by giving our 25,000<sup>*</sup> employees the opportunity to participate in a broad range of training and personal development programmes. Programmes are influenced by employee feedback and are designed to promote personal and institutional growth. They seek to develop the capabilities and commitment of our staff to achieve Axiata’s business goals.</p>
                     <p data-id="3" class="animated fadeInLeft font15 text-justify">Our aim is to attract, develop and retain the best people by providing an inclusive workplace where talent is recognised and developed. Equal opportunities for all staff are promoted, discrimination of any kind is not condoned, and special measures are in place for those challenged by disability or personal circumstance.</p>
@@ -26,7 +26,7 @@
                     </p>
                     <p data-id="6" class="animated fadeInLeft font15 text-justify" style="font-size:0.8em; opacity:0.6;"><sup>*</sup>includes Idea and M1</p>
                 </div>
-                <div class="animatedParent" data-sequence="800">
+                <div class="animatedParent" >
                     <p data-id="1" class="animated fadeInLeft axiataBold font20">Nurturing people</p>
                     <div data-id="2" class="animated fadeInLeft rel nurturing-employee">
                         <div class="row bg__color--darkblue nurturing-employee-top">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col col40">
-                <div class="nurturing-box animatedParent" data-sequence="400">
+                <div class="nurturing-box animatedParent" >
                     <div class="axiataBold font20 animated fadeInRight" data-id="1">2. Nurturing People</div>
                     <div>
                         <div class="nurturing-item  animated fadeInRight" data-id="2">
@@ -197,7 +197,7 @@
         </div>
 
         <div class="rel section text__color--grey panel">
-            <table class="nurturing-table animatedParent" data-sequence="400" width="100%">
+            <table style="overflow:hidden;" class="nurturing-table animatedParent" width="100%">
                 <thead class="animated fadeInRight" data-id="1">
                     <tr>
                         <th rowspan="2"></th>
@@ -266,28 +266,28 @@
 
         </div>
         <div class="divider"></div>
-        <div class="rel section text__color--grey panel animatedParent" data-sequence="400">
+        <div style="overflow:hidden;" class="rel section text__color--grey panel animatedParent" data-sequence="400">
             <div class="nuturing-button__title row text-center font17 text__color--lightblack axiataBold">To read more about our Commitment to Nurturing People, click the buttons below</div>
             <div class="row">
-                <div class="col col4 animated fadeInUp" data-id="1">
+                <div style="cursor:pointer;" class="col col4 animated fadeInUp" data-id="1">
                     <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/leader.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_leader.png">
                         <span class="block axiataBold font20">Nurturing<br > Future <br >Leaders</span>
                     </div>
                 </div>
-                <div class="col col4  animated fadeInUp" data-id="2">
+                <div style="cursor:pointer;" class="col col4  animated fadeInUp" data-id="2">
                     <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/culture.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_culture.png">
                         <span class="block axiataBold font20">Culture of Integrity</span>
                     </div>
                 </div>
-                <div class="col col4 animated fadeInUp" data-id="3">
+                <div style="cursor:pointer;" class="col col4 animated fadeInUp" data-id="3">
                     <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/inclusivity.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_inclusivity.png">
                         <span class="block axiataBold font20">Inclusivity</span>
                     </div>
                 </div>
-                <div class="col col4 animated fadeInUp" data-id="4">
+                <div style="cursor:pointer;" class="col col4 animated fadeInUp" data-id="4">
                     <div class="nurturing-box nurturing-box--smal workplace-button"  data-url="popup/workplace.html">
                         <img class="nurturing-box__small-img margin-auto" src="../assets/img/chapter6/section2/nurturing_workplace.png">
                         <span class="block axiataBold font20">Conducive Workplace</span>
