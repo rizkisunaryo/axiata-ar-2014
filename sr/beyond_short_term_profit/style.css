@@ -234,11 +234,13 @@ h5 {
 	float:left;
 	background:#6d767a;
 	color:#ffffff;
-	height:470px;
+	height: 170px;
 	position:relative;
 	padding:15px;
 }
-
+.bottombox img{
+	margin-left: 40px;
+}
 .fancybox-inner {
 	overflow:hidden!important;
 	margin-left:-10px;
