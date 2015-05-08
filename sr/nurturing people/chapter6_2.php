@@ -197,7 +197,7 @@
         </div>
 
         <div class="rel section text__color--grey panel">
-            <table class="nurturing-table animatedParent" data-sequence="400" width="100%">
+            <table style="overflow:hidden;" class="nurturing-table animatedParent" width="100%">
                 <thead class="animated fadeInRight" data-id="1">
                     <tr>
                         <th rowspan="2"></th>
