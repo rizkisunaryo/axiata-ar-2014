@@ -17,7 +17,7 @@ $(document).ready(function(){
 				height:900,
 				padding: 0,
 				fitToView: false,
-				margin: [90,0,0,0],
+				margin: [80,0,0,0],
 				scrolling   : 'no',
 				 helpers : {
 					overlay : {
