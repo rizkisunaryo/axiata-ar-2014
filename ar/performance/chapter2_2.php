@@ -5,7 +5,7 @@
 ?>
 <style type="text/css">
   .numbers_above{
-    opacity: 0;
+    /*opacity: 0;*/
   }
 </style>
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_2.css">
