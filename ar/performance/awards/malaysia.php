@@ -89,7 +89,7 @@
                     <div class="small_txt">Asia’s Best Employer Awards in Telecommunications</div>
                 </div>
             </div>
-            
+            <br/><br/><br/><br/>
         </div>
     </div>
 </div>
