@@ -135,7 +135,7 @@
                         <p class="big_txt blue-dark">INDONESIA</p>
                         <p class="small_txt">(IDR Trillion)</p>
                     </div>
-                    <div class="graphs">
+                    <div class="graphs" style="margin-top: -7px;">
                         <div class="bar-triangles-container">
                         <?php
                         for($i=0; $i<5 ; $i++){
@@ -201,7 +201,7 @@
                         </div>
                         <div class="tiny_txt black_txt graph_num">
                             <div class="num">26.0</div>
-                            <div class="num">9.4</div>
+                            <div class="num">8.4</div>
                             <div class="num">1.0</div>
                             <div class="num">30.7</div>
                             <div class="num">9.6</div>
@@ -236,7 +236,7 @@
                         <i class="fa fa-search-minus" style="display:none;"></i>
                     </a>
                     <div class="float-txt">
-                        <p class="big_txt green">CAMBODI</p>
+                        <p class="big_txt green">CAMBODIA</p>
                         <p class="small_txt">(USD Million)</p>
                     </div>
                     <div class="graphs">

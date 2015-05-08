@@ -38,7 +38,8 @@
 						<div style="margin-top:0px;">
 							<div class="block">
 							<div class="header grey_txt small-med_txt" >  
-							<div id="counter1" data-decimal="0" data-max="260" class="counterup red_txt bold counter" style="font-size:80px;  margin-bottom: -16px;">0</div>million<br>
+							<div style="font-size:20px;" class="bold">More than</div><br>
+							<div id="counter1" data-decimal="0" data-max="260" class="counterup red_txt bold counter" style="font-size:80px;  margin-bottom: -16px; margin-top: -22px;">0</div>million<br>
 							<div style="padding-top:0px;" class="small-med_txt">subscribers, 9% YoY growth</div>
 							</div> 
 							<div class="grey_txt small_txt">
@@ -72,7 +73,7 @@
 						<div style="margin-top:62px;">
 							<div class="block">
 							<div class="header grey_txt " > 
-							<div class="small-med_txt bold red_txt" style="font-size:68px;">RM <div id="counter3" data-decimal="0" data-max="4" class="counterup red_txt bold counter" style="font-size:68px; margin-left: -23px; margin-bottom: -16px;">0</div>&nbsp;billion<br></div>
+							<div class="small-med_txt bold red_txt" style="font-size:68px;">RM <div id="counter3" data-decimal="0" data-max="4" class="counterup red_txt bold counter" style="font-size:68px; margin-left: -23px; margin-bottom: -16px;">0</div>&nbsp;Billion<br></div>
 							<div style="padding-top:0px;" class="small_txt grey_txt">Capex Invested across the Axiata footprint</div>
 							</div> 
 							<div class="grey_txt small_txt">

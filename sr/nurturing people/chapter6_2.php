@@ -18,12 +18,13 @@
             <div class="col col60">
                 <div class="animatedParent" data-sequence="400">
                     <p data-id="1" class="animated fadeInLeft font15 text-justify">In 2014, Axiata focused on strengthening its values: uncompromising integrity and exceptional performance.</p>
-                    <p data-id="2" class="animated fadeInLeft font15 text-justify">We nurture future leaders and drive exceptional performance across the Group by giving our 29,000 employees (excluding Idea and M1) the opportunity to participate in a broad range of training and personal development programmes. Programmes are influenced by employee feedback and are designed to promote personal and institutional growth. They seek to develop the capabilities and commitment of our staff to achieve Axiata’s business goals.</p>
+                    <p data-id="2" class="animated fadeInLeft font15 text-justify">We nurture future leaders and drive exceptional performance across the Group by giving our 25,000<sup>*</sup> employees the opportunity to participate in a broad range of training and personal development programmes. Programmes are influenced by employee feedback and are designed to promote personal and institutional growth. They seek to develop the capabilities and commitment of our staff to achieve Axiata’s business goals.</p>
                     <p data-id="3" class="animated fadeInLeft font15 text-justify">Our aim is to attract, develop and retain the best people by providing an inclusive workplace where talent is recognised and developed. Equal opportunities for all staff are promoted, discrimination of any kind is not condoned, and special measures are in place for those challenged by disability or personal circumstance.</p>
                     <p data-id="4" class="animated fadeInLeft font15 text-justify">By emphasising exceptional performance and integrity across the entire Group, Axiata strives to build a culture where our people are completely committed to the core values of the organisation. We recognize and reward those particularly exceptional performers through the Axiata Champions initiative.</p>
                     <p data-id="5" class="animated fadeInLeft font15 text-justify">
                         Conducive workspaces are created in response to employee feedback, and safety levels constantly monitored and enhanced to drive performance and satisfaction.
                     </p>
+                    <p data-id="6" class="animated fadeInLeft font15 text-justify" style="font-size:0.8em; opacity:0.6;"><sup>*</sup>includes Idea and M1</p>
                 </div>
                 <div class="animatedParent" data-sequence="800">
                     <p data-id="1" class="animated fadeInLeft axiataBold font20">Nurturing people</p>
@@ -115,7 +116,7 @@
                                 </div>
                                 <div class="nurturing-improvement">
                                     <span class="font15">GADP Talent <br >Pipeline grew</span>
-                                    <span class="block axiataBold font41">26%</span>
+                                    <span class="block axiataBold font41">29%</span>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col col50 col-border col-nurturing animatedParent" data-sequence="400">
-                    <span class="axiataBold font25 uppercase  animated fadeInLeft" data-id="1">Ivestments</span>
+                    <span class="axiataBold font25 uppercase  animated fadeInLeft" data-id="1">Investments</span>
                     <div class="row box-padding animatedParent" data-sequence="400">
                         <div class="col col40  animated fadeInLeft" data-id="2">
                             <img src="../assets/img/chapter6/section2/teaching.png">
@@ -163,7 +164,7 @@
                             <div >
                                 <span class="axiataBold font31  animated fadeInLeft" data-id="1">RM23.9</span>
                                 <span class="block  font31  animated fadeInLeft" data-id="2">million</span>
-                                <span class="block  font15  animated fadeInLeft" data-id="3">or Employee Welfare</span>
+                                <span class="block  font15  animated fadeInLeft" data-id="3">for Employee Welfare</span>
                             </div>
                         </div>
                     </div>
@@ -178,7 +179,7 @@
                     <div class="row box-padding animated fadeInRight" data-id="3">
                         <div class="col col40">
                             <span class="font15">Group Employee Engagement Index Remains Stable at </span>
-                            <span class="block axiataBold font41">83x</span>
+                            <span class="block axiataBold font41">83%</span>
                         </div>
                         <div class="col col60">
                             <span class="block axiataBold font41">50 Axiata Champions</span>
@@ -248,7 +249,7 @@
                         <tr class="animated fadeInRight" data-id="7">
                             <td align="center"><img src="../assets/img/chapter6/section2/nurturing_eco.png" /></td>
                             <td align="center">29%</td>
-                            <td align="center">72%</td>
+                            <td align="center">71%</td>
                             <td align="center">20%</td>
                             <td align="center">80%</td>
                         </tr>
