@@ -18,7 +18,7 @@
 <div class="topcontainer">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 350px;">
-        <div class="divimage dzsparallaxer--target " data-src="../assets/img/c4/bstp_0.png" style="height: 700px;">
+        <div class="divimage" data-src="../assets/img/c4/bstp_0.png" style="height: 700px; background-image: url(http://localhost/axiata-ar-2014/sr/assets/img/c4/bstp_0.png);margin-top: -220px;">
         </div>
 
         <div class="big-text title"  data-sr="enter left, move 50px, no reset">
