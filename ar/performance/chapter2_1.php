@@ -50,7 +50,7 @@
 						<div style="margin-top:30px;">
 							<div class="block">
 							<div class="header grey_txt small-med_txt"> 
-							<div style="padding-top:0px; text-align:left" class="big_txt bold red_txt">Asia Pacific’s Best Telecoms Group for the 6th consecutive year</div>
+							<div style="padding-top:0px; text-align:left" class="big_txt bold red_txt">Asia Pacific<br> Best Telecoms Group<br> <div class="bold" style="font-size:0.8em;">for the 6th consecutive year</div></div>
 							</div> 
 							<div class="grey_txt small_txt">
 							Axiata continued to gain momentum in the industry by taking top honours as Best Telecoms Group for the sixth consecutive year at the Frost & Sullivan 2014 Asia Pacific ICT Awards. The award is granted to the operator that has shown exemplary growth and performance through its investments in the region.
