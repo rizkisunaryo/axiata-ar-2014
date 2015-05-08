@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
 
-<div class="topcontainer" style="  margin-top: 66px;">
+<div class="topcontainer" style="  margin-top: 66px;  overflow: hidden;">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 350px;">
         <div class="divimage" data-src="../assets/img/c4/bstp_0.png" style="height: 700px; background-image: url(http://localhost/axiata-ar-2014/sr/assets/img/c4/bstp_0.png);margin-top: -220px;">
