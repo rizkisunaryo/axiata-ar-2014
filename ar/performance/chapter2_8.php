@@ -4,8 +4,15 @@
 <style type="text/css">
     .font12{ font-size: 12px;}
     .main_footer{position: relative; bottom: 0px; display: none;}
+    .rel.navbar.panel{
+        position: fixed;
+    }
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
 </style>
-    <div class="rel section">
+    <div class="rel section" style="margin-top:70px">
         <p class="text__color--lightgrey font25 axiataBold"> Summary Breakdown of <span class="block text__color--lightred font31">Assets & Liabilities</p>
 
         <div class="rel">

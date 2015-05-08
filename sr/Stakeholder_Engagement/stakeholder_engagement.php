@@ -3,8 +3,12 @@
     include("../inc/header.php");
 
 ?>
-
-<div class="section_container">
+<style type="text/css">
+    .rel.navbar.panel{
+        position: fixed;
+    }
+</style>
+<div class="section_container" style="margin-top:70px;">
     <div class="section1 section">
         <div class="title">
             <div class="small_txt">Stakeholder</div>

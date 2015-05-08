@@ -19,9 +19,10 @@ html,body
 .content .pic
 {
 	 position: fixed; left:0px; bottom: 10px;
-	 height: 590px !important;
+	 /*height: 590px !important;*/
 	 float:left;
 	 width:430px !important;
+	 top: 0px;
 		
 }
 

@@ -20,7 +20,7 @@
 		<div id="scrollTrigger100" style="position:fixed; top:100%; z-index:1000;"></div>
 
 		<section id="keyHighlightsSection ">
-			<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:910px; box-sizing:border-box; " class="animatedParent">
+			<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:780px; box-sizing:border-box; " class="animatedParent">
 				<div style="margin-top:0px; animated fadeIn"><img src="../assets/img/chapter2/1/key-highlights.png"></div>
 				<!-- <div style="margin-top:40px;">
 					<div id="leftCol" style="position:relative; left:-300px; opacity:0; margin-top:0px;">

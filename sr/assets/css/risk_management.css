@@ -65,8 +65,7 @@ canvas.Red{border-left-color: #8b0029 !important; border-right-color: #8b0029 !i
 .diagram_img{
 	  background-image: url('../img/diagram_risk_management.png');
 	  background-repeat: no-repeat;
-	  background-position-x: 140px;
-	  background-position-y: 56px;
+	  background-position: 140px 56px;
 }
 .col2{
 
@@ -80,4 +79,8 @@ li {
     margin-left: 18px;
   text-indent: -1em;
     padding-left: 1em;
+}
+
+@-moz-document url-prefix() {
+
 }

@@ -5,8 +5,13 @@
     .counter{
         display: inline-block;
     }
+
+    .rel.navbar.panel{
+        position: fixed;
+    }
+
 </style>
-    <div class="rel section">
+    <div class="rel section" style="margin-top:70px;">
         <div class="axiataBold">
             <p class="text__color--lightgrey font25">Axiata's <span class="block text__color--lightred font31">National Contribution</p>
         </div>
