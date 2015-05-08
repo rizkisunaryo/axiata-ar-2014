@@ -83,6 +83,7 @@
 			new ScrollMagic.Scene({triggerElement: "#chairmanStatementBgDiv",triggerHook:"onLeave", duration:(chairmanStatementTextHeight-767+130)})
 									.setPin("#chairmanStatementBgDiv")
 									.addTo(controller);
+			
 
 			// OTHERS
 			var marginBottom = $(window).height()-$('#chairmanStatementBgDiv').height()+50;
