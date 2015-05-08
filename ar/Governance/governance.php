@@ -19,13 +19,16 @@
         color:#8a8c8e;
         display: inline-block;
     }
+    .navbar.panel{
+        position: fixed;
+    }
 </style>	
 
 <div idclass="spacer s0"></div>
 
 <div id="movingSectionContainer" class="zoomViewport" >
     
-    <div class="section1 section " style="display:none;">
+    <div class="section1 section " style="display:none; margin-top:90px;">
         <img src="../assets/img/merged_governance.png"/>
          <div class="paragrapg_x">
               

@@ -493,7 +493,15 @@ The App version of the report can be downloaded on:
 		
 	});
 $(document).ready(function(){
-      setTimeout(function(){$('body').animate({scrollTop:520}, '500', 'swing')},1000);
+      var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+		if(isFirefox)
+		{
+			setTimeout(function(){$('html,body').animate({scrollTop:500}, '500', 'swing')},1000);
+		}
+		else
+		{
+			setTimeout(function(){$('html,body').animate({scrollTop:550}, '500', 'swing')},1000);
+		}
     });
   </script>
   
