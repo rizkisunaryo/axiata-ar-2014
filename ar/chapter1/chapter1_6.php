@@ -153,7 +153,7 @@
         <div id="ceo2Text4" style="position:relative; top:-2180px; left:620px;">
     		<img src="../assets/img/chapter1/6/78million_over3years.png" />
     	</div>
-    	<div id="ceo2Text5" style="position:relative; top:-1750px; left:30px;">
+    	<div id="ceo2Text5" style="position:relative; top:-1700px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
     	</div>
     </section>
