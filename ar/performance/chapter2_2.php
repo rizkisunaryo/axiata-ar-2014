@@ -3,6 +3,11 @@
     include("../inc/header.php");
 
 ?>
+<style type="text/css">
+  .numbers_above{
+    opacity: 0;
+  }
+</style>
 <link rel="stylesheet" href="../assets/css/ch2/chapter2_2.css">
 
 		<div id="scrollTrigger90px" style="position:fixed; top:90px; z-index:1000;"></div>
@@ -61,7 +66,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;  font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow1Number">
+                <div class="graphRow1Number numbers_above">
                   <div style="position:relative; top:-310px; left:8px;">15.6</div>
 									<div style="position:relative; top:-341px; left:60px;">16.3</div>
 									<div style="position:relative; top:-372px; left:114px;">17.7</div>
@@ -104,7 +109,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow2Number">
+                <div class="graphRow2Number numbers_above">
                   <div style="position:relative; top:-247px; left:13px;">2.1</div>
 									<div style="position:relative; top:-302px; left:64px;">2.7</div>
 									<div style="position:relative; top:-335px; left:115px;">2.9</div>
@@ -147,7 +152,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow3Number">
+                <div class="graphRow3Number numbers_above">
                   <div style="position:relative; top:-223px; left:9px;">160</div>
 									<div style="position:relative; top:-266px; left:61px;">199</div>
 									<div style="position:relative; top:-298px; left:112px;">205</div>
@@ -192,7 +197,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow1Number">
+                <div class="graphRow1Number numbers_above">
                   <div style="position:relative; top:-248px; left:7px;">40.1</div>
 									<div style="position:relative; top:-279px; left:59px;">43.5</div>
 									<div style="position:relative; top:-335px; left:112px;">56.1</div>
@@ -235,7 +240,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow2Number">
+                <div class="graphRow2Number numbers_above">
                   <div style="position:relative; top:-236px; left:6px;">4.75</div>
 									<div style="position:relative; top:-267px; left:60px;">5.14</div>
 									<div style="position:relative; top:-323px; left:110px;">6.59</div>
@@ -278,7 +283,7 @@
 									<div class="graphYear" style="position:relative; top:-253px; left:105px;">2013</div>
 									<div class="graphYear" style="position:relative; top:-274px; left:155px;   font-family: AxiataBold;">2014</div>
                 </div>
-                <div class="graphRow3Number">
+                <div class="graphRow3Number numbers_above">
                   <div style="position:relative; top:-211px; left:14px;">10</div>
 									<div style="position:relative; top:-291px; left:66px;">19</div>
 									<div style="position:relative; top:-346px; left:116px;">23</div>

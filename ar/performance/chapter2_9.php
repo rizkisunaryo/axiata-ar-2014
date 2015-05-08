@@ -5,12 +5,15 @@
     .fancybox-skin{
         background: #ffffff !important;
     }
+    .rel.navbar.panel{
+        position: fixed;
+    }
 </style>
 <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
-    <div class="rel section">
+    <div class="rel section" style="margin-top:70px;">
         <div class="axiataBold">
             <p class="text__color--lightgrey font25">Investor <span class="block text__color--lightred font31">Relations</p>
             <p class="text__color--lightred text-justify font18 lineHeight">Axiata’s investor relations is commited to handling inquiries from the investing community which includes equity analysts, fund managers and institutional shareholders, as well as others who are interested in undertaking an investment in the Company. This form of effective two-way communication is conducted through regular engagement sessions which includes conferences, non-deal roadshows and one-on-one meetings with the investing community which is attended either by the President & GCEO and/or GCFO and Investor Relations team.</p>
@@ -202,7 +205,7 @@
                 <p class="axiataBold text__color--lightred font15">Quarterly Results and Analysts Briefings</p>
                 <div class="text__color--darkgrey font15 lineHeight text-justify ">
                     <p>Axiata organises quarterly analysts results briefings chaired by the President & GCEO and GCFO once the quarterly financial performance is announced on Bursa Securities. These analysts briefings are conducted via conference calls and attended by the senior management of major OpCos as an avenue to provide dialogue between fund managers and research analysts with the Group’s Senior Management as well as provide a platform for analysts and fund managers to receive a balanced and complete view of the Group’s performance and the challenges facing the Group. The holding of analysts briefings immediately after the release of the results is aimed at facilitating timely publication and/or dissemination of analysts reports to the investing community. Consistent with equitable sharing of information and treatment of its shareholders, materials intended for analysts briefings are made available immediately after the release of the financial results.</p>
-                    <p>The Company’s quarterly financial performance materials presented during the analysts briefings are available online on the  <a href="http://www.axiata.com/investor/financial-reports/"  style="text-decoration: none">investor relations page</a>.</p>
+                    <p>The Company’s quarterly financial performance materials presented during the analysts briefings are available online on the  <a href="http://axiata.com/investor/"  style="text-decoration: none">investor relations page</a>.</p>
                 </div>
 
             </div>
