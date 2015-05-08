@@ -135,6 +135,7 @@
 	padding-top:10px;
 	z-index:100;
 	line-height: .9;
+	margin-bottom: 16px;
 }
 .section2 .steak
 {
@@ -152,6 +153,7 @@
 	margin-top:-20px;
 	z-index:101;
 	line-height: .9;
+	line-height: 0.76;
 }
 .section2 .smallTitle
 {
