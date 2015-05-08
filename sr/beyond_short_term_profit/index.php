@@ -7,6 +7,9 @@
   tr td:nth-child(2){
     vertical-align: bottom;
   }
+  .rel.navbar.panel{
+    position: fixed;
+  }
 </style>
 <link href="style.css" rel="stylesheet">
 <link href="fonts/fonts.css" rel="stylesheet">
@@ -15,7 +18,7 @@
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
 
-<div class="topcontainer">
+<div class="topcontainer" style="  margin-top: 66px;">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 350px;">
         <div class="divimage" data-src="../assets/img/c4/bstp_0.png" style="height: 700px; background-image: url(http://localhost/axiata-ar-2014/sr/assets/img/c4/bstp_0.png);margin-top: -220px;">
@@ -28,7 +31,7 @@
 	</div>
 
 
-	<div class="top-content">
+	<div class="top-content animatedParent">
 	  <div class="left">
 			<h5>Introduction</h5>
 			Axiata believes that financial performance and business excellence go hand in hand in ensuring a sustainable business. We measure success beyond financial targets and place great emphasis on the impact our investments have on the communities in the countries in which we operate.
@@ -89,7 +92,7 @@
             	</div>
             </div>
 		</div>
-		<div class="right">
+		<div class="right animated fadeInRight">
 			<h5 style="padding:12px;">1. Beyond Short-Term<br>&nbsp;&nbsp;&nbsp;Profits</h5>
 			<div><img src="../assets/img/c4/bstp_1.png"><span class="size13 bold" style="padding-top:25px;">Long-Term Investments</span><div class="clearfix"></div></div>
             <div class="dottedline"></div>
