@@ -148,7 +148,7 @@
 
 
 					<div data-url="president.html"  data-original="assets/img/index/pres12.png" style="height:400px;" class="menu2 element-item lazyload cell metal green col3 row1 whiteBorder"><div class="overbox">
-							<div style="margin-top:20px;" class="title overtext">
+							<div style="margin-top:30px;" class="title overtext">
 								Dato’ Sri Jamaludin Ibrahim
 							</div>
 							<div class="tagline overtext">
@@ -239,7 +239,7 @@
 
 
 					<div data-url="about_the_report.html" data-original="assets/img/index/4i.png" class="menu22 element-item lazyload cell metal green col0_5 row0_5 whiteBorder">	<div class="overbox" style="height:100px !important;padding-bottom: 93px;">
-							<div style="margin-top:-90px;" class="title overtext">
+							<div style="margin-top:-95px;" class="title overtext">
 								About the Report
 							</div>
 							<div class="tagline overtext">								
@@ -251,7 +251,7 @@
 					</div>
 
 					<div data-url="Stakeholder_Engagement/stakeholder_engagement.php" data-original="assets/img/index/stake.png" class="menu23 element-item lazyload cell metal green col0_5 row0_5">	<div class="overbox" style="height:100px !important;padding-bottom: 93px;">
-							<div style="margin-top:-90px;" class="title overtext">
+							<div style="margin-top:-95px;" class="title overtext">
 								Stakeholder Engagement 
 							</div>
 							<div class="tagline overtext">
@@ -263,7 +263,7 @@
 					</div>
 
 					<div data-url="Risk_Management/risk_management.php" data-original="assets/img/index/risk.png" class="menu24 element-item lazyload cell metal green col0_5 row0_5">	<div class="overbox" style="height:100px !important;padding-bottom: 90px;">
-							<div style="margin-top:-120px;font-size:14px;" class="title overtext">
+							<div style="margin-top:-110px;font-size:14px;" class="title overtext">
 								RISK management process
 							</div>
 							<div style="font-size:13px;" class="tagline overtext">
@@ -277,7 +277,7 @@
 					</div>
 
 					<div data-url="Target_Achievement/target_achievement.php" data-original="assets/img/index/target.png" class="menu24 element-item lazyload cell metal green col0_5 row0_5">	<div class="overbox" style="height:100px !important;padding-bottom: 90px;">
-							<div style="margin-top:-110px;font-size:15px;" class="title overtext">
+							<div style="margin-top:-100px;font-size:15px;" class="title overtext">
 								Targets &amp; Achievements
 							</div>
 							<div class="tagline overtext" style="font-size:14px;">
@@ -987,7 +987,22 @@
 			$('.section1').css('background-repeat', 'no-repeat');
 			$('.img5').remove(); 
 			$('.img1').removeClass('animated').removeClass('fadeInUp').addClass('kite-big');
-			$('.logo').removeClass('animated').removeClass('fadeInUp').css('padding-top','19px');
+			
+			var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+				 // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+				 var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+				 var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+				 // At least Safari 3+: "[object HTMLElementConstructor]"
+				 var isChrome = !!window.chrome && !isOpera; // Chrome 1+
+				 var isIE = /*@cc_on!@*/false || !!document.documentMode; // At least IE6
+				if (isFirefox) {						
+		        	$('.logo').removeClass('animated').removeClass('fadeInUp').css('margin-top','17px');;
+				}
+				else
+				{
+					$('.logo').removeClass('animated').removeClass('fadeInUp').css('padding-top','19px');
+				}
+
 			$('.img2').removeClass('animated').removeClass('fadeInUp').addClass('kite-medium');
 			$('.img3').removeClass('animated').removeClass('fadeInUp').addClass('kite-small');
 			$('.img4').removeClass('animated').removeClass('fadeInUp').addClass('kite-tiny');
