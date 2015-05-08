@@ -3,7 +3,7 @@
 ?>
 
   <link rel="stylesheet" href="assets/css/animations.css">
-
+<link rel="stylesheet" href="../assets/css/fonts.css">
 
 <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
