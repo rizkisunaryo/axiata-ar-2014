@@ -52,9 +52,9 @@
                     </div>
                     <div class="col col60">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightpurple"></i> <span class="font12 text__color--grey v-middle">Deposits, cash and bank balances </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font12 text__color--grey v-middle">Trade and other receivables </span> </li>
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font12 text__color--grey v-middle">Associates/Joint ventures </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightred2"></i> <span class="font12 text__color--grey v-middle">Deposits, cash and bank balances </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--lightpurple"></i> <span class="font12 text__color--grey v-middle">Trade and other receivables </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--purple"></i> <span class="font12 text__color--grey v-middle">Associates/Joint ventures </span> </li>
                         </ul>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col col60">
                         <ul class="no-style removeMargin">
-                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--darkorange"></i> <span class="font12 text__color--grey v-middle">Share capital </span> </li>
+                            <li class="legend-list"> <i class="legend-icon fa fa-play text__color--pink"></i> <span class="font12 text__color--grey v-middle">Share capital </span> </li>
                             <li class="legend-list"> <i class="legend-icon fa fa-play text__color--purple"></i> <span class="font12 text__color--grey v-middle">Other liabilities </span> </li>
                             <li class="legend-list"> <i class="legend-icon fa fa-play text__color--green"></i> <span class="font12 text__color--grey v-middle">Trade and other payables </span> </li>
                         </ul>
@@ -117,7 +117,7 @@
                 y: 50
             },
             tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            pointFormat: '{point.color_txt}'
             },
             plotOptions: {
                 pie: {
@@ -147,6 +147,7 @@
                     {
                         name: '15.4%',
                         y: 15.4,
+                        color_txt: 'Associates/Joint ventures',
                         dataLabels: {
                             distance: 20,
                             rotation: 30,
@@ -159,6 +160,7 @@
                     {
                         name: '40.6%',
                         y: 40.6,
+                        color_txt: ' Property, plant and  equipment',
                         dataLabels: {
                             rotation: -53,
                         },
@@ -167,6 +169,7 @@
                     {
                         name: '26.1%',
                         y: 26.1,
+                        color_txt: 'Intangible assets',
                         dataLabels: {
                             rotation: 70,
                         },
@@ -175,6 +178,7 @@
                     {
                         name: '1.3%',
                         y: 1.3,
+                        color_txt: ' Other assets',
                         dataLabels: {
                             rotation: -65,
                             color: 'black',
@@ -185,6 +189,7 @@
                     {
                         name: '10.4%',
                         y: 10.4,
+                        color_txt: 'Deposits, cash and bank balances',
                         dataLabels: {
                             rotation: -38,
                         },
@@ -193,6 +198,7 @@
                     {
                         name: '6.2%',
                         y: 6.2,
+                        color_txt: 'Trade and other receivables',
                         dataLabels: {
                             rotation: -13,
                         },
@@ -251,7 +257,7 @@
                 y: 50
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{point.color_txt}'
             },
             plotOptions: {
                 pie: {
@@ -281,6 +287,7 @@
                     {
                         name: '16.2%',
                         y: 16.2,
+                        color_txt: 'Associates/Joint ventures',
                         dataLabels: {
                             distance: 30,
                             rotation: 32,
@@ -291,6 +298,7 @@
                     {
                         name: '39.3%',
                         y: 39.3,
+                        color_txt: ' Property, plant and  equipment',
                         dataLabels: {
                             rotation: -50,
                         },
@@ -299,6 +307,7 @@
                     {
                         name: '22.0%',
                         y: 22.0,
+                        color_txt: 'Intangible assets',
                         dataLabels: {
                             rotation: 65,
                         },
@@ -307,6 +316,7 @@
                     {
                         name: '1.5%',
                         y: 1.5,
+                        color_txt: ' Other assets',
                         dataLabels: {
                             rotation: 1,
                             color: 'black'
@@ -316,6 +326,7 @@
                     {
                         name: '14.8%',
                         y: 14.8,
+                        color_txt: 'Deposits, cash and bank balances',
                         dataLabels: {
                             rotation: -47,
                         },
@@ -324,6 +335,7 @@
                     {
                         name: '6.2%',
                         y: 6.2,
+                        color_txt: 'Trade and other receivables',
                         dataLabels: {
                             rotation: -14,
                         },
@@ -399,7 +411,7 @@
                 y: 50
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{point.color_txt}'
             },
             plotOptions: {
                 pie: {
@@ -431,6 +443,7 @@
                         {
                             name: '28.3%',
                             y: 28.3,
+                            color_txt: 'Borrowings',
                             dataLabels: {
                                 rotation: 45,
                             },
@@ -439,6 +452,7 @@
                         {
                             name: '3.7%',
                             y: 3.7,
+                            color_txt: 'Non-controlling interests',
                             dataLabels: {
                                 rotation: 20,
                             },
@@ -447,6 +461,7 @@
                         {
                             name: '19.9%',
                             y: 19.9,
+                            color_txt: 'Reserves',
                             dataLabels: {
                                 rotation: -29,
                             },
@@ -455,6 +470,7 @@
                         {
                             name: '4.9%',
                             y: 4.9,
+                            color_txt: 'Share premium',
                             dataLabels: {
                                 rotation: 17,
                             },
@@ -463,6 +479,7 @@
                         {
                             name: '17.5%',
                             y: 17.5,
+                            color_txt: 'Share capital',
                             dataLabels: {
                                 rotation: 58,
                             },
@@ -471,6 +488,7 @@
                         {
                             name: '8.7%',
                             y: 8.7,
+                            color_txt: ' Other liabilities',
                             dataLabels: {
                                 rotation: -72,
                             },
@@ -479,6 +497,7 @@
                         {
                             name: '17.0%',
                             y: 17.0,
+                            color_txt: ' Trade and other payables',
                             dataLabels: {
                                 rotation: -40,
                                 align: 'middle',
@@ -540,7 +559,7 @@
                 y: 50
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{point.color_txt}'
             },
             plotOptions: {
                 pie: {
@@ -572,6 +591,7 @@
                     {
                         name: '30.9%',
                         y: 30.9,
+                        color_txt: 'Borrowings',
                         dataLabels: {
                             rotation: 48,
                         },
@@ -580,6 +600,7 @@
                     {
                         name: '4.0%',
                         y: 4.0,
+                        color_txt: 'Non-controlling interests',
                         dataLabels: {
                             rotation: 26,
                         },
@@ -588,6 +609,7 @@
                     {
                         name: '20.4%',
                         y: 20.4,
+                        color_txt: 'Reserves',
                         dataLabels: {
                             rotation: -18,
                         },
@@ -596,6 +618,7 @@
                     {
                         name: '5.1%',
                         y: 5.1,
+                        color_txt: 'Share premium',
                         dataLabels: {
                             rotation: 35,
                         },
@@ -604,6 +627,7 @@
                     {
                         name: '19.6%',
                         y: 19.6,
+                        color_txt: 'Share capital',
                         dataLabels: {
                             rotation: 76,
                         },
@@ -612,6 +636,7 @@
                     {
                         name: '6.0%',
                         y: 6.0,
+                        color_txt: ' Other liabilities',
                         dataLabels: {
                             rotation: -58,
                         },
@@ -620,6 +645,7 @@
                     {
                         name: '14.0%',
                         y: 14.0,
+                        color_txt: ' Trade and other payables',
                         dataLabels: {
                             rotation: -32,
                             align: 'middle',

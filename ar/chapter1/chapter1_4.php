@@ -51,7 +51,7 @@
 	              <div class="graphYear" style="position:relative; top:-145px; left:67px;">2011</div>
 	              <div class="graphYear" style="position:relative; top:-162px; left:188px;">2012</div>
 	              <div class="graphYear" style="position:relative; top:-178px; left:312px;">2013</div>
-	              <div class="graphYear" style="position:relative; top:-194px; left:431px;">2014</div>
+	              <div class="graphYear" style="font-family: axiataBold; position:relative; top:-194px; left:431px;">2014</div>
 	            </div>
 	          </div>
           </div>
