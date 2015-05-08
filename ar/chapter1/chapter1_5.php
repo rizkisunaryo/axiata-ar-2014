@@ -80,7 +80,9 @@
 			$('#chairmanStatementText').css('margin-top',(-chairmanStatementTextHeight-130)+'px');
 
 			var controller = new ScrollMagic.Controller();
-			
+			new ScrollMagic.Scene({triggerElement: "#chairmanStatementBgDiv",triggerHook:"onLeave", duration:(chairmanStatementTextHeight-767+130)})
+									.setPin("#chairmanStatementBgDiv")
+									.addTo(controller);
 
 			// OTHERS
 			var marginBottom = $(window).height()-$('#chairmanStatementBgDiv').height()+50;

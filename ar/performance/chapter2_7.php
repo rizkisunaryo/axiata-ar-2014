@@ -31,8 +31,8 @@
             <div class="foot_note"><canvas class="triangleRight Grey smallTriangle" ></canvas><span>Others</span></div>
         </div>
         </div>
-        <div class="graphs">
-            <div class="graph">
+        <div class="graphs animatedParent">
+            <div class="graph animated fadeInRight">
                 <div class="title">
                 <div class="small_txt">2014 & 2013</div>
                 <div class="big_txt">Operating</div>
@@ -46,7 +46,7 @@
                 
                  <canvas id="hexagon"></canvas> 
             </div>
-            <div class="graph" style=" margin-top: 60px;">
+            <div class="graph animated fadeInUp" style=" margin-top: 60px;">
                 <div class="title">
                 <div class="small_txt">2014 & 2013</div>
                 <div class="big_txt">EBITDA</div>
