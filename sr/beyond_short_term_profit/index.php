@@ -200,7 +200,9 @@ committed for ADIF</div>
                           <tbody>
                             <tr>
                               <td width="35%" align="left" valign="top">Smart:</td>
-                              <td width="65%" align="left" valign="top" class="normal">provides <span class="orange bold">cheapest call</span> and<br><span class="orange bold">data rates in Cambodia</span></td>
+                              <td width="65%" align="left" valign="top" class="normal">provides <span class="orange bold">cheapest call</span> and<br><span class="orange bold">data rates in Cambodia</span><br><br></td>
+                            </tr>
+                            <tr>
                             </tr>
                             <tr>
                               <td align="left" valign="top">Dialog and Robi:</td>
