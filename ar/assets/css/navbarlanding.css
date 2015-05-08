@@ -375,3 +375,12 @@ container
 {
 	color:#c21444;
 }
+.download_app_links{
+	color:#808285; 
+	font-family: AxiataBook; 
+	font-size:11px;
+	display: none;
+}
+.custom_link{
+	text-decoration: none;
+}
