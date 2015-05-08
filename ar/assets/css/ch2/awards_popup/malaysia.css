@@ -8,6 +8,10 @@
     margin: 84px 42px 42px 0px;
  -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-height:700px;
+}
+.sectionContainer{
+    min-height:900px;
 }
 .title{ display: block; color: #c40c42; font-size: 15.2px; font-weight: bolder; margin-bottom: 18px;  font-family: axiataBold, Arial;}
 .big_txt{ color: #4d4d4f; font-weight: bolder; font-size: 15px;  font-family: axiataBold, Arial;}
