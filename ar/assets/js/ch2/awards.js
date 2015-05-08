@@ -14,8 +14,9 @@ $(document).ready(function(){
 				closeEffect : 'elastic',
 				closeSpeed  : 150,
 				width : '965px',
-				height:'100%',
+				height:900,
 				padding: 0,
+				fitToView: false,
 				margin: [90,0,0,0],
 				scrolling   : 'no',
 				 helpers : {
@@ -27,6 +28,9 @@ $(document).ready(function(){
 					$("body").css({'overflow-y':'hidden'});
 					//$('.fancybox-wrap').css('margin-left','-10px');
 				},
+				afterLoad: function () {
+			        this.height = $(this.element).data("height");
+			    },
 				afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
 			});
 		});
