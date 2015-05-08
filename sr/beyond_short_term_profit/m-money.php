@@ -39,15 +39,15 @@
 			<td class="title-orange title-info">2.5 million</td>
 			</tr>
 			<tr>
-			<td >in 333,000 transaction for 2014</td>
-			<td>transaction using XL Tunai in 2014</td>
+			<td >in 333,000 transactions for 2014</td>
+			<td>transactions using XL Tunai in 2014</td>
 			</tr>
 		</table>
 	</p>
 </div>
 <div style="margin-top:20px;clear:both;" class="title-orange" data-sr="enter bottom, move 20px">M-Money</div>
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
-Axiata has pioneered M-Money platforms as part of its goal to create digitised ecosystems. M-Money platforms across our OpCos enable customers to send and receive money, pay utility bills, top up their accounts, and purchase goods from a variety of merchants, through an application on their mobile phones. M-money programmes have proven to be value adding especially in rural markets where most our customers are excluded from conventional banking practices. In most instances, M-money payments would also contribute to a considerable saving for the subscribers as the regular over the counter payment systems would also include a travelling cost as well.</div>
+Axiata has pioneered M-Money platforms as part of its goal to create digitised ecosystems. M-Money platforms across our OpCos enable customers to send and receive money, pay utility bills, top up their accounts, and purchase goods from a variety of merchants, through an application on their mobile phones. M-Money programmes have proven to be value adding especially in rural markets where most our customers are excluded from conventional banking practices. In most instances, M-Money payments would also contribute to a considerable saving for the subscribers as the regular over the counter payment systems would also include a travelling cost as well.</div>
 
 <div style="margin-top:20px;" class="title-orange" data-sr="enter bottom, move 20px">Digital Inclusion through eZ Cash</div>
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
@@ -55,9 +55,9 @@ In June 2012 Dialog launched eZ Cash. This mobile money service enables those wi
 
 <div style="margin-top:20px;" class="title-orange" data-sr="enter bottom, move 20px">eZ Cash<img src="images/m-money-emblem.png" width="75px" height="69px"/></div>
 <div style="margin-top:10px;width:680px;display: inline-block;" class="justify" data-sr="enter bottom, move 20px">
-In June 2012 Dialog launched eZ Cash. This mobile money service enables the unbanked and banking population access to a mobile platform for a broad range of financial transactions. eZ Cash currently expands it’s platform across three mobile networks and connects close to two million Sri Lankan mobile users with 19,700 merchants and service providers island wide making it the largest mobile payment and transaction gateway. Transaction costs have reduced as a result and efficiencies have increased.<br>
+In June 2012 Dialog launched eZ Cash. This mobile money service enables the unbanked and banking population access to a mobile platform for a broad range of financial transactions. eZ Cash currently expands it’s platform across three mobile networks and connects close to two million Sri Lankan mobile users with 19,700 merchants and service providers island-wide making it the largest mobile payment and transaction gateway. Transaction costs have reduced as a result and efficiencies have increased.<br>
 <br>
-After the launch of eZ Cash in Sri Lanka 2.9million transactions had been conducted within the first 12 months. By December 2014, eZ Cash had 1.6million subscribers. For 2014 alone, the total transaction value conducted through the eZ Cash platform was LKR8.5 billion.<br>
+After the launch of eZ Cash in Sri Lanka 2.9 million transactions had been conducted within the first 12 months. By December 2014, eZ Cash had 1.6 million subscribers. For 2014 alone, the total transaction value conducted through the eZ Cash platform was LKR8.5 billion.<br>
 <br>
 In 2015, eZ Cash beat global competition and won the Global Award for the Best Mobile Money Service at the World Mobile Congress in Barcelona. eZ Cash was recognized as the first mobile money solution in the world to offer end-to-end interoperability across multiple service providers. Mobile subscribers of Dialog, Etisalat and Hutch have seamless access to the full portfolio of eZ Cash services, bringing together a combined subscriber base of over 14 million Sri Lankans who could potentially transact electronically via eZ Cash.</div>
 <img src="images/m-money-ezcash.png" width="144px" height="141px" style="float:right;margin-top:10px;"/>

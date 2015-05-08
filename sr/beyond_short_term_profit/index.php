@@ -345,15 +345,15 @@ In 2013, we commissioned an independent study of our contribution to the economy
 In 2014, we continued to introduce innovative and attractive data services and applicable mobile-based services for our customers in rural communities. 
 <br><br>
 Our products and services are catered to both the urban and rural communities equally, with focus on being inclusive irrespective of social or economic differences.  Approximately more than 19,500 of our sites (49%) are located in rural areas of the OpCo countries. Approximately 450 million lives across Asia are connected through our multiple networks.</div>
-<div style="margin-top:10px;" class="title-orange" data-sr="enter bottom, move 20px">Investment for Technology<br>
+<div style="margin-top:10px;" class="title-orange" data-sr="enter bottom, move 20px">Investment on Technology<br>
 </div>
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 In each of our markets, we have made a special effort to serve and connect diverse groups of customers. Our approach to sustainability is not only about expanding into new markets; it is also about providing affordable products using high quality technology to meet the diverse needs of our socially diverse groups of customers. Today, inclusion means more than having network coverage and a mobile phone to connect on that network. Technology has evolved to such an extent that one’s productivity and output is linked to the type of digital device one owns: there is a difference in what a customer could achieve with a smart phone as against a feature phone.</div>
 <div style="margin-top:30px;" class="title-orange" data-sr="enter bottom, move 20px">DIGITAL INCLUSION AND DIGITISED ECOSYSTEMS</div>
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
-For our operations the definition of ‘inclusion’ means making high-end products affordable and accessible to under-served communities and enabling them to exploit the potential of high-quality digital ecosystems. Our efforts at inclusion are explained using 4 key parameters of inclusion. This is the model first introduced by our Sri Lankan Opco Dialog. This model introduces the concepts of affordability, accessibility, availability and applicability in to the product planning process. <br>
+For our operations the definition of ‘inclusion’ means making high-end products affordable and accessible to under-served communities and enabling them to exploit the potential of high-quality digital ecosystems. Our efforts at inclusion are explained using 4 key parameters of inclusion. This is the model first introduced by our Sri Lankan Opco Dialog. This model introduces the concepts of affordability, accessibility, availability and applicability into the product planning process. <br>
 <br>
-At Axiata, we embrace a vision of responsibility that goes beyond profit-making. Our Digital services are to broaden business opportunities for creating new markets, operational efficiency, effective access to capital, and adding long-term value that benefits our people, our shareholders, the communities, and the economies in which we operate.<br>
+At Axiata, we embrace a vision of responsibility that goes beyond profit-making. Our digital services are to broaden business opportunities for creating new markets, operational efficiency, effective access to capital, and adding long-term value that benefits our people, our shareholders, the communities, and the economies in which we operate.<br>
 <br>
 In 2014, Axiata continued to strengthen access to digital services such as m-money, m-health, m-advertising, m-insurance and social networking. More than 20 million people across the region already subscribe to these new initiatives. These pioneer initiatives have facilitated digital inclusion in their respective countries and helped reduce the digital divide. The initiatives have enabled groups of society, generally excluded from the benefits of digital development and new products, to be connected and to engage in activities such as banking, insurance, e-learning, social media and specialist health services.</div>
 
@@ -364,7 +364,7 @@ Axiata has played a very active role in GSMA’s Mobile for Development efforts.
 <br>
 As a Group, we have supported GSMA on two key global programmes. In 2014, GSMA partnered with Child Helpline International commemorating the 25th anniversary of the United Nations Convention on the Rights of the Child (CRC) with the objective of promoting child helplines across the globe. This includes measures to strengthen relationships between national mobile operators and their in-country helplines further collaborating on issues such as a safer Internet for children.<br>
 <br>
-Axiata also became the founding signatory of the Humanitarian Connectivity Charter which includes several best practices the industry would aspire to take up in providing better solutions for issues arising before, during and after a disaster.<br>
+Axiata also became the founding signatory of the Humanitarian Connectivity Charter which includes several best practices the industry would aspire to take up in providing better solutions for issues arising before, during and after a disaster. Read more in our Planet & Society section.<br>
 <br>
 Individual OpCos continue to work with GSMA for projects on specific topics such as m-women, green-power, m-agri etc. Dialog in Sri Lanka and Robi in Bangladesh have current programmes in partnership with GSMA. In Bangladesh, BRAC Bangladesh, in partnership with Robi, was awarded a GSMA mWomen Innovation Fund grant to create a mobile learning service aimed at improving employability for rural adolescent girls.</div>
 
@@ -374,7 +374,7 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
 </div>
 
 <div style="width:860px; padding:0 50px; margin:auto; background:#f47b20; color:#ffffff; padding-top:40px; padding-bottom:40px;" data-sr="enter bottom, move 20px, no reset">
- <span style="font-size:17px;" class="bold">Axiata Digital Innovation Fun</span><img src="../assets/img/c4/bstp_new.png" width="78" height="73" alt=""/><br>
+ <span style="font-size:17px;" class="bold">Axiata Digital Innovation Fund</span><img src="../assets/img/c4/bstp_new.png" width="78" height="73" alt=""/><br>
  <div style="width:542px; float:left;" class="justify">
    <p>The Axiata Digital Innovation Fund (ADIF), launched in 2014, seeks to assist Malaysian companies discover their full digital potential. As part of our efforts in growing digital ecosystems and in Advancing Asia, we believe we have a responsibility to help other digital service entities access new markets, new sources of funding and new technology.<br>
      <br>

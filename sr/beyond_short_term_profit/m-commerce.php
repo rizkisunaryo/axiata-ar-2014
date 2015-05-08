@@ -55,7 +55,7 @@ Elevenia is a joint venture between XL and SK Planet and is one of the fastest g
 <div style="margin-top:10px;" class="justify" data-sr="enter bottom, move 20px">
 Our e-commerce initiatives in Malaysia has been adapted for a comparatively different niche from Indonesia or Sri Lanka. In our attempt to make specific digitally enabled products accessible to our customers in Malaysia, 3 key e-commerce platforms were launched:<br>
 <br>
-<span style="font-weight:bolder;">achabooku:</span> Bachabooku is an ebook store offering a comprehensive collection of ebooks and emagazines to our Malaysian customers. The site provides reading access to the latest entertainment, lifestyle, and contents from a range of local and international publishers. Prices are 30 – 50% cheaper than regular bookstores.
+<span style="font-weight:bolder;">Bachabooku:</span> Bachabooku is an ebook store offering a comprehensive collection of ebooks and emagazines to our Malaysian customers. The site provides reading access to the latest entertainment, lifestyle, and contents from a range of local and international publishers. Prices are 30 – 50% cheaper than regular bookstores.
 <br><br>
 <span style="font-weight:bolder;">Buzzaar:</span> Buzzaar is an online store which offers Malaysian specialty products from each state across the nation (Example: Kek Lapis (cake) from Sarawak, Handicraft from Sabah). Buzzaar provides a unique space for SME’s in Sabah and Sarawak to find a market for their products.
 <br><br>
