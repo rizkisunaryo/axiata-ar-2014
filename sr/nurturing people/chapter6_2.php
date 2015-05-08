@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col col40">
-                <div class="nurturing-box animatedParent" >
+            <div class="col col40 animatedParent">
+                <div class="nurturing-box animated fadeInRight" >
                     <div class="axiataBold font20 animated fadeInRight" data-id="1">2. Nurturing People</div>
                     <div>
                         <div class="nurturing-item  animated fadeInRight" data-id="2">
@@ -313,7 +313,48 @@
 <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+
+
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/ScrollMagic.min.js"></script>
+  <script src="assets/js/animation.gsap.js"></script>
+  <script src="assets/js/viewportchecker.js"></script>
+  <script src="assets/js/css3-animate-it.js"></script>
+  <script src="assets/js/jquery.transit.min.js"></script>
+  <script src="assets/js/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/packery-mode.pkgd.min.js"></script>
+  <script src="assets/js/jquery.lazyload.min.js"></script>
+  <script src="assets/js/jquery.scrollstop.min.js"></script>
+  
+  
+ 
+
+
+
 <script>
+
+$(function(){
+
+    var controller = new ScrollMagic.Controller({});
+    
+    
+        new ScrollMagic.Scene({
+          triggerElement: '.navbar:after',
+          triggerHook: 'onEnter',
+          offset:30,
+          duration:0
+        })
+        .setPin('.navbar',{pushFollowers:false})     
+        .addTo(controller);
+
+
+
+
+});
+
     $('.workplace-button').click(function(ev){
         ev.preventDefault();
         var url = $(this).data('url');
@@ -347,5 +388,10 @@
             },
             afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
         });
+
+
+
+         
+
     });
 </script>

@@ -5,12 +5,18 @@
 ?>
 <link href="style.css" rel="stylesheet">
 <link href="fonts/fonts.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+
+
 <link rel="stylesheet" href="../assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
   <link rel="stylesheet" href="../assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 
 
-<div class="topcontainer">
+<div class="topcontainer" style="overflow:hidden;">
 	<div class="header">
     <div class="dzsparallaxer auto-init  use-loading" style="height: 650px;">
 
@@ -24,8 +30,8 @@
 	</div>
 
 
-	<div class="top-content" style="margin-top:-360px;">
-	  <div class="left">
+	<div class="top-content animatedParent" style="margin-top:-360px;">
+	  <div class="left animated fadeInLeft">
 			<h5>Introduction</h5>
 			In creating digital ecosystems and advancing Asia, Axiata has sought to reduce its environmental footprint and grow its social footprint. 
 		<p>
@@ -93,7 +99,7 @@
             	</div>
             </div>
 		</div>
-		<div class="right" style="margin-top:88px">
+		<div class="right animated fadeInRight" style="margin-top:88px">
 			<h5 style="padding:12px;">4. Planet &amp; Society</h5>
             <div><img src="../assets/img/c4/ps_4.png"><span class="size13 bold" style="padding-top:25px;">Environment<br>Management</span><div class="clearfix"></div></div>
             <div class="dottedline"></div>
@@ -171,6 +177,32 @@ to Society</div>
   <script type="text/javascript" src="../assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
   
   
+
+<script src="assets/js/css3-animate-it.js"></script>
+
+  
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/ScrollMagic.min.js"></script>
+  <script src="assets/js/animation.gsap.js"></script>
+  <script src="assets/js/viewportchecker.js"></script>
+  <script src="assets/js/css3-animate-it.js"></script>
+  <script src="assets/js/jquery.transit.min.js"></script>
+  <script src="assets/js/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/packery-mode.pkgd.min.js"></script>
+  <script src="assets/js/jquery.lazyload.min.js"></script>
+  <script src="assets/js/jquery.scrollstop.min.js"></script>
+  
+  
+ 
+  <script type="text/javascript" src="assets/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  <script type="text/javascript" src="assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  
   
   <script type="text/javascript">
  
@@ -207,6 +239,18 @@ to Society</div>
       });
     });
     
+
+    var controller = new ScrollMagic.Controller({});
+    
+    
+    new ScrollMagic.Scene({
+      triggerElement: '.navbar:after',
+      triggerHook: 'onEnter',
+      offset:30,
+      duration:0
+    })
+    .setPin('.navbar',{pushFollowers:false})     
+    .addTo(controller);
 
   });
   </script>
