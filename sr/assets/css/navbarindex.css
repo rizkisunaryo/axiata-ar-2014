@@ -295,7 +295,7 @@ container
 .explore6
 {
 	background: #fff url('../img/explore/6.png') no-repeat top left !important;
-	margin-left: -30px !important;
+	width:270px !important;
 }
 
 .explore7
