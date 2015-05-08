@@ -94,8 +94,7 @@
 			<div class="section3">
 				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/11.html" />
 				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/12.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/13.html" />
-				<h1 class="header1">Profile of</h1>
+				<h1 class="header1">Group</h1>
 				<h1 class="header2">Management Team</h1>
 				<div class="name1">
 					<p class="text"> 
@@ -111,73 +110,80 @@
 						Group Chief Financial Officer
 					</p>
 				</div>
-				<div class="name3">
+				
+			</div>
+			
+			<div class="section4">
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/13.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/14.html" />
+				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/15.html" />
+				
+				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">René Werner</span> <br/>
 						Group Chief Strategy Officer
 					</p>
 				</div>
-			</div>
-			
-			<div class="section4">
-				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/14.html" />
-				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/15.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/16.html" />
-				<h1 class="header1">Profile of</h1>
-				<h1 class="header2">Management Team</h1>
-				<div class="name1">
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Amandeep Singh</span> <br/>
 						Group Chief Technology Officer
 					</p>
 				</div>
-				<div class="name2">
+				<div class="name3">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Annis Sheikh Mohamed</span> <br/>
 						Head, Corporate Development
 					</p>
 				</div>
-				<div class="name3">
+			</div>
+			
+			<div class="section5">
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/16.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/17.html" />
+				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/18.html" />
+				<h1 class="header1">Profile of</h1>
+				<h1 class="header2">Management Team</h1>
+				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Darke M Sani</span> <br/>
 						Group Chief Human Resources Officer
 					</p>
 				</div>
-			</div>
-			
-			<div class="section5">
-				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/17.html" />
-				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/18.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/19.html" />
-				<img class="plusButton" id="plusButton4" src="../assets/img/chapter4/section2/plus.png" data-url="../board/20.html" />
-				<h1 class="header1">Profile of</h1>
-				<h1 class="header2">Management Team</h1>
-				<div class="name1">
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
-						<span class="purple">Datin Badrunnisa Mohd Yasin Khan</span> <br/>
+						<span class="purple">Datin Sri Badrunnisa Mohd Yasin Khan</span> <br/>
 						Group Chief Talent Officer
 					</p>
 				</div>
-				<div class="name2">
+				<div class="name3">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Mohamad Idham Nawawi</span> <br/>
 						Group Chief Corporate Officer
 					</p>
 				</div>
-				<div class="name3">
+				
+			</div>
+
+			<div class="section5_1">
+				
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/19.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/20.html" />
+				
+				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Suryani Hussein</span> <br/>
 						Group Company Secretary
 					</p>
 				</div>
-				<div class="name4">
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Tan Gim Boon</span> <br/>
@@ -312,6 +318,15 @@
 				.addTo(controller);
 		}
 		
+		new ScrollMagic.Scene({
+					triggerElement: '.section5_1',
+					triggerHook: 'onLeave',
+					offset: -90,
+					duration:730
+				})
+				.setPin('.section5_1',{pushFollowers: false})
+				.addTo(controller);
+
 		//slide(1);
 		//alert(currentDivId);
 		
