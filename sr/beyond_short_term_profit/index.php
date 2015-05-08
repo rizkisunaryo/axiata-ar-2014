@@ -377,9 +377,9 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
      <br>
      Axiata’s 13 million customers in Malaysia and 260 million* in across Asia provides unique opportunities for these companies to grow their networks and forge new partnerships. So far, Axiata has committed RM100 million for this fund.</p>
    <ul style="margin-left:-30px;">
-     <li>ADIF is in support of the Malaysian Government’s objective to build up the capabilities of local technology companies. ADIF will aid companies in the digital services space with innovative products and revenue generating, but require support to grow in terms of funding, know-how and market access.</li>
-     <li>These Malaysian digital services entrepreneurs will have unprecedented access to funding and regional partnership opportunities with Axiata.</li>
-     <li>The programme also supports the Malaysian government’s call for the transformation of the nation into a developed and high-income economy that is sustainable and inclusive by creating a pool of knowledge workers in high-value jobs.</li>
+     <li>ADIF is in support of the Malaysian Government’s objective to build up the capabilities of local technology companies. ADIF will aid companies in the digital services space with innovative products and revenue generating, but require support to grow in terms of funding, know-how and market access.</li><br>
+     <li>These Malaysian digital services entrepreneurs will have unprecedented access to funding and regional partnership opportunities with Axiata.</li><br>
+     <li>The programme also supports the Malaysian government’s call for the transformation of the nation into a developed and high-income economy that is sustainable and inclusive by creating a pool of knowledge workers in high-value jobs.</li><br>
      </ul>
    <p style="font-size:10px;">* Includes Idea &amp; M1</p>
  </div>
