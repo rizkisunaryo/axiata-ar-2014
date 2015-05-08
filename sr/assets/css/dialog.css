@@ -21,9 +21,9 @@ html,body
 	width:960px;
 	margin-top: 90px !important;
 	background-color: #c4ced4;
-	background-image: url('../img/national/5.png');
+	background-image: url('../img/graph_dialog_nums.png');
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: 0 -74px;
 	padding-bottom: 90px;
 }
 
@@ -163,7 +163,7 @@ canvas.triangleRightBlue {
 	background-color: #ffffff;
 	margin-top: 0;
 	width:960px;
-	background-image: url('../img/national/5back.png');
+	/*background-image: url('../img/national/5back.png');*/
     background-position:   top center;
 	background-repeat: no-repeat;
 	margin:0 auto;
@@ -776,7 +776,7 @@ canvas.triangleRightBlue {
 	font-size: 16px;
 	text-align: justify;
 	color:#4d4d4f;
-	padding-top: 550px;
+	padding-top: 50px;
 	margin-left: 50px;
 }
 .section2 .full b
