@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="col col20">
-                        <img class="col1" src="../assets/img/chapter1/nr/ch_1_contribution.png">
+                        <a href="../../sr"> <img class="col1" src="../assets/img/chapter1/nr/ch_1_contribution.png"></a>
                     </div>
                 </div>
             </div>

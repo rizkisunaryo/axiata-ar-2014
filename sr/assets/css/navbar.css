@@ -344,3 +344,6 @@ container
 	font-size:11px;
 	display: none;
 }
+.custom_link{
+	text-decoration: none;
+}
