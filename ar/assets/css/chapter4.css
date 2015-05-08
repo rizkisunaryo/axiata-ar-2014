@@ -1,6 +1,33 @@
 @import url("navbar.css");
 @import url("fonts.css");
 
+
+
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
 .section1
 {
 	width:960px;
@@ -58,6 +85,14 @@
 	cursor:pointer;
 	display:block;
 	position:absolute;
+	-webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .section2 #plusButton1
@@ -179,6 +214,14 @@
 	cursor:pointer;
 	display:block;
 	position:absolute;
+	-webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .section3 #plusButton1
@@ -463,7 +506,7 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section5/background2.png") no-repeat bottom left;
-		margin-bottom: 90px;
+	margin-bottom: 490px;
 
 }
 
@@ -756,7 +799,7 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff url("../img/chapter4/section8/background.png") no-repeat bottom left;
-		margin-bottom: 90px;
+	margin-bottom: 390px;
 
 }
 
@@ -991,3 +1034,17 @@ p
 }
 
 
+.plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+	-webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
