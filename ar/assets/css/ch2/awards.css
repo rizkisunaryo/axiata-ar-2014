@@ -5,6 +5,32 @@
 
 
 
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+
 #movingSectionContainer{
     
 }
@@ -36,7 +62,14 @@
 .awards .row{width:100%; height: 216px; margin-bottom: 17px; }
 .awards .row .col3{  width: 32%; display: inline-block; text-align: center; align-items: center;position: relative;  top: 0px; }
 .awards .row .col3 .award_header { align-items: center; margin: auto; text-align: center;}
-.awards .row .col3 .award_header  .point{display: inline-block;  margin-left: 10px;}
+.awards .row .col3 .award_header  .point{display: inline-block;  margin-left: 10px;-webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;}
 .awards .row .col3 .txt{text-align: center; display: inline-block;}
 .awards .row .col3 .award_img{align-items: center;  margin-top: 14px;}
 .awards .row .col3 .award_img img{margin: auto; margin-left: auto;   display: block;}

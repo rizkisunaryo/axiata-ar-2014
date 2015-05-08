@@ -74,7 +74,7 @@
       </div>
     </section>
 
-    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3560px; overflow:hidden;">
+    <section id="ceo2Section" style="width:960px; margin:0 auto; margin-top:0px; height:3760px; overflow:hidden;">
     	<div class="grey4Color" style="position:relative; z-index:10; padding:55px;">
     		<div style="width:545px;">
 	    		Following suit, our regional affiliates also saw a good 2014. Idea reported all round strong performance for the 9 months FY14 with revenue increasing by 19% and M1 full year FY2014 at 7%. PAT for Idea and M1 was up by 63% and 10% respectively.<br />
@@ -141,6 +141,7 @@
 					&amp; Group Chief Executive Officer
 					<br/><br/><br/><br/>
 				</div>
+				<br/><br/><br/><br/>
     	</div>
     	<div id="ceo2Text1" style="position:relative; top:-3340px; left:620px;">
     		<img src="../assets/img/chapter1/6/serving-over-260-million-people.png" />
