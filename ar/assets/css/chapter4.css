@@ -674,12 +674,12 @@
 
 .section7 #plusButton1
 {
-	margin: 440px 0 0 230px;
+	margin: 440px 0 0 370px;
 }
 
 .section7 #plusButton2
 {
-	margin: 440px 0 0 560px;
+	margin: 440px 0 0 730px;
 }
 
 .section7 #plusButton3
@@ -713,7 +713,7 @@
 	font-size:13.5px;
 	font-family:axiataBook;
 	width:270px;
-	margin:-90px 0 0 90px;
+	margin:-30px 0 0 210px;
 	color:#4d4d4f;
 }
 .section7 .name2
@@ -721,7 +721,7 @@
 	font-size:13.5px;
 	font-family:axiataBook;
 	width:245px;
-	margin:-92px 0 0 410px;
+	margin:-92px 0 0 580px;
 	color:#4d4d4f;
 }
 
@@ -769,17 +769,17 @@
 
 .section8 #plusButton1
 {
-	margin: 450px 0 0 200px;
+	margin: 400px 0 0 270px;
 }
 
 .section8 #plusButton2
 {
-	margin: 450px 0 0 460px;
+	margin: 400px 0 0 520px;
 }
 
 .section8 #plusButton3
 {
-	margin: 450px 0 0 650px;
+	margin: 400px 0 0 850px;
 }
 
 .section8 #plusButton4
@@ -812,16 +812,16 @@
 {
 	font-size:13.5px;
 	font-family:axiataBook;
-	width:150px;
-	margin:-30px 0 0 80px;
+	width:200px;
+	margin:-30px 0 0 120px;
 	color:#4d4d4f;
 }
 .section8 .name2
 {
 	font-size:13.5px;
 	font-family:axiataBook;
-	width:150px;
-	margin:-112px 0 0 300px;
+	width:200px;
+	margin:-72px 0 0 370px;
 	color:#4d4d4f;
 }
 
@@ -829,8 +829,8 @@
 {
 	font-size:13.5px;
 	font-family:axiataBook;
-	width:210px;
-	margin:-92px 0 0 490px;
+	width:260px;
+	margin:-72px 0 0 660px;
 	color:#4d4d4f;
 }
 
@@ -849,6 +849,113 @@
 }
 
 .section8 .arr
+{
+	margin-left:-16px;
+	
+}
+
+
+
+.section8_1
+{
+	width:960px;
+	min-height:730px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#ffffff url("../img/chapter4/section8/background2.png") no-repeat bottom left;
+		margin-bottom: 90px;
+
+}
+
+.section8_1 .plusButton
+{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+}
+
+.section8_1 #plusButton1
+{
+	margin: 450px 0 0 400px;
+}
+
+.section8_1 #plusButton2
+{
+	margin: 450px 0 0 770px;
+}
+
+.section8_1 #plusButton3
+{
+	margin: 450px 0 0 650px;
+}
+
+.section8_1 #plusButton4
+{
+	margin: 450px 0 0 900px;
+}
+
+
+.section8_1 .header1
+{
+	font-size:25px;
+	font-family:axiataBold;
+	color:#8a8c8e;
+	margin-left:50px;
+	padding-top:40px;
+	z-index:100;
+	opacity:0;
+}
+.section8_1 .header2
+{
+	font-size:32px;
+	font-family:axiataBold;
+	color:#c40d42;
+	margin-left:50px;
+	margin-top:-20px;
+	z-index:101;
+	opacity:0;
+}
+.section8_1 .name1
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:300px;
+	margin:100px 0 0 220px;
+	color:#4d4d4f;
+}
+.section8_1 .name2
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:300px;
+	margin:-82px 0 0 600px;
+	color:#4d4d4f;
+}
+
+.section8_1 .name3
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:210px;
+	margin:-92px 0 0 490px;
+	color:#4d4d4f;
+}
+
+.section8_1 .name4
+{
+	font-size:13.5px;
+	font-family:axiataBook;
+	width:180px;
+	margin:-72px 0 0 740px;
+	color:#4d4d4f;
+}
+.section8_1 .purple
+{
+	color:#c40c42;
+	font-weight:bold;
+}
+
+.section8_1 .arr
 {
 	margin-left:-16px;
 	

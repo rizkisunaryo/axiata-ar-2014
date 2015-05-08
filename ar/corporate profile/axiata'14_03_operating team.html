@@ -96,7 +96,7 @@
 				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/21.html" />
 				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/22.html" />
 				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/23.html" />
-				<h1 class="header1">Profile of Operating Companies’</h1>
+				<h1 class="header1">Operating Companies’</h1>
 				<h1 class="header2">Management Team</h1>
 				<div class="name1">
 					<p class="text"> 
@@ -132,7 +132,6 @@
 			<div class="section7">
 				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/24.html" />
 				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/25.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/27.html" />
 				<h1 class="header1">Profile of</h1>
 				<h1 class="header2">Management Team</h1>
 				<div class="name1">
@@ -151,7 +150,14 @@
 						<span class="purple">Smart Axiata Co. Ltd.</span>
 					</p>
 				</div>
-				<div class="name3">
+				
+			</div>
+			
+			<div class="section8_1">
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/27.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/28.html" />
+				
+				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Mohd Khairil Abdullah</span> <br/>
@@ -159,16 +165,7 @@
 						<span class="purple">Axiata Digital Services Sdn Bhd</span>
 					</p>
 				</div>
-			</div>
-			
-			<div class="section8">
-				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/28.html" />
-				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/26.html" />
-				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/29.html" />
-				<img class="plusButton" id="plusButton4" src="../assets/img/chapter4/section2/plus.png" data-url="../board/30.html" />
-				<h1 class="header1">Profile of</h1>
-				<h1 class="header2">Management Team</h1>
-				<div class="name1">
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Suresh Sidhu</span> <br/>
@@ -176,7 +173,18 @@
 						<span class="purple">edotco Group Sdn Bhd</span>
 					</p>
 				</div>
-				<div class="name2">
+				
+			</div>
+
+
+			<div class="section8">
+				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/26.html" />
+				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/29.html" />
+				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/30.html" />
+				<h1 class="header1">Profile of</h1>
+				<h1 class="header2">Management Team</h1>
+				
+				<div class="name1">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Karen Kooi</span> <br/>
@@ -184,7 +192,7 @@
 						<span class="purple">M1 Limited</span>
 					</p>
 				</div>
-				<div class="name3">
+				<div class="name2">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Himanshu Kapania</span> <br/>
@@ -192,7 +200,7 @@
 						<span class="purple">Idea Cellular Limited</span>
 					</p>
 				</div>
-				<div class="name4">
+				<div class="name3">
 					<p class="text"> 
 						<img class="arr" src="../assets/img/chapter4/board/arrow.png" />
 						<span class="purple">Adnan Asdar</span> <br/>
@@ -200,6 +208,7 @@
 						<span class="purple">Multinet Pakistan (Private) Limited</span>
 					</p>
 				</div>
+				
 			</div>
 			
 		</div>
@@ -328,6 +337,14 @@
 				.addTo(controller);
 		}
 		
+		new ScrollMagic.Scene({
+					triggerElement: '.section8_1',
+					triggerHook: 'onLeave',
+					offset: -90,
+					duration:770
+				})
+				.setPin('.section8_1',{pushFollowers: false})
+				.addTo(controller);
 		//slide(1);
 		//alert(currentDivId);
 		
