@@ -19,11 +19,11 @@
 		<div id="scrollTrigger90" style="position:fixed; top:90%; z-index:1000;"></div>
 		<div id="scrollTrigger100" style="position:fixed; top:100%; z-index:1000;"></div>
 
-		<section id="strategicJourney">
+		<section id="strategicJourney" >
 			<div style="width:960px; margin:0 auto; padding:55px; margin-top:90px; height:910px; overflow:hidden; box-sizing:border-box;">
-				<div>
-					<span class="title grey8Color" style="font-size:25px;">Strategic Journey Towards</span><br />
-					<span class="title maroonColor" style="font-size:31px;">Building a New Generation Telco</span>
+				<div class="animatedParent ">
+					<span class="title grey8Color animated fadeInLeft" style="font-size:25px;">Strategic Journey Towards</span><br />
+					<span class="title maroonColor animated fadeInLeft" style="font-size:31px;">Building a New Generation Telco</span>
 				</div>
 				<div class="maroonColor" style="margin-top:30px;">
 					Since its demerger with Telekom Malaysia in 2008, Axiata has gone through two distinct phases. In Phase 1, our vision was to build a new distinct company, which set the stage for Phase 2 (2011-2015) where we are now, creating a regional champion. As the world of communications evolves, our vision for 2020 is to build a ‘New Generation Telco’ in Phase 3 of our journey.
