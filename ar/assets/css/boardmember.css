@@ -18,12 +18,11 @@ html,body
 
 .content .pic
 {
-	position: absolute; top:10px; left: 0;
-	 width: auto;
-	 height: 630px;
+	 position: fixed; left:0px; bottom: 10px;
+	 height: 631px !important;
 	 float:left;
-	 width:390px;
-	
+	 width:437px !important;
+		
 }
 
 .content .arr
@@ -39,8 +38,8 @@ html,body
 	font-family:axiataBook;
 	font-size:12px;
 	 float:left;
-	 max-width:500px;
-	 margin-left:350px;
+	 max-width:420px;
+	 margin-left:420px;
 	 margin-top:110px;
 	 text-align:justify;
 }
