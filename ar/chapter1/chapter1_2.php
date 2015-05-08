@@ -40,7 +40,7 @@
               <span class="title" style="line-height:2; color:#fff;">Shaping the Future</span><br />
               Axiata has always been ahead of the curve, quickly adapting to change and positioning its business model to capitalise on the developments in an increasingly digitalised world. Parallel to its investments in network and technology modernisation over the years, Axiata has also evolved its business to embrace the digital age and fast growing demand for data. 2015 will be a critical year for Axiata as it progresses in its transformation beyond a traditional telecommunications company.<br />
               <br />
-              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available <a href="../../sr/index.html">online</a>.
+              In advancing Asia, Axiata remains committed to its role as a responsible corporate citizen, to make a difference to people’s lives and help transform the countries in which it operates. Further details of Axiata’s sustainability efforts are now available <a class="custom_link" href="../../sr/index.html">online</a>.<br/><br/><br/><br/>
             </div>
           </div>
 				</div>
@@ -107,14 +107,14 @@
           <br>
           <span class="title maroonColor">Website</span><br>
           <br>
-          www.axiata.com<br>
+          <a class="custom_link" target="_blank" href="www.axiata.com">www.axiata.com</a><br>
           <br>
           <br>
           <span class="title maroonColor">Investor Relations</span><br>
           <br>
           Tel   : +603 2263 8856<br>
           Fax   : +603 2278 3337<br>
-          Email : ir@axiata.com
+          Email : <a class="custom_link" href="mailto:ir@axiata.com">ir@axiata.com</a>
         </div>
         <div style="position:absolute; top:20px; z-index:-10; left:0px;">
           <img src="../assets/img/chapter1/corner.png" />

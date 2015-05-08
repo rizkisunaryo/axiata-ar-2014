@@ -192,12 +192,17 @@
 						Group General Counsel and Risk Officer
 					</p>
 				</div>
+
+
 			</div>
 			
 			
+
 		</div>
 		
-	
+	<?php
+	    include("../inc/footer.php");
+	?>
 		
 		
 	</div>
@@ -322,6 +327,15 @@
 		
 		new ScrollMagic.Scene({
 					triggerElement: '.section5_1',
+					triggerHook: 'onLeave',
+					offset: -90,
+					duration:730
+				})
+				.setPin('.section5_1',{pushFollowers: false})
+				.addTo(controller);
+
+		new ScrollMagic.Scene({
+					triggerElement: '.main_footer',
 					triggerHook: 'onLeave',
 					offset: -90,
 					duration:730

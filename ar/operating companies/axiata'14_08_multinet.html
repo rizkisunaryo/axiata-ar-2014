@@ -90,7 +90,7 @@
 		<div id="movingSectionContainer">
 			
 			
-			<div class="section9">
+			<div style="margin-top:190px;" class="section9">
 				<div class="leftSection">
 					<div class="animatedParent">
 						<h1 class="sectionTitle animated">
@@ -130,6 +130,24 @@
 				
 			</div>
 		
+			<div class="main_footer" style="  width:100%;   border-top: 1px solid #E5E4E4;  padding-top: 10px; padding-bottom:10px;">
+    
+    <div class="" style="color:#808285; font-family: AxiataBook; font-size:11px;   margin-left:auto; margin-right:auto; width:960px;">
+        This is an interactive digital version of the Axiata Annual Report 2014, Shaping the Future – Towards A Digital Company. The printable versions, according to chapters, are available in PDF format on this website.
+        <br><br>
+        
+<div class="download_app_links">
+The App version of the report can be downloaded on:
+<br>
+        <a href="" style><img src="../assets/img/app-store-logo.png"/></a>
+        <a href=""><img src="../assets/img/google-store-logo.png"/></a>
+        <br>
+        <br>
+        </div>
+<div style="font-size:9px;">Copyright © 2009 - 2015 Axiata Group Berhad. All rights reserved.</div>
+    </div>
+    
+</div>
 			
 		</div>	
 		
@@ -148,24 +166,7 @@
 
     
 
-<div class="main_footer" style="  width:100%;   border-top: 1px solid #E5E4E4;  padding-top: 10px; padding-bottom:10px;">
-    
-    <div class="" style="color:#808285; font-family: AxiataBook; font-size:11px;   margin-left:auto; margin-right:auto; width:960px;">
-        This is an interactive digital version of the Axiata Annual Report 2014, Shaping the Future – Towards A Digital Company. The printable versions, according to chapters, are available in PDF format on this website.
-        <br><br>
-        
-<div class="download_app_links">
-The App version of the report can be downloaded on:
-<br>
-        <a href="" style><img src="../assets/img/app-store-logo.png"/></a>
-        <a href=""><img src="../assets/img/google-store-logo.png"/></a>
-        <br>
-        <br>
-        </div>
-<div style="font-size:9px;">Copyright © 2009 - 2015 Axiata Group Berhad. All rights reserved.</div>
-    </div>
-    
-</div>
+
 
 
   <script src="../assets/js/jquery.js"></script>
@@ -354,47 +355,8 @@ The App version of the report can be downloaded on:
 		});
 		
 		
-		var controller = new ScrollMagic.Controller({});
-		
-		new ScrollMagic.Scene({
-				triggerElement: '.navbar:after',
-				duration:730,
-				triggerHook: 'onLeave'
-			})
-			.setPin('.section1',{pushFollowers: false})
-			.addTo(controller);
-			
-		new ScrollMagic.Scene({
-				triggerElement: '#movingSectionContainer',
-				duration:1,
-				triggerHook: 'onLeave'
-			})
-			.setPin('#movingSectionContainer',{pushFollowers: false})
-			.addTo(controller);
 		
 		
-		
-		
-		for(var i=2;i<10;i++) //repeat same effect for section2,3,4,5,6,7 and 8
-		{
-			var h=$('.section'+i+' .leftSection').height();	
-			new ScrollMagic.Scene({
-					triggerElement: '.section'+i,
-					triggerHook: 'onLeave',
-					offset: -90,
-					duration:h
-				})
-				.setPin('.section'+i)
-				.addTo(controller);
-			new ScrollMagic.Scene({
-				triggerElement: '.section'+i,
-				triggerHook: 'onLeave',
-				offset: 120,
-				duration: h-10
-			})
-			.setTween(".section"+i+" .leftSection .textMovingContainer .text", .5, {marginTop:(i==6) ? - 400 : -950}) // trigger a TweenMax.to tween
-			.addTo(controller);
-		}
 		
 		
 		
