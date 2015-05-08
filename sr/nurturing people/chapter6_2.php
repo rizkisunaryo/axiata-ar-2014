@@ -337,7 +337,7 @@
             helpers : {
                 overlay : {
                     locked : false,
-//                    css: {'background-color': '#000000'}
+                   css: {'background-color': '#fff'}
                 }
             },
             beforeShow: function(){
