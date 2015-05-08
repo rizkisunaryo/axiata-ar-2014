@@ -404,6 +404,7 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
     
             <div style="color:#f47b20; font-size:21px;" class="bold">M-Money</div>
             <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom1.png" width="85" height="105" alt=""/></div>
+<!--
             <div class="medium"><br>
               eZ Cash<br>
               <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">SLR<br>
@@ -413,11 +414,13 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
         <br>
         <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">2.5 million</span><br>
               transactions using XL Tunai in 2014</div>
+-->
     </div>
       <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.2s">
       <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-commerce.php"></div>
       <div style="color:#f47b20; font-size:21px;" class="bold">M-Commerce</div>
           <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom2.png" width="85" height="105" alt=""/></div>
+<!--
         <div class="medium"><br>
             More than<br>
             <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">19 million</span><br>
@@ -432,17 +435,20 @@ Individual OpCos continue to work with GSMA for projects on specific topics such
 people <br>
 benefit from <br>
 Guru.lk services </div>
+-->
       </div>
     <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.6s">
     <div style="color:#f47b20; font-size:21px;" class="bold">M-Insurance</div>
       <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-insurance.php"></div>
             <div style="padding-top:20px;"><img src="../assets/img/c4/bstp_bottom3.png" width="85" height="105" alt=""/></div>
+<!--
       <div class="medium"><br>
               <span style="font-size:27px; color:#f47920; line-height:0.9;" class="bold">6 million</span><br>
               in Bangladesh and
         <br>
         <span style="font-size:27px; color:#f47920; line-height:0.9" class="bold">1.5 million</span><br>
         in Indonesia insured  via M-insurance</div>
+-->
     </div>
     <div class="bottombox" style="margin-left:25px;" data-sr="enter bottom, move 20px, no reset, wait 0.8s">
     <div class="popupinfo" style="width:100%; height:100%; position:absolute; left:0; top:0; cursor:pointer;" data-url="m-other.php"></div>
