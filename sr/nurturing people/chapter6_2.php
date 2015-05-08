@@ -36,7 +36,7 @@
                             </div>
                             <div class="col col65 nurturing-employee-right">
                                 <span class="axiataBold font16">Goal</span>
-                                <span class="block font12 text-justify">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H&S practice</span>
+                                <span class="block font12 text-justify">Strengthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H&S practice</span>
                             </div>
                         </div>
                         <div data-id="3"  class="animated fadeInLeft  bg__color--lightblue nurturing-employee-top">

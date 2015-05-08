@@ -123,7 +123,7 @@
                         <div class="desc_card">
                             <div class="title">Regulatory Perception</div>
                             <div class="desc">
-                                We reviewed the feedback and perception of our regulators across the region. We have looked into areas our regulators stress and request us to work on. We have also taken into consideration the emphasis made by regulatory bodies not directly related to the industry as well. 
+                                We reviewed the feedback and perception of our regulators across the region. We have looked into areas of which our regulators have stressed and requested us to work on. We have also taken into consideration the emphasis made by regulatory bodies not directly related to the industry as well. 
                             </div>
                         </div>
                         <div class="desc_card">
@@ -162,7 +162,7 @@
                 </div>        
             </div>
             <div class="foot_note">
-                <sup>4</sup> <a href="https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/" style="text-decoration:none;">https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/</a>
+                <sup>4</sup> <a class="custom_link" href="https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/" style="text-decoration:none;">https://gsmaintelligence.com/research/2014/09/operator-group-ranking-q2-2014/444/</a>
             </div>
         </div>
     </div>

@@ -206,6 +206,7 @@
                 <div class="text__color--darkgrey font15 lineHeight text-justify ">
                     <p>Axiata organises quarterly analysts results briefings chaired by the President & GCEO and GCFO once the quarterly financial performance is announced on Bursa Securities. These analysts briefings are conducted via conference calls and attended by the senior management of major OpCos as an avenue to provide dialogue between fund managers and research analysts with the Group’s Senior Management as well as provide a platform for analysts and fund managers to receive a balanced and complete view of the Group’s performance and the challenges facing the Group. The holding of analysts briefings immediately after the release of the results is aimed at facilitating timely publication and/or dissemination of analysts reports to the investing community. Consistent with equitable sharing of information and treatment of its shareholders, materials intended for analysts briefings are made available immediately after the release of the financial results.</p>
                     <p>The Company’s quarterly financial performance materials presented during the analysts briefings are available online on the  <a href="http://axiata.com/investor/"  style="text-decoration: none">investor relations page</a>.</p>
+                    <p>To date throughout FY2014, the Group has enjoyed relatively extensive coverage and exposure to the investment community with a total of 31 equity research analysts covering the Company.</p>
                 </div>
 
             </div>

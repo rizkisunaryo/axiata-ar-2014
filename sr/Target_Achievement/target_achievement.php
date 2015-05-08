@@ -87,7 +87,7 @@
                         <div class="cell_cust">MERGE!!!</div>
                         <div class="cell_cust"><img src="../assets/img/target_achievement_haflCircle.png"/></div>
                         <div class="cell_cust">OpCo wise culture programme conducted based on the OpCo values and core values (page 039)</div>
-                        <div class="cell_cust">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
+                        <div class="cell_cust">Strengthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
                         <div class="cell_cust">√</div>
                         <div class="cell_cust">√</div>
                         <div class="cell_cust"></div>
@@ -178,7 +178,7 @@
                         <div class="cell_cust">√</div>
                         
                     </div>
-                    <div class="merge_div">Strenthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
+                    <div class="merge_div">Strengthening the UI.EP programme with programmes for educating, empowering and engaging employees. Establishing a Group wide H & S practice</div>
             </div>
         </div>
 

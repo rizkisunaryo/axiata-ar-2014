@@ -35,7 +35,7 @@
 			We continue to invest in, exploring renewable sources of energy, recycling waste, and growing environmental awareness among staff. 
 		</p>
             <p>
-			Our sustainability as a Group is closely linked to the progress and welfare of the societies in which operate. We invest in their empowerment, their growth and their welfare. 
+			Our sustainability as a Group is closely linked to the progress and welfare of the societies in which we operate. We invest in their empowerment, their growth and their welfare. 
 			</p>
             <p>
 			Disaster preparedness, disaster response and disaster mitigation has emerged as a new priority. We operate in societies prone to natural disasters and we have a role to play in mitigating the impacts of these disasters. We will help develop resilience among communities to respond to natural disasters, to be prepared for new ones and to ‘pick up’ and move on.

@@ -35,7 +35,7 @@
                         <div class="desc_card">
                             <div class="title">Regulatory Perception</div>
                             <div class="desc">
-                                We reviewed the feedback and perception of our regulators across the region. We have looked into areas our regulators stress and request us to work on. We have also taken into consideration the emphasis made by regulatory bodies not directly related to the industry as well. 
+                                We reviewed the feedback and perception of our regulators across the region. We have looked into areas which our regulators have stressed and requested us to work on. We have also taken into consideration the emphasis made by regulatory bodies not directly related to the industry as well. 
                             </div>
                         </div>
                         <div class="desc_card">
@@ -83,7 +83,7 @@
             </div>
             <img src="../assets/img/materiality-diagram.png"/>
             <div class="paragraph small_txt white_txt">
-                We have reported and discussed in detail on all our most material issues. Page 025, 035, 045, 053 discloses our approach to address these issues within Axiata's footprint. The issues that are not identified as most material, would be discussed as required.
+                We have reported and discussed in detail on all our most material issues. The breakdown of our four pillars discloses our approach to address these issues within Axiata's footprint. The issues that are not identified as most material, would be discussed as required.
             </div>
             <img src="../assets/img/foot_notes_materiality.png"/>
             

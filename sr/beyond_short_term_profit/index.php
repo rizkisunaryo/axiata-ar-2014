@@ -105,7 +105,7 @@ Digitised Ecosystems<br>
             <div><img src="../assets/img/c4/bstp_4.png"><span class="size13 bold" style="padding-top:15px;">Global Mobile<br>
             Development</span>
           <div class="clearfix"></div></div>
-            <div class="gmd">Being a long term operator in each of our OpCo countries, our focus and attention has always been on long term investments. These investments have made significant contributions to the economies of the countries we operate in. Apart from providing connectivity voice and messaging services, our digital services have created value beyond commercial motivation. Where possible, steps have been taken to proactively partner with initiatives supporting digital ecosystems, and playing our role in growing the mobile world community.</div>
+            <div class="gmd">Being a long-term operator in each of our OpCo countries, our focus and attention has always been on long-term investments. These investments have made significant contributions to the economies of the countries we operate in. Apart from providing connectivity voice and messaging services, our digital services have created value beyond commercial motivation. Where possible, steps have been taken to proactively partner with initiatives supporting digital ecosystems, and playing our role in growing the mobile world community.</div>
             
 		</div>
 		<div class="clearfix"></div>
@@ -139,7 +139,7 @@ Inclusion projects<div style="height:10px;"></div>
 
  <div style="width:85px; float:left; text-align:right; margin-left:100px;"><img src="../assets/img/c4/bstp_13.png"/></div><div class="bold" style="float:left; width:220px; margin-left:10px; margin-top:15px;">M-<span class="bold">Money</span><br>
 <span class="normal" style="font-weight:normal;">An alternate to banking<br>
-and increases savings.</span></div>
+and increases savings</span></div>
  <div class="clearfix"></div>
 
 <div></div>
@@ -175,7 +175,7 @@ committed for ADIF</div>
       <td width="286" align="left" valign="top" style="padding-left:20px;">Insured<br>
         Access to Banking<br>
         Access to Specialists<br>
-        Developers Specialists SL</td>
+        Developers Specialists Sri Lanka</td>
     </tr>
 
   </tbody>
@@ -191,7 +191,7 @@ committed for ADIF</div>
 
 <div style="width:860px; margin:auto; padding:0 50px;" class="secondcontainer">
 	<div style="font-size:31px; color:#f47920; text-align:center; margin:40px 0 30px;" class="bold">Our Network &amp; Products</div>
-    <div class="medium">Our OpCo’s champion various products and services that are inclusive for many who are otherwise unable to access the services of a digital ecosystem. Few examples are listed down following the 4A inclusion models followed by Dialog in Sri Lanka.</div>
+    <div class="medium">Our OpCo’s champion various products and services that are inclusive for many who are otherwise unable to access the services of a digital ecosystem. Few examples are listed down following the 4A inclusion model<sup>5</sup> followed by Dialog in Sri Lanka.</div>
     <div style="background:#ececec; width:100%; margin-top:20px; padding:15px 0;">
     	<div style="width:829px; height:492px; background:url(../assets/img/c4/bstp_22.png); margin:auto;">
        	  <div style="width:808px; float:right">
@@ -224,7 +224,7 @@ committed for ADIF</div>
                             <tr>
                               <td width="35%" align="left" valign="top">All OpCos:</td>
                               <td width="65%" align="left" valign="top" class="normal"><span class="orange bold">online</span> access to the <span class="orange bold">Customer <br>
-                              centre</span> via chat, email forums.</td>
+                              centre</span> via chat, email forums<br><br></td>
                             </tr>
                             <tr>
                               <td align="left" valign="top">Celcom:</td>
@@ -246,7 +246,7 @@ committed for ADIF</div>
                               <td width="35%" align="left" valign="top">Smart:</td>
                               <td width="65%" align="left" valign="top" class="normal">makes <span class="orange bold">4G available</span> in <br>
                               Cambodia as first operator, <br>
-                              followed by <span class="orange bold">iPhone6 launch</span></td>
+                              followed by <span class="orange bold">iPhone6 launch</span><br><br></td>
                             </tr>
                             <tr>
                               <td align="left" valign="top">XL and Robi:</td>
@@ -267,7 +267,7 @@ incoming calls become free</span></td>
                             <tr>
                               <td width="35%" align="left" valign="top">Robi and Celcom:</td>
                               <td width="65%" align="left" valign="top" class="normal">provides <span class="orange bold">social media</span> access <br>
-                              to <span class="orange bold">feature phones</span></td>
+                              to <span class="orange bold">feature phones</span><br><br></td>
                             </tr>
                             <tr>
                               <td align="left" valign="top">Dialog:</td>
@@ -323,7 +323,7 @@ incoming calls become free</span></td>
   </tbody>
 </table>
 
-<div class="clearfix"></div><div style="font-size:9px; padding:10px 0; color:#524e4c;">http://www.dialog.lk/dlg/browse/aboutPromo.jsp?id=onlinefld70041</div>
+<div class="clearfix"></div><div style="font-size:9px; padding:10px 0; color:#524e4c;"><sup>5</sup>&nbsp;<a href="http://www.dialog.lk/dlg/browse/aboutPromo.jsp?id=onlinefld70041" class="custom_link">http://www.dialog.lk/dlg/browse/aboutPromo.jsp?id=onlinefld70041</a></div>
         </div>
     </div>
     
@@ -503,7 +503,7 @@ Initiatives</div>
 				width : '960px',
 				height:'100%',
 				padding: 0,
-				margin: [0,0,0,0],
+				margin: [90,0,0,0],
 				scrolling   : 'auto',
 				 helpers : {
 					overlay : {

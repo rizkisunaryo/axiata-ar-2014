@@ -445,3 +445,7 @@
     margin-left: -50px;
     margin-top: 30px;
 }
+.custom_link{
+    text-decoration: none;
+    color:#c40d42;
+}

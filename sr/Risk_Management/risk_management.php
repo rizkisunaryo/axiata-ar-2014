@@ -42,7 +42,7 @@
         <div class="paragraph small_txt grey_txt">
             The Axiata Group’s enterprise risk management process is depicted in the next page.
 
-            <div class="tiny_txt foot_note"><sup>3</sup> <a href="http://www.iso.org/iso/home/standards/iso31000.html" style="text-decoration:none; ">http://www.iso.org/iso/home/standards/iso31000.html</a></div>
+            <div class="tiny_txt foot_note"><sup>3</sup> <a href="http://www.iso.org/iso/home/standards/iso31000.html" class="custom_link" style="text-decoration:none; ">http://www.iso.org/iso/home/standards/iso31000.html</a></div>
         </div>
     </div>
     <div class="diagramme_cover diagram_img">
@@ -50,7 +50,7 @@
         <div class="">
             <!-- <div  class="diagram_img" ></div> -->
             <div class="title white_txt bold" style="padding-top:20px;">
-                <div class="med_txt ">Diagramme of Risk</div>
+                <div class="med_txt ">Diagram of Risk</div>
                 <div class="big_txt">Management Process</div>
             </div>
             <!-- <div class="small_tile tile1">
