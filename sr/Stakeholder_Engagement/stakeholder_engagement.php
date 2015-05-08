@@ -25,16 +25,16 @@
             </div>
             <div class="table">
                 <div class="header">
-                    <div class="tr">
+                    <div class="tr" style="  text-align: left;">
                                                                          
                         <div class="td">Stakeholder Group</div>
-                        <div class="td">Types of Engagement</div>
-                        <div class="td">Frequency</div>
-                        <div class="td">Focus Areas</div>
+                        <div class="td"style=" margin-left: 6px;">Types of Engagement</div>
+                        <div class="td" style=" margin-left: 25px;">Frequency</div>
+                        <div class="td" style=" margin-left: 38px;">Focus Areas</div>
                     </div>
                 </div>
                 <div class="body"> 
-                    <div class="tr">
+                    <div class="tr" >
                         <div class="td"><span> Customers </span><img src="../assets/img/tr1_people.png"/> </div>
                         <div class="td"> <li>Customer Satisfaction via Net Promoter Score (NPS)</div>
                         <div class="td">Annually</div>
@@ -47,7 +47,7 @@
                             research agency)</li>
                         <li>	Town hall meetings</li>
                         </div>
-                        <div class="td">Annually <br>Quarterly</div>
+                        <div class="td">Annually <br><br><br>Quarterly</div>
                         <div class="td">Career development, employee feedback, employee communication</div>
                     </div>
                     <div class="tr">
@@ -57,7 +57,7 @@
                             <li>	Meetings with the Top 100 investors</li>
                             <li>	Analyst Meetings</li>
                         </div>
-                        <div class="td">Ongoing</div>
+                        <div class="td">On going</div>
                         <div class="td">Business performance and strategy, social responsibility initiatives</div>
                     </div>
                     <div class="tr">
@@ -65,7 +65,7 @@
                         <div class="td"><li>	Compliance with the Malaysian Communications and Multimedia Commission (MCMC)</li>
                             <li>Compliance with Bursa Malaysia</li>
                         </div>
-                        <div class="td">Ongoing</div>
+                        <div class="td">On going</div>
                         <div class="td">Information security, PDPA, pricing, tax issues</div>
                     </div>
                     <div class="tr">
@@ -74,7 +74,7 @@
                             <li>	Supplier Code of Conduct</li>
                             <li>	Vendor Survey</li>
                         </div>
-                        <div class="td">Ongoing</div>
+                        <div class="td">On going</div>
                         <div class="td">Payment practices, delivery and definition of vendor performance </div>
                     </div>
                     <div class="tr">
@@ -90,7 +90,7 @@
                         <div class="td"><li>	AYTP</li>
                             <li>Axiata Sustainability Programmes</li>
                         </div>
-                        <div class="td">Ongoing</div>
+                        <div class="td">On going</div>
                         <div class="td">Social requirements and specific feedback on programmes</div>
                     </div>
                 </div>
