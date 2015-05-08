@@ -28,29 +28,29 @@
 				<div class="maroonColor" style="margin-top:30px;">
 					Since its demerger with Telekom Malaysia in 2008, Axiata has gone through two distinct phases. In Phase 1, our vision was to build a new distinct company, which set the stage for Phase 2 (2011-2015) where we are now, creating a regional champion. As the world of communications evolves, our vision for 2020 is to build a ‘New Generation Telco’ in Phase 3 of our journey.
 				</div>
-				<div id="strategicBarHolder" style="position:relative; margin-top:0px; left:-330px; opacity:0;"><!-- left:-330px; opacity:0; -->
-          <div id="strategicBar0" style="position:relative; top:453px;"><img src="../assets/img/chapter1/7/bar-1.png"></div>
-          <div id="strategicBar1" style="position:relative; top:191px;"><img src="../assets/img/chapter1/7/bar-2.png"></div>
-          <div id="strategicBar2" style="position:relative; top:-158px;"><img src="../assets/img/chapter1/7/bar-3.png"></div>
-          <div id="strategicBar3" style="position:relative; top:-595px;"><img src="../assets/img/chapter1/7/bar-4.png"></div>
-          <div id="strategicBar4" style="position:relative; top:-1116px;"><img src="../assets/img/chapter1/7/bar-5.png"></div>
-          <div id="strategicBar5" style="position:relative; top:-1719px;"><img src="../assets/img/chapter1/7/bar-6.png"></div>
+				<div id="strategicBarHolder" class="animatedParent" style="position: relative; margin-top: 0px; left: 0px; opacity: 1;"><!-- left:-330px; opacity:0; -->
+          <div id="strategicBar_0" class="animated fadeInLeft" style="position:relative;  top:453px;"><img src="../assets/img/chapter1/7/bar-1.png"></div>
+          <div id="strategicBar_1" class="animated fadeInLeft" style="position:relative; left: 151px; top:191px;"><img src="../assets/img/chapter1/7/bar-2.png"></div>
+          <div id="strategicBar_2" class="animated fadeInLeft" style="position:relative; left: 302px; top:-158px;"><img src="../assets/img/chapter1/7/bar-3.png"></div>
+          <div id="strategicBar_3" class="animated fadeInLeft" style="position:relative; left: 453px; top:-595px;"><img src="../assets/img/chapter1/7/bar-4.png"></div>
+          <div id="strategicBar_4" class="animated fadeInLeft" style="position:relative; left: 604px; top:-1116px;"><img src="../assets/img/chapter1/7/bar-5.png"></div>
+          <div id="strategicBar_5" class="animated fadeInLeft" style="position:relative; left: 755px; top:-1719px;"><img src="../assets/img/chapter1/7/bar-6.png"></div>
         </div>
         <div id="strategicBarTrigger1" style="position:absolute; top:700px;"></div>
         <div id="strategicBarTrigger2" style="position:absolute; top:851px;"></div>
 			</div>
-			<div class="grey4Color" style="width:960px; margin:0 auto; padding:0 55px; box-sizing:border-box;">
+			<div class="grey4Color animatedParent" style="width:960px; margin:0 auto; padding:0 55px; box-sizing:border-box;">
       	Axiata is today one of the largest Asian telecommunications companies with presence in eight countries. Axiata has controlling interests in mobile operators in Malaysia, Indonesia, Sri Lanka, Bangladesh and Cambodia with strategic stakes in India and Singapore. Added to this, the Group has established a communications infrastructure solutions and services company, edotco. Since 2007, Axiata grew its subscriber base by more than six times to serve over 266 million people, revenue for the Group increased 87% to RM18.7 million, PAT by 80% to RM2.3 billion and market capitalisation has increased more than four times to RM58.9 billion. <br />
       	<br />
       	<br />
-				<span class="title">Axiata’s strategic objectives</span><br />
+				<span class="title animated fadeInLeft">Axiata’s strategic objectives</span><br />
 				<br />
 				These achievements are only the beginning of our journey. Axiata is currently at the tailend of the second phase of its transformation journey. In this stage, we are focused on redefining our company, paving the way for shaping the future of telecommunications in the region. More specifically, we have put in place a new growth strategy; driving continuous improvements to our business and operating models, and built new and stronger management teams, in our bid to become a ‘New Generation Telco’ by 2020.<br />
 				<br />
 				Axiata defines its ‘New Generation Telco’ objectives along four parameters and related key measurements:
       </div>
-      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
-      	<table style="border-bottom: 1px solid #d96285;">
+      <div class="grey4Color animatedParent" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      	<table style="border-bottom: 1px solid #d96285;" class="animated fadeInRight">
       		<colgroup>
 	      		<col width="320">
 	  				<col width="530"><!-- eaa9bc -->
@@ -79,13 +79,13 @@
       		</tbody>
       	</table>
       </div>
-      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
-      	<span class="title">Challenges and opportunities</span><br />
+      <div class="grey4Color animatedParent" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      	<span class="title animated fadeInLeft">Challenges and opportunities</span><br />
       	<br />
 				The industry has evolved at a remarkable pace and today we face multi-dimensional challenges and opportunities from within our markets, society and people.<br />
 				<br />
 				<span style="line-height:200%;">Challenges:</span>
-				<ul style="margin: 0 0 0 15px; padding:0;">
+				<ul style="margin: 0 0 0 15px; padding:0;" class="animated fadeInLeft">
 					<li>Tapering industry growth as mobile markets mature in the region with mobile penetration rising above 100%.</li>
 					<li>Foreign exchange volatility increases operating risks in the region.</li>
 					<li>Substitution risks for our traditional voice and SMS services, especially from Over-The-Top (OTT) players, driven by rising smartphone penetration.</li>
@@ -93,7 +93,7 @@
 				</ul>
 				<br />
 				<span style="line-height:200%;">Opportunities:</span>
-				<ul style="margin: 0 0 0 15px; padding:0;">
+				<ul style="margin: 0 0 0 15px; padding:0;" class="animated fadeInLeft">
 					<li>Increasingly affordable smartphones accelerate smartphone penetration especially in developing countries.</li>
 					<li>Exponential increase in demand for data services as smartphone adoption proliferates, coupled with the development of rich content in the ecosystem.</li>
 					<li>Digitalisation of consumers’ lifestyle, shifting from offline to online, will drive convergence of services, device and network.</li>
@@ -107,10 +107,10 @@
 				<br />
 				Our overall long-term strategy centres around mobile data leadership and positioning for a new business model. The five pillars to the Group’s long-term strategy include: 
       </div>
-      <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
-      	<img src="../assets/img/chapter1/7/box-content2.png" />
+      <div style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box; " class="animatedParent">
+      	<img src="../assets/img/chapter1/7/box-content2.png" class="animated fadeIn" />
       </div>
-      <div class="grey4Color" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
+      <div class="grey4Color animatedParent" style="width:960px; margin:0 auto; padding:20px 55px 0; box-sizing:border-box;">
       	<span class="title" style="line-height:200%;">Transform the core:</span><br />
 				<span style="line-height:200%;">Mobile Data Leadership</span><br />
 				<div style="margin-bottom:10px;">Today data services account for one fifth of Axiata’s revenue. Our mid-term focus is to gain mobile data leadership. In other words, Axiata aims to become the most attractive and used highway for mobile internet, and our strategy follows four paradigms:</div>
@@ -134,10 +134,10 @@
 				</ol>
 				<br />
 				<br />
-				<span class="title" style="line-height:200%;">Build robust and sustainable business portfolio: </span><br />
+				<span class="title animated fadeInLeft" style="line-height:200%;">Build robust and sustainable business portfolio: </span><br />
 				Axiata will continue to pursue in-country consolidation where viable, make small investments in digital services to acquire the necessary capabilities, and be cautiously opportunistic in new footprints, within the region, where it makes strategic sense and is financially justifiable. <br />
 				<br />
-				<span class="title" style="line-height:200%;">Execute cost management initiatives:</span><br />
+				<span class="title animated fadeInLeft" style="line-height:200%;" >Execute cost management initiatives:</span><br />
 				<ul style="margin: 0 0 0 15px; padding:0;">
 					<li>Our vision to achieve mobile data leadership runs parallel to our objective for data profitability, which will drive continuous and diligent cost efficiencies and timely go-to-market strategies.</li>
 					<li>Axiata will drive needle-moving cost initiatives by actively challenging and recalibrating its cost structure, and leveraging its multi-country regional presence. Such moves are being driven by a centralised procurement function, Procurement Shared Service (PSS) and a centralised treasury function, Axiata Treasury Center (ATC).</li>
@@ -145,7 +145,7 @@
 					<li>Axiata will continuously optimise its passive assets such as its infrastructure business through edotco. This will be achieved via tower sharing, infrastructure consolidation and collaboration with other industry players. </li>
 				</ul>
 				<br />
-				<span class="title" style="line-height:200%;">Optimise of key enablers:</span><br />
+				<span class="title animated fadeInLeft" style="line-height:200%;">Optimise of key enablers:</span><br />
 				<div style="margin-bottom:10px;">The Group will also be focusing on the optimisation of key enablers to its overall strategy. These include:</div>
 				<ul style="margin: 0 0 0 15px; padding:0;">
 					<li>optimised synergies across the Group</li>
