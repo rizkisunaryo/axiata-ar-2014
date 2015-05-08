@@ -11,7 +11,7 @@
 <div idclass="spacer s0"></div>
 		
 <div id="movingSectionContainer" class="zoomViewport" >
-    <div class="section1 section " style="display:none;">
+    <div class="section1 section " style="display:none; overflow:hidden;">
         <div class="report_geographical_locations_title">
         <p class="small_txt">Reporting By</p>
         <p class="big_txt">Geographical</p>

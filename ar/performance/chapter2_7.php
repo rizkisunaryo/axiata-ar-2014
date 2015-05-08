@@ -16,7 +16,7 @@
 		
 <div id="movingSectionContainer" >
     <center>
-    <div class="section1 section" style="">
+    <div class="section1 section" style=" overflow:hidden;">
         <div class="bigtitle">
         <div class="small_txt">Summary Breakdown</div>
         <div class="med_txt">of Operating</div>
