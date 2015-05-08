@@ -12,8 +12,8 @@
 		<section id="chairmanStatementSection" style="width:960px; margin:0px auto; height:3275px;">
       <div id="chairmanStatementBgDiv" style="width:960px; left:0; background:#ffffff url('../assets/img/chapter1/5/02-chairman_s-statement.png') no-repeat left bottom; height:887px;" class="center-content">
       </div>
-      <div id="chairmanStatementText" style="max-width:890px; width:100%; margin:0px auto; z-index:0; margin-top:40px;" id="divider" class="center-content">
-        <div style="position:relative; width:455px; left:435px;" class="center-content">
+      <div id="chairmanStatementText" style="max-width:890px; width:80%; margin:0px auto; z-index:0; margin-top:40px;" id="divider" class="center-content">
+        <div style="position:relative; width:445px; left:435px;" class="center-content">
           <div style="position:relative;">
             <div class="title" style="position:relative; color:#939598; font-size:43px;">Chairman's</div>
             <div class="title maroonColor" style="position:relative; font-size:87px;">Statement</div>
