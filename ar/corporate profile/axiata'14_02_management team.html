@@ -197,7 +197,7 @@
 			</div>
 			
 
-			<div class="main_footer" style="background:#fff;height:60px;border-top:1px solid #aaa;">
+			<div class="main_footer" style="background:#fff;height:60px;border-top:1px solid #aaa; padding-top:10px;">
     
 			    <div class="" style="color:#808285; font-family: AxiataBook; font-size:11px;   margin:0 auto; width:960px;">
 			        This is an interactive digital version of the Axiata Annual Report 2014, Shaping the Future – Towards A Digital Company. The printable versions, according to chapters, are available in PDF format on this website.
@@ -433,7 +433,10 @@
 		$(window).scrollEnd(function(){
 		    isScrollingNow2=false;
 		}, 1000);
-
+		if(window.outerHeight>900)
+		{
+			$('.main_footer').css('margin-top','-100px !important');
+		}
 
 		$(document).scroll(function(ev){
 			   

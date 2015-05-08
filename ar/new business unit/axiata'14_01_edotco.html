@@ -262,7 +262,24 @@
 
 	
 
-	
+	<div class="main_footer" style="  width:100%;   border-top: 1px solid #E5E4E4;  padding-top: 10px; padding-bottom:10px;">
+    
+	    <div class="" style="color:#808285; font-family: AxiataBook; font-size:11px;   margin-left:auto; margin-right:auto; width:960px;">
+	        This is an interactive digital version of the Axiata Annual Report 2014, Shaping the Future – Towards A Digital Company. The printable versions, according to chapters, are available in PDF format on this website.
+	        <br><br>
+	        
+	<div class="download_app_links">
+	The App version of the report can be downloaded on:
+	<br>
+	        <a href="" style><img src="../assets/img/app-store-logo.png"/></a>
+	        <a href=""><img src="../assets/img/google-store-logo.png"/></a>
+	        <br>
+	        <br>
+	        </div>
+	<div style="font-size:9px;">Copyright © 2009 - 2015 Axiata Group Berhad. All rights reserved.</div>
+	    </div>
+	    
+	</div>
 	
     
 
@@ -425,7 +442,20 @@
 			        countWithDecimal();
 			        $('#bar1').html('');
 			        $('#bar2').html('');
-            		if (navigator.userAgent.indexOf("Firefox") > 0) {						animateGraph(1,"#bar1",true,"Green",14);
+			        var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+			        // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+			        var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+			        var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+			            // At least Safari 3+: "[object HTMLElementConstructor]"
+			        var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
+			        var isIE = /*@cc_on!@*/false || !!document.documentMode;   // At least IE6
+			        
+			        if (isSafari)
+			        {
+			        	animateGraph(1,"#bar1",true,"Green",14);
+			        	animateGraph(1,"#bar2",true,"Green",17);	
+			        }
+            		else if (navigator.userAgent.indexOf("Firefox") > 0) {						animateGraph(1,"#bar1",true,"Green",14);
 						animateGraph(1,"#bar2",true,"Green",17);
 					}
 					else
@@ -433,6 +463,7 @@
 			        	animateGraph(1,"#bar1",true,"Green",15);
 						animateGraph(1,"#bar2",true,"Green",18);
 					}
+
 			    })
 			.addTo(controller);
 		
@@ -488,6 +519,23 @@
 				afterClose: function(){  $("body").css({'overflow-y':'visible'});	}
 			});
 		});
+		 var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+        // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+        var isFirefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
+        var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+            // At least Safari 3+: "[object HTMLElementConstructor]"
+        var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;   // At least IE6
+        
+        if (isSafari)
+        {
+            $(".bar2").css('margin-left','10px');
+            $(".bar2").css('height','180px');
+            
+            // $(".bar1").css('top','200px');
+            // $(".bar1").css('margin-left','195px');
+            // $(".bar1").css('height','190px');
+        }    
 
 		$(document).scroll(function(){
 			
