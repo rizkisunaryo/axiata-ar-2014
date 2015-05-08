@@ -234,7 +234,7 @@ container
 .exploreMore
 {
 	width:960px;
-	height:900px;
+	height:3900px;
 	margin:30px 0 0 50px;
 	background-color:#ffffff;
 	border-top:1px solid #e7eaec;
@@ -295,7 +295,7 @@ container
 .explore6
 {
 	background: #fff url('../img/explore/6.png') no-repeat top left !important;
-	margin-left: -30px !important;
+	width:270px !important;
 }
 
 .explore7
