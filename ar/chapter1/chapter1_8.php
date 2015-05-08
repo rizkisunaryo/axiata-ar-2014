@@ -35,7 +35,7 @@
                 <div class="contribution">
                     <div class="contribution-wrapper">
                         <div class="axiataBook font15 text__color--darkgrey"> Created more than</div>
-                        <div class="axiataBold font52 text__color--lightred">1.<div id="counter1" data-decimal="0" data-max="5" class="counterup counter">5</div> <span class="font30">million</span>  <span class="axiataBook font15 text__color--darkgrey font15"> job across Asia </span></div>
+                        <div class="axiataBold font52 text__color--lightred">1.<div id="counter1" data-decimal="0" data-max="3" class="counterup counter">5</div> <span class="font30">million</span>  <span class="axiataBook font15 text__color--darkgrey font15"> job across Asia </span></div>
                     </div>
                 </div>
             </div>
