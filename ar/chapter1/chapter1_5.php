@@ -56,7 +56,7 @@
 							On behalf of the Board, I would like to thank our various stakeholders for their support during the year. As always, special mention of thanks for the facilitation and co-operation of the governments and regulators in the countries of our operating companies (OpCos). The Board also wishes to thank every employee and the management teams across the Group, our shareholders who continue to believe in our strategy of disciplined growth to strengthen the foundation for the future and our over 260 million customers across the region.<br />
 							<br />
 							It thus gives me great pleasure to present to you the 2014 Annual Report of Axiata Group Berhad.<br />
-							<img src="../assets/img/signature.jpg" style="  height: 60px; margin-top: 25px;">
+							<!--<img src="../assets/img/signature.jpg" style="  height: 60px; margin-top: 25px;">-->
 							<br>
               <span class="title">TAN SRI DATO’ AZMAN HJ. MOKHTAR</span><br>
               Chairman

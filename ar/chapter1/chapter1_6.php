@@ -123,7 +123,7 @@
 					<br />
 					The awards are an acknowledgement of the continued success of our OpCos not just in the region but internationally, as well as an acknowledgement of the Group’s progress towards its regional ambitions.
 				</div>
-				<div style="position:relative; margin-top:40px; width:540px; left:310px;">
+				<div style="position:relative; margin-top:40px; width:850px; left:0px;">
 					<span class="title maroonColor">A Regional Champion</span><br />
 					<br />
 					We are now entering our watershed year of 2015 where we aim to meet our regional aspirations, as a truly Malaysian grown multinational. Axiata is today one of the largest Asian telecommunications companies with presence in eight countries. Since inception, Axiata has grown our subscriber base by more than six times to serve over 260 million people, revenue for the Group increased 87% to RM18.7 billion (USD5.7 billion), PAT by 66% to RM2.3 billion (USD0.7 billion) and market capitalisation has increased more than two times to RM60.5 billion (USD18.5 billion). I am happy to note that not only are we are on track to meet our regional ambitions, we have put in place foundations to meet the challenges and opportunities in the industry today preparing the Group beyond 2015 for the new digitised world.<br />
@@ -155,9 +155,9 @@
         <div id="ceo2Text4" style="position:relative; top:-2180px; left:620px;">
     		<img src="../assets/img/chapter1/6/78million_over3years.png" />
     	</div>
-    	<div id="ceo2Text5" style="position:relative; top:-1700px; left:30px;">
+    	<!--<div id="ceo2Text5" style="position:relative; top:-1700px; left:30px;">
     		<img src="../assets/img/chapter1/6/awards-box.png" />
-    	</div>
+    	</div>-->
     </section>
 		
 <?php
