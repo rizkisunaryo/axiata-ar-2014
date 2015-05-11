@@ -10,7 +10,7 @@
             <div class="col2">
                 <div class="title">Axiata Group Berhad</div>
                 <div class="part">
-                    <div class="big_txt">Frost & Sullivan Asia Pacific ICT Awards</div>
+                    <div class="big_txt">Frost &amp; Sullivan Asia Pacific ICT Awards</div>
                     <div class="small_txt">Best Telecom Group 2013</div>
                 </div>
                 <div class="part">
@@ -20,7 +20,7 @@
                 </div>
                 <div class="part">
                     <div class="big_txt">Malaysian Business Awards</div>
-                    <div class="small_txt">ASEAN Conglomerate & CEO of the Year Award -</div>
+                    <div class="small_txt">ASEAN Conglomerate &amp; CEO of the Year Award -</div>
                     <div class="small_txt">Dato' Sri Jamaludin Ibrahim </div>
                 </div>
                 <div class="part">
@@ -54,8 +54,8 @@
             </div>
             <div class="col2">
                 <div class="title">Celcom Axiata Berhad</div>
-                <div class="part">
-                    <div class="big_txt">Frost & Sullivan Asia Pacific ICT Awards </div>
+                <!--<div class="part">
+                    <div class="big_txt">Frost &amp; Sullivan Asia Pacific ICT Awards </div>
                     <div class="small_txt">Wireless Data Service Provider of the Year 2013 </div>
                 </div>
                 <div class="part">
@@ -79,7 +79,7 @@
                 <div class="part">
                     <div class="big_txt">Malaysian Electronic Clearing Corporation Sdn Bhd<br> (MyClear)</div>
                     <div class="small_txt">Most Outstanding Merchant of Financial Process <br>Exchange (FPX) Award</div>
-                </div>
+                </div>-->
                 <div class="part">
                     <div class="big_txt">Ministry of Human Resources & Social Security <br>Organisation</div>
                     <div class="small_txt">Prime Minister’s Award for HR Excellence (Private Sector) <br>Prime Minister’s Award for HR Excellence (GLC)</div>
