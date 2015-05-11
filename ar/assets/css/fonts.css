@@ -8,3 +8,27 @@
     font-family: axiataBook;
     src: url(../fonts/AxiataBook2.ttf);
 }
+
+
+
+
+@font-face {
+    font-family: 'axiataBold';
+    src: url('fonts/AxiataBold.eot');
+    src: url('fonts/AxiataBold.eot') format('embedded-opentype'),
+         url('fonts/AxiataBold.woff2') format('woff2'),
+         url('fonts/AxiataBold.woff') format('woff'),
+         url('fonts/AxiataBold.ttf') format('truetype'),
+         url('fonts/AxiataBold.svg#AxiataBold') format('svg');
+}
+
+@font-face {
+    font-family: 'axiataBook';
+    src: url('fonts/AxiataBook.eot');
+    src: url('fonts/AxiataBook.eot') format('embedded-opentype'),
+         url('fonts/AxiataBook.woff2') format('woff2'),
+         url('fonts/AxiataBook.woff') format('woff'),
+         url('fonts/AxiataBook.ttf') format('truetype'),
+         url('fonts/AxiataBook.svg#AxiataBook') format('svg');
+}
+
