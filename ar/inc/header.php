@@ -8,7 +8,8 @@
     <meta name="author" content="TwitterJaya - Muktar SayedSaleh">
 
     <title>Axiata annual report</title>
-
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/animations.css">
     <link rel="stylesheet" href="../assets/css/navbar.css">
