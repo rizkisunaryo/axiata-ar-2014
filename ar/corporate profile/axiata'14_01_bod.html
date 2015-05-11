@@ -94,7 +94,7 @@
 		<div idclass="spacer s0"></div>
 		
 		<div class="movingSectionContainer" id="movingSectionContainer">
-			<div class="section2">
+			<div style="margin-bottom:100px;" class="section2">
 				<img class="plusButton" id="plusButton1" src="../assets/img/chapter4/section2/plus.png" data-url="../board/1.html" />
 				<img class="plusButton" id="plusButton2" src="../assets/img/chapter4/section2/plus.png" data-url="../board/2.html" />
 				<img class="plusButton" id="plusButton3" src="../assets/img/chapter4/section2/plus.png" data-url="../board/3.html" />
@@ -252,14 +252,6 @@
 			.setPin('#movingSectionContainer',{pushFollowers: false})
 			.addTo(controller);
 		
-		new ScrollMagic.Scene({
-					triggerElement: '.main_footer',
-					triggerHook: 'onLeave',
-					offset: 10,
-					duration:730
-				})
-				.setPin('.main_footer',{pushFollowers: false})
-				.addTo(controller);
 
 		for(var i=2;i<sectionsNumber;i++) //repeat same effect for section2,3,4,5,6,7 and 8
 		{
@@ -273,6 +265,15 @@
 				.addTo(controller);
 		}
 		
+		new ScrollMagic.Scene({
+					triggerElement: '.section2',
+					triggerHook: 'onLeave',
+					offset: 100,
+					duration:730
+				})
+				.setPin('.main_footer',{pushFollowers: false})
+				.addTo(controller);
+
 		//slide(1);
 		//alert(currentDivId);
 		
