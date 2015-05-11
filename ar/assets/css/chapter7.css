@@ -274,6 +274,7 @@
 	margin:0 auto;
 	overflow:hidden;
 	background:#ffffff;
+	margin-bottom:300px;
 	
 }
 
@@ -1022,4 +1023,18 @@ canvas.triangleRightGreen {
 		display: inline;
 		height:190px;
 	}
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+    /* Safari only override */
+    ::i-block-chrome,.bar1 {
+     padding-bottom:50px !important;
+    }
+
+    .section3
+    {
+    	margin-padding: 100px;
+    }
 }
