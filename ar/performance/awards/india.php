@@ -10,34 +10,29 @@
             <div class="col2">
                 <div class="title">IDEA Cellular Limited </div>
                 <div class="part">
-                    <div class="big_txt">The Economic Times Telecom Awards 2013</div>
+                    <div class="big_txt">ET Telecom Awards 2014: </div>
                     <div class="small_txt">
-                        Most Innovative Service Provider Enterprise Category
-                        <br>My Favourite Service Provider
+                        Best Enterprise Product - Winner 
+                        <br>Best Marketing Campaign for No Ullu Banaoing
                     </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">NDTV Business Leadership Award 2012 </div>
-                    <div class="small_txt">Telecom Category</div>
+                    <div class="big_txt">Top 50 Brands in India by BrandZ Awards 2014</div>
+                    <div class="small_txt">Ranked 8th </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Aegis Graham Bell Award 2013 </div>
-                    <div class="small_txt">Best Brand Campaign</div>
+                    <div class="big_txt">EFFIES 2014</div>
+                    <div class="small_txt">Integrated Advertising Campaign and Services - Telecom & Related Products - Gold <br>
+                    Telephone Exchange Campaigns - Gold </div>
+                </div>
+                
+                <div class="part">
+                    <div class="big_txt">Business Today's India's Best CEOs Award 2014</div>
+                    <div class="small_txt">Telecom Category -  Himanshu Kapania, Managing Director</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Pitch Top 50 Brands Award</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">India's Best Companies to Work for Study 2013 </div>
-                    <div class="small_txt">Best in Class within Telecommunications Sector in 2013</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Asia Business Awards 2013</div>
-                    <div class="small_txt">Best Place to Work, Indian Telecom sector </div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">CNBC TV18 India Business Leader Awards 2013 </div>
-                    <div class="small_txt">Storyboard Brand Campaign of the Year for Honey Bunny Campaign</div>
+                    <div class="big_txt">India's Best Companies to Work for Study 2013  </div>
+                    <div class="small_txt">Telecom Sector - Ranked No. 1 </div>
                 </div>
             </div>
             <div class="col2">

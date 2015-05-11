@@ -4,89 +4,113 @@
 <?php
     include("../inc/footer.php");
 ?>
+
+<style type="text/css">
+    body{
+        height: 1050px;
+    }
+</style>
 <div class="sectionContainer">
     <div class="section">
         <div class="row">
             <div class="col2">
                 <div class="title">Axiata Group Berhad</div>
                 <div class="part">
-                    <div class="big_txt">Frost &amp; Sullivan Asia Pacific ICT Awards</div>
-                    <div class="small_txt">Best Telecom Group 2013</div>
+                    <div class="big_txt">2015 GSMA  Mobile World Congress Chairman's Award</div>
+                    <div class="small_txt">Dato Sri Jamaludin Ibrahim, President and Group CEO </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">TMT Finance Asia </div>
-                    <div class="small_txt">TMT Leadership Award for Asia 2014-</div>
-                    <div class="small_txt">Dato' Sri Jamaludin Ibrahim </div>
+                    <div class="big_txt">Frost &amp; Sullivan Asia Pacific ICT Awards </div>
+                    <div class="small_txt">Best Telecom Group 2014 </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Malaysian Business Awards</div>
-                    <div class="small_txt">ASEAN Conglomerate &amp; CEO of the Year Award -</div>
-                    <div class="small_txt">Dato' Sri Jamaludin Ibrahim </div>
+                    <div class="big_txt">Malaysian-ASEAN Corporate Governance Index 2014 Awards</div>
+                    <div class="small_txt">
+                        Top 5 Corporate Governance - Overall Recognition <br>
+                        Exemplary Environmental, Social and Governance (ESG) Practices <br>
+                        CEO of the Year, Dato' Sri Jamaludin Ibrahim
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">The Asset Triple A </div>
-                    <div class="small_txt">Best Corporate Sukuk</div>
-                    <div class="small_txt">Best Islamic Deal, Malaysia</div>
+                    <div class="big_txt">The Edge Billion Ringgit Club 2014  </div>
+                    <div class="small_txt">
+                    Malaysia's Outstanding CEO 2014, Dato Sri Jamaludin Ibrahim<br>
+                    Best CR Initiative, 3rd Place<br>
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Islamic Finance News </div>
-                    <div class="small_txt">Cross Border Deal of the Year 2012</div>
+                    <div class="big_txt">ACCA Malaysia Sustainability Reporting Awards (MaSRA) 2014</div>
+                    <div class="small_txt">Best Sustainability Report, Runner-up  </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">KLIFFE </div>
-                    <div class="small_txt">Most Outstanding Islamic Product </div>
+                    <div class="big_txt">National Annual Corporate Reports Awards (NACRA) 2014 </div>
+                    <div class="small_txt">Best Designed Annual Report, Silver Award</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Malaysia-ASEAN Corporate Governance Index 2013 Awards</div>
-                    <div class="small_txt">Top 3 Corporate Governance Transparency Award</div>
-                    <div class="small_txt">Top 5 Overall Corporate Governance Award</div>
-                    <div class="small_txt">Best Conduct of Annual General Meeting Award</div>
-                    <div class="small_txt">Industry Excellence Award - Telecommunications</div>
+                    <div class="big_txt">Kancil Awards 2014 </div>
+                    <div class="small_txt">Film Craft Cinematography, Bronze Kancil </div>
                 </div>
-                <div class="part">
-                    <div class="big_txt">Malaysian Institute of Accountants (MIA)</div>
-                    <div class="small_txt">Nacra Merit Award</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">International Legal Alliance Summit</div>
-                    <div class="small_txt">Silver Award Best Asian and South Pacific Legal</div>
-                </div>
+                
             </div>
             <div class="col2">
                 <div class="title">Celcom Axiata Berhad</div>
-                <!--<div class="part">
-                    <div class="big_txt">Frost &amp; Sullivan Asia Pacific ICT Awards </div>
-                    <div class="small_txt">Wireless Data Service Provider of the Year 2013 </div>
+                <div class="part">
+                    <div class="big_txt">2014 Frost &amp; Sullivan Malaysia Excellence Awards</div>
+                    <div class="small_txt">Frost &amp Sullivan Malaysia Best Customer Experience in Telecommunications</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Frost & Sullivan Malaysia Excellence Awards </div>
-                    <div class="small_txt">Mobile Service Providerof the Year 2013<br>
-                        Broadband Service Provider of the Year 2013<br>
-                        Telecommunications Wholesale Service Provider of theYear 2013 </div>
+                    <div class="big_txt">2014 Frost &amp; Sullivan Malaysia Excellence Awards </div>
+                    <div class="small_txt"> M2M Service Provider of the Year </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">PIKOM ICT Leadership Awards </div>
-                    <div class="small_txt">ICT Personality of the Year 2013 - Dato' Sri Shazalli Ramly</div>
+                    <div class="big_txt"> Ministry of Human Resources & Social Security Organisation </div>
+                    <div class="small_txt">
+                        Prime Minister's Award for HR Excellence (Private Sector)<br>
+                        Prime Minister's Award for HR Excellence (GLC)
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Cyber Security Malaysia Awards, Conference and<br> Exhibition (CSM-ACE) </div>
-                    <div class="small_txt">Cyber Security Organisation of the Year Award 2013 </div>
+                    <div class="big_txt">5th Asia's Best Employer Awards </div>
+                    <div class="small_txt">Asia's Best Employer in Telecommunications Industry </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Customer Relationship Management & Contact<br>Centre Association Malaysia (CCAM) 2013</div>
-                    <div class="small_txt">The Best of the Best Outsourced Contact Centre (Gold<br>Award)</div>
+                    <div class="big_txt">Global Leadership Awards 2014</div>
+                    <div class="small_txt">
+                    Communication Network Award <br>
+                    Master Class Brand of the Year
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Malaysian Electronic Clearing Corporation Sdn Bhd<br> (MyClear)</div>
-                    <div class="small_txt">Most Outstanding Merchant of Financial Process <br>Exchange (FPX) Award</div>
-                </div>-->
-                <div class="part">
-                    <div class="big_txt">Ministry of Human Resources & Social Security <br>Organisation</div>
-                    <div class="small_txt">Prime Minister’s Award for HR Excellence (Private Sector) <br>Prime Minister’s Award for HR Excellence (GLC)</div>
+                    <div class="big_txt">Global Brand Excellence Award 2014</div>
+                    <div class="small_txt">Best Loyalty Programme</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">5th Asia’s Best Employer Awards </div>
-                    <div class="small_txt">Asia’s Best Employer Awards in Telecommunications</div>
+                    <div class="big_txt">PC.com 13th Reader's Choice Awards</div>
+                    <div class="small_txt">Best Service Provider Overall</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Putra Brand Awards </div>
+                    <div class="small_txt">Putra Malaysian Marketer of the Year 2014, Dato' Sri Shazalli Ramly</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Anugerah Penghargaan Pengguna - Forum Pengguna 2014</div>
+                    <div class="small_txt">Syarikat Telekomunikasi Pilihan Pengguna</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Marketing Excellence Awards 2014</div>
+                    <div class="small_txt">
+                        Excellence in Integrated Marketing (Consumer); Gold Award<br>
+                        Excellence in Brand Awareness; Gold Award<br>
+                        Excellence in Digital Marketing ; Silver Award
+                    </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">HWM+HardwareZone.com Tech Awards 2014</div>
+                    <div class="small_txt">Best Telco Brand </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">KLIA Awards 2013</div>
+                    <div class="small_txt">Service Outlet of the Year – Overall Winner </div>
                 </div>
             </div>
             <br/><br/><br/><br/>

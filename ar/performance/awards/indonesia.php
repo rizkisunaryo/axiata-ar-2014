@@ -1,123 +1,160 @@
 
 
 
-<?php
-    include("../inc/footer.php");
-?>
+
+<style type="text/css">
+    .sectionContainer{
+        height: 1329px;
+    }
+</style>
 <div class="sectionContainer">
     <div class="section">
         <div class="row" style=" padding-left: 65px;">
             <div class="col2">
                 <div class="title">PT XL Axiata Tbk</div>
                 <div class="part">
-                    <div class="big_txt">Euromoney Best Managed Companies in Asia 2013</div>
-                    <div class="small_txt">Best Managed Company in Indonesia.</div>
+                    <div class="big_txt">Telecom Asia Awards 2014</div>
+                    <div class="small_txt"> Best Emerging Markets Carrier </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Carre Center for Customer Satisfaction and Loyalty (CCSL) and Bisnis Indonesia Daily</div>
-                    <div class="small_txt">Excellent Service Award (ESEA) 2013</div>
+                    <div class="big_txt">Telecoms.com Award 2014</div>
+                    <div class="small_txt">XL together with Ericsson won an award in Urban Improvements Category</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Warta Ekonomi Magazine - Indonesia's Most Admired Companies </div>
-                    <div class="small_txt">Indonesia Top 20 Most Admired CEO 2013 - Hasnul Suhaimi </div>
+                    <div class="big_txt">Frost &amp; Sullivan 2014 Asia Pacific ICT Award</div>
+                    <div class="small_txt">The Most Innovative Telecom Service Provider of the Year</div>
                 
                 </div>
                 <div class="part">
-                    <div class="big_txt">Indonesian Brand Champion Award 2013 by MarkPlus Insight</div>
-                    <div class="small_txt">Silver Brand Champion of Most Widely Used Brand for Telecommunications & ICT Gadget Mobile for GSM Internet Provider and GSM Operator Indonesia Service to Care Champion</div>
+                    <div class="big_txt">Frost &amp; Sullivan Indonesia 2014</div>
+                    <div class="small_txt">Indonesia Mobile Digital Service Provider of the Year </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Cellular Award 2013 </div>
-                    <div class="small_txt">CEO of the Year - Hasnul Suhaimi <br>Most Innovative Programme - Paket Serbu<br>Best Data Services</div>
+                    <div class="big_txt">Frost & Sullivan Indonesia Award 2014 </div>
+                    <div class="small_txt">Best Customer Experience 2014 </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Carre Center for Customer Satisfaction and Loyalty (CCSL)</div>
-                    <div class="small_txt">Contact Center Service Excellence Award 2013</div>
+                    <div class="big_txt">Selular Award 2014</div>
+                    <div class="small_txt">
+                        <ul>
+                            <li>   Best Innovative Services  for XL Rumahnya Android</li>
+                            <li>   Best Customer Care Service</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">TelecomAsia Awards 2013</div>
-                    <div class="small_txt">Best Operator in Emerging Market</div>
+                    <div class="big_txt">Top IT & Top Telco 2014</div>
+                    <div class="small_txt">
+                        <ul>
+                            <li>Top IT Innovation in Telco </li>
+                            <li>Top Pre-paid GSM </li>
+                            <li>ToP Post-paid GSM</li>
+                            <li>Top Wireless Internet </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Fortune Indonesia Magazine </div>
-                    <div class="small_txt">Best 20 of Most Admired Companies <br>Third Ranked Winner in Infrastructure, Utilities, and Transportation Industry</div>
+                    <div class="big_txt">Fortune Indonesia's Most Admired Companies Award 2014</div>
+                    <div class="small_txt">
+                    <ul>
+                    <li>Best 20 Of Most Admired Companies In Indonesia</li>
+                    <li>Third Winner In Infrastructure, Utilities, and Transportation Industry</li>
+                    </ul>
+                    </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Indonesian Culture and Tourism Ambassador Society</div>
-                    <div class="small_txt">The Most Youthful Brand 2013</div>
+                    <div class="big_txt">Digital Brand of The Year 2013</div>
+                    <div class="small_txt">The second most popular E-Money service provider  for XL Tunai service</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Warta Ekonomi Magazine</div>
-                    <div class="small_txt">Indonesia Most Admired Companies 2013</div>
+                    <div class="big_txt">Excellent Service Experience Award (ESEA) 2014</div>
+                    <div class="small_txt"> For Excellent Performance in Delivering Positive Customer Experience for Telecommunications Category </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Bubu Awards 2013</div>
-                    <div class="small_txt">Digital Business Leader - Hasnul Suhaimi</div>
+                    <div class="big_txt">Top Brand Award 2014</div>
+                    <div class="small_txt">For product category XL Postpaid (Post Paid Cellular Simcard) and XL Prepaid (Prepaid Cellular Simcard) </div>
                 </div>
+               <div class="part">
+                    <div class="big_txt">iCIO Award 2014</div>
+                    <div class="small_txt">The Most Innovative CIO,   Ongki Kurniawan -  Chief Service Management Officer.</div>
+                </div> 
             </div>
 
             <div class="col2">
-                <div class="part" style="margin-top:32px;">
-                    <div class="big_txt"> Contact Center World Asia Pacific Awards  </div>
+                <div class="part">
+                    <div class="big_txt">Men's Obsession Award 2014</div>
+                    <div class="small_txt">The Most Inspirational Chief Executive Officer- Hasnul Suhaimi</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Satyalancana Wira Karya Honour</div>
+                    <div class="small_txt">Recognition by the President of the Republic of Indonesia to CEO, Hasnul Suhaimi, for his contributions to the country</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">PR of The Year 2014</div>
+                    <div class="small_txt">Indonesia's Best of The Best Marketing PR for Dissemination Programme of 4G-LTE Technology Testing Readiness to Support APEC in 2013</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Golden Ring Award 2014</div>
                     <div class="small_txt">
-                            Best Leader (Gold) 
-                        <br>Best Operation Manager (Gold) 
-                        <br>Best Recruitment Campaign (Gold) 
-                        <br>Best IT Support (Gold) 
-                        <br>Best Contact Center (Bronze)  
-                        <br>Best Community (Bronze) 
-                        <br>Best Helpdesk (Bronze)
+                        <ul>
+                        <li>Best Value Added Service for Gudang Aplikasi </li>
+                        <li>Best Customer Service for Xplor </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Customer Relationship Excellence Awards 2012</div>
+                    <div class="big_txt">Asian Legal Business Indonesia Law Awards 2014</div>
                     <div class="small_txt">
-                        Best Social Media Program of the Year (Telecommunications) <br>
-                        Best Use of Knowledge Management of the Year (Telecommunications)
+                        <ul>
+                        <li>M&A Deal of the Year </li>
+                        <li>Indonesia Deal of the Year</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">SINDO Daily's Indonesia's Top 50 Company Excellent Achievement</div>
-                    <div class="small_txt">Indonesia's Top 50, Company Excellent Achievement </div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Global Telecoms Business Power 100</div>
+                    <div class="big_txt">Strategy into Performance Execution Excellence (SPEx2) Awards 2014</div>
                     <div class="small_txt">
-                            100 Powerful People in Global Telecom Business 
-                        <br>Power 100 - Hasnul Suhaimi
+                        <ul>
+                        <li>Best in Telecommunications  Industry</li>
+                        <li>Best Strategy Execution Officer</li>
                     </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Contact Center World Global Industry Award</div>
+                    <div class="big_txt">Contact Center World Global Industry Award 2014</div>
                     <div class="small_txt">
-                            Best Contact Center Executive/Director (Gold) 
-                        <br>Best Contact Center Operations Manager (Gold)  
-                        <br>Best Recruitment Campaign (Gold) 
-                        <br>Best IT Support Professional (Gold) 
+                        <ul>
+                        <li>Best Customer Service-Gold</li>
+                        <li>Best Direct Response Campaign-Gold </li>
+                        <li>Best Loyalty Program-Silver</li>
+                        <li>Best Technology Innovation-Silver </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Fortune Magazine & GML Performance Consulting Indonesia Strategy and Performance Execution Excellence (SPEx2) Award 2013 </div>
-                    <div class="small_txt">Best in the Telecommunications Industry </div>
+                    <div class="big_txt">Asia Corporate Excellence & Sustainability Awards (ACES) 2014</div>
+                    <div class="small_txt">Top Community Care Company in Asia</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Indonesia Most impactful Brand Activation 2013</div>
-                    <div class="small_txt">Best Brand Activation for Youth </div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Indonesian Best Corporate Transformation 2013</div>
-                    <div class="small_txt">Third Best Indonesia Corporate Transformation 2013</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Asia Best Company 2013</div>
+                    <div class="big_txt">Brand Activation Award 2014</div>
                     <div class="small_txt">
-                        Best Managed Company, Ranked Sixth
-                        Best Investor Relations, Ranked Eight
+                        <ul>
+                        <li>World Cup Activation-Riding on WorldCup 2014 Momentum</li>
+                        <li>Roadshow Activation-Ngabuburit Berkah Sampai Puas.</li>
+                        </ul>
                     </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Constituent of Sustainable Responsible Investment (Sri)-Kehati Index 2014</div>
+                    <div class="small_txt">Certificate of Constituent of Sustainable Responsible Investment (Sri)-Precautionary Index 2014 </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Top 25 Issuer with Highest Corporate Governance Score Based on GC Score Card</div>
+                    <div class="small_txt">One of the Top  25 Issuer </div>
                 </div>
             </div>
             
         </div>
+
     </div>
 </div>
 <link rel="stylesheet" href="../../assets/css/ch2/awards_popup/malaysia.css">
