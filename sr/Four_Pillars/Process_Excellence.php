@@ -12,17 +12,17 @@
 
 <div id="trigger100" style="position:fixed; top:100%;"></div>
 
-<section id="dividerSection" style="margin-top:60px;">
-	<div  class="animatedParent" style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
-		<div style="position:relative; z-index:10;" class="animated fadeInLeft">
-			<div class="title" style="color:#45033a; font-size:56px;" class="animated fadeInRight">COMMITMENT TO</div>
-			<div class="title" style="color:#fff; font-size:100px; margin-top:-12px;" class="animated fadeInRight" data-id="2">PROCESS</div>
-			<div class="title" style="color:#fff; font-size:71px; margin-top:-12px;" class="animated fadeInRight" data-id="3">EXCELLENCE</div>
+<section id="dividerSection" style="margin-top:60px;" class="animatedParent" data-sequence="500">
+	<div  class="" style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+		<div style="position:relative; z-index:10;" class="animated fadeInLeft" data-id="1">
+			<div class="title" style="color:#45033a; font-size:56px;" class="animated fadeInRight" data-id="1">COMMITMENT TO</div>
+			<div class="title" style="color:#fff; font-size:100px; margin-top:-12px;" class="animated fadeInRight" data-id="1">PROCESS</div>
+			<div class="title" style="color:#fff; font-size:71px; margin-top:-12px;" class="animated fadeInRight" data-id="1">EXCELLENCE</div>
 		</div>
 		<div style="position:absolute; top:-70px; left:490px;"><img src="../assets/img/Four_Pillars/Process_Excellence/kite.png"></div>
 	</div>
-	<div class="animatedParent"  style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
-		<div style="width:570px; color:#fff;" class="animated fadeInLeft">
+	<div class=""  style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
+		<div style="width:570px; color:#fff;" class="animated fadeInLeft" data-id="1">
 			<span class="title" style="color:#fff; font-size:21px;" >Introduction</span><br />
 			<br />
 			Implementing transparent, effective, ethical and sustainable processes is how we build digital ecosystems and advance Asia. To be sustainable, businesses must empower and enhance the experiences of all stakeholders. In this section we discuss how we are advancing sustainable processes in our supply chain and among our retailers, and encouraging suppliers and retailers to integrate sustainability practices in their operations.<br />
@@ -32,36 +32,36 @@
 			Sustainable governance processes are integral to sustainable operations. How we are advancing transparency within the Group, strengthening ethical processes, and ensuring business continuity are also discussed in this part of the report.
 		</div>
 	</div>
-	<div style="width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
-		<div id="img21" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/supply-chain.png"></div>
-		<div id="img22" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-service.png"></div>
-		<div id="img23" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/privacy-data.png"></div>
-		<div id="img24" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
+	<div style="width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;" >
+		<div id="_img21" class="animated fadeInLeft" data-id="1" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/supply-chain.png"></div>
+		<div id="_img22" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-service.png"></div>
+		<div id="_img23" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/privacy-data.png"></div>
+		<div id="_img24" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
 	</div>
-	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box;">
-		<div style="position:absolute; left:650px; top:-910px;">
+	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box;" >
+		<div style="position:absolute; left:650px; top:-910px;" class="animated fadeInRight" data-id="1">
 			<img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" />
 		</div>
 	</div>
 </section>
 
-<section id="infographicSection">
-	<div style="width:960px; margin:0 auto; margin-top:-30px; box-sizing:border-box; background-color:#a3195b;">
+<section id="infographicSection" class="animatedParent">
+	<div style="width:960px; margin:0 auto; margin-top:-30px; box-sizing:border-box; background-color:#a3195b;" class="animated fadeInDown">
 		<img src="../assets/img/Four_Pillars/Process_Excellence/02-infographic.png">
 	</div>
 </section>
 
-<section id="btnToPopupSection">
+<section id="btnToPopupSection" class="animatedParent">
 	<div style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; padding-top:40px;">
 		<div class="title" style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; text-align:center; color:#524e4c; font-size:18px;">
 			To read more about our Commitment to Process Excellence, click the buttons below
 		</div>
 	</div>
 	<div style="width:960px; margin:0 auto; box-sizing:border-box; background-color:#fff; padding-top:40px; padding-left:55px; overflow:hidden;">
-		<div class="plusButton" data-url="../assets/img/Four_Pillars/Process_Excellence/01-value-chain-popup.html" id="btn1" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/practise-value-chain.png"></div>
-		<div class="plusButton" data-url="../assets/img/Four_Pillars/Process_Excellence/02-customer-centricity-popup-copy.html" id="btn2" style="position:relative; left:220px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-centricity.png"></div>
-		<div class="plusButton" data-url="../assets/img/Four_Pillars/Process_Excellence/03-digitising-process-popup.html" id="btn3" style="position:relative; left:440px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/digitising-processes.png"></div>
-		<div class="plusButton" data-url="../assets/img/Four_Pillars/Process_Excellence/04-strong-governance-popup.html" id="btn4" style="position:relative; left:660px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/strong-governance.png"></div>
+		<div class="plusButton animated fadeInUp"  data-url="../assets/img/Four_Pillars/Process_Excellence/01-value-chain-popup.html" id="btn1" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/practise-value-chain.png"></div>
+		<div class="plusButton animated fadeInUp"  data-url="../assets/img/Four_Pillars/Process_Excellence/02-customer-centricity-popup-copy.html" id="btn2" style="position:relative; left:220px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-centricity.png"></div>
+		<div class="plusButton animated fadeInUp"  data-url="../assets/img/Four_Pillars/Process_Excellence/03-digitising-process-popup.html" id="btn3" style="position:relative; left:440px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/digitising-processes.png"></div>
+		<div class="plusButton animated fadeInUp"  data-url="../assets/img/Four_Pillars/Process_Excellence/04-strong-governance-popup.html" id="btn4" style="position:relative; left:660px; margin-top:-205px;"><img src="../assets/img/Four_Pillars/Process_Excellence/strong-governance.png"></div>
 	</div>
 </section>
 
@@ -84,9 +84,9 @@
 	var bottomTrigger = $('#trigger100');
 
 	$(function() {
-		for (var i=1; i<=4; i++) {
-			slideImages2(i);
-		};
+		// for (var i=1; i<=4; i++) {
+		// 	slideImages2(i);
+		// };
 
 		$('.plusButton').click(function(ev){
 			ev.preventDefault();
@@ -124,9 +124,9 @@
 	});
 
 	$(window).scroll(function() {
-		for (var i=1; i<=4; i++) {
-			slideImages2(i);
-		};
+		// for (var i=1; i<=4; i++) {
+		// 	slideImages2(i);
+		// };
 	});
 
 	function slideImages2(pImgNo) {
