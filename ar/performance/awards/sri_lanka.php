@@ -10,30 +10,33 @@
             <div class="col2">
                 <div class="title">Dialog Axiata PLC</div>
                 <div class="part">
-                    <div class="big_txt">Bestweb.lk Awards </div>
-                    <div class="small_txt">Best Sri Lankan e-Commerce and Advertising Website -<br>Dialog's Anything.lk  </div>
+                    <div class="big_txt">2015 GSMA Mobile World Congress  </div>
+                    <div class="small_txt"> Best Mobile Money ServiceBest Technology Enabler </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">The LMD Most Respected Corporate Entities </div>
-                    <div class="small_txt">Dialog Axiata PLC, Ranked Third</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Brand Finance</div>
-                    <div class="small_txt">Most Valuable Sri Lankan Brands, Ranked Third</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Business Today</div>
-                    <div class="small_txt">Top 25 Corporates, Ranked Sixth</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">Corporate Accountability Ratings by LMD-STING Consultants </div>
-                    <div class="small_txt">Platinum Rating, Ranked First</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">SLIM-Nielsen PEOPLES </div>
+                    <div class="big_txt">SLIM-Nielsen People's Telecom Service Provider of the Year </div>
                     <div class="small_txt">
-                        Telecom Service Provider of the Year 
-                        <br>Internet Service Provider of the Year
+                        People's Youth Brand of the Year <br>
+                        Internet Service Provider of the Year <br>
+                        Advertisement of the Year
+                    </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">Frost &amp; Sullivan 2014 Asia Pacific ICT Award</div>
+                    <div class="small_txt">Emerging Market Telecom Service Provider of the Year</div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">LMD-Sting Corporate Accountability Rating</div>
+                    <div class="small_txt">No. 1 Platinum Rating </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">LMD Most Respected Entities </div>
+                    <div class="small_txt">Ranked Number 5 </div>
+                </div>
+                <div class="part">
+                    <div class="big_txt">eSwabhimani Awards 2014 </div>
+                    <div class="small_txt">
+                        Best eContent Application - Health &amp; Environment
                     </div>
                 </div>
             </div>

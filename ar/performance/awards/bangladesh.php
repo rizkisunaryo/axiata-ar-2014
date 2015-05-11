@@ -4,35 +4,32 @@
 <?php
     include("../inc/footer.php");
 ?>
+<style type="text/css">
+    body{
+        height: 900px;
+    }
+</style>
 <div class="sectionContainer">
     <div class="section">
         <div class="row">
             <div class="col2">
                 <div class="title">Robi Axiata Limited</div>
+                
                 <div class="part">
-                    <div class="small_txt">ISO 9001:2008 Certification</div>
+                    <div class="big_txt">Asia-Pacific Tambuli Awards </div>
+                    <div class="small_txt">Innovative and Integrated Media - Bronze</div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Frost & Sullivan Asia Pacific ICT Awards</div>
-                    <div class="small_txt">Emerging Market Service Provider of the Year 2013</div>
+                    <div class="big_txt">PR Week Asia</div>
+                    <div class="small_txt">Promotional Activity of the Year - Honourable Mention </div>
                 </div>
                 <div class="part">
-                    <div class="big_txt">Asia Communication Awards 2013</div>
-                    <div class="small_txt">Emerging Market Initiative of the Year – ‘BIMA and Robi Life Insurance’</div>
-                </div>
-                <div class="part">
-                    <div class="big_txt">World HRD Congress in 2014</div>
+                    <div class="big_txt">IT vendors EMC &amp; VMware Inc. Awards</div>
                     <div class="small_txt">
-                        5th Best Employer
-                        <br>Best Talent Management
-                        <br>Best HR Strategy in line with Business
-                        <br>Global HR Strategy
+                        Categories of Storage Transformation and Server Virtualisation
                     </div>
                 </div>
-                <div class="part">
-                    <div class="big_txt"></div>
-                    <div class="small_txt"></div>
-                </div>
+                
             </div>
             <div class="col2">
             </div>
