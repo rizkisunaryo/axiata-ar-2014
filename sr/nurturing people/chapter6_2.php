@@ -371,7 +371,7 @@ $(function(){
             width : '965px',
             height:'100%',
             padding: 0,
-            margin: [0,0,0,0],
+            margin: [90,0,0,0],
             scrolling   : 'no',
             overlayOpacity: 1,
             overlayColor:	'#ffffff',

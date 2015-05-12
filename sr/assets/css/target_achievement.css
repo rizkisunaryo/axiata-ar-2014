@@ -88,7 +88,7 @@
 .weirdTable{ margin-bottom: 30px; /* border-left: 1px solid #c8c9ca; */ /* width: 695px; */ /* overflow-x: scroll; */}
 
 .row_cust{
-	width: 1274px;
+	width: 1470px;
 	margin-left: 0px;
 	overflow-y: hidden;
 	border-bottom: 1px solid #c8c9ca;
@@ -110,7 +110,7 @@
 .row_cust .cell_cust:nth-child(6){ width: 114px;}
 .row_cust .cell_cust:nth-child(7){ width: 95px;}
 .row_cust .cell_cust:nth-child(8){ width: 98px;}
-.row_cust .cell_cust:nth-child(9){ width: 67px;}
+.row_cust .cell_cust:nth-child(9){ width: 72px;}
 
 .row_cust.1st{}
 .row_cust.2nd{}

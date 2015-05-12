@@ -138,8 +138,8 @@ width: 100%;
 .col2.background_active{
     background-position-y: -500px;
     background-position-y: 0px;
-    -webkit-transition:  2s; /* Safari */
-    transition: 2s;
+    /*-webkit-transition:  2s; /* Safari */
+    /*transition: 2s;*/
 }
 .card{
 

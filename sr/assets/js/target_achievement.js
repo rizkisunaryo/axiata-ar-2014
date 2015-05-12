@@ -40,7 +40,7 @@ $(document).ready(function(){
 	$('.right_arrow').mouseover(function(){
 		this.iid2 = setInterval(function() {
 			old_val=parseInt($('.row_cust').css('margin-left'));
-			limit=-607;
+			limit=-700;
 			increment=10;
 			if(old_val>limit)
 			{

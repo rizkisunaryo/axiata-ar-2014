@@ -29,7 +29,7 @@
 <body>
 <div style="width:860px; margin:auto; padding:50px 50px;">
 <div>
-	<p class="title-orange" style="font-size:20px;">ELEVENIA</p>
+	<p class="title-orange" style="font-size:20px;">DIGITAL INCLUSION AND DIGITISED ECOSYSTEMS</p>
 	<p><img src="images/mobile-cart.png" width="85" height="107" alt="" style="float:left;"/>
 		<table border-width="0" style="margin-top:10px;width:480px;display: inline-block;">
 			<tr>

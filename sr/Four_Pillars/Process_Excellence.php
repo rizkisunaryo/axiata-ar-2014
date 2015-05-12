@@ -12,8 +12,9 @@
 
 <div id="trigger100" style="position:fixed; top:100%;"></div>
 
-<section id="dividerSection" style="margin-top:60px;" class="animatedParent" data-sequence="500">
-	<div  class="" style="position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;">
+<section id="dividerSection" style="margin-top:60px; overflow-x:hidden;" class="animatedParent" data-sequence="500">
+<div style="">
+	<div  class="" style="overflow-x:hidden; position:relative; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;padding-bottom: 103px;">
 		<div style="position:relative; z-index:10;" class="animated fadeInLeft" data-id="1">
 			<div class="title" style="color:#45033a; font-size:56px;" class="animated fadeInRight" data-id="1">COMMITMENT TO</div>
 			<div class="title" style="color:#fff; font-size:100px; margin-top:-12px;" class="animated fadeInRight" data-id="1">PROCESS</div>
@@ -21,7 +22,7 @@
 		</div>
 		<div style="position:absolute; top:-70px; left:490px;"><img src="../assets/img/Four_Pillars/Process_Excellence/kite.png"></div>
 	</div>
-	<div class=""  style="width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff;">
+	<div class=""  style="overflow-x:hidden; width:960px; padding:0 55px; padding-top:50px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; color:#fff; margin-top:-108px;">
 		<div style="width:570px; color:#fff;" class="animated fadeInLeft" data-id="1">
 			<span class="title" style="color:#fff; font-size:21px;" >Introduction</span><br />
 			<br />
@@ -32,22 +33,23 @@
 			Sustainable governance processes are integral to sustainable operations. How we are advancing transparency within the Group, strengthening ethical processes, and ensuring business continuity are also discussed in this part of the report.
 		</div>
 	</div>
-	<div style="width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b;" >
+	<div style="width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; background-color:#a3195b; overflow-x:hidden;" >
 		<div id="_img21" class="animated fadeInLeft" data-id="1" style="position:relative;"><img src="../assets/img/Four_Pillars/Process_Excellence/supply-chain.png"></div>
 		<div id="_img22" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/customer-service.png"></div>
 		<div id="_img23" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/privacy-data.png"></div>
 		<div id="_img24" class="animated fadeInLeft" data-id="2" style="position:relative; margin-top:7px;"><img src="../assets/img/Four_Pillars/Process_Excellence/governance.png"></div>
 	</div>
-	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box;" >
-		<div style="position:absolute; left:650px; top:-910px;" class="animated fadeInRight" data-id="1">
+	<div style="position:relative; width:960px; padding:0 55px; padding-top:30px; margin:0 auto; box-sizing:border-box; " >
+		<div style="position:absolute; left:650px; top:-910px; overflow-x:hidden;" class="animated fadeInRight" data-id="1">
 			<img src="../assets/img/Four_Pillars/Process_Excellence/maroon-box.png" />
 		</div>
 	</div>
+	</div>
 </section>
 
-<section id="infographicSection" class="animatedParent">
-	<div style="width:960px; margin:0 auto; margin-top:-30px; box-sizing:border-box; background-color:#a3195b;" class="animated fadeInDown">
-		<img src="../assets/img/Four_Pillars/Process_Excellence/02-infographic.png">
+<section id="infographicSection" class="animatedParent" style="">
+	<div style="width:960px; margin:0 auto; margin-top:-30px; box-sizing:border-box; background-color:#a3195b; overflow-x:hidden;" >
+		<img src="../assets/img/Four_Pillars/Process_Excellence/02-infographic.png" class="animated fadeInRight">
 	</div>
 </section>
 
