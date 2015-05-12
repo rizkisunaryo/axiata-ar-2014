@@ -175,7 +175,7 @@ committed for ADIF</div>
       <td width="286" align="left" valign="top" style="padding-left:20px;">Insured<br>
         Access to Banking<br>
         Access to Specialists<br>
-        Developers Specialists Sri Lanka</td>
+        Developers Supported in Sri Lanka</td>
     </tr>
 
   </tbody>
