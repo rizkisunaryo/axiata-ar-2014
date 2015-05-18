@@ -79,7 +79,7 @@
                 <div class="col col3">
                     <div class="conference-wrap">
                         <div class="axiataBold font15">Asian Investments <span class="block"> Conference Credit Suisse</div>
-                        <div class="font15">Asian Investments Conference <span class="block">Credit Suisse</div>
+                        <div class="font15">Hong Kong <span class="block">24 - 25 Mar</div>
                     </div>
                 </div>
                 <div class="col col3">

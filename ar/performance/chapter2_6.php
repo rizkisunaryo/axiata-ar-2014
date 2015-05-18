@@ -48,7 +48,7 @@
                         <div class="tiny_txt black_txt graph_num">
                             <div class="num">6.8</div>
                             <div class="num">3.0</div>
-                            <div class="num">17</div>
+                            <div class="num">1.7</div>
                             <div class="num">7.2</div>
                             <div class="num">3.1</div>
                             <div class="num">1.8</div>
@@ -104,7 +104,7 @@
                             <div class="num">45.4</div>
                             <div class="num">16.4</div>
                             <div class="num">4.9</div>
-                            <div class="num">46.3</div>
+                            <div class="num" style="font-size: 1.3em;">56.3</div>
                             <div class="num">18.6</div>
                             <div class="num">6.0</div>
                             <div class="num">63.3</div>
