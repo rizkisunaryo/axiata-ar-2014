@@ -79,11 +79,17 @@
           <span class="title">David Lau Nai Pek</span><br>
           Independent Non-Executive Director<br>
           <br>
-          <span class="title">Kenneth Shen</span><br>
-          Non-Independent Non-Executive Director<br>
-          <br>
           <span class="title">Bella Ann Almeida</span><br>
           Independent Non-Executive Director
+          <br>
+          <br>
+          <span class="title">Dr Muhamad Chatib Basri</span><br>
+          Independent Non-Executive Director
+          <br>
+          <br>
+          <span class="title">Kenneth Shen</span><br>
+          Non-Independent Non-Executive Director<br>
+          
         </div>
         <div style="position:relative; margin-top:-588px; left:481px;">
           <span class="title maroonColor">Share Registrar</span><br>
